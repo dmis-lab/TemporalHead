@@ -1,0 +1,2576 @@
+{
+    "name": "temporal political leadership",
+    "prompt_templates": [
+        "In {time}, the president of {subject} was"
+    ],
+    "prompt_templates_zs": [
+        "In {time}, who was the president of {subject}?",
+        "Who was the president of {subject} in {time}?"
+    ],
+    "properties": {
+        "relation_type": "factual",
+        "domain_name": "country",
+        "range_name": "person",
+        "symmetric": false
+    },
+    "samples": [
+        {
+            "subject": "Argentina",
+            "object": "Carlos Menem",
+            "time": "1999"
+        },
+        {
+            "subject": "Argentina",
+            "object": "Fernando de la R\u00faa",
+            "time": "2000"
+        },
+        {
+            "subject": "Argentina",
+            "object": "Fernando de la R\u00faa",
+            "time": "2001"
+        },
+        {
+            "subject": "Argentina",
+            "object": "Eduardo Duhalde",
+            "time": "2002"
+        },
+        {
+            "subject": "Argentina",
+            "object": "N\u00e9stor Kirchner",
+            "time": "2003"
+        },
+        {
+            "subject": "Argentina",
+            "object": "N\u00e9stor Kirchner",
+            "time": "2004"
+        },
+        {
+            "subject": "Argentina",
+            "object": "N\u00e9stor Kirchner",
+            "time": "2005"
+        },
+        {
+            "subject": "Argentina",
+            "object": "N\u00e9stor Kirchner",
+            "time": "2006"
+        },
+        {
+            "subject": "Argentina",
+            "object": "Cristina Fern\u00e1ndez de Kirchner",
+            "time": "2007"
+        },
+        {
+            "subject": "Argentina",
+            "object": "Cristina Fern\u00e1ndez de Kirchner",
+            "time": "2008"
+        },
+        {
+            "subject": "Argentina",
+            "object": "Cristina Fern\u00e1ndez de Kirchner",
+            "time": "2009"
+        },
+        {
+            "subject": "South Korea",
+            "object": "Kim Dae-jung",
+            "time": "1999"
+        },
+        {
+            "subject": "South Korea",
+            "object": "Kim Dae-jung",
+            "time": "2000"
+        },
+        {
+            "subject": "South Korea",
+            "object": "Kim Dae-jung",
+            "time": "2001"
+        },
+        {
+            "subject": "South Korea",
+            "object": "Kim Dae-jung",
+            "time": "2002"
+        },
+        {
+            "subject": "South Korea",
+            "object": "Roh Moo-hyun",
+            "time": "2003"
+        },
+        {
+            "subject": "South Korea",
+            "object": "Roh Moo-hyun",
+            "time": "2004"
+        },
+        {
+            "subject": "South Korea",
+            "object": "Roh Moo-hyun",
+            "time": "2005"
+        },
+        {
+            "subject": "South Korea",
+            "object": "Roh Moo-hyun",
+            "time": "2006"
+        },
+        {
+            "subject": "South Korea",
+            "object": "Roh Moo-hyun",
+            "time": "2007"
+        },
+        {
+            "subject": "South Korea",
+            "object": "Lee Myung-bak",
+            "time": "2008"
+        },
+        {
+            "subject": "South Korea",
+            "object": "Lee Myung-bak",
+            "time": "2009"
+        },
+        {
+            "subject": "United States",
+            "object": "Bill Clinton",
+            "time": "1999"
+        },
+        {
+            "subject": "United States",
+            "object": "Bill Clinton",
+            "time": "2000"
+        },
+        {
+            "subject": "United States",
+            "object": "George W. Bush",
+            "time": "2001"
+        },
+        {
+            "subject": "United States",
+            "object": "George W. Bush",
+            "time": "2002"
+        },
+        {
+            "subject": "United States",
+            "object": "George W. Bush",
+            "time": "2003"
+        },
+        {
+            "subject": "United States",
+            "object": "George W. Bush",
+            "time": "2004"
+        },
+        {
+            "subject": "United States",
+            "object": "George W. Bush",
+            "time": "2005"
+        },
+        {
+            "subject": "United States",
+            "object": "George W. Bush",
+            "time": "2006"
+        },
+        {
+            "subject": "United States",
+            "object": "George W. Bush",
+            "time": "2007"
+        },
+        {
+            "subject": "United States",
+            "object": "George W. Bush",
+            "time": "2008"
+        },
+        {
+            "subject": "United States",
+            "object": "Barack Obama",
+            "time": "2009"
+        },
+        {
+            "subject": "Russia",
+            "object": "Boris Yeltsin",
+            "time": "1999"
+        },
+        {
+            "subject": "Russia",
+            "object": "Vladimir Putin",
+            "time": "2000"
+        },
+        {
+            "subject": "Russia",
+            "object": "Vladimir Putin",
+            "time": "2001"
+        },
+        {
+            "subject": "Russia",
+            "object": "Vladimir Putin",
+            "time": "2002"
+        },
+        {
+            "subject": "Russia",
+            "object": "Vladimir Putin",
+            "time": "2003"
+        },
+        {
+            "subject": "Russia",
+            "object": "Vladimir Putin",
+            "time": "2004"
+        },
+        {
+            "subject": "Russia",
+            "object": "Vladimir Putin",
+            "time": "2005"
+        },
+        {
+            "subject": "Russia",
+            "object": "Vladimir Putin",
+            "time": "2006"
+        },
+        {
+            "subject": "Russia",
+            "object": "Vladimir Putin",
+            "time": "2007"
+        },
+        {
+            "subject": "Russia",
+            "object": "Dmitry Medvedev",
+            "time": "2008"
+        },
+        {
+            "subject": "Russia",
+            "object": "Dmitry Medvedev",
+            "time": "2009"
+        },
+        {
+            "subject": "Pakistan",
+            "object": "Muhammad Rafiq Tarar",
+            "time": "1999"
+        },
+        {
+            "subject": "Pakistan",
+            "object": "Muhammad Rafiq Tarar",
+            "time": "2000"
+        },
+        {
+            "subject": "Pakistan",
+            "object": "Pervez Musharraf",
+            "time": "2001"
+        },
+        {
+            "subject": "Pakistan",
+            "object": "Pervez Musharraf",
+            "time": "2002"
+        },
+        {
+            "subject": "Pakistan",
+            "object": "Pervez Musharraf",
+            "time": "2003"
+        },
+        {
+            "subject": "Pakistan",
+            "object": "Pervez Musharraf",
+            "time": "2004"
+        },
+        {
+            "subject": "Pakistan",
+            "object": "Pervez Musharraf",
+            "time": "2005"
+        },
+        {
+            "subject": "Pakistan",
+            "object": "Pervez Musharraf",
+            "time": "2006"
+        },
+        {
+            "subject": "Pakistan",
+            "object": "Pervez Musharraf",
+            "time": "2007"
+        },
+        {
+            "subject": "Pakistan",
+            "object": "Asif Ali Zardari",
+            "time": "2008"
+        },
+        {
+            "subject": "Pakistan",
+            "object": "Asif Ali Zardari",
+            "time": "2009"
+        }
+    ],
+    "alias_time_templates": [
+        {
+            "year": "1996",
+            "template": "In the year the Summer Olympics were held in Atlanta, {} was a member of sports team"
+        },
+        {
+            "year": "1997",
+            "template": "In the year the Champions League final was held in Munich, {} was a member of sports team"
+        },
+        {
+            "year": "1998",
+            "template": "In the year the Winter Olympics were held in Nagano, {} was a member of sports team"
+        },
+        {
+            "year": "1999",
+            "template": "In the year the Champions League final was held in Barcelona, {} was a member of sports team"
+        },
+        {
+            "year": "2000",
+            "template": "In the year the Summer Olympics were held in Sydney, {} was a member of sports team"
+        },
+        {
+            "year": "2001",
+            "template": "In the year the World Series was held in Arizona, {} was a member of sports team"
+        },
+        {
+            "year": "2002",
+            "template": "In the year the Winter Olympics were held in Salt Lake City, {} was a member of sports team"
+        },
+        {
+            "year": "2003",
+            "template": "In the year the Rugby World Cup was held in Australia, {} was a member of sports team"
+        },
+        {
+            "year": "2004",
+            "template": "In the year the Summer Olympics were held in Athens, {} was a member of sports team"
+        },
+        {
+            "year": "2005",
+            "template": "In the year the Champions League final was held in Istanbul, {} was a member of sports team"
+        },
+        {
+            "year": "2006",
+            "template": "In the year the FIFA World Cup was held in Germany, {} was a member of sports team"
+        },
+        {
+            "year": "2007",
+            "template": "In the year the Cricket World Cup was held in the West Indies, {} was a member of sports team"
+        },
+        {
+            "year": "2008",
+            "template": "In the year the Summer Olympics were held in Beijing, {} was a member of sports team"
+        },
+        {
+            "year": "2009",
+            "template": "In the year the Champions League final was held in Rome, {} was a member of sports team"
+        },
+        {
+            "year": "2010",
+            "template": "In the year the FIFA World Cup was held in South Africa, {} was a member of sports team"
+        },
+        {
+            "year": "2011",
+            "template": "In the year the Rugby World Cup was held in New Zealand, {} was a member of sports team"
+        },
+        {
+            "year": "2012",
+            "template": "In the year the Summer Olympics were held in London, {} was a member of sports team"
+        },
+        {
+            "year": "2013",
+            "template": "In the year the Confederations Cup was held in Brazil, {} was a member of sports team"
+        },
+        {
+            "year": "2014",
+            "template": "In the year the FIFA World Cup was held in Brazil, {} was a member of sports team"
+        },
+        {
+            "year": "2015",
+            "template": "In the year the Cricket World Cup was held in Australia, {} was a member of sports team"
+        },
+        {
+            "year": "2016",
+            "template": "In the year the Summer Olympics were held in Rio, {} was a member of sports team"
+        },
+        {
+            "year": "2017",
+            "template": "In the year the Champions League final was held in Cardiff, {} was a member of sports team"
+        },
+        {
+            "year": "2018",
+            "template": "In the year the FIFA World Cup was held in Russia, {} was a member of sports team"
+        },
+        {
+            "year": "2019",
+            "template": "In the year the Rugby World Cup was held in Japan, {} was a member of sports team"
+        },
+        {
+            "year": "2020",
+            "template": "In the year the Summer Olympics were postponed in Tokyo, {} was a member of sports team"
+        }
+    ],
+    "all_possible_objects": [
+        {
+            "subject": "Argentina",
+            "objects": [
+                "Carlos Menem",
+                "Fernando de la R\u00faa",
+                "Eduardo Duhalde",
+                "N\u00e9stor Kirchner",
+                "Cristina Fern\u00e1ndez de Kirchner",
+                "Mauricio Macri",
+                "Alberto Fern\u00e1ndez"
+            ],
+            "year_range": "1990-2020"
+        },
+        {
+            "subject": "South Korea",
+            "objects": [
+                "Roh Tae-woo",
+                "Kim Young-sam",
+                "Kim Dae-jung",
+                "Roh Moo-hyun",
+                "Lee Myung-bak",
+                "Park Geun-hye",
+                "Moon Jae-in"
+            ],
+            "year_range": "1990-2020"
+        },
+        {
+            "subject": "United States",
+            "objects": [
+                "George H. W. Bush",
+                "Bill Clinton",
+                "George W. Bush",
+                "Barack Obama",
+                "Donald Trump"
+            ],
+            "year_range": "1990-2020"
+        },
+        {
+            "subject": "Russia",
+            "objects": [
+                "Boris Yeltsin",
+                "Vladimir Putin",
+                "Dmitry Medvedev"
+            ],
+            "year_range": "1990-2020"
+        },
+        {
+            "subject": "Pakistan",
+            "objects": [
+                "Ghulam Ishaq Khan",
+                "Farooq Leghari",
+                "Muhammad Rafiq Tarar",
+                "Pervez Musharraf",
+                "Asif Ali Zardari",
+                "Mamnoon Hussain",
+                "Arif Alvi"
+            ],
+            "year_range": "1990-2020"
+        }
+    ],
+    "predictions": {
+        "prompt_templates:0": [
+            {
+                "subject": "Argentina",
+                "object": "Carlos Menem",
+                "time": "1999",
+                "probs": {
+                    "Carlos Menem": 0.05691111832857132,
+                    "Fernando de la R\u00faa": 0.9293932914733887,
+                    "Eduardo Duhalde": 0.0027018606197088957,
+                    "N\u00e9stor Kirchner": 0.0015653640730306506,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.00015934447583276778,
+                    "Mauricio Macri": 0.00036414951318874955,
+                    "Alberto Fern\u00e1ndez": 0.008904799818992615
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Fernando de la R\u00faa",
+                "time": "2000",
+                "probs": {
+                    "Carlos Menem": 0.04238063469529152,
+                    "Fernando de la R\u00faa": 0.9502403736114502,
+                    "Eduardo Duhalde": 0.002193993655964732,
+                    "N\u00e9stor Kirchner": 0.0008592392550781369,
+                    "Cristina Fern\u00e1ndez de Kirchner": 9.749198943609372e-05,
+                    "Mauricio Macri": 0.0003139957261737436,
+                    "Alberto Fern\u00e1ndez": 0.003914231434464455
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Fernando de la R\u00faa",
+                "time": "2001",
+                "probs": {
+                    "Carlos Menem": 0.054096516221761703,
+                    "Fernando de la R\u00faa": 0.9093709588050842,
+                    "Eduardo Duhalde": 0.004085832741111517,
+                    "N\u00e9stor Kirchner": 0.023560646921396255,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.0004938709316775203,
+                    "Mauricio Macri": 0.000772876781411469,
+                    "Alberto Fern\u00e1ndez": 0.007619259413331747
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Eduardo Duhalde",
+                "time": "2002",
+                "probs": {
+                    "Carlos Menem": 0.0559040904045105,
+                    "Fernando de la R\u00faa": 0.8821396231651306,
+                    "Eduardo Duhalde": 0.005943719297647476,
+                    "N\u00e9stor Kirchner": 0.040426429361104965,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.001660286681726575,
+                    "Mauricio Macri": 0.0008965941378846765,
+                    "Alberto Fern\u00e1ndez": 0.013029211200773716
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "N\u00e9stor Kirchner",
+                "time": "2003",
+                "probs": {
+                    "Carlos Menem": 0.05797242373228073,
+                    "Fernando de la R\u00faa": 0.44958221912384033,
+                    "Eduardo Duhalde": 0.013448632322251797,
+                    "N\u00e9stor Kirchner": 0.4526643455028534,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.003135905833914876,
+                    "Mauricio Macri": 0.0007012169226072729,
+                    "Alberto Fern\u00e1ndez": 0.02249525859951973
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "N\u00e9stor Kirchner",
+                "time": "2004",
+                "probs": {
+                    "Carlos Menem": 0.03485843166708946,
+                    "Fernando de la R\u00faa": 0.16859853267669678,
+                    "Eduardo Duhalde": 0.006394443567842245,
+                    "N\u00e9stor Kirchner": 0.7775631546974182,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.005519677419215441,
+                    "Mauricio Macri": 0.000693070120178163,
+                    "Alberto Fern\u00e1ndez": 0.006372672971338034
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "N\u00e9stor Kirchner",
+                "time": "2005",
+                "probs": {
+                    "Carlos Menem": 0.008295652456581593,
+                    "Fernando de la R\u00faa": 0.02022843062877655,
+                    "Eduardo Duhalde": 0.0027252419386059046,
+                    "N\u00e9stor Kirchner": 0.9561040997505188,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.00986125785857439,
+                    "Mauricio Macri": 0.00046650791773572564,
+                    "Alberto Fern\u00e1ndez": 0.002318792976438999
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "N\u00e9stor Kirchner",
+                "time": "2006",
+                "probs": {
+                    "Carlos Menem": 0.0023466136772185564,
+                    "Fernando de la R\u00faa": 0.009596199728548527,
+                    "Eduardo Duhalde": 0.0012676233891397715,
+                    "N\u00e9stor Kirchner": 0.9580481052398682,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.025928426533937454,
+                    "Mauricio Macri": 0.0008630338124930859,
+                    "Alberto Fern\u00e1ndez": 0.001949972938746214
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Cristina Fern\u00e1ndez de Kirchner",
+                "time": "2007",
+                "probs": {
+                    "Carlos Menem": 0.0016047835815697908,
+                    "Fernando de la R\u00faa": 0.0051016067154705524,
+                    "Eduardo Duhalde": 0.0009852185612544417,
+                    "N\u00e9stor Kirchner": 0.8433883786201477,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.14199939370155334,
+                    "Mauricio Macri": 0.0032472223974764347,
+                    "Alberto Fern\u00e1ndez": 0.0036734004970639944
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Cristina Fern\u00e1ndez de Kirchner",
+                "time": "2008",
+                "probs": {
+                    "Carlos Menem": 0.0009194210288114846,
+                    "Fernando de la R\u00faa": 0.003228125860914588,
+                    "Eduardo Duhalde": 0.0006545837386511266,
+                    "N\u00e9stor Kirchner": 0.45497700572013855,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.5327403545379639,
+                    "Mauricio Macri": 0.005604126024991274,
+                    "Alberto Fern\u00e1ndez": 0.0018763882108032703
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Cristina Fern\u00e1ndez de Kirchner",
+                "time": "2009",
+                "probs": {
+                    "Carlos Menem": 0.00046087027294561267,
+                    "Fernando de la R\u00faa": 0.0014906557044014335,
+                    "Eduardo Duhalde": 0.00038700064760632813,
+                    "N\u00e9stor Kirchner": 0.0594521202147007,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.9249212145805359,
+                    "Mauricio Macri": 0.012317124754190445,
+                    "Alberto Fern\u00e1ndez": 0.0009710804442875087
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Kim Dae-jung",
+                "time": "1999",
+                "probs": {
+                    "Roh Tae-woo": 0.004549480974674225,
+                    "Kim Young-sam": 0.00025065161753445864,
+                    "Kim Dae-jung": 0.9780133366584778,
+                    "Roh Moo-hyun": 0.0022201684769243,
+                    "Lee Myung-bak": 0.00465310737490654,
+                    "Park Geun-hye": 0.009957052767276764,
+                    "Moon Jae-in": 0.0003562368801794946
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Kim Dae-jung",
+                "time": "2000",
+                "probs": {
+                    "Roh Tae-woo": 0.002294284524396062,
+                    "Kim Young-sam": 0.000152458407683298,
+                    "Kim Dae-jung": 0.9786226749420166,
+                    "Roh Moo-hyun": 0.0036002579145133495,
+                    "Lee Myung-bak": 0.00411722669377923,
+                    "Park Geun-hye": 0.01092968974262476,
+                    "Moon Jae-in": 0.00028333213413134217
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Kim Dae-jung",
+                "time": "2001",
+                "probs": {
+                    "Roh Tae-woo": 0.006298727821558714,
+                    "Kim Young-sam": 3.583663419703953e-05,
+                    "Kim Dae-jung": 0.9157649874687195,
+                    "Roh Moo-hyun": 0.0268971249461174,
+                    "Lee Myung-bak": 0.023879943415522575,
+                    "Park Geun-hye": 0.02642815001308918,
+                    "Moon Jae-in": 0.000695271824952215
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Kim Dae-jung",
+                "time": "2002",
+                "probs": {
+                    "Roh Tae-woo": 0.005657182075083256,
+                    "Kim Young-sam": 1.500043708801968e-05,
+                    "Kim Dae-jung": 0.6728489995002747,
+                    "Roh Moo-hyun": 0.08221209049224854,
+                    "Lee Myung-bak": 0.13877399265766144,
+                    "Park Geun-hye": 0.09955711662769318,
+                    "Moon Jae-in": 0.0009355584043078125
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2003",
+                "probs": {
+                    "Roh Tae-woo": 0.004178185481578112,
+                    "Kim Young-sam": 2.804005589496228e-06,
+                    "Kim Dae-jung": 0.26743727922439575,
+                    "Roh Moo-hyun": 0.5886574983596802,
+                    "Lee Myung-bak": 0.07731025665998459,
+                    "Park Geun-hye": 0.06205161660909653,
+                    "Moon Jae-in": 0.00036230546538718045
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2004",
+                "probs": {
+                    "Roh Tae-woo": 0.0017127663595601916,
+                    "Kim Young-sam": 2.0189759197819512e-06,
+                    "Kim Dae-jung": 0.16929945349693298,
+                    "Roh Moo-hyun": 0.6177592873573303,
+                    "Lee Myung-bak": 0.1607150286436081,
+                    "Park Geun-hye": 0.04988662153482437,
+                    "Moon Jae-in": 0.000624849577434361
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2005",
+                "probs": {
+                    "Roh Tae-woo": 0.0002695374714676291,
+                    "Kim Young-sam": 3.494954228244751e-07,
+                    "Kim Dae-jung": 0.03556683659553528,
+                    "Roh Moo-hyun": 0.8513286113739014,
+                    "Lee Myung-bak": 0.09661653637886047,
+                    "Park Geun-hye": 0.015940489247441292,
+                    "Moon Jae-in": 0.0002776249893940985
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2006",
+                "probs": {
+                    "Roh Tae-woo": 0.00012157140008639544,
+                    "Kim Young-sam": 2.5224301225534873e-07,
+                    "Kim Dae-jung": 0.015845032408833504,
+                    "Roh Moo-hyun": 0.6855467557907104,
+                    "Lee Myung-bak": 0.27416130900382996,
+                    "Park Geun-hye": 0.023878758773207664,
+                    "Moon Jae-in": 0.00044626672752201557
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2007",
+                "probs": {
+                    "Roh Tae-woo": 3.549942630343139e-05,
+                    "Kim Young-sam": 4.3580624264905055e-07,
+                    "Kim Dae-jung": 0.009462100453674793,
+                    "Roh Moo-hyun": 0.2916201651096344,
+                    "Lee Myung-bak": 0.6704727411270142,
+                    "Park Geun-hye": 0.02767065539956093,
+                    "Moon Jae-in": 0.0007383409538306296
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Lee Myung-bak",
+                "time": "2008",
+                "probs": {
+                    "Roh Tae-woo": 1.3059986486041453e-05,
+                    "Kim Young-sam": 3.948922824292822e-07,
+                    "Kim Dae-jung": 0.0033260940108448267,
+                    "Roh Moo-hyun": 0.04553888365626335,
+                    "Lee Myung-bak": 0.9389427304267883,
+                    "Park Geun-hye": 0.011821798980236053,
+                    "Moon Jae-in": 0.0003570214321371168
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Lee Myung-bak",
+                "time": "2009",
+                "probs": {
+                    "Roh Tae-woo": 1.301407792198006e-06,
+                    "Kim Young-sam": 7.464409463864285e-07,
+                    "Kim Dae-jung": 0.002670797985047102,
+                    "Roh Moo-hyun": 0.004348615650087595,
+                    "Lee Myung-bak": 0.9694799780845642,
+                    "Park Geun-hye": 0.022809553891420364,
+                    "Moon Jae-in": 0.0006889175856485963
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "Bill Clinton",
+                "time": "1999",
+                "probs": {
+                    "George H. W. Bush": 5.058494512155676e-09,
+                    "Bill Clinton": 0.9998005032539368,
+                    "George W. Bush": 0.00014071156329009682,
+                    "Barack Obama": 2.1564497728832066e-05,
+                    "Donald Trump": 3.72643735317979e-05
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "Bill Clinton",
+                "time": "2000",
+                "probs": {
+                    "George H. W. Bush": 3.590621645344072e-06,
+                    "Bill Clinton": 0.9017311334609985,
+                    "George W. Bush": 0.09804000705480576,
+                    "Barack Obama": 1.4355324310599826e-05,
+                    "Donald Trump": 0.00021082445164211094
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2001",
+                "probs": {
+                    "George H. W. Bush": 2.453516390232835e-05,
+                    "Bill Clinton": 0.052154455333948135,
+                    "George W. Bush": 0.9473507404327393,
+                    "Barack Obama": 1.8586712030810304e-05,
+                    "Donald Trump": 0.00045171353849582374
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2002",
+                "probs": {
+                    "George H. W. Bush": 1.3675648915523198e-05,
+                    "Bill Clinton": 0.006072223652154207,
+                    "George W. Bush": 0.9936688542366028,
+                    "Barack Obama": 9.912736459227744e-06,
+                    "Donald Trump": 0.00023531276383437216
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2003",
+                "probs": {
+                    "George H. W. Bush": 1.2391886230034288e-05,
+                    "Bill Clinton": 0.0006399079575203359,
+                    "George W. Bush": 0.9992648959159851,
+                    "Barack Obama": 2.0608764316421002e-05,
+                    "Donald Trump": 6.223456875886768e-05
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2004",
+                "probs": {
+                    "George H. W. Bush": 1.3718046830035746e-05,
+                    "Bill Clinton": 0.00016081648936960846,
+                    "George W. Bush": 0.9996663331985474,
+                    "Barack Obama": 3.502625258988701e-05,
+                    "Donald Trump": 0.00012420822167769074
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2005",
+                "probs": {
+                    "George H. W. Bush": 1.4983870642026886e-05,
+                    "Bill Clinton": 5.213193435338326e-05,
+                    "George W. Bush": 0.9995495676994324,
+                    "Barack Obama": 5.47349700354971e-05,
+                    "Donald Trump": 0.00032856021425686777
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2006",
+                "probs": {
+                    "George H. W. Bush": 1.698346750345081e-05,
+                    "Bill Clinton": 7.583146361866966e-05,
+                    "George W. Bush": 0.9989728927612305,
+                    "Barack Obama": 0.00019203659030608833,
+                    "Donald Trump": 0.0007423299830406904
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2007",
+                "probs": {
+                    "George H. W. Bush": 3.720793756656349e-05,
+                    "Bill Clinton": 4.053345764987171e-05,
+                    "George W. Bush": 0.9976390600204468,
+                    "Barack Obama": 0.001934555359184742,
+                    "Donald Trump": 0.0003486641217023134
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2008",
+                "probs": {
+                    "George H. W. Bush": 2.6132602215511724e-05,
+                    "Bill Clinton": 0.00010574534098850563,
+                    "George W. Bush": 0.20021474361419678,
+                    "Barack Obama": 0.799464762210846,
+                    "Donald Trump": 0.00018857473332900554
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "Barack Obama",
+                "time": "2009",
+                "probs": {
+                    "George H. W. Bush": 3.485275499315321e-07,
+                    "Bill Clinton": 3.117208325420506e-05,
+                    "George W. Bush": 0.0009427973418496549,
+                    "Barack Obama": 0.9988983869552612,
+                    "Donald Trump": 0.000127277264255099
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Boris Yeltsin",
+                "time": "1999",
+                "probs": {
+                    "Boris Yeltsin": 0.1153692826628685,
+                    "Vladimir Putin": 0.8846113085746765,
+                    "Dmitry Medvedev": 1.9435407011769712e-05
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2000",
+                "probs": {
+                    "Boris Yeltsin": 0.00991887878626585,
+                    "Vladimir Putin": 0.9900743365287781,
+                    "Dmitry Medvedev": 6.775207566533936e-06
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2001",
+                "probs": {
+                    "Boris Yeltsin": 0.003063506679609418,
+                    "Vladimir Putin": 0.9969315528869629,
+                    "Dmitry Medvedev": 4.874405476584798e-06
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2002",
+                "probs": {
+                    "Boris Yeltsin": 0.001359474379569292,
+                    "Vladimir Putin": 0.9986327290534973,
+                    "Dmitry Medvedev": 7.718258530076127e-06
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2003",
+                "probs": {
+                    "Boris Yeltsin": 0.00034030404640361667,
+                    "Vladimir Putin": 0.9996538162231445,
+                    "Dmitry Medvedev": 5.888225587113993e-06
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2004",
+                "probs": {
+                    "Boris Yeltsin": 0.0003197012993041426,
+                    "Vladimir Putin": 0.9996519088745117,
+                    "Dmitry Medvedev": 2.8428084988263436e-05
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2005",
+                "probs": {
+                    "Boris Yeltsin": 8.583681483287364e-05,
+                    "Vladimir Putin": 0.9998486042022705,
+                    "Dmitry Medvedev": 6.549654062837362e-05
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2006",
+                "probs": {
+                    "Boris Yeltsin": 5.8638273912947625e-05,
+                    "Vladimir Putin": 0.9994761347770691,
+                    "Dmitry Medvedev": 0.00046522991033270955
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2007",
+                "probs": {
+                    "Boris Yeltsin": 5.808419155073352e-05,
+                    "Vladimir Putin": 0.9940736889839172,
+                    "Dmitry Medvedev": 0.005868245381861925
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Dmitry Medvedev",
+                "time": "2008",
+                "probs": {
+                    "Boris Yeltsin": 0.00011646052007563412,
+                    "Vladimir Putin": 0.8877561092376709,
+                    "Dmitry Medvedev": 0.1121274083852768
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Dmitry Medvedev",
+                "time": "2009",
+                "probs": {
+                    "Boris Yeltsin": 0.00020615337416529655,
+                    "Vladimir Putin": 0.5445159673690796,
+                    "Dmitry Medvedev": 0.45527786016464233
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Muhammad Rafiq Tarar",
+                "time": "1999",
+                "probs": {
+                    "Ghulam Ishaq Khan": 0.0018596763256937265,
+                    "Farooq Leghari": 0.10204589366912842,
+                    "Muhammad Rafiq Tarar": 0.029824312776327133,
+                    "Pervez Musharraf": 0.7414130568504333,
+                    "Asif Ali Zardari": 0.12105728685855865,
+                    "Mamnoon Hussain": 0.000132630011648871,
+                    "Arif Alvi": 0.00366715039126575
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Muhammad Rafiq Tarar",
+                "time": "2000",
+                "probs": {
+                    "Ghulam Ishaq Khan": 0.0014856033958494663,
+                    "Farooq Leghari": 0.11009461432695389,
+                    "Muhammad Rafiq Tarar": 0.04240673780441284,
+                    "Pervez Musharraf": 0.8220741152763367,
+                    "Asif Ali Zardari": 0.021135888993740082,
+                    "Mamnoon Hussain": 0.0002341661020182073,
+                    "Arif Alvi": 0.00256887124851346
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2001",
+                "probs": {
+                    "Ghulam Ishaq Khan": 0.0005444172420538962,
+                    "Farooq Leghari": 0.014150125905871391,
+                    "Muhammad Rafiq Tarar": 0.01343950442969799,
+                    "Pervez Musharraf": 0.9512175917625427,
+                    "Asif Ali Zardari": 0.019000371918082237,
+                    "Mamnoon Hussain": 0.00015770122990943491,
+                    "Arif Alvi": 0.0014902579132467508
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2002",
+                "probs": {
+                    "Ghulam Ishaq Khan": 9.993244748329744e-05,
+                    "Farooq Leghari": 0.010526230558753014,
+                    "Muhammad Rafiq Tarar": 0.00557408481836319,
+                    "Pervez Musharraf": 0.9662628173828125,
+                    "Asif Ali Zardari": 0.016500432044267654,
+                    "Mamnoon Hussain": 0.00011184561299160123,
+                    "Arif Alvi": 0.0009246759000234306
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2003",
+                "probs": {
+                    "Ghulam Ishaq Khan": 1.3360627235670108e-05,
+                    "Farooq Leghari": 0.004117094445973635,
+                    "Muhammad Rafiq Tarar": 0.002758861519396305,
+                    "Pervez Musharraf": 0.9903494119644165,
+                    "Asif Ali Zardari": 0.0013910263078287244,
+                    "Mamnoon Hussain": 0.00013001245679333806,
+                    "Arif Alvi": 0.0012403089785948396
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2004",
+                "probs": {
+                    "Ghulam Ishaq Khan": 4.495282610150753e-06,
+                    "Farooq Leghari": 0.001772070536389947,
+                    "Muhammad Rafiq Tarar": 0.001344591728411615,
+                    "Pervez Musharraf": 0.9950218200683594,
+                    "Asif Ali Zardari": 0.0011606725165620446,
+                    "Mamnoon Hussain": 9.713364124763757e-05,
+                    "Arif Alvi": 0.0005992341903038323
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2005",
+                "probs": {
+                    "Ghulam Ishaq Khan": 6.622660748689668e-07,
+                    "Farooq Leghari": 0.0014749137917533517,
+                    "Muhammad Rafiq Tarar": 0.0006342267151921988,
+                    "Pervez Musharraf": 0.9961866736412048,
+                    "Asif Ali Zardari": 0.001277620205655694,
+                    "Mamnoon Hussain": 0.0001844606886152178,
+                    "Arif Alvi": 0.00024144079361576587
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2006",
+                "probs": {
+                    "Ghulam Ishaq Khan": 4.621462039722246e-07,
+                    "Farooq Leghari": 0.0009476600680500269,
+                    "Muhammad Rafiq Tarar": 0.00019896036246791482,
+                    "Pervez Musharraf": 0.996594250202179,
+                    "Asif Ali Zardari": 0.001860588090494275,
+                    "Mamnoon Hussain": 0.00020257207506801933,
+                    "Arif Alvi": 0.0001954987965291366
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2007",
+                "probs": {
+                    "Ghulam Ishaq Khan": 1.0297825383531745e-06,
+                    "Farooq Leghari": 0.0008753844304010272,
+                    "Muhammad Rafiq Tarar": 4.657792305806652e-05,
+                    "Pervez Musharraf": 0.9878524541854858,
+                    "Asif Ali Zardari": 0.010950715281069279,
+                    "Mamnoon Hussain": 0.00018273752357345074,
+                    "Arif Alvi": 9.116557339439169e-05
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Asif Ali Zardari",
+                "time": "2008",
+                "probs": {
+                    "Ghulam Ishaq Khan": 3.09674715026631e-06,
+                    "Farooq Leghari": 0.0019013654673472047,
+                    "Muhammad Rafiq Tarar": 1.8682106883716187e-06,
+                    "Pervez Musharraf": 0.8971565961837769,
+                    "Asif Ali Zardari": 0.10062439739704132,
+                    "Mamnoon Hussain": 0.00021361801191233099,
+                    "Arif Alvi": 9.89565669442527e-05
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Asif Ali Zardari",
+                "time": "2009",
+                "probs": {
+                    "Ghulam Ishaq Khan": 5.640094514092198e-06,
+                    "Farooq Leghari": 0.002949491376057267,
+                    "Muhammad Rafiq Tarar": 1.0212492185246447e-07,
+                    "Pervez Musharraf": 0.26759427785873413,
+                    "Asif Ali Zardari": 0.7284963130950928,
+                    "Mamnoon Hussain": 0.0007307635969482362,
+                    "Arif Alvi": 0.0002234057174064219
+                }
+            }
+        ],
+        "prompt_templates_zs:0": [
+            {
+                "subject": "Argentina",
+                "object": "Carlos Menem",
+                "time": "1999",
+                "probs": {
+                    "Carlos Menem": 0.06233254820108414,
+                    "Fernando de la R\u00faa": 0.9294438362121582,
+                    "Eduardo Duhalde": 0.006045555230230093,
+                    "N\u00e9stor Kirchner": 9.02324018170475e-07,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.0004402567574288696,
+                    "Mauricio Macri": 4.518141577136703e-05,
+                    "Alberto Fern\u00e1ndez": 0.0016917246393859386
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Fernando de la R\u00faa",
+                "time": "2000",
+                "probs": {
+                    "Carlos Menem": 0.04959922283887863,
+                    "Fernando de la R\u00faa": 0.9372692108154297,
+                    "Eduardo Duhalde": 0.01078385952860117,
+                    "N\u00e9stor Kirchner": 5.827216682519065e-07,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.0004513266321737319,
+                    "Mauricio Macri": 0.00014838273636996746,
+                    "Alberto Fern\u00e1ndez": 0.0017474633641541004
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Fernando de la R\u00faa",
+                "time": "2001",
+                "probs": {
+                    "Carlos Menem": 0.041160378605127335,
+                    "Fernando de la R\u00faa": 0.8127196431159973,
+                    "Eduardo Duhalde": 0.13716240227222443,
+                    "N\u00e9stor Kirchner": 5.576885541813681e-06,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.001685387920588255,
+                    "Mauricio Macri": 0.000790926453191787,
+                    "Alberto Fern\u00e1ndez": 0.006475556641817093
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Eduardo Duhalde",
+                "time": "2002",
+                "probs": {
+                    "Carlos Menem": 0.04844069108366966,
+                    "Fernando de la R\u00faa": 0.6476547718048096,
+                    "Eduardo Duhalde": 0.2969299554824829,
+                    "N\u00e9stor Kirchner": 6.8166414166626055e-06,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.0009946884820237756,
+                    "Mauricio Macri": 0.0001734321704134345,
+                    "Alberto Fern\u00e1ndez": 0.005799646023660898
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "N\u00e9stor Kirchner",
+                "time": "2003",
+                "probs": {
+                    "Carlos Menem": 0.03908957913517952,
+                    "Fernando de la R\u00faa": 0.16373667120933533,
+                    "Eduardo Duhalde": 0.7830533981323242,
+                    "N\u00e9stor Kirchner": 0.0014751899288967252,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.0013308129273355007,
+                    "Mauricio Macri": 6.0078073147451505e-05,
+                    "Alberto Fern\u00e1ndez": 0.011254341341555119
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "N\u00e9stor Kirchner",
+                "time": "2004",
+                "probs": {
+                    "Carlos Menem": 0.054363835602998734,
+                    "Fernando de la R\u00faa": 0.08026488870382309,
+                    "Eduardo Duhalde": 0.691217303276062,
+                    "N\u00e9stor Kirchner": 0.13003650307655334,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.01121998019516468,
+                    "Mauricio Macri": 9.72378984442912e-05,
+                    "Alberto Fern\u00e1ndez": 0.032800208777189255
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "N\u00e9stor Kirchner",
+                "time": "2005",
+                "probs": {
+                    "Carlos Menem": 0.017632706090807915,
+                    "Fernando de la R\u00faa": 0.01555321179330349,
+                    "Eduardo Duhalde": 0.08818624168634415,
+                    "N\u00e9stor Kirchner": 0.7162140607833862,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.06151321157813072,
+                    "Mauricio Macri": 0.00019333389354869723,
+                    "Alberto Fern\u00e1ndez": 0.10070724040269852
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "N\u00e9stor Kirchner",
+                "time": "2006",
+                "probs": {
+                    "Carlos Menem": 0.006562685593962669,
+                    "Fernando de la R\u00faa": 0.0074480799958109856,
+                    "Eduardo Duhalde": 0.012929356656968594,
+                    "N\u00e9stor Kirchner": 0.5851737856864929,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.33969736099243164,
+                    "Mauricio Macri": 0.0001796390424715355,
+                    "Alberto Fern\u00e1ndez": 0.048009078949689865
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Cristina Fern\u00e1ndez de Kirchner",
+                "time": "2007",
+                "probs": {
+                    "Carlos Menem": 0.003215682925656438,
+                    "Fernando de la R\u00faa": 0.0010117052588611841,
+                    "Eduardo Duhalde": 0.00045920227421447635,
+                    "N\u00e9stor Kirchner": 0.009687665849924088,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.9756731986999512,
+                    "Mauricio Macri": 0.00011106189776910469,
+                    "Alberto Fern\u00e1ndez": 0.009841426275670528
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Cristina Fern\u00e1ndez de Kirchner",
+                "time": "2008",
+                "probs": {
+                    "Carlos Menem": 0.000726103491615504,
+                    "Fernando de la R\u00faa": 0.00030575328855775297,
+                    "Eduardo Duhalde": 2.4713557650102302e-05,
+                    "N\u00e9stor Kirchner": 0.00012591244012583047,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.9972224235534668,
+                    "Mauricio Macri": 2.0896815840387717e-05,
+                    "Alberto Fern\u00e1ndez": 0.0015742381801828742
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Cristina Fern\u00e1ndez de Kirchner",
+                "time": "2009",
+                "probs": {
+                    "Carlos Menem": 0.00021397264208644629,
+                    "Fernando de la R\u00faa": 0.00010721854778239504,
+                    "Eduardo Duhalde": 3.3198650726262713e-06,
+                    "N\u00e9stor Kirchner": 1.8660017531146877e-06,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.9992057681083679,
+                    "Mauricio Macri": 2.177578971895855e-05,
+                    "Alberto Fern\u00e1ndez": 0.00044612743658944964
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Kim Dae-jung",
+                "time": "1999",
+                "probs": {
+                    "Roh Tae-woo": 1.461800275137648e-05,
+                    "Kim Young-sam": 1.460484963899944e-05,
+                    "Kim Dae-jung": 0.9996016621589661,
+                    "Roh Moo-hyun": 1.16903265734436e-06,
+                    "Lee Myung-bak": 0.0001019890551106073,
+                    "Park Geun-hye": 0.00026523874839767814,
+                    "Moon Jae-in": 6.636800549131294e-07
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Kim Dae-jung",
+                "time": "2000",
+                "probs": {
+                    "Roh Tae-woo": 3.498574369587004e-05,
+                    "Kim Young-sam": 3.9120641304180026e-05,
+                    "Kim Dae-jung": 0.999409556388855,
+                    "Roh Moo-hyun": 6.635503723373404e-06,
+                    "Lee Myung-bak": 0.00018240537610836327,
+                    "Park Geun-hye": 0.00032657996052876115,
+                    "Moon Jae-in": 6.989928920120292e-07
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Kim Dae-jung",
+                "time": "2001",
+                "probs": {
+                    "Roh Tae-woo": 3.767121597775258e-05,
+                    "Kim Young-sam": 5.150318884261651e-06,
+                    "Kim Dae-jung": 0.998247504234314,
+                    "Roh Moo-hyun": 8.082557906163856e-05,
+                    "Lee Myung-bak": 0.00034045978100039065,
+                    "Park Geun-hye": 0.0012748633744195104,
+                    "Moon Jae-in": 1.3484656847140286e-05
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Kim Dae-jung",
+                "time": "2002",
+                "probs": {
+                    "Roh Tae-woo": 7.485584501409903e-05,
+                    "Kim Young-sam": 2.4996484171424527e-06,
+                    "Kim Dae-jung": 0.9962003827095032,
+                    "Roh Moo-hyun": 0.0018722460372373462,
+                    "Lee Myung-bak": 0.0005379156209528446,
+                    "Park Geun-hye": 0.0012889362405985594,
+                    "Moon Jae-in": 2.3135185983846895e-05
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2003",
+                "probs": {
+                    "Roh Tae-woo": 0.0011808947892859578,
+                    "Kim Young-sam": 1.9364443915037555e-07,
+                    "Kim Dae-jung": 0.11851831525564194,
+                    "Roh Moo-hyun": 0.8787369132041931,
+                    "Lee Myung-bak": 0.0011625512270256877,
+                    "Park Geun-hye": 0.00033412512857466936,
+                    "Moon Jae-in": 6.70457593514584e-05
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2004",
+                "probs": {
+                    "Roh Tae-woo": 0.00021609706163872033,
+                    "Kim Young-sam": 3.756399635790331e-09,
+                    "Kim Dae-jung": 0.0019105386454612017,
+                    "Roh Moo-hyun": 0.9974761605262756,
+                    "Lee Myung-bak": 0.00037214226904325187,
+                    "Park Geun-hye": 1.872397660918068e-05,
+                    "Moon Jae-in": 6.414307790691964e-06
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2005",
+                "probs": {
+                    "Roh Tae-woo": 1.150099797087023e-05,
+                    "Kim Young-sam": 3.225626876712795e-09,
+                    "Kim Dae-jung": 0.00015015651297289878,
+                    "Roh Moo-hyun": 0.9986587762832642,
+                    "Lee Myung-bak": 0.0011646437924355268,
+                    "Park Geun-hye": 7.566630756628001e-06,
+                    "Moon Jae-in": 7.322536475840025e-06
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2006",
+                "probs": {
+                    "Roh Tae-woo": 3.6714552607008955e-06,
+                    "Kim Young-sam": 1.2192906240215962e-08,
+                    "Kim Dae-jung": 8.1238555139862e-05,
+                    "Roh Moo-hyun": 0.9879581928253174,
+                    "Lee Myung-bak": 0.011936056427657604,
+                    "Park Geun-hye": 1.3516380022338126e-05,
+                    "Moon Jae-in": 7.253367130033439e-06
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2007",
+                "probs": {
+                    "Roh Tae-woo": 2.097471906381543e-06,
+                    "Kim Young-sam": 8.521493555235793e-07,
+                    "Kim Dae-jung": 0.0001749606162775308,
+                    "Roh Moo-hyun": 0.5784233212471008,
+                    "Lee Myung-bak": 0.4213472306728363,
+                    "Park Geun-hye": 3.4343665902270004e-05,
+                    "Moon Jae-in": 1.7199654394062236e-05
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Lee Myung-bak",
+                "time": "2008",
+                "probs": {
+                    "Roh Tae-woo": 2.3939381321724795e-07,
+                    "Kim Young-sam": 5.179212507755437e-07,
+                    "Kim Dae-jung": 9.902112651616335e-05,
+                    "Roh Moo-hyun": 0.023782065138220787,
+                    "Lee Myung-bak": 0.9760969281196594,
+                    "Park Geun-hye": 1.5199755580397323e-05,
+                    "Moon Jae-in": 6.024220056133345e-06
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Lee Myung-bak",
+                "time": "2009",
+                "probs": {
+                    "Roh Tae-woo": 4.570174017004547e-09,
+                    "Kim Young-sam": 3.4807521842594724e-06,
+                    "Kim Dae-jung": 9.803209650272038e-06,
+                    "Roh Moo-hyun": 9.513170516584069e-05,
+                    "Lee Myung-bak": 0.9998835325241089,
+                    "Park Geun-hye": 5.630884061247343e-06,
+                    "Moon Jae-in": 2.367806473557721e-06
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "Bill Clinton",
+                "time": "1999",
+                "probs": {
+                    "George H. W. Bush": 4.375913422848682e-13,
+                    "Bill Clinton": 0.9999980926513672,
+                    "George W. Bush": 8.93378853561444e-07,
+                    "Barack Obama": 3.5370735673723175e-08,
+                    "Donald Trump": 1.0615289056659094e-06
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "Bill Clinton",
+                "time": "2000",
+                "probs": {
+                    "George H. W. Bush": 4.736229741730824e-10,
+                    "Bill Clinton": 0.9952373504638672,
+                    "George W. Bush": 0.0046368674375116825,
+                    "Barack Obama": 2.442363438603934e-06,
+                    "Donald Trump": 0.00012323881674092263
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2001",
+                "probs": {
+                    "George H. W. Bush": 5.641268785439024e-08,
+                    "Bill Clinton": 0.0014930759789422154,
+                    "George W. Bush": 0.9984858632087708,
+                    "Barack Obama": 4.859205091634067e-07,
+                    "Donald Trump": 2.0502950064837933e-05
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2002",
+                "probs": {
+                    "George H. W. Bush": 1.527573445514463e-08,
+                    "Bill Clinton": 0.0002191192761529237,
+                    "George W. Bush": 0.9997801184654236,
+                    "Barack Obama": 1.8287122927063137e-08,
+                    "Donald Trump": 7.432943789353885e-07
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2003",
+                "probs": {
+                    "George H. W. Bush": 8.714367893958297e-09,
+                    "Bill Clinton": 3.942906914744526e-06,
+                    "George W. Bush": 0.9999959468841553,
+                    "Barack Obama": 1.6106875833088452e-08,
+                    "Donald Trump": 5.332255170742428e-08
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2004",
+                "probs": {
+                    "George H. W. Bush": 1.2937499072052105e-08,
+                    "Bill Clinton": 3.2006237233872525e-06,
+                    "George W. Bush": 0.9999958276748657,
+                    "Barack Obama": 7.533555503869138e-07,
+                    "Donald Trump": 1.8566862536317785e-07
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2005",
+                "probs": {
+                    "George H. W. Bush": 6.901644589163425e-09,
+                    "Bill Clinton": 1.2925401051688823e-06,
+                    "George W. Bush": 0.9999977350234985,
+                    "Barack Obama": 6.598426125492551e-07,
+                    "Donald Trump": 3.4660021697163756e-07
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2006",
+                "probs": {
+                    "George H. W. Bush": 7.955007319537799e-09,
+                    "Bill Clinton": 7.46250464089826e-07,
+                    "George W. Bush": 0.9999955892562866,
+                    "Barack Obama": 2.5283879949711263e-06,
+                    "Donald Trump": 1.1515201094880467e-06
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2007",
+                "probs": {
+                    "George H. W. Bush": 1.3682750932275667e-08,
+                    "Bill Clinton": 4.471897341318254e-07,
+                    "George W. Bush": 0.9998342990875244,
+                    "Barack Obama": 0.00016388641961384565,
+                    "Donald Trump": 1.327241989201866e-06
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2008",
+                "probs": {
+                    "George H. W. Bush": 5.608336017814963e-09,
+                    "Bill Clinton": 7.032986673038977e-07,
+                    "George W. Bush": 0.059167616069316864,
+                    "Barack Obama": 0.9408298134803772,
+                    "Donald Trump": 1.92141487787012e-06
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "Barack Obama",
+                "time": "2009",
+                "probs": {
+                    "George H. W. Bush": 7.2170420681305636e-12,
+                    "Bill Clinton": 6.040871802781567e-09,
+                    "George W. Bush": 4.2361270971014164e-06,
+                    "Barack Obama": 0.9999955892562866,
+                    "Donald Trump": 1.8400457690859184e-07
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Boris Yeltsin",
+                "time": "1999",
+                "probs": {
+                    "Boris Yeltsin": 0.07548223435878754,
+                    "Vladimir Putin": 0.9245141744613647,
+                    "Dmitry Medvedev": 3.5721100175578613e-06
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2000",
+                "probs": {
+                    "Boris Yeltsin": 0.002847373951226473,
+                    "Vladimir Putin": 0.9971511960029602,
+                    "Dmitry Medvedev": 1.4015450915394467e-06
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2001",
+                "probs": {
+                    "Boris Yeltsin": 0.00010859822214115411,
+                    "Vladimir Putin": 0.9998910427093506,
+                    "Dmitry Medvedev": 3.427766444019653e-07
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2002",
+                "probs": {
+                    "Boris Yeltsin": 4.958656518283533e-06,
+                    "Vladimir Putin": 0.9999949932098389,
+                    "Dmitry Medvedev": 7.767735610286763e-08
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2003",
+                "probs": {
+                    "Boris Yeltsin": 4.867611096415203e-07,
+                    "Vladimir Putin": 0.9999995231628418,
+                    "Dmitry Medvedev": 3.305987661406107e-08
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2004",
+                "probs": {
+                    "Boris Yeltsin": 1.713496686761573e-07,
+                    "Vladimir Putin": 0.9999997615814209,
+                    "Dmitry Medvedev": 2.947324340141222e-08
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2005",
+                "probs": {
+                    "Boris Yeltsin": 7.443797045425526e-08,
+                    "Vladimir Putin": 0.9999998807907104,
+                    "Dmitry Medvedev": 5.1697178093945695e-08
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2006",
+                "probs": {
+                    "Boris Yeltsin": 3.07391232468035e-08,
+                    "Vladimir Putin": 0.9999998807907104,
+                    "Dmitry Medvedev": 8.835143461283224e-08
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2007",
+                "probs": {
+                    "Boris Yeltsin": 4.418412657969384e-08,
+                    "Vladimir Putin": 0.9999752044677734,
+                    "Dmitry Medvedev": 2.4747390853008255e-05
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Dmitry Medvedev",
+                "time": "2008",
+                "probs": {
+                    "Boris Yeltsin": 1.2243441460668691e-07,
+                    "Vladimir Putin": 0.9965165853500366,
+                    "Dmitry Medvedev": 0.003483264707028866
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Dmitry Medvedev",
+                "time": "2009",
+                "probs": {
+                    "Boris Yeltsin": 2.968796479763114e-07,
+                    "Vladimir Putin": 0.7579201459884644,
+                    "Dmitry Medvedev": 0.24207955598831177
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Muhammad Rafiq Tarar",
+                "time": "1999",
+                "probs": {
+                    "Ghulam Ishaq Khan": 2.749438863247633e-07,
+                    "Farooq Leghari": 0.03904815390706062,
+                    "Muhammad Rafiq Tarar": 0.004263429436832666,
+                    "Pervez Musharraf": 0.9532373547554016,
+                    "Asif Ali Zardari": 0.0033791407477110624,
+                    "Mamnoon Hussain": 5.0211451707582455e-06,
+                    "Arif Alvi": 6.656890036538243e-05
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Muhammad Rafiq Tarar",
+                "time": "2000",
+                "probs": {
+                    "Ghulam Ishaq Khan": 6.283094933223765e-08,
+                    "Farooq Leghari": 0.006728231906890869,
+                    "Muhammad Rafiq Tarar": 0.005413385573774576,
+                    "Pervez Musharraf": 0.9867439270019531,
+                    "Asif Ali Zardari": 0.0010860711336135864,
+                    "Mamnoon Hussain": 2.7765829599957215e-06,
+                    "Arif Alvi": 2.5656783691374585e-05
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2001",
+                "probs": {
+                    "Ghulam Ishaq Khan": 1.0650362813890979e-09,
+                    "Farooq Leghari": 6.814442167524248e-05,
+                    "Muhammad Rafiq Tarar": 0.0004695929237641394,
+                    "Pervez Musharraf": 0.9992891550064087,
+                    "Asif Ali Zardari": 0.00016836851136758924,
+                    "Mamnoon Hussain": 6.974172492846265e-07,
+                    "Arif Alvi": 4.054785676999018e-06
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2002",
+                "probs": {
+                    "Ghulam Ishaq Khan": 4.477718751338955e-10,
+                    "Farooq Leghari": 4.558439468382858e-05,
+                    "Muhammad Rafiq Tarar": 0.00010008183744503185,
+                    "Pervez Musharraf": 0.9998130202293396,
+                    "Asif Ali Zardari": 3.825026215054095e-05,
+                    "Mamnoon Hussain": 3.816772675691027e-07,
+                    "Arif Alvi": 2.698447133298032e-06
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2003",
+                "probs": {
+                    "Ghulam Ishaq Khan": 9.343737589206924e-11,
+                    "Farooq Leghari": 1.1160132089571562e-05,
+                    "Muhammad Rafiq Tarar": 3.137502062600106e-06,
+                    "Pervez Musharraf": 0.9999744892120361,
+                    "Asif Ali Zardari": 9.930572559824213e-06,
+                    "Mamnoon Hussain": 7.443154004249664e-08,
+                    "Arif Alvi": 1.271365249522205e-06
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2004",
+                "probs": {
+                    "Ghulam Ishaq Khan": 4.594974747917924e-11,
+                    "Farooq Leghari": 1.2287208846828435e-05,
+                    "Muhammad Rafiq Tarar": 1.0223392337138648e-06,
+                    "Pervez Musharraf": 0.99997878074646,
+                    "Asif Ali Zardari": 7.186667971836869e-06,
+                    "Mamnoon Hussain": 6.702538257741253e-08,
+                    "Arif Alvi": 6.049677381270158e-07
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2005",
+                "probs": {
+                    "Ghulam Ishaq Khan": 4.920153173770814e-11,
+                    "Farooq Leghari": 1.1859867299790494e-05,
+                    "Muhammad Rafiq Tarar": 3.491953748380183e-07,
+                    "Pervez Musharraf": 0.9999805688858032,
+                    "Asif Ali Zardari": 6.47333536107908e-06,
+                    "Mamnoon Hussain": 1.3377292873428814e-07,
+                    "Arif Alvi": 5.58481190182647e-07
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2006",
+                "probs": {
+                    "Ghulam Ishaq Khan": 5.3029344804222944e-11,
+                    "Farooq Leghari": 1.0477321666257922e-05,
+                    "Muhammad Rafiq Tarar": 6.596623336463381e-08,
+                    "Pervez Musharraf": 0.9999805688858032,
+                    "Asif Ali Zardari": 7.528589321736945e-06,
+                    "Mamnoon Hussain": 9.107917264827847e-08,
+                    "Arif Alvi": 1.2390635220072e-06
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2007",
+                "probs": {
+                    "Ghulam Ishaq Khan": 3.0337893308640673e-10,
+                    "Farooq Leghari": 3.2108255254570395e-05,
+                    "Muhammad Rafiq Tarar": 4.5686345373496806e-08,
+                    "Pervez Musharraf": 0.999824583530426,
+                    "Asif Ali Zardari": 0.00013881584163755178,
+                    "Mamnoon Hussain": 2.044429407987991e-07,
+                    "Arif Alvi": 4.30413592766854e-06
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Asif Ali Zardari",
+                "time": "2008",
+                "probs": {
+                    "Ghulam Ishaq Khan": 1.299275576016612e-09,
+                    "Farooq Leghari": 0.00022164547408465296,
+                    "Muhammad Rafiq Tarar": 3.120596758776628e-08,
+                    "Pervez Musharraf": 0.9729647040367126,
+                    "Asif Ali Zardari": 0.026798270642757416,
+                    "Mamnoon Hussain": 7.115896778486785e-07,
+                    "Arif Alvi": 1.4578116861230228e-05
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Asif Ali Zardari",
+                "time": "2009",
+                "probs": {
+                    "Ghulam Ishaq Khan": 2.8377009075875037e-10,
+                    "Farooq Leghari": 0.00010505105456104502,
+                    "Muhammad Rafiq Tarar": 7.48719142240617e-10,
+                    "Pervez Musharraf": 0.011106031946837902,
+                    "Asif Ali Zardari": 0.9887795448303223,
+                    "Mamnoon Hussain": 3.8413557490457606e-07,
+                    "Arif Alvi": 8.955955308920238e-06
+                }
+            }
+        ],
+        "prompt_templates_zs:1": [
+            {
+                "subject": "Argentina",
+                "object": "Carlos Menem",
+                "time": "1999",
+                "probs": {
+                    "Carlos Menem": 0.1327323466539383,
+                    "Fernando de la R\u00faa": 0.7560528516769409,
+                    "Eduardo Duhalde": 0.09344018250703812,
+                    "N\u00e9stor Kirchner": 1.7237984138773754e-05,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.009867174550890923,
+                    "Mauricio Macri": 0.0024184980429708958,
+                    "Alberto Fern\u00e1ndez": 0.005471751093864441
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Fernando de la R\u00faa",
+                "time": "2000",
+                "probs": {
+                    "Carlos Menem": 0.09138211607933044,
+                    "Fernando de la R\u00faa": 0.7433144450187683,
+                    "Eduardo Duhalde": 0.13667310774326324,
+                    "N\u00e9stor Kirchner": 1.4552741959050763e-05,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.017525147646665573,
+                    "Mauricio Macri": 0.0064681293442845345,
+                    "Alberto Fern\u00e1ndez": 0.004622563254088163
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Fernando de la R\u00faa",
+                "time": "2001",
+                "probs": {
+                    "Carlos Menem": 0.06935480237007141,
+                    "Fernando de la R\u00faa": 0.790002167224884,
+                    "Eduardo Duhalde": 0.09658686071634293,
+                    "N\u00e9stor Kirchner": 4.889307820121758e-05,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.014824735932052135,
+                    "Mauricio Macri": 0.003053753636777401,
+                    "Alberto Fern\u00e1ndez": 0.026128824800252914
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Eduardo Duhalde",
+                "time": "2002",
+                "probs": {
+                    "Carlos Menem": 0.0477789007127285,
+                    "Fernando de la R\u00faa": 0.6735827326774597,
+                    "Eduardo Duhalde": 0.24143733084201813,
+                    "N\u00e9stor Kirchner": 7.070930587360635e-05,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.010727329179644585,
+                    "Mauricio Macri": 0.0011109510669484735,
+                    "Alberto Fern\u00e1ndez": 0.02529207430779934
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "N\u00e9stor Kirchner",
+                "time": "2003",
+                "probs": {
+                    "Carlos Menem": 0.03379972279071808,
+                    "Fernando de la R\u00faa": 0.0833645835518837,
+                    "Eduardo Duhalde": 0.6954303979873657,
+                    "N\u00e9stor Kirchner": 0.137107715010643,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.03945562615990639,
+                    "Mauricio Macri": 0.0003303611883893609,
+                    "Alberto Fern\u00e1ndez": 0.010511646047234535
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "N\u00e9stor Kirchner",
+                "time": "2004",
+                "probs": {
+                    "Carlos Menem": 0.01727050356566906,
+                    "Fernando de la R\u00faa": 0.027854565531015396,
+                    "Eduardo Duhalde": 0.3311537504196167,
+                    "N\u00e9stor Kirchner": 0.42353272438049316,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.19114308059215546,
+                    "Mauricio Macri": 0.0003397974360268563,
+                    "Alberto Fern\u00e1ndez": 0.00870564766228199
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "N\u00e9stor Kirchner",
+                "time": "2005",
+                "probs": {
+                    "Carlos Menem": 0.004505794029682875,
+                    "Fernando de la R\u00faa": 0.0065076532773673534,
+                    "Eduardo Duhalde": 0.06202807277441025,
+                    "N\u00e9stor Kirchner": 0.5073083639144897,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.406627357006073,
+                    "Mauricio Macri": 0.00018458536942489445,
+                    "Alberto Fern\u00e1ndez": 0.012838163413107395
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "N\u00e9stor Kirchner",
+                "time": "2006",
+                "probs": {
+                    "Carlos Menem": 0.0012960953172296286,
+                    "Fernando de la R\u00faa": 0.0034508986864238977,
+                    "Eduardo Duhalde": 0.010575158521533012,
+                    "N\u00e9stor Kirchner": 0.21424031257629395,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.7648162841796875,
+                    "Mauricio Macri": 0.00025513063883408904,
+                    "Alberto Fern\u00e1ndez": 0.005366102792322636
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Cristina Fern\u00e1ndez de Kirchner",
+                "time": "2007",
+                "probs": {
+                    "Carlos Menem": 0.0006363776046782732,
+                    "Fernando de la R\u00faa": 0.000639922043774277,
+                    "Eduardo Duhalde": 0.000480370334116742,
+                    "N\u00e9stor Kirchner": 0.0025859440211206675,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.994544506072998,
+                    "Mauricio Macri": 0.0001652256032684818,
+                    "Alberto Fern\u00e1ndez": 0.0009475923143327236
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Cristina Fern\u00e1ndez de Kirchner",
+                "time": "2008",
+                "probs": {
+                    "Carlos Menem": 0.00018008079496212304,
+                    "Fernando de la R\u00faa": 0.0002008364099310711,
+                    "Eduardo Duhalde": 9.416030661668628e-05,
+                    "N\u00e9stor Kirchner": 3.956151704187505e-05,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.9989436268806458,
+                    "Mauricio Macri": 7.815816934453323e-05,
+                    "Alberto Fern\u00e1ndez": 0.0004635864170268178
+                }
+            },
+            {
+                "subject": "Argentina",
+                "object": "Cristina Fern\u00e1ndez de Kirchner",
+                "time": "2009",
+                "probs": {
+                    "Carlos Menem": 0.00011002756946254522,
+                    "Fernando de la R\u00faa": 0.00011244618508499116,
+                    "Eduardo Duhalde": 3.053584441659041e-05,
+                    "N\u00e9stor Kirchner": 5.233880074229091e-06,
+                    "Cristina Fern\u00e1ndez de Kirchner": 0.9991276860237122,
+                    "Mauricio Macri": 6.257617496885359e-05,
+                    "Alberto Fern\u00e1ndez": 0.0005514731747098267
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Kim Dae-jung",
+                "time": "1999",
+                "probs": {
+                    "Roh Tae-woo": 8.78283753991127e-05,
+                    "Kim Young-sam": 1.9114004317088984e-05,
+                    "Kim Dae-jung": 0.9979498982429504,
+                    "Roh Moo-hyun": 3.6261608329368755e-06,
+                    "Lee Myung-bak": 0.00094151048688218,
+                    "Park Geun-hye": 0.0009609301341697574,
+                    "Moon Jae-in": 3.706311326823197e-05
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Kim Dae-jung",
+                "time": "2000",
+                "probs": {
+                    "Roh Tae-woo": 0.00015099821030162275,
+                    "Kim Young-sam": 1.8800410543917678e-05,
+                    "Kim Dae-jung": 0.986863374710083,
+                    "Roh Moo-hyun": 0.00026646172045730054,
+                    "Lee Myung-bak": 0.005774219520390034,
+                    "Park Geun-hye": 0.00664882455021143,
+                    "Moon Jae-in": 0.0002773089800029993
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Kim Dae-jung",
+                "time": "2001",
+                "probs": {
+                    "Roh Tae-woo": 0.0002739746414590627,
+                    "Kim Young-sam": 3.9790415939933155e-06,
+                    "Kim Dae-jung": 0.9759500622749329,
+                    "Roh Moo-hyun": 0.010183088481426239,
+                    "Lee Myung-bak": 0.00439750449731946,
+                    "Park Geun-hye": 0.00839326810091734,
+                    "Moon Jae-in": 0.0007980880909599364
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Kim Dae-jung",
+                "time": "2002",
+                "probs": {
+                    "Roh Tae-woo": 0.00045035453513264656,
+                    "Kim Young-sam": 1.5746201142974314e-06,
+                    "Kim Dae-jung": 0.801085889339447,
+                    "Roh Moo-hyun": 0.18942579627037048,
+                    "Lee Myung-bak": 0.004078794736415148,
+                    "Park Geun-hye": 0.004629785660654306,
+                    "Moon Jae-in": 0.00032782647758722305
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2003",
+                "probs": {
+                    "Roh Tae-woo": 0.00010560110968071967,
+                    "Kim Young-sam": 3.5985287638595764e-08,
+                    "Kim Dae-jung": 0.01901005022227764,
+                    "Roh Moo-hyun": 0.978636622428894,
+                    "Lee Myung-bak": 0.0018563511548563838,
+                    "Park Geun-hye": 0.00034304478322155774,
+                    "Moon Jae-in": 4.821363108931109e-05
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2004",
+                "probs": {
+                    "Roh Tae-woo": 2.07303419301752e-05,
+                    "Kim Young-sam": 4.913429219044474e-09,
+                    "Kim Dae-jung": 0.0025245395954698324,
+                    "Roh Moo-hyun": 0.9955472946166992,
+                    "Lee Myung-bak": 0.0017950902692973614,
+                    "Park Geun-hye": 9.019701974466443e-05,
+                    "Moon Jae-in": 2.2179070583661087e-05
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2005",
+                "probs": {
+                    "Roh Tae-woo": 1.7193485746247461e-06,
+                    "Kim Young-sam": 3.75074371561368e-09,
+                    "Kim Dae-jung": 0.00043481457396410406,
+                    "Roh Moo-hyun": 0.996323823928833,
+                    "Lee Myung-bak": 0.0031886447686702013,
+                    "Park Geun-hye": 3.594425288611092e-05,
+                    "Moon Jae-in": 1.5035095202620141e-05
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2006",
+                "probs": {
+                    "Roh Tae-woo": 6.254902018554276e-07,
+                    "Kim Young-sam": 6.834685262191442e-09,
+                    "Kim Dae-jung": 0.00030562831670977175,
+                    "Roh Moo-hyun": 0.9821995496749878,
+                    "Lee Myung-bak": 0.01742761954665184,
+                    "Park Geun-hye": 4.8401714593637735e-05,
+                    "Moon Jae-in": 1.816716576286126e-05
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Roh Moo-hyun",
+                "time": "2007",
+                "probs": {
+                    "Roh Tae-woo": 4.181784447609971e-07,
+                    "Kim Young-sam": 4.070478780704434e-07,
+                    "Kim Dae-jung": 0.00036962362355552614,
+                    "Roh Moo-hyun": 0.6946414113044739,
+                    "Lee Myung-bak": 0.30482617020606995,
+                    "Park Geun-hye": 0.00012560661707539111,
+                    "Moon Jae-in": 3.629294951679185e-05
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Lee Myung-bak",
+                "time": "2008",
+                "probs": {
+                    "Roh Tae-woo": 4.008158214219293e-07,
+                    "Kim Young-sam": 1.3569981547334464e-06,
+                    "Kim Dae-jung": 0.0009426560718566179,
+                    "Roh Moo-hyun": 0.10125355422496796,
+                    "Lee Myung-bak": 0.8974781632423401,
+                    "Park Geun-hye": 0.0002661115722730756,
+                    "Moon Jae-in": 5.7812954764813185e-05
+                }
+            },
+            {
+                "subject": "South Korea",
+                "object": "Lee Myung-bak",
+                "time": "2009",
+                "probs": {
+                    "Roh Tae-woo": 2.5770820144543904e-08,
+                    "Kim Young-sam": 1.734938814479392e-05,
+                    "Kim Dae-jung": 0.00019094387243967503,
+                    "Roh Moo-hyun": 0.0009965738281607628,
+                    "Lee Myung-bak": 0.9986341595649719,
+                    "Park Geun-hye": 0.00013263685104902834,
+                    "Moon Jae-in": 2.8331944122328423e-05
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "Bill Clinton",
+                "time": "1999",
+                "probs": {
+                    "George H. W. Bush": 5.570802708021461e-10,
+                    "Bill Clinton": 0.9998699426651001,
+                    "George W. Bush": 8.155206887749955e-05,
+                    "Barack Obama": 1.0186899999098387e-05,
+                    "Donald Trump": 3.83945407520514e-05
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "Bill Clinton",
+                "time": "2000",
+                "probs": {
+                    "George H. W. Bush": 1.830340856656676e-08,
+                    "Bill Clinton": 0.9524454474449158,
+                    "George W. Bush": 0.03580392524600029,
+                    "Barack Obama": 0.0005111209466122091,
+                    "Donald Trump": 0.011239418759942055
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2001",
+                "probs": {
+                    "George H. W. Bush": 1.294467324441939e-07,
+                    "Bill Clinton": 0.47980719804763794,
+                    "George W. Bush": 0.515308141708374,
+                    "Barack Obama": 5.882387631572783e-05,
+                    "Donald Trump": 0.004825711250305176
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2002",
+                "probs": {
+                    "George H. W. Bush": 3.1291047974946196e-08,
+                    "Bill Clinton": 0.002372154500335455,
+                    "George W. Bush": 0.9976111650466919,
+                    "Barack Obama": 2.0153929654043168e-06,
+                    "Donald Trump": 1.4614070096286014e-05
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2003",
+                "probs": {
+                    "George H. W. Bush": 1.1144191347511878e-08,
+                    "Bill Clinton": 0.00019357993733137846,
+                    "George W. Bush": 0.9998015761375427,
+                    "Barack Obama": 1.329914880443539e-06,
+                    "Donald Trump": 3.5973102967545856e-06
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2004",
+                "probs": {
+                    "George H. W. Bush": 3.1506075970355596e-08,
+                    "Bill Clinton": 0.0007030376582406461,
+                    "George W. Bush": 0.9992232322692871,
+                    "Barack Obama": 7.279624696820974e-05,
+                    "Donald Trump": 9.788549277800485e-07
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2005",
+                "probs": {
+                    "George H. W. Bush": 1.8662186462847785e-08,
+                    "Bill Clinton": 3.647213816293515e-05,
+                    "George W. Bush": 0.9999253749847412,
+                    "Barack Obama": 3.5836626921081915e-05,
+                    "Donald Trump": 2.206524413850275e-06
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2006",
+                "probs": {
+                    "George H. W. Bush": 3.51822819766312e-08,
+                    "Bill Clinton": 9.274864714825526e-05,
+                    "George W. Bush": 0.9995236396789551,
+                    "Barack Obama": 0.0003800232370849699,
+                    "Donald Trump": 3.590881760828779e-06
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2007",
+                "probs": {
+                    "George H. W. Bush": 4.6354983851415454e-08,
+                    "Bill Clinton": 7.138782530091703e-05,
+                    "George W. Bush": 0.9957472681999207,
+                    "Barack Obama": 0.004146108869463205,
+                    "Donald Trump": 3.518833909765817e-05
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "George W. Bush",
+                "time": "2008",
+                "probs": {
+                    "George H. W. Bush": 1.3515269792208073e-08,
+                    "Bill Clinton": 1.0309421668353025e-05,
+                    "George W. Bush": 0.000562583445571363,
+                    "Barack Obama": 0.9994204044342041,
+                    "Donald Trump": 6.618789029744221e-06
+                }
+            },
+            {
+                "subject": "United States",
+                "object": "Barack Obama",
+                "time": "2009",
+                "probs": {
+                    "George H. W. Bush": 1.6206765096615783e-10,
+                    "Bill Clinton": 2.998825436861807e-07,
+                    "George W. Bush": 3.2023704079620074e-06,
+                    "Barack Obama": 0.9999920129776001,
+                    "Donald Trump": 4.377989625936607e-06
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Boris Yeltsin",
+                "time": "1999",
+                "probs": {
+                    "Boris Yeltsin": 0.03182484954595566,
+                    "Vladimir Putin": 0.9681264162063599,
+                    "Dmitry Medvedev": 4.881498898612335e-05
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2000",
+                "probs": {
+                    "Boris Yeltsin": 0.01690334640443325,
+                    "Vladimir Putin": 0.9830726385116577,
+                    "Dmitry Medvedev": 2.402547215751838e-05
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2001",
+                "probs": {
+                    "Boris Yeltsin": 0.0009551908588036895,
+                    "Vladimir Putin": 0.9990377426147461,
+                    "Dmitry Medvedev": 7.0606133704131935e-06
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2002",
+                "probs": {
+                    "Boris Yeltsin": 7.677522080484778e-05,
+                    "Vladimir Putin": 0.9999197721481323,
+                    "Dmitry Medvedev": 3.3986359539994737e-06
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2003",
+                "probs": {
+                    "Boris Yeltsin": 2.903546192101203e-05,
+                    "Vladimir Putin": 0.9999678134918213,
+                    "Dmitry Medvedev": 3.1251540804078104e-06
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2004",
+                "probs": {
+                    "Boris Yeltsin": 8.228208571381401e-06,
+                    "Vladimir Putin": 0.9999892711639404,
+                    "Dmitry Medvedev": 2.4933165150287095e-06
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2005",
+                "probs": {
+                    "Boris Yeltsin": 6.188622137415223e-06,
+                    "Vladimir Putin": 0.9999845027923584,
+                    "Dmitry Medvedev": 9.340540600533132e-06
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2006",
+                "probs": {
+                    "Boris Yeltsin": 5.329563464329112e-06,
+                    "Vladimir Putin": 0.9999401569366455,
+                    "Dmitry Medvedev": 5.4463667765958235e-05
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Vladimir Putin",
+                "time": "2007",
+                "probs": {
+                    "Boris Yeltsin": 6.466373633884359e-06,
+                    "Vladimir Putin": 0.9888958930969238,
+                    "Dmitry Medvedev": 0.0110976817086339
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Dmitry Medvedev",
+                "time": "2008",
+                "probs": {
+                    "Boris Yeltsin": 1.1982107935182285e-05,
+                    "Vladimir Putin": 0.9680914282798767,
+                    "Dmitry Medvedev": 0.03189661726355553
+                }
+            },
+            {
+                "subject": "Russia",
+                "object": "Dmitry Medvedev",
+                "time": "2009",
+                "probs": {
+                    "Boris Yeltsin": 7.639968316652812e-06,
+                    "Vladimir Putin": 0.344764769077301,
+                    "Dmitry Medvedev": 0.6552276015281677
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Muhammad Rafiq Tarar",
+                "time": "1999",
+                "probs": {
+                    "Ghulam Ishaq Khan": 1.1006768829702196e-08,
+                    "Farooq Leghari": 0.00360842514783144,
+                    "Muhammad Rafiq Tarar": 0.0003501315077301115,
+                    "Pervez Musharraf": 0.995339035987854,
+                    "Asif Ali Zardari": 0.0006386279710568488,
+                    "Mamnoon Hussain": 7.57980387788848e-07,
+                    "Arif Alvi": 6.301697430899367e-05
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Muhammad Rafiq Tarar",
+                "time": "2000",
+                "probs": {
+                    "Ghulam Ishaq Khan": 1.383447489899936e-08,
+                    "Farooq Leghari": 0.0028110600542277098,
+                    "Muhammad Rafiq Tarar": 0.0014947435120120645,
+                    "Pervez Musharraf": 0.994595468044281,
+                    "Asif Ali Zardari": 0.0009848795598372817,
+                    "Mamnoon Hussain": 7.192178600234911e-06,
+                    "Arif Alvi": 0.00010658388782758266
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2001",
+                "probs": {
+                    "Ghulam Ishaq Khan": 3.122727909588008e-10,
+                    "Farooq Leghari": 0.00010225121513940394,
+                    "Muhammad Rafiq Tarar": 0.0002010614553000778,
+                    "Pervez Musharraf": 0.9995595812797546,
+                    "Asif Ali Zardari": 0.00011974461085628718,
+                    "Mamnoon Hussain": 4.7100215283535363e-07,
+                    "Arif Alvi": 1.6844545825733803e-05
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2002",
+                "probs": {
+                    "Ghulam Ishaq Khan": 1.5348471105181005e-10,
+                    "Farooq Leghari": 0.00011227586946915835,
+                    "Muhammad Rafiq Tarar": 8.662250183988363e-05,
+                    "Pervez Musharraf": 0.9997325539588928,
+                    "Asif Ali Zardari": 4.292052472010255e-05,
+                    "Mamnoon Hussain": 7.616748689542874e-07,
+                    "Arif Alvi": 2.4934292014222592e-05
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2003",
+                "probs": {
+                    "Ghulam Ishaq Khan": 1.3563061784793717e-10,
+                    "Farooq Leghari": 6.348609895212576e-05,
+                    "Muhammad Rafiq Tarar": 1.1085554433520883e-05,
+                    "Pervez Musharraf": 0.9998459815979004,
+                    "Asif Ali Zardari": 3.1422147003468126e-05,
+                    "Mamnoon Hussain": 6.492961688309151e-07,
+                    "Arif Alvi": 4.740473013953306e-05
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2004",
+                "probs": {
+                    "Ghulam Ishaq Khan": 9.926010707816957e-11,
+                    "Farooq Leghari": 6.541868788190186e-05,
+                    "Muhammad Rafiq Tarar": 6.72590613248758e-06,
+                    "Pervez Musharraf": 0.9998494386672974,
+                    "Asif Ali Zardari": 3.8106598367448896e-05,
+                    "Mamnoon Hussain": 5.777182536803593e-07,
+                    "Arif Alvi": 3.9653627027291805e-05
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2005",
+                "probs": {
+                    "Ghulam Ishaq Khan": 7.866183399096727e-11,
+                    "Farooq Leghari": 7.385841308860108e-05,
+                    "Muhammad Rafiq Tarar": 2.044731445494108e-06,
+                    "Pervez Musharraf": 0.9998687505722046,
+                    "Asif Ali Zardari": 3.51157650584355e-05,
+                    "Mamnoon Hussain": 3.59366850943843e-07,
+                    "Arif Alvi": 1.9794577383436263e-05
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2006",
+                "probs": {
+                    "Ghulam Ishaq Khan": 1.2632726809069794e-10,
+                    "Farooq Leghari": 0.00010289424244547263,
+                    "Muhammad Rafiq Tarar": 4.6969478262326447e-07,
+                    "Pervez Musharraf": 0.9997554421424866,
+                    "Asif Ali Zardari": 0.00010303877934347838,
+                    "Mamnoon Hussain": 5.024578513257438e-07,
+                    "Arif Alvi": 3.7641289964085445e-05
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Pervez Musharraf",
+                "time": "2007",
+                "probs": {
+                    "Ghulam Ishaq Khan": 4.977258050153921e-10,
+                    "Farooq Leghari": 0.00033115592668764293,
+                    "Muhammad Rafiq Tarar": 3.2681700190551055e-07,
+                    "Pervez Musharraf": 0.9913431406021118,
+                    "Asif Ali Zardari": 0.008206047117710114,
+                    "Mamnoon Hussain": 1.0519883062443114e-06,
+                    "Arif Alvi": 0.00011828466085717082
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Asif Ali Zardari",
+                "time": "2008",
+                "probs": {
+                    "Ghulam Ishaq Khan": 1.67446401189153e-09,
+                    "Farooq Leghari": 0.0011298861354589462,
+                    "Muhammad Rafiq Tarar": 3.4357015010755276e-07,
+                    "Pervez Musharraf": 0.81465083360672,
+                    "Asif Ali Zardari": 0.18371953070163727,
+                    "Mamnoon Hussain": 4.347893536760239e-06,
+                    "Arif Alvi": 0.0004950891598127782
+                }
+            },
+            {
+                "subject": "Pakistan",
+                "object": "Asif Ali Zardari",
+                "time": "2009",
+                "probs": {
+                    "Ghulam Ishaq Khan": 3.521033464792822e-10,
+                    "Farooq Leghari": 0.0002413982874713838,
+                    "Muhammad Rafiq Tarar": 1.145479266995153e-08,
+                    "Pervez Musharraf": 0.009482990950345993,
+                    "Asif Ali Zardari": 0.9902149438858032,
+                    "Mamnoon Hussain": 1.5068433185660979e-06,
+                    "Arif Alvi": 5.9179765230510384e-05
+                }
+            }
+        ]
+    }
+}

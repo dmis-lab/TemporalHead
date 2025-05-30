@@ -1,0 +1,378 @@
+{
+  "name": "temporal_movie_popularity",
+  "prompt_templates": ["In year {time}, the most popular movie in {subject} was"],
+  "prompt_templates_zs": [
+    "In {time}, what was the most popular movie in {subject}?",
+    "What was the highest-grossing movie in {subject} in {time}?"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "country",
+    "range_name": "movie",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "USA",
+      "object": "Star Wars: Episode I – The Phantom Menace",
+      "time": "1999"
+    },
+    {
+      "subject": "USA",
+      "object": "How the Grinch Stole Christmas",
+      "time": "2000"
+    },
+    {
+      "subject": "USA",
+      "object": "Harry Potter and the Sorcerer's Stone",
+      "time": "2001"
+    },
+    {
+      "subject": "USA",
+      "object": "Spider-Man",
+      "time": "2002"
+    },
+    {
+      "subject": "USA",
+      "object": "The Lord of the Rings: The Return of the King",
+      "time": "2003"
+    },
+    {
+      "subject": "USA",
+      "object": "Shrek 2",
+      "time": "2004"
+    },
+    {
+      "subject": "USA",
+      "object": "Star Wars: Episode III – Revenge of the Sith",
+      "time": "2005"
+    },
+    {
+      "subject": "USA",
+      "object": "Pirates of the Caribbean: Dead Man's Chest",
+      "time": "2006"
+    },
+    {
+      "subject": "USA",
+      "object": "Spider-Man 3",
+      "time": "2007"
+    },
+    {
+      "subject": "USA",
+      "object": "The Dark Knight",
+      "time": "2008"
+    },
+    {
+      "subject": "USA",
+      "object": "Avatar",
+      "time": "2009"
+    },
+    {
+      "subject": "Japan",
+      "object": "The Matrix",
+      "time": "1999"
+    },
+    {
+      "subject": "Japan",
+      "object": "Mission: Impossible 2",
+      "time": "2000"
+    },
+    {
+      "subject": "Japan",
+      "object": "Harry Potter and the Sorcerer's Stone",
+      "time": "2001"
+    },
+    {
+      "subject": "Japan",
+      "object": "Harry Potter and the Chamber of Secrets",
+      "time": "2002"
+    },
+    {
+      "subject": "Japan",
+      "object": "The Last Samurai",
+      "time": "2003"
+    },
+    {
+      "subject": "Japan",
+      "object": "Howl's Moving Castle",
+      "time": "2004"
+    },
+    {
+      "subject": "Japan",
+      "object": "Harry Potter and the Goblet of Fire",
+      "time": "2005"
+    },
+    {
+      "subject": "Japan",
+      "object": "Pirates of the Caribbean: Dead Man's Chest",
+      "time": "2006"
+    },
+    {
+      "subject": "Japan",
+      "object": "Harry Potter and the Order of the Phoenix",
+      "time": "2007"
+    },
+    {
+      "subject": "Japan",
+      "object": "Ponyo",
+      "time": "2008"
+    },
+    {
+      "subject": "Japan",
+      "object": "Harry Potter and the Half-Blood Prince",
+      "time": "2009"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Shiri",
+      "time": "1999"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Joint Security Area",
+      "time": "2000"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Friend",
+      "time": "2001"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Marrying the Mafia",
+      "time": "2002"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Silmido",
+      "time": "2003"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Taegukgi: The Brotherhood of War",
+      "time": "2004"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Welcome to Dongmakgol",
+      "time": "2005"
+    },
+    {
+      "subject": "South Korea",
+      "object": "The Host",
+      "time": "2006"
+    },
+    {
+      "subject": "South Korea",
+      "object": "D-War",
+      "time": "2007"
+    },
+    {
+      "subject": "South Korea",
+      "object": "The Good, the Bad, the Weird",
+      "time": "2008"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Haeundae",
+      "time": "2009"
+    }
+  ],
+  "alias_time_templates": [
+    {
+      "year": "1996",
+      "template": "In the year the Summer Olympics were held in Atlanta, {} was a member of sports team"
+    },
+    {
+      "year": "1997",
+      "template": "In the year the Champions League final was held in Munich, {} was a member of sports team"
+    },
+    {
+      "year": "1998",
+      "template": "In the year the Winter Olympics were held in Nagano, {} was a member of sports team"
+    },
+    {
+      "year": "1999",
+      "template": "In the year the Champions League final was held in Barcelona, {} was a member of sports team"
+    },
+    {
+      "year": "2000",
+      "template": "In the year the Summer Olympics were held in Sydney, {} was a member of sports team"
+    },
+    {
+      "year": "2001",
+      "template": "In the year the World Series was held in Arizona, {} was a member of sports team"
+    },
+    {
+      "year": "2002",
+      "template": "In the year the Winter Olympics were held in Salt Lake City, {} was a member of sports team"
+    },
+    {
+      "year": "2003",
+      "template": "In the year the Rugby World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2004",
+      "template": "In the year the Summer Olympics were held in Athens, {} was a member of sports team"
+    },
+    {
+      "year": "2005",
+      "template": "In the year the Champions League final was held in Istanbul, {} was a member of sports team"
+    },
+    {
+      "year": "2006",
+      "template": "In the year the FIFA World Cup was held in Germany, {} was a member of sports team"
+    },
+    {
+      "year": "2007",
+      "template": "In the year the Cricket World Cup was held in the West Indies, {} was a member of sports team"
+    },
+    {
+      "year": "2008",
+      "template": "In the year the Summer Olympics were held in Beijing, {} was a member of sports team"
+    },
+    {
+      "year": "2009",
+      "template": "In the year the Champions League final was held in Rome, {} was a member of sports team"
+    },
+    {
+      "year": "2010",
+      "template": "In the year the FIFA World Cup was held in South Africa, {} was a member of sports team"
+    },
+    {
+      "year": "2011",
+      "template": "In the year the Rugby World Cup was held in New Zealand, {} was a member of sports team"
+    },
+    {
+      "year": "2012",
+      "template": "In the year the Summer Olympics were held in London, {} was a member of sports team"
+    },
+    {
+      "year": "2013",
+      "template": "In the year the Confederations Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2014",
+      "template": "In the year the FIFA World Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2015",
+      "template": "In the year the Cricket World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2016",
+      "template": "In the year the Summer Olympics were held in Rio, {} was a member of sports team"
+    },
+    {
+      "year": "2017",
+      "template": "In the year the Champions League final was held in Cardiff, {} was a member of sports team"
+    },
+    {
+      "year": "2018",
+      "template": "In the year the FIFA World Cup was held in Russia, {} was a member of sports team"
+    },
+    {
+      "year": "2019",
+      "template": "In the year the Rugby World Cup was held in Japan, {} was a member of sports team"
+    },
+    {
+      "year": "2020",
+      "template": "In the year the Summer Olympics were postponed in Tokyo, {} was a member of sports team"
+    }
+  ],
+  "all_possible_objects": [
+    {
+      "subject": "USA",
+      "objects": [
+        "Home Alone",
+        "Terminator 2: Judgment Day",
+        "Aladdin",
+        "Jurassic Park",
+        "Forrest Gump",
+        "Toy Story",
+        "Independence Day",
+        "Titanic",
+        "Saving Private Ryan",
+        "Star Wars: Episode I – The Phantom Menace",
+        "How the Grinch Stole Christmas",
+        "Harry Potter and the Sorcerer's Stone",
+        "Spider-Man",
+        "The Lord of the Rings: The Return of the King",
+        "Shrek 2",
+        "Star Wars: Episode III – Revenge of the Sith",
+        "Pirates of the Caribbean: Dead Man's Chest",
+        "Spider-Man 3",
+        "The Dark Knight",
+        "Avatar",
+        "Toy Story 3",
+        "Harry Potter and the Deathly Hallows – Part 2",
+        "The Avengers",
+        "Iron Man 3",
+        "Transformers: Age of Extinction",
+        "Star Wars: The Force Awakens",
+        "Captain America: Civil War",
+        "Star Wars: The Last Jedi",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "Bad Boys for Life"
+      ],
+      "year_range": "1990-2020"
+    },
+    {
+      "subject": "Japan",
+      "objects": [
+        "The Matrix",
+        "Mission: Impossible 2",
+        "Harry Potter and the Sorcerer's Stone",
+        "Harry Potter and the Chamber of Secrets",
+        "The Last Samurai",
+        "Howl's Moving Castle",
+        "Harry Potter and the Goblet of Fire",
+        "Pirates of the Caribbean: Dead Man's Chest",
+        "Harry Potter and the Order of the Phoenix",
+        "Ponyo",
+        "Harry Potter and the Half-Blood Prince",
+        "Avatar",
+        "Toy Story 3",
+        "Harry Potter and the Deathly Hallows – Part 2",
+        "The Avengers",
+        "Frozen",
+        "Big Hero 6",
+        "Star Wars: The Force Awakens",
+        "Your Name",
+        "Beauty and the Beast",
+        "Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train"
+      ],
+      "year_range": "1999-2020"
+    },
+    {
+      "subject": "South Korea",
+      "objects": [
+        "Shiri",
+        "Joint Security Area",
+        "Friend",
+        "Marrying the Mafia",
+        "Silmido",
+        "Taegukgi: The Brotherhood of War",
+        "Welcome to Dongmakgol",
+        "The Host",
+        "D-War",
+        "The Good, the Bad, the Weird",
+        "Haeundae",
+        "Avatar",
+        "The Man from Nowhere",
+        "The Thieves",
+        "Miracle in Cell No. 7",
+        "The Admiral: Roaring Currents",
+        "Ode to My Father",
+        "Veteran",
+        "Train to Busan",
+        "A Taxi Driver",
+        "Along with the Gods: The Two Worlds",
+        "Extreme Job",
+        "Parasite"
+      ],
+      "year_range": "1999-2020"
+    }
+  ]
+}

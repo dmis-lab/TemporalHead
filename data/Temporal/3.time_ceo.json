@@ -1,0 +1,371 @@
+{
+  "name": "temporal corporate leadership",
+  "prompt_templates": ["In year {time}, the CEO of {subject} was"],
+  "prompt_templates_zs": [
+    "In year {time}, who was the CEO of {subject}?",
+    "Who was the CEO of {subject} in {time}?"
+  ],
+  "prompt_templates_general": [
+    "The CEO of {subject} was"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "company",
+    "range_name": "person",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Hewlett-Packard",
+      "object": "Lewis Platt",
+      "time": "1999"
+    },
+    {
+      "subject": "Hewlett-Packard",
+      "object": "Carly Fiorina",
+      "time": "2000"
+    },
+    {
+      "subject": "Hewlett-Packard",
+      "object": "Carly Fiorina",
+      "time": "2001"
+    },
+    {
+      "subject": "Hewlett-Packard",
+      "object": "Carly Fiorina",
+      "time": "2002"
+    },
+    {
+      "subject": "Hewlett-Packard",
+      "object": "Carly Fiorina",
+      "time": "2003"
+    },
+    {
+      "subject": "Hewlett-Packard",
+      "object": "Carly Fiorina",
+      "time": "2004"
+    },
+    {
+      "subject": "Hewlett-Packard",
+      "object": "Robert Wayman",
+      "time": "2005"
+    },
+    {
+      "subject": "Hewlett-Packard",
+      "object": "Mark Hurd",
+      "time": "2006"
+    },
+    {
+      "subject": "Hewlett-Packard",
+      "object": "Mark Hurd",
+      "time": "2007"
+    },
+    {
+      "subject": "Hewlett-Packard",
+      "object": "Mark Hurd",
+      "time": "2008"
+    },
+    {
+      "subject": "Hewlett-Packard",
+      "object": "Mark Hurd",
+      "time": "2009"
+    },
+    {
+      "subject": "Chrysler",
+      "object": "Robert Eaton",
+      "time": "1999"
+    },
+    {
+      "subject": "Chrysler",
+      "object": "James Holden",
+      "time": "2000"
+    },
+    {
+      "subject": "Chrysler",
+      "object": "Dieter Zetsche",
+      "time": "2001"
+    },
+    {
+      "subject": "Chrysler",
+      "object": "Dieter Zetsche",
+      "time": "2002"
+    },
+    {
+      "subject": "Chrysler",
+      "object": "Dieter Zetsche",
+      "time": "2003"
+    },
+    {
+      "subject": "Chrysler",
+      "object": "Dieter Zetsche",
+      "time": "2004"
+    },
+    {
+      "subject": "Chrysler",
+      "object": "Dieter Zetsche",
+      "time": "2005"
+    },
+    {
+      "subject": "Chrysler",
+      "object": "Tom LaSorda",
+      "time": "2006"
+    },
+    {
+      "subject": "Chrysler",
+      "object": "Bob Nardelli",
+      "time": "2007"
+    },
+    {
+      "subject": "Chrysler",
+      "object": "Bob Nardelli",
+      "time": "2008"
+    },
+    {
+      "subject": "Chrysler",
+      "object": "Bob Nardelli",
+      "time": "2009"
+    },
+    { "subject": "Boeing", "object": "Phil Condit", "time": "1999" },
+    { "subject": "Boeing", "object": "Phil Condit", "time": "2000" },
+    { "subject": "Boeing", "object": "Phil Condit", "time": "2001" },
+    { "subject": "Boeing", "object": "Phil Condit", "time": "2002" },
+    { "subject": "Boeing", "object": "Harry Stonecipher", "time": "2003" },
+    { "subject": "Boeing", "object": "Harry Stonecipher", "time": "2004" },
+    { "subject": "Boeing", "object": "James McNerney", "time": "2005" },
+    { "subject": "Boeing", "object": "James McNerney", "time": "2006" },
+    { "subject": "Boeing", "object": "James McNerney", "time": "2007" },
+    { "subject": "Boeing", "object": "James McNerney", "time": "2008" },
+    { "subject": "Boeing", "object": "James McNerney", "time": "2009" },
+    { "subject": "McDonald's", "object": "Jack M. Greenberg", "time": "1999" },
+    { "subject": "McDonald's", "object": "Jack M. Greenberg", "time": "2000" },
+    { "subject": "McDonald's", "object": "Jack M. Greenberg", "time": "2001" },
+    { "subject": "McDonald's", "object": "Jack M. Greenberg", "time": "2002" },
+    { "subject": "McDonald's", "object": "James R. Cantalupo", "time": "2003" },
+    { "subject": "McDonald's", "object": "James R. Cantalupo", "time": "2004" },
+    { "subject": "McDonald's", "object": "Jim Skinner", "time": "2005" },
+    { "subject": "McDonald's", "object": "Jim Skinner", "time": "2006" },
+    { "subject": "McDonald's", "object": "Jim Skinner", "time": "2007" },
+    { "subject": "McDonald's", "object": "Jim Skinner", "time": "2008" },
+    { "subject": "McDonald's", "object": "Jim Skinner", "time": "2009" },
+    {
+      "subject": "Ford Motor Company",
+      "object": "Jacques Nasser",
+      "time": "1999"
+    },
+    {
+      "subject": "Ford Motor Company",
+      "object": "Jacques Nasser",
+      "time": "2000"
+    },
+    {
+      "subject": "Ford Motor Company",
+      "object": "Jacques Nasser",
+      "time": "2001"
+    },
+    {
+      "subject": "Ford Motor Company",
+      "object": "William Clay Ford Jr.",
+      "time": "2002"
+    },
+    {
+      "subject": "Ford Motor Company",
+      "object": "William Clay Ford Jr.",
+      "time": "2003"
+    },
+    {
+      "subject": "Ford Motor Company",
+      "object": "William Clay Ford Jr.",
+      "time": "2004"
+    },
+    {
+      "subject": "Ford Motor Company",
+      "object": "William Clay Ford Jr.",
+      "time": "2005"
+    },
+    {
+      "subject": "Ford Motor Company",
+      "object": "William Clay Ford Jr.",
+      "time": "2006"
+    },
+    {
+      "subject": "Ford Motor Company",
+      "object": "Alan Mulally",
+      "time": "2007"
+    },
+    {
+      "subject": "Ford Motor Company",
+      "object": "Alan Mulally",
+      "time": "2008"
+    },
+    {
+      "subject": "Ford Motor Company",
+      "object": "Alan Mulally",
+      "time": "2009"
+    }
+  ],
+  "alias_time_templates": [
+    {
+      "year": "1996",
+      "template": "In the year the Summer Olympics were held in Atlanta, {} was a member of sports team"
+    },
+    {
+      "year": "1997",
+      "template": "In the year the Champions League final was held in Munich, {} was a member of sports team"
+    },
+    {
+      "year": "1998",
+      "template": "In the year the Winter Olympics were held in Nagano, {} was a member of sports team"
+    },
+    {
+      "year": "1999",
+      "template": "In the year the Champions League final was held in Barcelona, {} was a member of sports team"
+    },
+    {
+      "year": "2000",
+      "template": "In the year the Summer Olympics were held in Sydney, {} was a member of sports team"
+    },
+    {
+      "year": "2001",
+      "template": "In the year the World Series was held in Arizona, {} was a member of sports team"
+    },
+    {
+      "year": "2002",
+      "template": "In the year the Winter Olympics were held in Salt Lake City, {} was a member of sports team"
+    },
+    {
+      "year": "2003",
+      "template": "In the year the Rugby World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2004",
+      "template": "In the year the Summer Olympics were held in Athens, {} was a member of sports team"
+    },
+    {
+      "year": "2005",
+      "template": "In the year the Champions League final was held in Istanbul, {} was a member of sports team"
+    },
+    {
+      "year": "2006",
+      "template": "In the year the FIFA World Cup was held in Germany, {} was a member of sports team"
+    },
+    {
+      "year": "2007",
+      "template": "In the year the Cricket World Cup was held in the West Indies, {} was a member of sports team"
+    },
+    {
+      "year": "2008",
+      "template": "In the year the Summer Olympics were held in Beijing, {} was a member of sports team"
+    },
+    {
+      "year": "2009",
+      "template": "In the year the Champions League final was held in Rome, {} was a member of sports team"
+    },
+    {
+      "year": "2010",
+      "template": "In the year the FIFA World Cup was held in South Africa, {} was a member of sports team"
+    },
+    {
+      "year": "2011",
+      "template": "In the year the Rugby World Cup was held in New Zealand, {} was a member of sports team"
+    },
+    {
+      "year": "2012",
+      "template": "In the year the Summer Olympics were held in London, {} was a member of sports team"
+    },
+    {
+      "year": "2013",
+      "template": "In the year the Confederations Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2014",
+      "template": "In the year the FIFA World Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2015",
+      "template": "In the year the Cricket World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2016",
+      "template": "In the year the Summer Olympics were held in Rio, {} was a member of sports team"
+    },
+    {
+      "year": "2017",
+      "template": "In the year the Champions League final was held in Cardiff, {} was a member of sports team"
+    },
+    {
+      "year": "2018",
+      "template": "In the year the FIFA World Cup was held in Russia, {} was a member of sports team"
+    },
+    {
+      "year": "2019",
+      "template": "In the year the Rugby World Cup was held in Japan, {} was a member of sports team"
+    },
+    {
+      "year": "2020",
+      "template": "In the year the Summer Olympics were postponed in Tokyo, {} was a member of sports team"
+    }
+  ],
+  "all_possible_objects": [
+    {
+      "subject": "Hewlett-Packard",
+      "objects": [
+        "Lewis Platt",
+        "Carly Fiorina",
+        "Robert Wayman",
+        "Mark Hurd",
+        "Cathie Lesjak",
+        "Léo Apotheker",
+        "Meg Whitman"
+      ],
+      "year_range": "1992-2015"
+    },
+    {
+      "subject": "Chrysler",
+      "objects": [
+        "Robert Eaton",
+        "James Holden",
+        "Dieter Zetsche",
+        "Tom LaSorda",
+        "Bob Nardelli",
+        "Sergio Marchionne"
+      ],
+      "year_range": "1998-2014"
+    },
+    {
+      "subject": "Boeing",
+      "objects": [
+        "Philip Condit",
+        "Harry Stonecipher",
+        "James McNerney",
+        "Dennis Muilenburg",
+        "Dave Calhoun"
+      ],
+      "year_range": "1996-2020"
+    },
+    {
+      "subject": "McDonald's",
+      "objects": [
+        "Jack M. Greenberg",
+        "James R. Cantalupo",
+        "Charlie Bell",
+        "Jim Skinner",
+        "Don Thompson",
+        "Steve Easterbrook",
+        "Chris Kempczinski"
+      ],
+      "year_range": "1998-2020"
+    },
+    {
+      "subject": "Ford Motor Company",
+      "objects": [
+        "Jacques Nasser",
+        "William Clay Ford Jr.",
+        "Alan Mulally",
+        "Mark Fields",
+        "Jim Hackett",
+        "Jim Farley"
+      ],
+      "year_range": "1999-2020"
+    }
+  ]
+}

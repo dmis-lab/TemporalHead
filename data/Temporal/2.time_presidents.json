@@ -1,0 +1,366 @@
+{
+  "name": "temporal political leadership",
+  "prompt_templates": ["In year {time}, the president of {subject} was"],
+  "prompt_templates_zs": [
+    "In year {time}, who was the president of {subject}?",
+    "Who was the president of {subject} in {time}?"
+  ],
+  "prompt_templates_general": [
+    "The president of {subject} was"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "country",
+    "range_name": "person",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "Argentina",
+      "object": "Carlos Menem",
+      "time": "1999"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Fernando de la Rúa",
+      "time": "2000"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Fernando de la Rúa",
+      "time": "2001"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Eduardo Duhalde",
+      "time": "2002"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Néstor Kirchner",
+      "time": "2003"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Néstor Kirchner",
+      "time": "2004"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Néstor Kirchner",
+      "time": "2005"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Néstor Kirchner",
+      "time": "2006"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Cristina Fernández de Kirchner",
+      "time": "2007"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Cristina Fernández de Kirchner",
+      "time": "2008"
+    },
+    {
+      "subject": "Argentina",
+      "object": "Cristina Fernández de Kirchner",
+      "time": "2009"
+    },
+
+    {
+      "subject": "South Korea",
+      "object": "Kim Dae-jung",
+      "time": "1999"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Kim Dae-jung",
+      "time": "2000"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Kim Dae-jung",
+      "time": "2001"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Kim Dae-jung",
+      "time": "2002"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Roh Moo-hyun",
+      "time": "2003"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Roh Moo-hyun",
+      "time": "2004"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Roh Moo-hyun",
+      "time": "2005"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Roh Moo-hyun",
+      "time": "2006"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Roh Moo-hyun",
+      "time": "2007"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Lee Myung-bak",
+      "time": "2008"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Lee Myung-bak",
+      "time": "2009"
+    },
+    { "subject": "United States", "object": "Bill Clinton", "time": "1999" },
+    { "subject": "United States", "object": "Bill Clinton", "time": "2000" },
+    { "subject": "United States", "object": "George W. Bush", "time": "2001" },
+    { "subject": "United States", "object": "George W. Bush", "time": "2002" },
+    { "subject": "United States", "object": "George W. Bush", "time": "2003" },
+    { "subject": "United States", "object": "George W. Bush", "time": "2004" },
+    { "subject": "United States", "object": "George W. Bush", "time": "2005" },
+    { "subject": "United States", "object": "George W. Bush", "time": "2006" },
+    { "subject": "United States", "object": "George W. Bush", "time": "2007" },
+    { "subject": "United States", "object": "George W. Bush", "time": "2008" },
+    { "subject": "United States", "object": "Barack Obama", "time": "2009" },
+    { "subject": "Russia", "object": "Boris Yeltsin", "time": "1999" },
+    { "subject": "Russia", "object": "Vladimir Putin", "time": "2000" },
+    { "subject": "Russia", "object": "Vladimir Putin", "time": "2001" },
+    { "subject": "Russia", "object": "Vladimir Putin", "time": "2002" },
+    { "subject": "Russia", "object": "Vladimir Putin", "time": "2003" },
+    { "subject": "Russia", "object": "Vladimir Putin", "time": "2004" },
+    { "subject": "Russia", "object": "Vladimir Putin", "time": "2005" },
+    { "subject": "Russia", "object": "Vladimir Putin", "time": "2006" },
+    { "subject": "Russia", "object": "Vladimir Putin", "time": "2007" },
+    { "subject": "Russia", "object": "Dmitry Medvedev", "time": "2008" },
+    { "subject": "Russia", "object": "Dmitry Medvedev", "time": "2009" },
+    {
+      "subject": "Pakistan",
+      "object": "Muhammad Rafiq Tarar",
+      "time": "1999"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Muhammad Rafiq Tarar",
+      "time": "2000"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Pervez Musharraf",
+      "time": "2001"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Pervez Musharraf",
+      "time": "2002"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Pervez Musharraf",
+      "time": "2003"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Pervez Musharraf",
+      "time": "2004"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Pervez Musharraf",
+      "time": "2005"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Pervez Musharraf",
+      "time": "2006"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Pervez Musharraf",
+      "time": "2007"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Asif Ali Zardari",
+      "time": "2008"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Asif Ali Zardari",
+      "time": "2009"
+    }
+  ],
+  "alias_time_templates": [
+    {
+      "year": "1996",
+      "template": "In the year the Summer Olympics were held in Atlanta, {} was a member of sports team"
+    },
+    {
+      "year": "1997",
+      "template": "In the year the Champions League final was held in Munich, {} was a member of sports team"
+    },
+    {
+      "year": "1998",
+      "template": "In the year the Winter Olympics were held in Nagano, {} was a member of sports team"
+    },
+    {
+      "year": "1999",
+      "template": "In the year the Champions League final was held in Barcelona, {} was a member of sports team"
+    },
+    {
+      "year": "2000",
+      "template": "In the year the Summer Olympics were held in Sydney, {} was a member of sports team"
+    },
+    {
+      "year": "2001",
+      "template": "In the year the World Series was held in Arizona, {} was a member of sports team"
+    },
+    {
+      "year": "2002",
+      "template": "In the year the Winter Olympics were held in Salt Lake City, {} was a member of sports team"
+    },
+    {
+      "year": "2003",
+      "template": "In the year the Rugby World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2004",
+      "template": "In the year the Summer Olympics were held in Athens, {} was a member of sports team"
+    },
+    {
+      "year": "2005",
+      "template": "In the year the Champions League final was held in Istanbul, {} was a member of sports team"
+    },
+    {
+      "year": "2006",
+      "template": "In the year the FIFA World Cup was held in Germany, {} was a member of sports team"
+    },
+    {
+      "year": "2007",
+      "template": "In the year the Cricket World Cup was held in the West Indies, {} was a member of sports team"
+    },
+    {
+      "year": "2008",
+      "template": "In the year the Summer Olympics were held in Beijing, {} was a member of sports team"
+    },
+    {
+      "year": "2009",
+      "template": "In the year the Champions League final was held in Rome, {} was a member of sports team"
+    },
+    {
+      "year": "2010",
+      "template": "In the year the FIFA World Cup was held in South Africa, {} was a member of sports team"
+    },
+    {
+      "year": "2011",
+      "template": "In the year the Rugby World Cup was held in New Zealand, {} was a member of sports team"
+    },
+    {
+      "year": "2012",
+      "template": "In the year the Summer Olympics were held in London, {} was a member of sports team"
+    },
+    {
+      "year": "2013",
+      "template": "In the year the Confederations Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2014",
+      "template": "In the year the FIFA World Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2015",
+      "template": "In the year the Cricket World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2016",
+      "template": "In the year the Summer Olympics were held in Rio, {} was a member of sports team"
+    },
+    {
+      "year": "2017",
+      "template": "In the year the Champions League final was held in Cardiff, {} was a member of sports team"
+    },
+    {
+      "year": "2018",
+      "template": "In the year the FIFA World Cup was held in Russia, {} was a member of sports team"
+    },
+    {
+      "year": "2019",
+      "template": "In the year the Rugby World Cup was held in Japan, {} was a member of sports team"
+    },
+    {
+      "year": "2020",
+      "template": "In the year the Summer Olympics were postponed in Tokyo, {} was a member of sports team"
+    }
+  ],
+  "all_possible_objects": [
+    {
+      "subject": "Argentina",
+      "objects": [
+        "Carlos Menem",
+        "Fernando de la Rúa",
+        "Eduardo Duhalde",
+        "Néstor Kirchner",
+        "Cristina Fernández de Kirchner",
+        "Mauricio Macri",
+        "Alberto Fernández"
+      ],
+      "year_range": "1990-2020"
+    },
+    {
+      "subject": "South Korea",
+      "objects": [
+        "Roh Tae-woo",
+        "Kim Young-sam",
+        "Kim Dae-jung",
+        "Roh Moo-hyun",
+        "Lee Myung-bak",
+        "Park Geun-hye",
+        "Moon Jae-in"
+      ],
+      "year_range": "1990-2020"
+    },
+    {
+      "subject": "United States",
+      "objects": [
+        "George H. W. Bush",
+        "Bill Clinton",
+        "George W. Bush",
+        "Barack Obama",
+        "Donald Trump"
+      ],
+      "year_range": "1990-2020"
+    },
+    {
+      "subject": "Russia",
+      "objects": ["Boris Yeltsin", "Vladimir Putin", "Dmitry Medvedev"],
+      "year_range": "1990-2020"
+    },
+    {
+      "subject": "Pakistan",
+      "objects": [
+        "Ghulam Ishaq Khan",
+        "Farooq Leghari",
+        "Muhammad Rafiq Tarar",
+        "Pervez Musharraf",
+        "Asif Ali Zardari",
+        "Mamnoon Hussain",
+        "Arif Alvi"
+      ],
+      "year_range": "1990-2020"
+    }
+  ]
+}

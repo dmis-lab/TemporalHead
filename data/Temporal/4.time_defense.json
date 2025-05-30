@@ -1,0 +1,318 @@
+{
+  "name": "annual_defense_expenditure",
+  "prompt_templates": [
+    "In year {time}, the defense expediture of {subject} in billion USD was"
+  ],
+  "prompt_templates_zs": [
+    "In {time}, what was the defense expenditure of {subject}?",
+    "How much did {subject} spend on defense in {time}?"
+  ],
+  "prompt_templates_general": [
+    "The defense expediture of {subject} in billion USD was"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "country",
+    "range_name": "defense expenditure",
+    "symmetric": false
+  },
+  "samples": [
+    { "subject": "United States", "object": "281.0", "time": "1999" },
+    { "subject": "United States", "object": "295.0", "time": "2000" },
+    { "subject": "United States", "object": "316.0", "time": "2001" },
+    { "subject": "United States", "object": "348.0", "time": "2002" },
+    { "subject": "United States", "object": "404.0", "time": "2003" },
+    { "subject": "United States", "object": "455.0", "time": "2004" },
+    { "subject": "United States", "object": "495.0", "time": "2005" },
+    { "subject": "United States", "object": "532.0", "time": "2006" },
+    { "subject": "United States", "object": "581.0", "time": "2007" },
+    { "subject": "United States", "object": "636.0", "time": "2008" },
+    { "subject": "United States", "object": "661.0", "time": "2009" },
+    { "subject": "China", "object": "22.9", "time": "1999" },
+    { "subject": "China", "object": "24.6", "time": "2000" },
+    { "subject": "China", "object": "26.6", "time": "2001" },
+    { "subject": "China", "object": "30.0", "time": "2002" },
+    { "subject": "China", "object": "33.0", "time": "2003" },
+    { "subject": "China", "object": "38.0", "time": "2004" },
+    { "subject": "China", "object": "42.0", "time": "2005" },
+    { "subject": "China", "object": "49.0", "time": "2006" },
+    { "subject": "China", "object": "58.0", "time": "2007" },
+    { "subject": "China", "object": "66.0", "time": "2008" },
+    { "subject": "China", "object": "77.0", "time": "2009" },
+    { "subject": "Russia", "object": "28.4", "time": "1999" },
+    { "subject": "Russia", "object": "27.9", "time": "2000" },
+    { "subject": "Russia", "object": "30.6", "time": "2001" },
+    { "subject": "Russia", "object": "38.6", "time": "2002" },
+    { "subject": "Russia", "object": "44.5", "time": "2003" },
+    { "subject": "Russia", "object": "44.4", "time": "2004" },
+    { "subject": "Russia", "object": "45.8", "time": "2005" },
+    { "subject": "Russia", "object": "50.7", "time": "2006" },
+    { "subject": "Russia", "object": "55.4", "time": "2007" },
+    { "subject": "Russia", "object": "56.4", "time": "2008" },
+    { "subject": "Russia", "object": "57.9", "time": "2009" },
+    { "subject": "India", "object": "19.9", "time": "1999" },
+    { "subject": "India", "object": "21.0", "time": "2000" },
+    { "subject": "India", "object": "18.5", "time": "2001" },
+    { "subject": "India", "object": "18.7", "time": "2002" },
+    { "subject": "India", "object": "20.9", "time": "2003" },
+    { "subject": "India", "object": "25.4", "time": "2004" },
+    { "subject": "India", "object": "29.6", "time": "2005" },
+    { "subject": "India", "object": "35.5", "time": "2006" },
+    { "subject": "India", "object": "38.2", "time": "2007" },
+    { "subject": "India", "object": "41.3", "time": "2008" },
+    { "subject": "India", "object": "41.3", "time": "2009" },
+    { "subject": "United Kingdom", "object": "45.5", "time": "1999" },
+    { "subject": "United Kingdom", "object": "40.8", "time": "2000" },
+    { "subject": "United Kingdom", "object": "39.3", "time": "2001" },
+    { "subject": "United Kingdom", "object": "42.5", "time": "2002" },
+    { "subject": "United Kingdom", "object": "45.3", "time": "2003" },
+    { "subject": "United Kingdom", "object": "44.3", "time": "2004" },
+    { "subject": "United Kingdom", "object": "41.6", "time": "2005" },
+    { "subject": "United Kingdom", "object": "41.6", "time": "2006" },
+    { "subject": "United Kingdom", "object": "46.4", "time": "2007" },
+    { "subject": "United Kingdom", "object": "51.5", "time": "2008" },
+    { "subject": "United Kingdom", "object": "46.1", "time": "2009" },
+    { "subject": "Germany", "object": "19.9", "time": "1999" },
+    { "subject": "Germany", "object": "19.5", "time": "2000" },
+    { "subject": "Germany", "object": "21.6", "time": "2001" },
+    { "subject": "Germany", "object": "26.8", "time": "2002" },
+    { "subject": "Germany", "object": "30.3", "time": "2003" },
+    { "subject": "Germany", "object": "29.7", "time": "2004" },
+    { "subject": "Germany", "object": "29.6", "time": "2005" },
+    { "subject": "Germany", "object": "31.9", "time": "2006" },
+    { "subject": "Germany", "object": "36.8", "time": "2007" },
+    { "subject": "Germany", "object": "34.1", "time": "2008" },
+    { "subject": "Germany", "object": "34.1", "time": "2009" },
+    { "subject": "Saudi Arabia", "object": "22.9", "time": "1999" },
+    { "subject": "Saudi Arabia", "object": "24.6", "time": "2000" },
+    { "subject": "Saudi Arabia", "object": "26.6", "time": "2001" },
+    { "subject": "Saudi Arabia", "object": "30.0", "time": "2002" },
+    { "subject": "Saudi Arabia", "object": "33.0", "time": "2003" },
+    { "subject": "Saudi Arabia", "object": "38.0", "time": "2004" },
+    { "subject": "Saudi Arabia", "object": "42.0", "time": "2005" },
+    { "subject": "Saudi Arabia", "object": "49.0", "time": "2006" },
+    { "subject": "Saudi Arabia", "object": "58.0", "time": "2007" },
+    { "subject": "Saudi Arabia", "object": "66.0", "time": "2008" },
+    { "subject": "Saudi Arabia", "object": "77.0", "time": "2009" }
+  ],
+  "alias_time_templates": [
+    {
+      "year": "1996",
+      "template": "In the year the Summer Olympics were held in Atlanta, {} was a member of sports team"
+    },
+    {
+      "year": "1997",
+      "template": "In the year the Champions League final was held in Munich, {} was a member of sports team"
+    },
+    {
+      "year": "1998",
+      "template": "In the year the Winter Olympics were held in Nagano, {} was a member of sports team"
+    },
+    {
+      "year": "1999",
+      "template": "In the year the Champions League final was held in Barcelona, {} was a member of sports team"
+    },
+    {
+      "year": "2000",
+      "template": "In the year the Summer Olympics were held in Sydney, {} was a member of sports team"
+    },
+    {
+      "year": "2001",
+      "template": "In the year the World Series was held in Arizona, {} was a member of sports team"
+    },
+    {
+      "year": "2002",
+      "template": "In the year the Winter Olympics were held in Salt Lake City, {} was a member of sports team"
+    },
+    {
+      "year": "2003",
+      "template": "In the year the Rugby World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2004",
+      "template": "In the year the Summer Olympics were held in Athens, {} was a member of sports team"
+    },
+    {
+      "year": "2005",
+      "template": "In the year the Champions League final was held in Istanbul, {} was a member of sports team"
+    },
+    {
+      "year": "2006",
+      "template": "In the year the FIFA World Cup was held in Germany, {} was a member of sports team"
+    },
+    {
+      "year": "2007",
+      "template": "In the year the Cricket World Cup was held in the West Indies, {} was a member of sports team"
+    },
+    {
+      "year": "2008",
+      "template": "In the year the Summer Olympics were held in Beijing, {} was a member of sports team"
+    },
+    {
+      "year": "2009",
+      "template": "In the year the Champions League final was held in Rome, {} was a member of sports team"
+    },
+    {
+      "year": "2010",
+      "template": "In the year the FIFA World Cup was held in South Africa, {} was a member of sports team"
+    },
+    {
+      "year": "2011",
+      "template": "In the year the Rugby World Cup was held in New Zealand, {} was a member of sports team"
+    },
+    {
+      "year": "2012",
+      "template": "In the year the Summer Olympics were held in London, {} was a member of sports team"
+    },
+    {
+      "year": "2013",
+      "template": "In the year the Confederations Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2014",
+      "template": "In the year the FIFA World Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2015",
+      "template": "In the year the Cricket World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2016",
+      "template": "In the year the Summer Olympics were held in Rio, {} was a member of sports team"
+    },
+    {
+      "year": "2017",
+      "template": "In the year the Champions League final was held in Cardiff, {} was a member of sports team"
+    },
+    {
+      "year": "2018",
+      "template": "In the year the FIFA World Cup was held in Russia, {} was a member of sports team"
+    },
+    {
+      "year": "2019",
+      "template": "In the year the Rugby World Cup was held in Japan, {} was a member of sports team"
+    },
+    {
+      "year": "2020",
+      "template": "In the year the Summer Olympics were postponed in Tokyo, {} was a member of sports team"
+    }
+  ],
+  "all_possible_objects": [
+    {
+      "subject": "United States",
+      "objects": [
+        "281.0",
+        "295.0",
+        "316.0",
+        "348.0",
+        "404.0",
+        "455.0",
+        "495.0",
+        "532.0",
+        "581.0",
+        "636.0",
+        "661.0"
+      ],
+      "year_range": "1999-2009"
+    },
+    {
+      "subject": "China",
+      "objects": [
+        "22.9",
+        "24.6",
+        "26.6",
+        "30.0",
+        "33.0",
+        "38.0",
+        "42.0",
+        "49.0",
+        "58.0",
+        "66.0",
+        "77.0"
+      ],
+      "year_range": "1999-2009"
+    },
+    {
+      "subject": "Russia",
+      "objects": [
+        "28.4",
+        "27.9",
+        "30.6",
+        "38.6",
+        "44.5",
+        "44.4",
+        "45.8",
+        "50.7",
+        "55.4",
+        "56.4",
+        "57.9"
+      ],
+      "year_range": "1999-2009"
+    },
+    {
+      "subject": "India",
+      "objects": [
+        "19.9",
+        "21.0",
+        "18.5",
+        "18.7",
+        "20.9",
+        "25.4",
+        "29.6",
+        "35.5",
+        "38.2",
+        "41.3"
+      ],
+      "year_range": "1999-2009"
+    },
+    {
+      "subject": "United Kingdom",
+      "objects": [
+        "45.5",
+        "40.8",
+        "39.3",
+        "42.5",
+        "45.3",
+        "44.3",
+        "41.6",
+        "46.4",
+        "51.5",
+        "46.1"
+      ],
+      "year_range": "1999-2009"
+    },
+    {
+      "subject": "Germany",
+      "objects": [
+        "19.9",
+        "19.5",
+        "21.6",
+        "26.8",
+        "30.3",
+        "29.7",
+        "29.6",
+        "31.9",
+        "36.8",
+        "34.1"
+      ],
+      "year_range": "1999-2009"
+    },
+    {
+      "subject": "Saudi Arabia",
+      "objects": [
+        "22.9",
+        "24.6",
+        "26.6",
+        "30.0",
+        "33.0",
+        "38.0",
+        "42.0",
+        "49.0",
+        "58.0",
+        "66.0",
+        "77.0"
+      ],
+      "year_range": "1999-2009"
+    }
+  ]
+}

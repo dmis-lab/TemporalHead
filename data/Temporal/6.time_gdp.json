@@ -1,0 +1,336 @@
+{
+  "name": "temporal_country_gdp",
+  "prompt_templates": ["In year {time}, the GDP of {subject} in USD was a"],
+  "prompt_templates_zs": [
+    "In {time}, what was the GDP of {subject}?",
+    "What was the GDP of {subject} in {time}?"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "country",
+    "range_name": "GDP",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "United States",
+      "object": "9,631,200,000,000",
+      "time": "1999"
+    },
+    {
+      "subject": "United States",
+      "object": "10,251,000,000,000",
+      "time": "2000"
+    },
+    {
+      "subject": "United States",
+      "object": "10,621,800,000,000",
+      "time": "2001"
+    },
+    {
+      "subject": "United States",
+      "object": "10,977,500,000,000",
+      "time": "2002"
+    },
+    {
+      "subject": "United States",
+      "object": "11,510,700,000,000",
+      "time": "2003"
+    },
+    {
+      "subject": "United States",
+      "object": "12,275,000,000,000",
+      "time": "2004"
+    },
+    {
+      "subject": "United States",
+      "object": "13,093,700,000,000",
+      "time": "2005"
+    },
+    {
+      "subject": "United States",
+      "object": "13,855,900,000,000",
+      "time": "2006"
+    },
+    {
+      "subject": "United States",
+      "object": "14,477,600,000,000",
+      "time": "2007"
+    },
+    {
+      "subject": "United States",
+      "object": "14,718,600,000,000",
+      "time": "2008"
+    },
+    {
+      "subject": "United States",
+      "object": "14,418,700,000,000",
+      "time": "2009"
+    },
+    {
+      "subject": "China",
+      "object": "1,094,000,000,000",
+      "time": "1999"
+    },
+    {
+      "subject": "China",
+      "object": "1,198,500,000,000",
+      "time": "2000"
+    },
+    {
+      "subject": "China",
+      "object": "1,339,400,000,000",
+      "time": "2001"
+    },
+    {
+      "subject": "China",
+      "object": "1,470,000,000,000",
+      "time": "2002"
+    },
+    {
+      "subject": "China",
+      "object": "1,660,000,000,000",
+      "time": "2003"
+    },
+    {
+      "subject": "China",
+      "object": "1,931,000,000,000",
+      "time": "2004"
+    },
+    {
+      "subject": "China",
+      "object": "2,286,000,000,000",
+      "time": "2005"
+    },
+    {
+      "subject": "China",
+      "object": "2,752,000,000,000",
+      "time": "2006"
+    },
+    {
+      "subject": "China",
+      "object": "3,552,000,000,000",
+      "time": "2007"
+    },
+    {
+      "subject": "China",
+      "object": "4,598,000,000,000",
+      "time": "2008"
+    },
+    {
+      "subject": "China",
+      "object": "5,110,000,000,000",
+      "time": "2009"
+    },
+    {
+      "subject": "Germany",
+      "object": "2,216,072,000,000",
+      "time": "1999"
+    },
+    {
+      "subject": "Germany",
+      "object": "1,887,000,000,000",
+      "time": "2000"
+    },
+    {
+      "subject": "Germany",
+      "object": "1,874,000,000,000",
+      "time": "2001"
+    },
+    {
+      "subject": "Germany",
+      "object": "2,086,000,000,000",
+      "time": "2002"
+    },
+    {
+      "subject": "Germany",
+      "object": "2,456,000,000,000",
+      "time": "2003"
+    },
+    {
+      "subject": "Germany",
+      "object": "2,833,000,000,000",
+      "time": "2004"
+    },
+    {
+      "subject": "Germany",
+      "object": "2,796,000,000,000",
+      "time": "2005"
+    },
+    {
+      "subject": "Germany",
+      "object": "2,910,000,000,000",
+      "time": "2006"
+    },
+    {
+      "subject": "Germany",
+      "object": "3,323,000,000,000",
+      "time": "2007"
+    },
+    {
+      "subject": "Germany",
+      "object": "3,653,000,000,000",
+      "time": "2008"
+    },
+    {
+      "subject": "Germany",
+      "object": "3,330,000,000,000",
+      "time": "2009"
+    }
+  ],
+  "alias_time_templates": [
+    {
+      "year": "1996",
+      "template": "In the year the Summer Olympics were held in Atlanta, {} was a member of sports team"
+    },
+    {
+      "year": "1997",
+      "template": "In the year the Champions League final was held in Munich, {} was a member of sports team"
+    },
+    {
+      "year": "1998",
+      "template": "In the year the Winter Olympics were held in Nagano, {} was a member of sports team"
+    },
+    {
+      "year": "1999",
+      "template": "In the year the Champions League final was held in Barcelona, {} was a member of sports team"
+    },
+    {
+      "year": "2000",
+      "template": "In the year the Summer Olympics were held in Sydney, {} was a member of sports team"
+    },
+    {
+      "year": "2001",
+      "template": "In the year the World Series was held in Arizona, {} was a member of sports team"
+    },
+    {
+      "year": "2002",
+      "template": "In the year the Winter Olympics were held in Salt Lake City, {} was a member of sports team"
+    },
+    {
+      "year": "2003",
+      "template": "In the year the Rugby World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2004",
+      "template": "In the year the Summer Olympics were held in Athens, {} was a member of sports team"
+    },
+    {
+      "year": "2005",
+      "template": "In the year the Champions League final was held in Istanbul, {} was a member of sports team"
+    },
+    {
+      "year": "2006",
+      "template": "In the year the FIFA World Cup was held in Germany, {} was a member of sports team"
+    },
+    {
+      "year": "2007",
+      "template": "In the year the Cricket World Cup was held in the West Indies, {} was a member of sports team"
+    },
+    {
+      "year": "2008",
+      "template": "In the year the Summer Olympics were held in Beijing, {} was a member of sports team"
+    },
+    {
+      "year": "2009",
+      "template": "In the year the Champions League final was held in Rome, {} was a member of sports team"
+    },
+    {
+      "year": "2010",
+      "template": "In the year the FIFA World Cup was held in South Africa, {} was a member of sports team"
+    },
+    {
+      "year": "2011",
+      "template": "In the year the Rugby World Cup was held in New Zealand, {} was a member of sports team"
+    },
+    {
+      "year": "2012",
+      "template": "In the year the Summer Olympics were held in London, {} was a member of sports team"
+    },
+    {
+      "year": "2013",
+      "template": "In the year the Confederations Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2014",
+      "template": "In the year the FIFA World Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2015",
+      "template": "In the year the Cricket World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2016",
+      "template": "In the year the Summer Olympics were held in Rio, {} was a member of sports team"
+    },
+    {
+      "year": "2017",
+      "template": "In the year the Champions League final was held in Cardiff, {} was a member of sports team"
+    },
+    {
+      "year": "2018",
+      "template": "In the year the FIFA World Cup was held in Russia, {} was a member of sports team"
+    },
+    {
+      "year": "2019",
+      "template": "In the year the Rugby World Cup was held in Japan, {} was a member of sports team"
+    },
+    {
+      "year": "2020",
+      "template": "In the year the Summer Olympics were postponed in Tokyo, {} was a member of sports team"
+    }
+  ],
+  "all_possible_objects": [
+    {
+      "subject": "United States",
+      "objects": [
+        "9,631,200,000,000",
+        "10,251,000,000,000",
+        "10,621,800,000,000",
+        "10,977,500,000,000",
+        "11,510,700,000,000",
+        "12,275,000,000,000",
+        "13,093,700,000,000",
+        "13,855,900,000,000",
+        "14,477,600,000,000",
+        "14,718,600,000,000",
+        "14,418,700,000,000"
+      ],
+      "year_range": "1999-2009"
+    },
+    {
+      "subject": "China",
+      "objects": [
+        "1,094,000,000,000",
+        "1,198,500,000,000",
+        "1,339,400,000,000",
+        "1,470,000,000,000",
+        "1,660,000,000,000",
+        "1,931,000,000,000",
+        "2,286,000,000,000",
+        "2,752,000,000,000",
+        "3,552,000,000,000",
+        "4,598,000,000,000",
+        "5,110,000,000,000"
+      ],
+      "year_range": "1999-2009"
+    },
+    {
+      "subject": "Germany",
+      "objects": [
+        "2,216,072,000,000",
+        "1,887,000,000,000",
+        "1,874,000,000,000",
+        "2,086,000,000,000",
+        "2,456,000,000,000",
+        "2,833,000,000,000",
+        "2,796,000,000,000",
+        "2,910,000,000,000",
+        "3,323,000,000,000",
+        "3,653,000,000,000",
+        "3,330,000,000,000"
+      ],
+      "year_range": "1999-2009"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "number_of_sides_shapes",
+  "prompt_templates": ["The number of sides {subject} has is"],
+  "prompt_templates_zs": ["How many sides does a {subject} have?"],
+  "properties": {
+    "relation_type": "commonsense",
+    "domain_name": "shape",
+    "range_name": "number of sides",
+    "symmetric": false
+  },
+  "samples": [
+    { "subject": "Triangle", "object": "3" },
+    { "subject": "Square", "object": "4" },
+    { "subject": "Pentagon", "object": "5" },
+    { "subject": "Hexagon", "object": "6" },
+    { "subject": "Heptagon", "object": "7" },
+    { "subject": "Octagon", "object": "8" },
+    { "subject": "Nonagon", "object": "9" },
+    { "subject": "Decagon", "object": "10" },
+    { "subject": "Hendecagon", "object": "11" },
+    { "subject": "Dodecagon", "object": "12" },
+    { "subject": "Tridecagon", "object": "13" },
+    { "subject": "Tetradecagon", "object": "14" },
+    { "subject": "Pentadecagon", "object": "15" },
+    { "subject": "Hexadecagon", "object": "16" },
+    { "subject": "Heptadecagon", "object": "17" },
+    { "subject": "Octadecagon", "object": "18" },
+    { "subject": "Enneadecagon", "object": "19" },
+    { "subject": "Icosagon", "object": "20" },
+    { "subject": "Tetracontagon", "object": "40" },
+    { "subject": "Pentacontagon", "object": "50" },
+    { "subject": "Hexacontagon", "object": "60" },
+    { "subject": "Heptacontagon", "object": "70" },
+    { "subject": "Octacontagon", "object": "80" },
+    { "subject": "Enneacontagon", "object": "90" },
+    { "subject": "Hectogon", "object": "100" },
+    { "subject": "Chiliagon", "object": "1000" },
+    { "subject": "Myriagon", "object": "10000" },
+    { "subject": "Megagon", "object": "1000000" }
+  ]
+}

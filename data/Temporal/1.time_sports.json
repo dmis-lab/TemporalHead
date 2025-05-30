@@ -1,0 +1,588 @@
+{
+  "name": "temporal sports membership",
+  "prompt_templates": ["In year {time}, {subject} was a member of sports team"],
+  "prompt_templates_zs": [
+    "In year {time}, which sports team was {subject} a member of?",
+    "Which team was {subject} playing for in {time}?"
+  ],
+  "prompt_templates_general": [
+    "{subject} was a member of sports team"
+  ],
+  "samples": [
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Paris Saint-Germain",
+      "time": "1996"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Arsenal",
+      "time": "1997"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Arsenal",
+      "time": "1998"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Arsenal",
+      "time": "1999"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Real Madrid",
+      "time": "2000"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Paris Saint-Germain",
+      "time": "2001"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Liverpool",
+      "time": "2002"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Manchester City",
+      "time": "2003"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Manchester City",
+      "time": "2004"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Fenerbahçe",
+      "time": "2005"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Fenerbahçe",
+      "time": "2006"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Bolton Wanderers",
+      "time": "2007"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Chelsea",
+      "time": "2008"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Chelsea",
+      "time": "2009"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Chelsea",
+      "time": "2010"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Chelsea",
+      "time": "2011"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Shanghai Shenhua",
+      "time": "2012"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Juventus",
+      "time": "2013"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "West Bromwich Albion",
+      "time": "2014"
+    },
+    {
+      "subject": "Nicolas Anelka",
+      "object": "Mumbai City FC",
+      "time": "2015"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "Malmö FF",
+      "time": "1999"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "Malmö FF",
+      "time": "2000"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "AFC Ajax",
+      "time": "2001"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "AFC Ajax",
+      "time": "2002"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "AFC Ajax",
+      "time": "2003"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "Juventus",
+      "time": "2004"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "Juventus",
+      "time": "2005"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "Juventus",
+      "time": "2006"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "Inter Milan",
+      "time": "2007"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "Inter Milan",
+      "time": "2008"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "FC Barcelona",
+      "time": "2009"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "FC Barcelona",
+      "time": "2010"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "AC Milan",
+      "time": "2011"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "AC Milan",
+      "time": "2012"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "Paris Saint-Germain",
+      "time": "2013"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "Paris Saint-Germain",
+      "time": "2014"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "Paris Saint-Germain",
+      "time": "2015"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "Paris Saint-Germain",
+      "time": "2016"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "Manchester United",
+      "time": "2017"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "Manchester United",
+      "time": "2018"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "LA Galaxy",
+      "time": "2019"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "object": "AC Milan",
+      "time": "2020"
+    },
+    {
+      "subject": "Luís Figo",
+      "object": "Barcelona",
+      "time": "1999"
+    },
+    {
+      "subject": "Luís Figo",
+      "object": "Real Madrid",
+      "time": "2000"
+    },
+    {
+      "subject": "Luís Figo",
+      "object": "Real Madrid",
+      "time": "2001"
+    },
+    {
+      "subject": "Luís Figo",
+      "object": "Real Madrid",
+      "time": "2002"
+    },
+    {
+      "subject": "Luís Figo",
+      "object": "Real Madrid",
+      "time": "2003"
+    },
+    {
+      "subject": "Luís Figo",
+      "object": "Real Madrid",
+      "time": "2004"
+    },
+    {
+      "subject": "Luís Figo",
+      "object": "Inter Milan",
+      "time": "2005"
+    },
+    {
+      "subject": "Luís Figo",
+      "object": "Inter Milan",
+      "time": "2006"
+    },
+    {
+      "subject": "Luís Figo",
+      "object": "Inter Milan",
+      "time": "2007"
+    },
+    {
+      "subject": "Luís Figo",
+      "object": "Inter Milan",
+      "time": "2008"
+    },
+    {
+      "subject": "Luís Figo",
+      "object": "Inter Milan",
+      "time": "2009"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "Manchester United",
+      "time": "1999"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "Manchester United",
+      "time": "2000"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "Manchester United",
+      "time": "2001"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "Manchester United",
+      "time": "2002"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "Real Madrid",
+      "time": "2003"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "Real Madrid",
+      "time": "2004"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "Real Madrid",
+      "time": "2005"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "Real Madrid",
+      "time": "2006"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "LA Galaxy",
+      "time": "2007"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "LA Galaxy",
+      "time": "2008"
+    },
+    {
+      "subject": "David Beckham",
+      "object": "LA Galaxy",
+      "time": "2009"
+    },
+    {
+      "subject": "Ashley Cole",
+      "object": "Arsenal",
+      "time": "1999"
+    },
+    {
+      "subject": "Ashley Cole",
+      "object": "Arsenal",
+      "time": "2000"
+    },
+    {
+      "subject": "Ashley Cole",
+      "object": "Arsenal",
+      "time": "2001"
+    },
+    {
+      "subject": "Ashley Cole",
+      "object": "Arsenal",
+      "time": "2002"
+    },
+    {
+      "subject": "Ashley Cole",
+      "object": "Arsenal",
+      "time": "2003"
+    },
+    {
+      "subject": "Ashley Cole",
+      "object": "Arsenal",
+      "time": "2004"
+    },
+    {
+      "subject": "Ashley Cole",
+      "object": "Arsenal",
+      "time": "2005"
+    },
+    {
+      "subject": "Ashley Cole",
+      "object": "Chelsea",
+      "time": "2006"
+    },
+    {
+      "subject": "Ashley Cole",
+      "object": "Chelsea",
+      "time": "2007"
+    },
+    {
+      "subject": "Ashley Cole",
+      "object": "Chelsea",
+      "time": "2008"
+    },
+    {
+      "subject": "Ashley Cole",
+      "object": "Chelsea",
+      "time": "2009"
+    },
+    {
+      "subject": "Lionel Messi",
+      "object": "Newell's Old Boys",
+      "time": "1999"
+    },
+    {
+      "subject": "Lionel Messi",
+      "object": "FC Barcelona",
+      "time": "2000"
+    },
+    {
+      "subject": "Lionel Messi",
+      "object": "FC Barcelona",
+      "time": "2001"
+    },
+    {
+      "subject": "Lionel Messi",
+      "object": "FC Barcelona",
+      "time": "2002"
+    },
+    {
+      "subject": "Lionel Messi",
+      "object": "FC Barcelona",
+      "time": "2003"
+    },
+    {
+      "subject": "Lionel Messi",
+      "object": "FC Barcelona",
+      "time": "2004"
+    }
+  ],
+  "alias_time_templates": [
+    {
+      "year": "1996",
+      "template": "In the year the Summer Olympics were held in Atlanta, {} was a member of sports team"
+    },
+    {
+      "year": "1997",
+      "template": "In the year the Champions League final was held in Munich, {} was a member of sports team"
+    },
+    {
+      "year": "1998",
+      "template": "In the year the Winter Olympics were held in Nagano, {} was a member of sports team"
+    },
+    {
+      "year": "1999",
+      "template": "In the year the Champions League final was held in Barcelona, {} was a member of sports team"
+    },
+    {
+      "year": "2000",
+      "template": "In the year the Summer Olympics were held in Sydney, {} was a member of sports team"
+    },
+    {
+      "year": "2001",
+      "template": "In the year the World Series was held in Arizona, {} was a member of sports team"
+    },
+    {
+      "year": "2002",
+      "template": "In the year the Winter Olympics were held in Salt Lake City, {} was a member of sports team"
+    },
+    {
+      "year": "2003",
+      "template": "In the year the Rugby World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2004",
+      "template": "In the year the Summer Olympics were held in Athens, {} was a member of sports team"
+    },
+    {
+      "year": "2005",
+      "template": "In the year the Champions League final was held in Istanbul, {} was a member of sports team"
+    },
+    {
+      "year": "2006",
+      "template": "In the year the FIFA World Cup was held in Germany, {} was a member of sports team"
+    },
+    {
+      "year": "2007",
+      "template": "In the year the Cricket World Cup was held in the West Indies, {} was a member of sports team"
+    },
+    {
+      "year": "2008",
+      "template": "In the year the Summer Olympics were held in Beijing, {} was a member of sports team"
+    },
+    {
+      "year": "2009",
+      "template": "In the year the Champions League final was held in Rome, {} was a member of sports team"
+    },
+    {
+      "year": "2010",
+      "template": "In the year the FIFA World Cup was held in South Africa, {} was a member of sports team"
+    },
+    {
+      "year": "2011",
+      "template": "In the year the Rugby World Cup was held in New Zealand, {} was a member of sports team"
+    },
+    {
+      "year": "2012",
+      "template": "In the year the Summer Olympics were held in London, {} was a member of sports team"
+    },
+    {
+      "year": "2013",
+      "template": "In the year the Confederations Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2014",
+      "template": "In the year the FIFA World Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2015",
+      "template": "In the year the Cricket World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2016",
+      "template": "In the year the Summer Olympics were held in Rio, {} was a member of sports team"
+    },
+    {
+      "year": "2017",
+      "template": "In the year the Champions League final was held in Cardiff, {} was a member of sports team"
+    },
+    {
+      "year": "2018",
+      "template": "In the year the FIFA World Cup was held in Russia, {} was a member of sports team"
+    },
+    {
+      "year": "2019",
+      "template": "In the year the Rugby World Cup was held in Japan, {} was a member of sports team"
+    },
+    {
+      "year": "2020",
+      "template": "In the year the Summer Olympics were postponed in Tokyo, {} was a member of sports team"
+    }
+  ],
+  "all_possible_objects": [
+    {
+      "subject": "Nicolas Anelka",
+      "objects": [
+        "Paris Saint-Germain",
+        "Arsenal",
+        "Real Madrid",
+        "Liverpool",
+        "Manchester City",
+        "Fenerbahçe",
+        "Bolton Wanderers",
+        "Chelsea",
+        "Shanghai Shenhua",
+        "Juventus",
+        "West Bromwich Albion",
+        "Mumbai City FC"
+      ],
+      "year_range": "1996-2015"
+    },
+    {
+      "subject": "Zlatan Ibrahimović",
+      "objects": [
+        "Malmö FF",
+        "AFC Ajax",
+        "Juventus",
+        "Inter Milan",
+        "FC Barcelona",
+        "AC Milan",
+        "Paris Saint-Germain",
+        "Manchester United",
+        "LA Galaxy"
+      ],
+      "year_range": "1999-2020"
+    },
+    {
+      "subject": "Luís Figo",
+      "objects": ["Sporting CP", "Barcelona", "Real Madrid", "Inter Milan"],
+      "year_range": "1990-2009"
+    },
+    {
+      "subject": "David Beckham",
+      "objects": [
+        "Manchester United",
+        "Real Madrid",
+        "LA Galaxy",
+        "AC Milan",
+        "Paris Saint-Germain"
+      ],
+      "year_range": "1992-2013"
+    },
+    {
+      "subject": "Ashley Cole",
+      "objects": [
+        "Arsenal",
+        "Crystal Palace",
+        "Chelsea",
+        "AS Roma",
+        "LA Galaxy",
+        "Derby County"
+      ],
+      "year_range": "1999-2019"
+    },
+    {
+      "subject": "Lionel Messi",
+      "objects": ["Newell's Old Boys", "FC Barcelona", "Paris Saint-Germain"],
+      "year_range": "1994-2020"
+    }
+  ]
+}

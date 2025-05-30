@@ -1,0 +1,3978 @@
+{
+    "name": "object superclass",
+    "prompt_templates": [
+        "A {subject} is in the category of a"
+    ],
+    "prompt_templates_zs": [
+        "Is a {subject} a animal, bird, fish, vegetable, flower, or fruit? It is a",
+        "What superclass (animal, bird, fish, vegetable, flower, fruit) is a {subject}? It is a"
+    ],
+    "properties": {
+        "relation_type": "commonsense",
+        "domain_name": "object",
+        "range_name": "superclass",
+        "symmetric": false
+    },
+    "samples": [
+        {
+            "subject": "tiger",
+            "object": "animal"
+        },
+        {
+            "subject": "eagle",
+            "object": "bird"
+        },
+        {
+            "subject": "salmon",
+            "object": "fish"
+        },
+        {
+            "subject": "spinach",
+            "object": "vegetable"
+        },
+        {
+            "subject": "rose",
+            "object": "flower"
+        },
+        {
+            "subject": "mango",
+            "object": "fruit"
+        },
+        {
+            "subject": "elephant",
+            "object": "animal"
+        },
+        {
+            "subject": "ostrich",
+            "object": "bird"
+        },
+        {
+            "subject": "dolphin",
+            "object": "mammal"
+        },
+        {
+            "subject": "giraffe",
+            "object": "animal"
+        },
+        {
+            "subject": "dog",
+            "object": "mammal"
+        },
+        {
+            "subject": "cat",
+            "object": "mammal"
+        },
+        {
+            "subject": "lion",
+            "object": "animal"
+        },
+        {
+            "subject": "snake",
+            "object": "reptile"
+        },
+        {
+            "subject": "turtle",
+            "object": "reptile"
+        },
+        {
+            "subject": "fish",
+            "object": "fish"
+        },
+        {
+            "subject": "goldfish",
+            "object": "fish"
+        },
+        {
+            "subject": "shark",
+            "object": "fish"
+        },
+        {
+            "subject": "whale",
+            "object": "mammal"
+        },
+        {
+            "subject": "crocodile",
+            "object": "reptile"
+        },
+        {
+            "subject": "lizard",
+            "object": "reptile"
+        },
+        {
+            "subject": "frog",
+            "object": "amphibian"
+        },
+        {
+            "subject": "toad",
+            "object": "amphibian"
+        },
+        {
+            "subject": "tree",
+            "object": "plant"
+        },
+        {
+            "subject": "flower",
+            "object": "plant"
+        },
+        {
+            "subject": "grass",
+            "object": "plant"
+        },
+        {
+            "subject": "weed",
+            "object": "plant"
+        },
+        {
+            "subject": "banana",
+            "object": "plant"
+        },
+        {
+            "subject": "apple",
+            "object": "plant"
+        },
+        {
+            "subject": "orange",
+            "object": "plant"
+        },
+        {
+            "subject": "pineapple",
+            "object": "plant"
+        },
+        {
+            "subject": "carrot",
+            "object": "plant"
+        },
+        {
+            "subject": "potato",
+            "object": "plant"
+        },
+        {
+            "subject": "onion",
+            "object": "plant"
+        },
+        {
+            "subject": "tomato",
+            "object": "plant"
+        },
+        {
+            "subject": "cucumber",
+            "object": "plant"
+        },
+        {
+            "subject": "trout",
+            "object": "fish"
+        },
+        {
+            "subject": "bass",
+            "object": "fish"
+        },
+        {
+            "subject": "carp",
+            "object": "fish"
+        },
+        {
+            "subject": "catfish",
+            "object": "fish"
+        },
+        {
+            "subject": "tilapia",
+            "object": "fish"
+        },
+        {
+            "subject": "goldfish",
+            "object": "fish"
+        },
+        {
+            "subject": "salmon",
+            "object": "fish"
+        },
+        {
+            "subject": "tuna",
+            "object": "fish"
+        },
+        {
+            "subject": "swordfish",
+            "object": "fish"
+        },
+        {
+            "subject": "shark",
+            "object": "fish"
+        },
+        {
+            "subject": "sparrow",
+            "object": "bird"
+        },
+        {
+            "subject": "crow",
+            "object": "bird"
+        },
+        {
+            "subject": "robin",
+            "object": "bird"
+        },
+        {
+            "subject": "blue jay",
+            "object": "bird"
+        },
+        {
+            "subject": "owl",
+            "object": "bird"
+        },
+        {
+            "subject": "eagle",
+            "object": "bird"
+        },
+        {
+            "subject": "hawk",
+            "object": "bird"
+        },
+        {
+            "subject": "turkey",
+            "object": "bird"
+        },
+        {
+            "subject": "duck",
+            "object": "bird"
+        },
+        {
+            "subject": "goose",
+            "object": "bird"
+        },
+        {
+            "subject": "carrot",
+            "object": "vegetable"
+        },
+        {
+            "subject": "potato",
+            "object": "vegetable"
+        },
+        {
+            "subject": "tomato",
+            "object": "vegetable"
+        },
+        {
+            "subject": "lettuce",
+            "object": "vegetable"
+        },
+        {
+            "subject": "cucumber",
+            "object": "vegetable"
+        },
+        {
+            "subject": "onion",
+            "object": "vegetable"
+        },
+        {
+            "subject": "bell pepper",
+            "object": "vegetable"
+        },
+        {
+            "subject": "broccoli",
+            "object": "vegetable"
+        },
+        {
+            "subject": "cauliflower",
+            "object": "vegetable"
+        },
+        {
+            "subject": "kale",
+            "object": "vegetable"
+        },
+        {
+            "subject": "apple",
+            "object": "fruit"
+        },
+        {
+            "subject": "banana",
+            "object": "fruit"
+        },
+        {
+            "subject": "orange",
+            "object": "fruit"
+        },
+        {
+            "subject": "grapefruit",
+            "object": "fruit"
+        },
+        {
+            "subject": "grapes",
+            "object": "fruit"
+        },
+        {
+            "subject": "peach",
+            "object": "fruit"
+        },
+        {
+            "subject": "pear",
+            "object": "fruit"
+        },
+        {
+            "subject": "watermelon",
+            "object": "fruit"
+        },
+        {
+            "subject": "strawberry",
+            "object": "fruit"
+        },
+        {
+            "subject": "blueberry",
+            "object": "fruit"
+        }
+    ],
+    "predictions": {
+        "prompt_templates:0": [
+            {
+                "subject": "tiger",
+                "object": "animal",
+                "probs": {
+                    "amphibian": 0.00040795316454023123,
+                    "animal": 0.000929205387365073,
+                    "bird": 0.0004034326702822,
+                    "fish": 0.00026559896650724113,
+                    "flower": 4.804218406206928e-06,
+                    "fruit": 8.508731843903661e-05,
+                    "mammal": 0.9960874319076538,
+                    "plant": 0.0005051366169936955,
+                    "reptile": 0.0013005343498662114,
+                    "vegetable": 1.0771436791401356e-05
+                }
+            },
+            {
+                "subject": "eagle",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 4.04000238631852e-05,
+                    "animal": 0.00022903546050656587,
+                    "bird": 0.9936042428016663,
+                    "fish": 0.0012108847731724381,
+                    "flower": 4.669476311391918e-06,
+                    "fruit": 1.1218467079743277e-05,
+                    "mammal": 0.0034905371721833944,
+                    "plant": 3.3460491977166384e-05,
+                    "reptile": 0.0013749310746788979,
+                    "vegetable": 5.606073045782978e-07
+                }
+            },
+            {
+                "subject": "salmon",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.00032290699891746044,
+                    "animal": 0.0007521916995756328,
+                    "bird": 0.0006717596552334726,
+                    "fish": 0.9874158501625061,
+                    "flower": 1.5723961041658185e-05,
+                    "fruit": 0.00030253990553319454,
+                    "mammal": 0.009376048110425472,
+                    "plant": 0.0005528422188945115,
+                    "reptile": 0.00046504108468070626,
+                    "vegetable": 0.00012512590910773724
+                }
+            },
+            {
+                "subject": "spinach",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 1.249733759323135e-05,
+                    "animal": 1.2909548786410596e-05,
+                    "bird": 1.784774212865159e-05,
+                    "fish": 5.048381717642769e-05,
+                    "flower": 0.000278710009297356,
+                    "fruit": 0.03806380555033684,
+                    "mammal": 4.9043624130717944e-06,
+                    "plant": 0.019575336948037148,
+                    "reptile": 1.3337747077457607e-05,
+                    "vegetable": 0.9419700503349304
+                }
+            },
+            {
+                "subject": "rose",
+                "object": "flower",
+                "probs": {
+                    "amphibian": 2.511716843400791e-07,
+                    "animal": 1.9624737888079835e-06,
+                    "bird": 6.976921667956049e-06,
+                    "fish": 8.344895832124166e-07,
+                    "flower": 0.6722133755683899,
+                    "fruit": 0.0010069069685414433,
+                    "mammal": 4.2818632209673524e-05,
+                    "plant": 0.326092004776001,
+                    "reptile": 1.3373619367484935e-06,
+                    "vegetable": 0.0006335335783660412
+                }
+            },
+            {
+                "subject": "mango",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 5.6257949410110086e-08,
+                    "animal": 1.829986899792857e-06,
+                    "bird": 1.3618158845929429e-05,
+                    "fish": 1.7857420971267857e-05,
+                    "flower": 7.183143316069618e-05,
+                    "fruit": 0.9932128190994263,
+                    "mammal": 5.1881532272091135e-05,
+                    "plant": 0.005398021545261145,
+                    "reptile": 0.00029409825219772756,
+                    "vegetable": 0.0009380141273140907
+                }
+            },
+            {
+                "subject": "elephant",
+                "object": "animal",
+                "probs": {
+                    "amphibian": 0.00012353170313872397,
+                    "animal": 0.002197375288233161,
+                    "bird": 0.00040168740088120103,
+                    "fish": 0.00016115383186843246,
+                    "flower": 5.047251033829525e-05,
+                    "fruit": 0.00013598238001577556,
+                    "mammal": 0.9840039610862732,
+                    "plant": 0.012423930689692497,
+                    "reptile": 0.00048317090841010213,
+                    "vegetable": 1.8878625269280747e-05
+                }
+            },
+            {
+                "subject": "ostrich",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 2.672195478226058e-06,
+                    "animal": 7.298475247807801e-05,
+                    "bird": 0.9819056987762451,
+                    "fish": 2.9050828743493184e-05,
+                    "flower": 6.716591997246724e-06,
+                    "fruit": 5.268214408715721e-06,
+                    "mammal": 0.014250487089157104,
+                    "plant": 0.00016951607540249825,
+                    "reptile": 0.003547294531017542,
+                    "vegetable": 1.0360447049606591e-05
+                }
+            },
+            {
+                "subject": "dolphin",
+                "object": "mammal",
+                "probs": {
+                    "amphibian": 0.0001350326492683962,
+                    "animal": 0.00011973091750405729,
+                    "bird": 0.0005896937218494713,
+                    "fish": 0.042986731976270676,
+                    "flower": 2.9305401767487638e-06,
+                    "fruit": 2.2870230168337002e-05,
+                    "mammal": 0.9559902548789978,
+                    "plant": 0.00011207802890567109,
+                    "reptile": 3.990354889538139e-05,
+                    "vegetable": 7.90461001543008e-07
+                }
+            },
+            {
+                "subject": "giraffe",
+                "object": "animal",
+                "probs": {
+                    "amphibian": 3.0101437005214393e-05,
+                    "animal": 0.002510183257982135,
+                    "bird": 0.010511655360460281,
+                    "fish": 5.4381420341087505e-05,
+                    "flower": 0.00019293204240966588,
+                    "fruit": 0.00020582450088113546,
+                    "mammal": 0.9675381779670715,
+                    "plant": 0.01666037179529667,
+                    "reptile": 0.00226577278226614,
+                    "vegetable": 3.05952962662559e-05
+                }
+            },
+            {
+                "subject": "dog",
+                "object": "mammal",
+                "probs": {
+                    "amphibian": 3.7049212551210076e-05,
+                    "animal": 0.0007483951048925519,
+                    "bird": 0.0009234750177711248,
+                    "fish": 0.001426094677299261,
+                    "flower": 2.790525832097046e-05,
+                    "fruit": 3.397026375751011e-05,
+                    "mammal": 0.9960318207740784,
+                    "plant": 0.00042188895167782903,
+                    "reptile": 0.0003420995199121535,
+                    "vegetable": 7.306005045393249e-06
+                }
+            },
+            {
+                "subject": "cat",
+                "object": "mammal",
+                "probs": {
+                    "amphibian": 3.096928776358254e-05,
+                    "animal": 0.002105127088725567,
+                    "bird": 0.0004338412545621395,
+                    "fish": 0.0004621105908881873,
+                    "flower": 1.4061080946703441e-05,
+                    "fruit": 1.676713873166591e-05,
+                    "mammal": 0.9961852431297302,
+                    "plant": 0.00023263698676601052,
+                    "reptile": 0.0004698840493801981,
+                    "vegetable": 4.94255727971904e-05
+                }
+            },
+            {
+                "subject": "lion",
+                "object": "animal",
+                "probs": {
+                    "amphibian": 0.00027035136008635163,
+                    "animal": 0.001210069633089006,
+                    "bird": 0.0023833513259887695,
+                    "fish": 0.0007558886427432299,
+                    "flower": 1.7056823708117008e-05,
+                    "fruit": 0.00017851557640824467,
+                    "mammal": 0.9938371777534485,
+                    "plant": 0.00034317883546464145,
+                    "reptile": 0.0009718509390950203,
+                    "vegetable": 3.259404547861777e-05
+                }
+            },
+            {
+                "subject": "snake",
+                "object": "reptile",
+                "probs": {
+                    "amphibian": 0.001430863980203867,
+                    "animal": 0.0006485899211838841,
+                    "bird": 0.00016404676716774702,
+                    "fish": 0.0030665528029203415,
+                    "flower": 3.1711888368590735e-06,
+                    "fruit": 1.2140931175963487e-05,
+                    "mammal": 0.005372470710426569,
+                    "plant": 0.00027503701858222485,
+                    "reptile": 0.9890244603157043,
+                    "vegetable": 2.6084694582095835e-06
+                }
+            },
+            {
+                "subject": "turtle",
+                "object": "reptile",
+                "probs": {
+                    "amphibian": 0.003245150437578559,
+                    "animal": 0.00020234777184668928,
+                    "bird": 0.00020374817540869117,
+                    "fish": 0.0011397764319553971,
+                    "flower": 1.3442340787150897e-05,
+                    "fruit": 1.1043541235267185e-05,
+                    "mammal": 0.01682676561176777,
+                    "plant": 0.0004815524735022336,
+                    "reptile": 0.9778649806976318,
+                    "vegetable": 1.1277219527983107e-05
+                }
+            },
+            {
+                "subject": "fish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.022548891603946686,
+                    "animal": 0.010768185369670391,
+                    "bird": 0.027070699259638786,
+                    "fish": 0.17848403751850128,
+                    "flower": 0.000936716387514025,
+                    "fruit": 0.0008287046803161502,
+                    "mammal": 0.604497492313385,
+                    "plant": 0.030994471162557602,
+                    "reptile": 0.12319492548704147,
+                    "vegetable": 0.0006759124808013439
+                }
+            },
+            {
+                "subject": "goldfish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.007050518412142992,
+                    "animal": 0.0023103905841708183,
+                    "bird": 0.00047293948591686785,
+                    "fish": 0.9202917814254761,
+                    "flower": 0.001301322365179658,
+                    "fruit": 0.0002992479130625725,
+                    "mammal": 0.046359434723854065,
+                    "plant": 0.009358108974993229,
+                    "reptile": 0.01251226756721735,
+                    "vegetable": 4.393956987769343e-05
+                }
+            },
+            {
+                "subject": "shark",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 5.4959673434495926e-05,
+                    "animal": 0.0005334136076271534,
+                    "bird": 0.0004286523617338389,
+                    "fish": 0.852780818939209,
+                    "flower": 6.819854661443969e-06,
+                    "fruit": 2.9070404707454145e-05,
+                    "mammal": 0.1443573534488678,
+                    "plant": 0.0008910465985536575,
+                    "reptile": 0.000907325476873666,
+                    "vegetable": 1.054234780895058e-05
+                }
+            },
+            {
+                "subject": "whale",
+                "object": "mammal",
+                "probs": {
+                    "amphibian": 1.3956048860563897e-05,
+                    "animal": 8.946589514380321e-05,
+                    "bird": 0.00016618998779449612,
+                    "fish": 0.016619587317109108,
+                    "flower": 2.6980210350302514e-06,
+                    "fruit": 3.404924427741207e-06,
+                    "mammal": 0.9828363060951233,
+                    "plant": 0.00024697708431631327,
+                    "reptile": 1.9555454855435528e-05,
+                    "vegetable": 1.9213600808143383e-06
+                }
+            },
+            {
+                "subject": "crocodile",
+                "object": "reptile",
+                "probs": {
+                    "amphibian": 0.004802641458809376,
+                    "animal": 0.0008689358946867287,
+                    "bird": 0.0027639176696538925,
+                    "fish": 0.019670803099870682,
+                    "flower": 3.886369995598216e-06,
+                    "fruit": 8.574628736823797e-06,
+                    "mammal": 0.019772136583924294,
+                    "plant": 0.000352724950062111,
+                    "reptile": 0.9517523050308228,
+                    "vegetable": 4.019277184852399e-06
+                }
+            },
+            {
+                "subject": "lizard",
+                "object": "reptile",
+                "probs": {
+                    "amphibian": 0.002602236345410347,
+                    "animal": 0.0004859371983911842,
+                    "bird": 0.00030678202165290713,
+                    "fish": 0.002034656470641494,
+                    "flower": 8.543333933630493e-06,
+                    "fruit": 1.7830170691013336e-05,
+                    "mammal": 0.0080656623467803,
+                    "plant": 0.0002019630337599665,
+                    "reptile": 0.9862757921218872,
+                    "vegetable": 5.577923047894728e-07
+                }
+            },
+            {
+                "subject": "frog",
+                "object": "amphibian",
+                "probs": {
+                    "amphibian": 0.7540590167045593,
+                    "animal": 0.001968557247892022,
+                    "bird": 0.0013918272452428937,
+                    "fish": 0.0006354019860737026,
+                    "flower": 6.0330756241455674e-05,
+                    "fruit": 0.00017062906408682466,
+                    "mammal": 0.051450394093990326,
+                    "plant": 0.0031988329719752073,
+                    "reptile": 0.1870468407869339,
+                    "vegetable": 1.8141201508115046e-05
+                }
+            },
+            {
+                "subject": "toad",
+                "object": "amphibian",
+                "probs": {
+                    "amphibian": 0.7312938570976257,
+                    "animal": 0.0016192533075809479,
+                    "bird": 0.0018757603829726577,
+                    "fish": 0.0009425082243978977,
+                    "flower": 8.34986858535558e-05,
+                    "fruit": 0.0001026996542350389,
+                    "mammal": 0.0160569716244936,
+                    "plant": 0.0017550698248669505,
+                    "reptile": 0.2462541162967682,
+                    "vegetable": 1.6173627955140546e-05
+                }
+            },
+            {
+                "subject": "tree",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 3.563632344594225e-05,
+                    "animal": 2.2718546460964717e-05,
+                    "bird": 0.0016960145439952612,
+                    "fish": 0.00011062092380598187,
+                    "flower": 0.0037593720480799675,
+                    "fruit": 0.013283820822834969,
+                    "mammal": 0.0024852482602000237,
+                    "plant": 0.9709063172340393,
+                    "reptile": 0.000530129880644381,
+                    "vegetable": 0.007170103490352631
+                }
+            },
+            {
+                "subject": "flower",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 6.096194283600198e-06,
+                    "animal": 2.18107506952947e-05,
+                    "bird": 0.00012288143625482917,
+                    "fish": 2.1719824871979654e-06,
+                    "flower": 0.0017920259851962328,
+                    "fruit": 0.005910153035074472,
+                    "mammal": 0.003542872378602624,
+                    "plant": 0.9814900755882263,
+                    "reptile": 1.3463175491779111e-05,
+                    "vegetable": 0.007098368834704161
+                }
+            },
+            {
+                "subject": "grass",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 2.036039950326085e-05,
+                    "animal": 2.00951831175189e-06,
+                    "bird": 2.850322061931365e-06,
+                    "fish": 5.351474101189524e-06,
+                    "flower": 0.003406556323170662,
+                    "fruit": 0.00011775657185353339,
+                    "mammal": 0.000973035697825253,
+                    "plant": 0.9832196831703186,
+                    "reptile": 0.0004379362508188933,
+                    "vegetable": 0.011814409866929054
+                }
+            },
+            {
+                "subject": "weed",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 6.403018778655678e-05,
+                    "animal": 3.3240337415918475e-06,
+                    "bird": 3.3813568734331056e-05,
+                    "fish": 0.0004620605322998017,
+                    "flower": 0.01793910562992096,
+                    "fruit": 0.002446704776957631,
+                    "mammal": 0.003001198172569275,
+                    "plant": 0.9699162840843201,
+                    "reptile": 0.0001864800724433735,
+                    "vegetable": 0.005947094410657883
+                }
+            },
+            {
+                "subject": "banana",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 5.148675086275034e-07,
+                    "animal": 2.327498549448137e-07,
+                    "bird": 4.3336203816579655e-06,
+                    "fish": 2.994606120410026e-06,
+                    "flower": 1.118904856411973e-05,
+                    "fruit": 0.9966777563095093,
+                    "mammal": 2.682536796783097e-05,
+                    "plant": 0.001268573570996523,
+                    "reptile": 1.104166130971862e-05,
+                    "vegetable": 0.001996568636968732
+                }
+            },
+            {
+                "subject": "apple",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 1.7977191646423307e-07,
+                    "animal": 7.458590403075505e-07,
+                    "bird": 1.2558160960907117e-05,
+                    "fish": 2.9107059162924998e-06,
+                    "flower": 1.1675257155729923e-05,
+                    "fruit": 0.9972659349441528,
+                    "mammal": 9.198657789966092e-05,
+                    "plant": 0.000591231626458466,
+                    "reptile": 6.9710822572233155e-06,
+                    "vegetable": 0.0020157976541668177
+                }
+            },
+            {
+                "subject": "orange",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 3.902090952578874e-07,
+                    "animal": 3.495130727060314e-07,
+                    "bird": 2.5899119009409333e-06,
+                    "fish": 5.808426067233086e-06,
+                    "flower": 1.366434389638016e-05,
+                    "fruit": 0.9961100220680237,
+                    "mammal": 2.6202123990515247e-05,
+                    "plant": 0.0001559827505843714,
+                    "reptile": 2.121127545251511e-05,
+                    "vegetable": 0.003663809271529317
+                }
+            },
+            {
+                "subject": "pineapple",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 8.594437161946189e-08,
+                    "animal": 2.17280057768221e-06,
+                    "bird": 2.3897904611658305e-05,
+                    "fish": 5.159009015187621e-05,
+                    "flower": 0.00021870892669539899,
+                    "fruit": 0.9736021757125854,
+                    "mammal": 6.261695671128109e-05,
+                    "plant": 0.023731419816613197,
+                    "reptile": 0.0002923647698480636,
+                    "vegetable": 0.002014819299802184
+                }
+            },
+            {
+                "subject": "carrot",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 2.984880040912685e-07,
+                    "animal": 2.9209804779384285e-06,
+                    "bird": 4.253342467563925e-06,
+                    "fish": 1.5312725736293942e-05,
+                    "flower": 0.0002011224569287151,
+                    "fruit": 0.04833044484257698,
+                    "mammal": 3.240233127144165e-05,
+                    "plant": 0.02454730123281479,
+                    "reptile": 1.1072889719798695e-05,
+                    "vegetable": 0.9268549084663391
+                }
+            },
+            {
+                "subject": "potato",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 1.0440550113344216e-07,
+                    "animal": 9.500366104475688e-06,
+                    "bird": 7.663285941816866e-06,
+                    "fish": 3.456962440395728e-05,
+                    "flower": 0.0004351331735961139,
+                    "fruit": 0.08910804986953735,
+                    "mammal": 4.2362378735560924e-05,
+                    "plant": 0.09261424094438553,
+                    "reptile": 1.2288292964512948e-05,
+                    "vegetable": 0.8177361488342285
+                }
+            },
+            {
+                "subject": "onion",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 4.222307325107977e-06,
+                    "animal": 1.74133992913994e-06,
+                    "bird": 0.00011673924745991826,
+                    "fish": 2.4682594812475145e-05,
+                    "flower": 0.0009141117916442454,
+                    "fruit": 0.02792409621179104,
+                    "mammal": 7.787909999024123e-05,
+                    "plant": 0.06245608255267143,
+                    "reptile": 9.587628301233053e-05,
+                    "vegetable": 0.9083845615386963
+                }
+            },
+            {
+                "subject": "tomato",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 6.37610710896297e-08,
+                    "animal": 2.378337597974678e-07,
+                    "bird": 4.749979780171998e-06,
+                    "fish": 3.277012865510187e-06,
+                    "flower": 2.9109920433256775e-05,
+                    "fruit": 0.8504096865653992,
+                    "mammal": 2.1138218926353147e-06,
+                    "plant": 0.011778686195611954,
+                    "reptile": 1.5527238019785727e-06,
+                    "vegetable": 0.13777044415473938
+                }
+            },
+            {
+                "subject": "cucumber",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 6.099266556702787e-06,
+                    "animal": 3.8738380681024864e-07,
+                    "bird": 9.534226705909532e-07,
+                    "fish": 1.7303682398051023e-06,
+                    "flower": 3.460719744907692e-05,
+                    "fruit": 0.2657483220100403,
+                    "mammal": 2.4466147806379013e-05,
+                    "plant": 0.043890081346035004,
+                    "reptile": 5.795924516860396e-05,
+                    "vegetable": 0.690235435962677
+                }
+            },
+            {
+                "subject": "trout",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0007238661637529731,
+                    "animal": 0.0008064782014116645,
+                    "bird": 0.0007072110311128199,
+                    "fish": 0.9892582297325134,
+                    "flower": 0.00011275229189777747,
+                    "fruit": 0.00044782599434256554,
+                    "mammal": 0.0038712394889444113,
+                    "plant": 0.0033936130348592997,
+                    "reptile": 0.000672912981826812,
+                    "vegetable": 5.8796208577405196e-06
+                }
+            },
+            {
+                "subject": "bass",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0002450862666592002,
+                    "animal": 7.94026127550751e-05,
+                    "bird": 9.561100887367502e-05,
+                    "fish": 0.9923462867736816,
+                    "flower": 3.540999750839546e-05,
+                    "fruit": 0.0013046764070168138,
+                    "mammal": 0.0034894845448434353,
+                    "plant": 0.0016148320864886045,
+                    "reptile": 0.0005627677892334759,
+                    "vegetable": 0.0002264283539261669
+                }
+            },
+            {
+                "subject": "carp",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.00034079235047101974,
+                    "animal": 0.0002245953364763409,
+                    "bird": 0.0012621560599654913,
+                    "fish": 0.9885424375534058,
+                    "flower": 6.054964251234196e-05,
+                    "fruit": 0.00010113423923030496,
+                    "mammal": 0.006118123419582844,
+                    "plant": 0.001747397123835981,
+                    "reptile": 0.001510038273409009,
+                    "vegetable": 9.28113076952286e-05
+                }
+            },
+            {
+                "subject": "catfish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0006109736859798431,
+                    "animal": 0.001675351057201624,
+                    "bird": 0.0005212436080910265,
+                    "fish": 0.9449864625930786,
+                    "flower": 0.0002564778842497617,
+                    "fruit": 0.00036141727468930185,
+                    "mammal": 0.038922350853681564,
+                    "plant": 0.011787797324359417,
+                    "reptile": 0.0007768640061840415,
+                    "vegetable": 0.00010105538240168244
+                }
+            },
+            {
+                "subject": "tilapia",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 9.440268331672996e-05,
+                    "animal": 0.00011304988584015518,
+                    "bird": 8.405064727412537e-05,
+                    "fish": 0.985059380531311,
+                    "flower": 6.975277938181534e-05,
+                    "fruit": 0.0006424605962820351,
+                    "mammal": 0.008339568972587585,
+                    "plant": 0.005055310670286417,
+                    "reptile": 0.00022190991148818284,
+                    "vegetable": 0.0003201786312274635
+                }
+            },
+            {
+                "subject": "goldfish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.007050518412142992,
+                    "animal": 0.0023103905841708183,
+                    "bird": 0.00047293948591686785,
+                    "fish": 0.9202917814254761,
+                    "flower": 0.001301322365179658,
+                    "fruit": 0.0002992479130625725,
+                    "mammal": 0.046359434723854065,
+                    "plant": 0.009358108974993229,
+                    "reptile": 0.01251226756721735,
+                    "vegetable": 4.393956987769343e-05
+                }
+            },
+            {
+                "subject": "salmon",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.00032290699891746044,
+                    "animal": 0.0007521916995756328,
+                    "bird": 0.0006717596552334726,
+                    "fish": 0.9874158501625061,
+                    "flower": 1.5723961041658185e-05,
+                    "fruit": 0.00030253990553319454,
+                    "mammal": 0.009376048110425472,
+                    "plant": 0.0005528422188945115,
+                    "reptile": 0.00046504108468070626,
+                    "vegetable": 0.00012512590910773724
+                }
+            },
+            {
+                "subject": "tuna",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.00027655603480525315,
+                    "animal": 0.00046927621588110924,
+                    "bird": 0.0010002035414800048,
+                    "fish": 0.9309964179992676,
+                    "flower": 6.61936292090104e-06,
+                    "fruit": 0.00026570376940071583,
+                    "mammal": 0.06568765640258789,
+                    "plant": 0.00015617473400197923,
+                    "reptile": 0.0011147481855005026,
+                    "vegetable": 2.6696241548052058e-05
+                }
+            },
+            {
+                "subject": "swordfish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 2.384223807894159e-05,
+                    "animal": 5.6021599448286e-05,
+                    "bird": 0.0008649931405670941,
+                    "fish": 0.8844438195228577,
+                    "flower": 5.363897344068391e-06,
+                    "fruit": 0.0001465380482841283,
+                    "mammal": 0.11416592448949814,
+                    "plant": 0.00014641066081821918,
+                    "reptile": 7.889078551670536e-05,
+                    "vegetable": 6.81506862747483e-05
+                }
+            },
+            {
+                "subject": "shark",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 5.4959673434495926e-05,
+                    "animal": 0.0005334136076271534,
+                    "bird": 0.0004286523617338389,
+                    "fish": 0.852780818939209,
+                    "flower": 6.819854661443969e-06,
+                    "fruit": 2.9070404707454145e-05,
+                    "mammal": 0.1443573534488678,
+                    "plant": 0.0008910465985536575,
+                    "reptile": 0.000907325476873666,
+                    "vegetable": 1.054234780895058e-05
+                }
+            },
+            {
+                "subject": "sparrow",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 3.886413833242841e-05,
+                    "animal": 0.0002908759634010494,
+                    "bird": 0.9973701238632202,
+                    "fish": 0.00012960286403540522,
+                    "flower": 4.302967499825172e-05,
+                    "fruit": 0.00013647547166328877,
+                    "mammal": 0.0016684250440448523,
+                    "plant": 9.127539669862017e-05,
+                    "reptile": 0.00022974485182203352,
+                    "vegetable": 1.5710193110862747e-06
+                }
+            },
+            {
+                "subject": "crow",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 2.9663513487321325e-05,
+                    "animal": 0.0012421865249052644,
+                    "bird": 0.9942502975463867,
+                    "fish": 8.751913264859468e-05,
+                    "flower": 2.693834903766401e-05,
+                    "fruit": 0.00022168953728396446,
+                    "mammal": 0.0036535807885229588,
+                    "plant": 0.00020743503409903497,
+                    "reptile": 0.0002512186474632472,
+                    "vegetable": 2.9414037271635607e-05
+                }
+            },
+            {
+                "subject": "robin",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 1.1282028935966082e-05,
+                    "animal": 9.258284262614325e-05,
+                    "bird": 0.9965006113052368,
+                    "fish": 7.012634159764275e-05,
+                    "flower": 0.00010322729940526187,
+                    "fruit": 0.0005882098339498043,
+                    "mammal": 0.0021737993229180574,
+                    "plant": 0.00010823741467902437,
+                    "reptile": 0.0003475721168797463,
+                    "vegetable": 4.358146725280676e-06
+                }
+            },
+            {
+                "subject": "blue jay",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 7.639819159521721e-06,
+                    "animal": 6.853962986497208e-05,
+                    "bird": 0.9933978319168091,
+                    "fish": 0.00016511570720467716,
+                    "flower": 9.196315659210086e-05,
+                    "fruit": 0.000523035938385874,
+                    "mammal": 0.005292681977152824,
+                    "plant": 7.700975402258337e-05,
+                    "reptile": 0.0003754260251298547,
+                    "vegetable": 7.875565302128962e-07
+                }
+            },
+            {
+                "subject": "owl",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 4.591874676407315e-05,
+                    "animal": 0.000195055574295111,
+                    "bird": 0.9891217350959778,
+                    "fish": 0.00045157052227295935,
+                    "flower": 3.903275683114771e-06,
+                    "fruit": 2.2101839931565337e-05,
+                    "mammal": 0.009535313583910465,
+                    "plant": 5.1078322940156795e-06,
+                    "reptile": 0.0006187254330143332,
+                    "vegetable": 5.523132813323173e-07
+                }
+            },
+            {
+                "subject": "eagle",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 4.04000238631852e-05,
+                    "animal": 0.00022903546050656587,
+                    "bird": 0.9936042428016663,
+                    "fish": 0.0012108847731724381,
+                    "flower": 4.669476311391918e-06,
+                    "fruit": 1.1218467079743277e-05,
+                    "mammal": 0.0034905371721833944,
+                    "plant": 3.3460491977166384e-05,
+                    "reptile": 0.0013749310746788979,
+                    "vegetable": 5.606073045782978e-07
+                }
+            },
+            {
+                "subject": "hawk",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 2.4657550966367126e-05,
+                    "animal": 8.399817306781188e-05,
+                    "bird": 0.9851281046867371,
+                    "fish": 0.0013926258543506265,
+                    "flower": 3.0377939765457995e-05,
+                    "fruit": 7.577523501822725e-05,
+                    "mammal": 0.00610513798892498,
+                    "plant": 8.533918298780918e-05,
+                    "reptile": 0.007072984706610441,
+                    "vegetable": 1.0063998843179434e-06
+                }
+            },
+            {
+                "subject": "turkey",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 4.8530706408200786e-05,
+                    "animal": 0.0002757445035967976,
+                    "bird": 0.9407556653022766,
+                    "fish": 9.088441584026441e-05,
+                    "flower": 1.1352110050211195e-05,
+                    "fruit": 0.0001404662907589227,
+                    "mammal": 0.027697401121258736,
+                    "plant": 0.00045254084398038685,
+                    "reptile": 0.029241567477583885,
+                    "vegetable": 0.0012858585687354207
+                }
+            },
+            {
+                "subject": "duck",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.0009315235656686127,
+                    "animal": 0.00478035444393754,
+                    "bird": 0.9439267516136169,
+                    "fish": 0.00047584649291820824,
+                    "flower": 3.091964390478097e-05,
+                    "fruit": 0.00016321010480169207,
+                    "mammal": 0.040136877447366714,
+                    "plant": 0.00012864521704614162,
+                    "reptile": 0.00933106616139412,
+                    "vegetable": 9.477349522057921e-05
+                }
+            },
+            {
+                "subject": "goose",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 2.3036693164613098e-05,
+                    "animal": 0.0003862914745695889,
+                    "bird": 0.9918156266212463,
+                    "fish": 0.00018769549205899239,
+                    "flower": 6.2362028074858245e-06,
+                    "fruit": 3.76895404770039e-05,
+                    "mammal": 0.001735549420118332,
+                    "plant": 5.622112803393975e-05,
+                    "reptile": 0.005688455421477556,
+                    "vegetable": 6.31855582469143e-05
+                }
+            },
+            {
+                "subject": "carrot",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 2.984880040912685e-07,
+                    "animal": 2.9209804779384285e-06,
+                    "bird": 4.253342467563925e-06,
+                    "fish": 1.5312725736293942e-05,
+                    "flower": 0.0002011224569287151,
+                    "fruit": 0.04833044484257698,
+                    "mammal": 3.240233127144165e-05,
+                    "plant": 0.02454730123281479,
+                    "reptile": 1.1072889719798695e-05,
+                    "vegetable": 0.9268549084663391
+                }
+            },
+            {
+                "subject": "potato",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 1.0440550113344216e-07,
+                    "animal": 9.500366104475688e-06,
+                    "bird": 7.663285941816866e-06,
+                    "fish": 3.456962440395728e-05,
+                    "flower": 0.0004351331735961139,
+                    "fruit": 0.08910804986953735,
+                    "mammal": 4.2362378735560924e-05,
+                    "plant": 0.09261424094438553,
+                    "reptile": 1.2288292964512948e-05,
+                    "vegetable": 0.8177361488342285
+                }
+            },
+            {
+                "subject": "tomato",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 6.37610710896297e-08,
+                    "animal": 2.378337597974678e-07,
+                    "bird": 4.749979780171998e-06,
+                    "fish": 3.277012865510187e-06,
+                    "flower": 2.9109920433256775e-05,
+                    "fruit": 0.8504096865653992,
+                    "mammal": 2.1138218926353147e-06,
+                    "plant": 0.011778686195611954,
+                    "reptile": 1.5527238019785727e-06,
+                    "vegetable": 0.13777044415473938
+                }
+            },
+            {
+                "subject": "lettuce",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 6.501140887849033e-05,
+                    "animal": 8.494265784975141e-06,
+                    "bird": 6.131508143880637e-06,
+                    "fish": 3.880794974975288e-05,
+                    "flower": 0.0002826661220751703,
+                    "fruit": 0.016197776421904564,
+                    "mammal": 7.303019083337858e-05,
+                    "plant": 0.09980954974889755,
+                    "reptile": 8.723248174646869e-05,
+                    "vegetable": 0.8834312558174133
+                }
+            },
+            {
+                "subject": "cucumber",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 6.099266556702787e-06,
+                    "animal": 3.8738380681024864e-07,
+                    "bird": 9.534226705909532e-07,
+                    "fish": 1.7303682398051023e-06,
+                    "flower": 3.460719744907692e-05,
+                    "fruit": 0.2657483220100403,
+                    "mammal": 2.4466147806379013e-05,
+                    "plant": 0.043890081346035004,
+                    "reptile": 5.795924516860396e-05,
+                    "vegetable": 0.690235435962677
+                }
+            },
+            {
+                "subject": "onion",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 4.222307325107977e-06,
+                    "animal": 1.74133992913994e-06,
+                    "bird": 0.00011673924745991826,
+                    "fish": 2.4682594812475145e-05,
+                    "flower": 0.0009141117916442454,
+                    "fruit": 0.02792409621179104,
+                    "mammal": 7.787909999024123e-05,
+                    "plant": 0.06245608255267143,
+                    "reptile": 9.587628301233053e-05,
+                    "vegetable": 0.9083845615386963
+                }
+            },
+            {
+                "subject": "bell pepper",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 7.045325105536904e-07,
+                    "animal": 1.3957148325971502e-07,
+                    "bird": 1.0486702194612008e-05,
+                    "fish": 2.241461061203154e-06,
+                    "flower": 0.0001407689123880118,
+                    "fruit": 0.46224963665008545,
+                    "mammal": 1.9855667687807e-06,
+                    "plant": 0.014291169121861458,
+                    "reptile": 4.738172719953582e-06,
+                    "vegetable": 0.5232981443405151
+                }
+            },
+            {
+                "subject": "broccoli",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 2.6174072900175815e-06,
+                    "animal": 4.029513092973502e-06,
+                    "bird": 2.0051597857673187e-06,
+                    "fish": 1.769973459886387e-05,
+                    "flower": 0.0060973516665399075,
+                    "fruit": 0.004972888622432947,
+                    "mammal": 1.5405803424073383e-05,
+                    "plant": 0.0267662201076746,
+                    "reptile": 3.3601506856939523e-06,
+                    "vegetable": 0.9621184468269348
+                }
+            },
+            {
+                "subject": "cauliflower",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 1.8670067447601468e-06,
+                    "animal": 2.687556843739003e-06,
+                    "bird": 0.00011878934310516343,
+                    "fish": 2.358678830205463e-05,
+                    "flower": 0.00935435201972723,
+                    "fruit": 0.03404441848397255,
+                    "mammal": 0.0001030643325066194,
+                    "plant": 0.041707634925842285,
+                    "reptile": 5.0105313675885554e-06,
+                    "vegetable": 0.9146386384963989
+                }
+            },
+            {
+                "subject": "kale",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 1.9754128516069613e-05,
+                    "animal": 2.8566089440573705e-06,
+                    "bird": 6.724644663336221e-06,
+                    "fish": 7.645998266525567e-05,
+                    "flower": 0.0010867905803024769,
+                    "fruit": 0.030349286273121834,
+                    "mammal": 1.0491337889106944e-05,
+                    "plant": 0.11087172478437424,
+                    "reptile": 4.49225990450941e-06,
+                    "vegetable": 0.8575714826583862
+                }
+            },
+            {
+                "subject": "apple",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 1.7977191646423307e-07,
+                    "animal": 7.458590403075505e-07,
+                    "bird": 1.2558160960907117e-05,
+                    "fish": 2.9107059162924998e-06,
+                    "flower": 1.1675257155729923e-05,
+                    "fruit": 0.9972659349441528,
+                    "mammal": 9.198657789966092e-05,
+                    "plant": 0.000591231626458466,
+                    "reptile": 6.9710822572233155e-06,
+                    "vegetable": 0.0020157976541668177
+                }
+            },
+            {
+                "subject": "banana",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 5.148675086275034e-07,
+                    "animal": 2.327498549448137e-07,
+                    "bird": 4.3336203816579655e-06,
+                    "fish": 2.994606120410026e-06,
+                    "flower": 1.118904856411973e-05,
+                    "fruit": 0.9966777563095093,
+                    "mammal": 2.682536796783097e-05,
+                    "plant": 0.001268573570996523,
+                    "reptile": 1.104166130971862e-05,
+                    "vegetable": 0.001996568636968732
+                }
+            },
+            {
+                "subject": "orange",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 3.902090952578874e-07,
+                    "animal": 3.495130727060314e-07,
+                    "bird": 2.5899119009409333e-06,
+                    "fish": 5.808426067233086e-06,
+                    "flower": 1.366434389638016e-05,
+                    "fruit": 0.9961100220680237,
+                    "mammal": 2.6202123990515247e-05,
+                    "plant": 0.0001559827505843714,
+                    "reptile": 2.121127545251511e-05,
+                    "vegetable": 0.003663809271529317
+                }
+            },
+            {
+                "subject": "grapefruit",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 1.94182416635158e-06,
+                    "animal": 2.3460518150386633e-06,
+                    "bird": 7.883187208790332e-05,
+                    "fish": 4.417380478116684e-05,
+                    "flower": 2.317288272024598e-05,
+                    "fruit": 0.9966101050376892,
+                    "mammal": 8.201123819162603e-06,
+                    "plant": 0.0012136308941990137,
+                    "reptile": 3.839555574813858e-05,
+                    "vegetable": 0.001979242544621229
+                }
+            },
+            {
+                "subject": "grapes",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 6.86772580138495e-07,
+                    "animal": 7.834491043468006e-06,
+                    "bird": 2.9487315259757452e-05,
+                    "fish": 1.9515742678777315e-05,
+                    "flower": 0.00010900880442932248,
+                    "fruit": 0.8934911489486694,
+                    "mammal": 0.00023078922822605819,
+                    "plant": 0.050750959664583206,
+                    "reptile": 9.238970960723236e-05,
+                    "vegetable": 0.05526813864707947
+                }
+            },
+            {
+                "subject": "peach",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 3.515771140882862e-08,
+                    "animal": 4.199890781819704e-07,
+                    "bird": 9.869341738522053e-06,
+                    "fish": 8.018515472940635e-06,
+                    "flower": 6.822566501796246e-05,
+                    "fruit": 0.9993133544921875,
+                    "mammal": 3.614023080444895e-05,
+                    "plant": 0.00015929038636386395,
+                    "reptile": 1.1792604709626175e-05,
+                    "vegetable": 0.0003929532249458134
+                }
+            },
+            {
+                "subject": "pear",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 2.463514725548066e-08,
+                    "animal": 4.0988038563227747e-07,
+                    "bird": 7.472974630218232e-06,
+                    "fish": 6.0956358538533095e-06,
+                    "flower": 9.702082024887204e-06,
+                    "fruit": 0.9977565407752991,
+                    "mammal": 3.913900945917703e-05,
+                    "plant": 0.00044215531670488417,
+                    "reptile": 5.4871320571692195e-06,
+                    "vegetable": 0.0017329794354736805
+                }
+            },
+            {
+                "subject": "watermelon",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 9.051960887518362e-07,
+                    "animal": 7.040401897029369e-07,
+                    "bird": 7.881121746322606e-06,
+                    "fish": 8.480145879730117e-06,
+                    "flower": 1.0887228199862875e-05,
+                    "fruit": 0.9713329076766968,
+                    "mammal": 2.35806182899978e-05,
+                    "plant": 0.014117170125246048,
+                    "reptile": 2.8909658794873394e-05,
+                    "vegetable": 0.014468498528003693
+                }
+            },
+            {
+                "subject": "strawberry",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 4.946945750816667e-07,
+                    "animal": 1.6500249557793722e-06,
+                    "bird": 4.175293724983931e-06,
+                    "fish": 3.818202003458282e-06,
+                    "flower": 0.0006206408143043518,
+                    "fruit": 0.9671538472175598,
+                    "mammal": 0.00011378589260857552,
+                    "plant": 0.02562740445137024,
+                    "reptile": 8.212586180889048e-06,
+                    "vegetable": 0.0064660171046853065
+                }
+            },
+            {
+                "subject": "blueberry",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 6.93542142471415e-06,
+                    "animal": 2.2904730485606706e-06,
+                    "bird": 0.00011977762915194035,
+                    "fish": 9.064566984307021e-05,
+                    "flower": 0.0002449926978442818,
+                    "fruit": 0.9847662448883057,
+                    "mammal": 0.00025005455245263875,
+                    "plant": 0.008402444422245026,
+                    "reptile": 1.2228917512402404e-05,
+                    "vegetable": 0.006104361731559038
+                }
+            }
+        ],
+        "prompt_templates_zs:0": [
+            {
+                "subject": "tiger",
+                "object": "animal",
+                "probs": {
+                    "amphibian": 0.004435969516634941,
+                    "animal": 0.9489700794219971,
+                    "bird": 1.0933765224763192e-05,
+                    "fish": 6.742884124832926e-06,
+                    "flower": 6.368682647917012e-07,
+                    "fruit": 2.924519321823027e-06,
+                    "mammal": 0.04651998355984688,
+                    "plant": 6.2833332776790485e-06,
+                    "reptile": 3.395960447960533e-05,
+                    "vegetable": 1.2477418749767821e-05
+                }
+            },
+            {
+                "subject": "eagle",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 9.081631287699565e-05,
+                    "animal": 0.0022929073311388493,
+                    "bird": 0.9975154399871826,
+                    "fish": 7.481411012122408e-05,
+                    "flower": 2.726767888816539e-06,
+                    "fruit": 3.5438079066807404e-06,
+                    "mammal": 1.2444736967154313e-05,
+                    "plant": 1.632680664442887e-06,
+                    "reptile": 3.840286808554083e-06,
+                    "vegetable": 1.7715279909680248e-06
+                }
+            },
+            {
+                "subject": "salmon",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.009307454340159893,
+                    "animal": 0.05496362969279289,
+                    "bird": 0.00031076426967047155,
+                    "fish": 0.9351522922515869,
+                    "flower": 6.397855486284243e-06,
+                    "fruit": 0.00013173857587389648,
+                    "mammal": 4.842695125262253e-05,
+                    "plant": 1.2733464245684445e-05,
+                    "reptile": 2.80299354926683e-05,
+                    "vegetable": 3.850754728773609e-05
+                }
+            },
+            {
+                "subject": "spinach",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 0.0001349722151644528,
+                    "animal": 3.210532440789393e-06,
+                    "bird": 4.924561949337658e-07,
+                    "fish": 6.031122552485613e-07,
+                    "flower": 5.951386356173316e-06,
+                    "fruit": 9.524157576379366e-06,
+                    "mammal": 1.1857385970870382e-06,
+                    "plant": 0.0002970551431644708,
+                    "reptile": 1.6968400018413377e-07,
+                    "vegetable": 0.9995468258857727
+                }
+            },
+            {
+                "subject": "rose",
+                "object": "flower",
+                "probs": {
+                    "amphibian": 7.590519089717418e-06,
+                    "animal": 1.098417783396144e-06,
+                    "bird": 9.210733651343617e-07,
+                    "fish": 6.203051725606201e-06,
+                    "flower": 0.9989190101623535,
+                    "fruit": 0.0001171296535176225,
+                    "mammal": 5.299013423609722e-07,
+                    "plant": 0.00018876304966397583,
+                    "reptile": 6.5984959718434766e-09,
+                    "vegetable": 0.0007588269072584808
+                }
+            },
+            {
+                "subject": "mango",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 0.0001969353179447353,
+                    "animal": 6.546892564074369e-06,
+                    "bird": 4.652456198073196e-07,
+                    "fish": 2.9152810384402983e-05,
+                    "flower": 1.583632911206223e-05,
+                    "fruit": 0.9994542002677917,
+                    "mammal": 7.77050161104853e-07,
+                    "plant": 6.1568089222419076e-06,
+                    "reptile": 1.9492523506414727e-07,
+                    "vegetable": 0.0002897620724979788
+                }
+            },
+            {
+                "subject": "elephant",
+                "object": "animal",
+                "probs": {
+                    "amphibian": 0.0003138078609481454,
+                    "animal": 0.9983351826667786,
+                    "bird": 1.7180098438984714e-05,
+                    "fish": 3.143610683764564e-06,
+                    "flower": 4.1102336467702116e-07,
+                    "fruit": 1.515449525868462e-06,
+                    "mammal": 0.0013037474127486348,
+                    "plant": 1.7678721633274108e-05,
+                    "reptile": 1.938600007633795e-06,
+                    "vegetable": 5.336905815056525e-06
+                }
+            },
+            {
+                "subject": "ostrich",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.0003823973529506475,
+                    "animal": 0.0070218672044575214,
+                    "bird": 0.9924666285514832,
+                    "fish": 3.796139208134264e-05,
+                    "flower": 1.7452597376177437e-06,
+                    "fruit": 1.4415603573070257e-06,
+                    "mammal": 7.285664469236508e-05,
+                    "plant": 7.0992364271660335e-06,
+                    "reptile": 6.369251877913484e-06,
+                    "vegetable": 1.5993060742403031e-06
+                }
+            },
+            {
+                "subject": "dolphin",
+                "object": "mammal",
+                "probs": {
+                    "amphibian": 0.004262356087565422,
+                    "animal": 0.9892834424972534,
+                    "bird": 0.00011794527381425723,
+                    "fish": 0.0013904303777962923,
+                    "flower": 1.1648215831883135e-06,
+                    "fruit": 4.043385160912294e-06,
+                    "mammal": 0.004933152813464403,
+                    "plant": 6.166743787616724e-06,
+                    "reptile": 9.205924129673804e-07,
+                    "vegetable": 4.544832563624368e-07
+                }
+            },
+            {
+                "subject": "giraffe",
+                "object": "animal",
+                "probs": {
+                    "amphibian": 0.0009033638052642345,
+                    "animal": 0.9850212931632996,
+                    "bird": 7.750995428068563e-05,
+                    "fish": 3.786722345466842e-06,
+                    "flower": 2.5318794882878137e-07,
+                    "fruit": 1.1117610938526923e-06,
+                    "mammal": 0.013903524726629257,
+                    "plant": 4.48052778665442e-05,
+                    "reptile": 3.0458651963272132e-05,
+                    "vegetable": 1.385315499646822e-05
+                }
+            },
+            {
+                "subject": "dog",
+                "object": "mammal",
+                "probs": {
+                    "amphibian": 4.1296611016150564e-05,
+                    "animal": 0.9985098242759705,
+                    "bird": 3.0652532586827874e-05,
+                    "fish": 7.084826393111143e-06,
+                    "flower": 4.1963539842981845e-07,
+                    "fruit": 8.888291063158249e-07,
+                    "mammal": 0.001399847911670804,
+                    "plant": 5.2096957006142475e-06,
+                    "reptile": 1.4759339137526695e-06,
+                    "vegetable": 3.3623234685364878e-06
+                }
+            },
+            {
+                "subject": "cat",
+                "object": "mammal",
+                "probs": {
+                    "amphibian": 0.0006519428570754826,
+                    "animal": 0.9974269270896912,
+                    "bird": 2.0367142496979795e-05,
+                    "fish": 9.532132935419213e-06,
+                    "flower": 7.29970338397834e-07,
+                    "fruit": 2.0407808278832817e-06,
+                    "mammal": 0.0018416630337014794,
+                    "plant": 5.710600362363039e-06,
+                    "reptile": 7.196164915512782e-06,
+                    "vegetable": 3.3850858017103747e-05
+                }
+            },
+            {
+                "subject": "lion",
+                "object": "animal",
+                "probs": {
+                    "amphibian": 0.00011306211672490463,
+                    "animal": 0.9858163595199585,
+                    "bird": 2.3653406969970092e-05,
+                    "fish": 1.128668554883916e-05,
+                    "flower": 1.4449271930061514e-06,
+                    "fruit": 3.1521847176918527e-06,
+                    "mammal": 0.013991178944706917,
+                    "plant": 8.509113285981584e-06,
+                    "reptile": 2.2534279196406715e-05,
+                    "vegetable": 8.779288691584952e-06
+                }
+            },
+            {
+                "subject": "snake",
+                "object": "reptile",
+                "probs": {
+                    "amphibian": 0.18617966771125793,
+                    "animal": 0.80755615234375,
+                    "bird": 4.071558578289114e-05,
+                    "fish": 1.5376390365418047e-05,
+                    "flower": 7.40148834665888e-07,
+                    "fruit": 1.239260768670647e-06,
+                    "mammal": 0.00033221603371202946,
+                    "plant": 9.010876055981498e-06,
+                    "reptile": 0.005859718658030033,
+                    "vegetable": 5.237903678789735e-06
+                }
+            },
+            {
+                "subject": "turtle",
+                "object": "reptile",
+                "probs": {
+                    "amphibian": 0.06669075787067413,
+                    "animal": 0.9325918555259705,
+                    "bird": 1.9840692402794957e-05,
+                    "fish": 1.7274887795792893e-05,
+                    "flower": 3.8095959098427556e-07,
+                    "fruit": 1.7870421515908674e-06,
+                    "mammal": 4.260239074937999e-05,
+                    "plant": 6.085374934627907e-06,
+                    "reptile": 0.0006264389376156032,
+                    "vegetable": 3.0112153126538033e-06
+                }
+            },
+            {
+                "subject": "fish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0061354562640190125,
+                    "animal": 0.8979710936546326,
+                    "bird": 0.0003259844670537859,
+                    "fish": 0.09552030265331268,
+                    "flower": 1.1954741694353288e-06,
+                    "fruit": 1.8649496269063093e-05,
+                    "mammal": 1.3206527000875212e-05,
+                    "plant": 8.864413757692091e-06,
+                    "reptile": 3.1048957680468448e-06,
+                    "vegetable": 2.120798626492615e-06
+                }
+            },
+            {
+                "subject": "goldfish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0040035792626440525,
+                    "animal": 0.010558976791799068,
+                    "bird": 0.000433390581747517,
+                    "fish": 0.9848968982696533,
+                    "flower": 6.986691460042493e-06,
+                    "fruit": 3.145920345559716e-05,
+                    "mammal": 2.285715345351491e-05,
+                    "plant": 6.399521680577891e-06,
+                    "reptile": 3.4721088013611734e-05,
+                    "vegetable": 4.661104867409449e-06
+                }
+            },
+            {
+                "subject": "shark",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0006407579639926553,
+                    "animal": 0.010282384231686592,
+                    "bird": 2.4656617824803106e-05,
+                    "fish": 0.9889538288116455,
+                    "flower": 1.5882196748862043e-06,
+                    "fruit": 9.209007657773327e-06,
+                    "mammal": 6.313460471574217e-05,
+                    "plant": 1.3753498251389829e-06,
+                    "reptile": 2.2205831555766053e-05,
+                    "vegetable": 7.284725711542706e-07
+                }
+            },
+            {
+                "subject": "whale",
+                "object": "mammal",
+                "probs": {
+                    "amphibian": 0.0020662122406065464,
+                    "animal": 0.9951661825180054,
+                    "bird": 6.075153578422032e-05,
+                    "fish": 0.00040485785575583577,
+                    "flower": 4.251016889611492e-07,
+                    "fruit": 2.413404672552133e-06,
+                    "mammal": 0.0022818073630332947,
+                    "plant": 6.246156317502027e-06,
+                    "reptile": 1.017954787130293e-06,
+                    "vegetable": 1.0231447049591225e-05
+                }
+            },
+            {
+                "subject": "crocodile",
+                "object": "reptile",
+                "probs": {
+                    "amphibian": 0.41967928409576416,
+                    "animal": 0.5669115781784058,
+                    "bird": 6.587825919268653e-05,
+                    "fish": 0.00013205119466874748,
+                    "flower": 3.2174636999116046e-07,
+                    "fruit": 6.86536907323898e-07,
+                    "mammal": 0.00015581765910610557,
+                    "plant": 6.356872290780302e-06,
+                    "reptile": 0.013045813888311386,
+                    "vegetable": 2.135663180524716e-06
+                }
+            },
+            {
+                "subject": "lizard",
+                "object": "reptile",
+                "probs": {
+                    "amphibian": 0.09327879548072815,
+                    "animal": 0.90473473072052,
+                    "bird": 4.239589179633185e-05,
+                    "fish": 1.0239337825623807e-05,
+                    "flower": 3.8736979490749945e-07,
+                    "fruit": 1.3854476037522545e-06,
+                    "mammal": 0.00011041970719816163,
+                    "plant": 1.644137410039548e-05,
+                    "reptile": 0.0018017428228631616,
+                    "vegetable": 3.5713294437300647e-06
+                }
+            },
+            {
+                "subject": "frog",
+                "object": "amphibian",
+                "probs": {
+                    "amphibian": 0.8876183032989502,
+                    "animal": 0.11233431845903397,
+                    "bird": 6.577834028576035e-06,
+                    "fish": 3.3215267194464104e-06,
+                    "flower": 2.1481812950696622e-07,
+                    "fruit": 3.5561724871513434e-06,
+                    "mammal": 2.173422763007693e-05,
+                    "plant": 7.194659019660321e-07,
+                    "reptile": 1.0067027687910013e-05,
+                    "vegetable": 1.149624267782201e-06
+                }
+            },
+            {
+                "subject": "toad",
+                "object": "amphibian",
+                "probs": {
+                    "amphibian": 0.9015924334526062,
+                    "animal": 0.09831704199314117,
+                    "bird": 2.9367986371653387e-06,
+                    "fish": 1.888732981569774e-06,
+                    "flower": 5.7352021798351416e-08,
+                    "fruit": 1.4579241280898714e-07,
+                    "mammal": 1.1518104656715877e-05,
+                    "plant": 2.0723425677715568e-06,
+                    "reptile": 7.129884033929557e-05,
+                    "vegetable": 6.199934432515875e-07
+                }
+            },
+            {
+                "subject": "tree",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 0.002014842350035906,
+                    "animal": 0.0006493303226307034,
+                    "bird": 6.229960126802325e-05,
+                    "fish": 1.8587370504974388e-05,
+                    "flower": 0.0028417950961738825,
+                    "fruit": 0.0001993777259485796,
+                    "mammal": 1.686701762082521e-05,
+                    "plant": 0.11868812143802643,
+                    "reptile": 2.6448431526659988e-05,
+                    "vegetable": 0.8754823207855225
+                }
+            },
+            {
+                "subject": "flower",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 0.0018109657103195786,
+                    "animal": 5.195571793592535e-05,
+                    "bird": 7.249996087921318e-06,
+                    "fish": 1.2187118954898324e-05,
+                    "flower": 0.3613870143890381,
+                    "fruit": 0.0007770229713059962,
+                    "mammal": 4.02262776333373e-06,
+                    "plant": 0.006655137985944748,
+                    "reptile": 1.837937446680371e-07,
+                    "vegetable": 0.6292941570281982
+                }
+            },
+            {
+                "subject": "grass",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 0.0019944352097809315,
+                    "animal": 0.00013516911712940782,
+                    "bird": 3.0949461233831244e-06,
+                    "fish": 1.5207781416393118e-06,
+                    "flower": 0.0006647828267887235,
+                    "fruit": 3.554442400854896e-06,
+                    "mammal": 4.6559644033550285e-06,
+                    "plant": 0.014044981449842453,
+                    "reptile": 4.947521119902376e-06,
+                    "vegetable": 0.9831429123878479
+                }
+            },
+            {
+                "subject": "weed",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 0.012222131714224815,
+                    "animal": 2.1977512005832978e-05,
+                    "bird": 1.427601318937377e-06,
+                    "fish": 6.446672159654554e-06,
+                    "flower": 0.0004565942217595875,
+                    "fruit": 1.576393515279051e-06,
+                    "mammal": 1.183961740025552e-05,
+                    "plant": 0.01941073313355446,
+                    "reptile": 1.2437382792995777e-05,
+                    "vegetable": 0.9678548574447632
+                }
+            },
+            {
+                "subject": "banana",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 6.048431259841891e-06,
+                    "animal": 2.418321628283593e-06,
+                    "bird": 3.4086744449268735e-07,
+                    "fish": 6.735939223290188e-06,
+                    "flower": 3.2108764571603388e-06,
+                    "fruit": 0.9999057054519653,
+                    "mammal": 7.60830914714461e-07,
+                    "plant": 2.717499000937096e-06,
+                    "reptile": 4.005746401247734e-09,
+                    "vegetable": 7.209512841654941e-05
+                }
+            },
+            {
+                "subject": "apple",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 4.966716005583294e-05,
+                    "animal": 5.202431111683836e-06,
+                    "bird": 1.4032571016286965e-07,
+                    "fish": 2.061505256278906e-06,
+                    "flower": 5.5729260566295125e-06,
+                    "fruit": 0.9998370409011841,
+                    "mammal": 6.786203812225722e-07,
+                    "plant": 3.858986929117236e-06,
+                    "reptile": 2.5783646329102794e-09,
+                    "vegetable": 9.580390906194225e-05
+                }
+            },
+            {
+                "subject": "orange",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 3.5947694414062425e-05,
+                    "animal": 3.945113803638378e-06,
+                    "bird": 1.3579595758983487e-07,
+                    "fish": 4.19682874053251e-06,
+                    "flower": 1.9878420062013902e-05,
+                    "fruit": 0.9996019005775452,
+                    "mammal": 5.040122914579115e-07,
+                    "plant": 8.514804790138442e-07,
+                    "reptile": 2.2884863781769127e-08,
+                    "vegetable": 0.0003326915903016925
+                }
+            },
+            {
+                "subject": "pineapple",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 2.166443482565228e-05,
+                    "animal": 2.259568645968102e-06,
+                    "bird": 1.8564374215657153e-07,
+                    "fish": 7.514382559747901e-06,
+                    "flower": 3.6942085444024997e-06,
+                    "fruit": 0.9998617172241211,
+                    "mammal": 2.382286766078323e-06,
+                    "plant": 7.976530469022691e-06,
+                    "reptile": 5.657582846652076e-08,
+                    "vegetable": 9.245638648280874e-05
+                }
+            },
+            {
+                "subject": "carrot",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 1.145704686678073e-06,
+                    "animal": 4.853720383835025e-06,
+                    "bird": 2.454018215303222e-07,
+                    "fish": 1.162309445135179e-06,
+                    "flower": 5.914053872402292e-06,
+                    "fruit": 2.0275281713111326e-05,
+                    "mammal": 5.841160373165621e-07,
+                    "plant": 0.0001580288662808016,
+                    "reptile": 1.8518448996474035e-08,
+                    "vegetable": 0.9998077750205994
+                }
+            },
+            {
+                "subject": "potato",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 6.017079954290239e-07,
+                    "animal": 7.418182576657273e-06,
+                    "bird": 2.1552830276050372e-07,
+                    "fish": 1.03040349586081e-06,
+                    "flower": 2.499687070667278e-06,
+                    "fruit": 1.0781294804473873e-05,
+                    "mammal": 1.1713116236933274e-06,
+                    "plant": 0.00021245850075501949,
+                    "reptile": 5.6914888801884445e-08,
+                    "vegetable": 0.9997639060020447
+                }
+            },
+            {
+                "subject": "onion",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 5.027943643653998e-06,
+                    "animal": 1.443500423192745e-06,
+                    "bird": 4.0328249184540255e-08,
+                    "fish": 1.8916122712653305e-07,
+                    "flower": 5.744282589148497e-06,
+                    "fruit": 2.8520562409539707e-06,
+                    "mammal": 3.3465225897089113e-06,
+                    "plant": 8.711239934200421e-05,
+                    "reptile": 1.9370617110325838e-07,
+                    "vegetable": 0.9998941421508789
+                }
+            },
+            {
+                "subject": "tomato",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 7.385834578599315e-06,
+                    "animal": 3.005166945513338e-06,
+                    "bird": 2.1023416252319294e-07,
+                    "fish": 1.5122871445782948e-05,
+                    "flower": 9.392369065608364e-06,
+                    "fruit": 0.9977157115936279,
+                    "mammal": 3.4758144806801283e-07,
+                    "plant": 2.5891449695336632e-05,
+                    "reptile": 2.796154641160342e-09,
+                    "vegetable": 0.0022228758316487074
+                }
+            },
+            {
+                "subject": "cucumber",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 4.4564250856637955e-05,
+                    "animal": 1.3407637879936374e-06,
+                    "bird": 9.280996238203443e-08,
+                    "fish": 6.609468528040452e-07,
+                    "flower": 6.416465566871921e-06,
+                    "fruit": 0.00042835305794142187,
+                    "mammal": 7.983253453858197e-07,
+                    "plant": 0.00012128800881328061,
+                    "reptile": 3.613090981957612e-08,
+                    "vegetable": 0.9993964433670044
+                }
+            },
+            {
+                "subject": "trout",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.00467743631452322,
+                    "animal": 0.004341859370470047,
+                    "bird": 0.00014910392928868532,
+                    "fish": 0.9906601309776306,
+                    "flower": 6.9011734922241885e-06,
+                    "fruit": 5.327021062839776e-05,
+                    "mammal": 5.718025204259902e-05,
+                    "plant": 3.4452250474714674e-06,
+                    "reptile": 3.673795799841173e-05,
+                    "vegetable": 1.3986348676553462e-05
+                }
+            },
+            {
+                "subject": "bass",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.003613433800637722,
+                    "animal": 0.010546590201556683,
+                    "bird": 0.000510122103150934,
+                    "fish": 0.9851986765861511,
+                    "flower": 8.708367204235401e-06,
+                    "fruit": 2.447675433359109e-05,
+                    "mammal": 2.477661837474443e-05,
+                    "plant": 1.0313155144103803e-05,
+                    "reptile": 4.8355806939071044e-05,
+                    "vegetable": 1.4599131645809393e-05
+                }
+            },
+            {
+                "subject": "carp",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.03505495935678482,
+                    "animal": 0.2209397405385971,
+                    "bird": 0.0015658115735277534,
+                    "fish": 0.7419015765190125,
+                    "flower": 4.076067398273153e-06,
+                    "fruit": 1.895020432129968e-05,
+                    "mammal": 0.00036563322646543384,
+                    "plant": 2.810676596709527e-05,
+                    "reptile": 9.333383059129119e-05,
+                    "vegetable": 2.778291491267737e-05
+                }
+            },
+            {
+                "subject": "catfish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.006339081097394228,
+                    "animal": 0.01869567297399044,
+                    "bird": 0.00018602459749672562,
+                    "fish": 0.9745556712150574,
+                    "flower": 2.4344031771761365e-05,
+                    "fruit": 6.777371163479984e-05,
+                    "mammal": 7.54071370465681e-05,
+                    "plant": 5.149757271283306e-06,
+                    "reptile": 3.085484786424786e-05,
+                    "vegetable": 2.0015688278363086e-05
+                }
+            },
+            {
+                "subject": "tilapia",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.00028321583522483706,
+                    "animal": 0.0031424942426383495,
+                    "bird": 9.743496048031375e-05,
+                    "fish": 0.9964003562927246,
+                    "flower": 1.7273243429372087e-05,
+                    "fruit": 2.9660488507943228e-05,
+                    "mammal": 1.3322700397111475e-05,
+                    "plant": 4.3475465645315126e-06,
+                    "reptile": 5.243742180027766e-06,
+                    "vegetable": 6.623958597629098e-06
+                }
+            },
+            {
+                "subject": "goldfish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0040035792626440525,
+                    "animal": 0.010558976791799068,
+                    "bird": 0.000433390581747517,
+                    "fish": 0.9848968982696533,
+                    "flower": 6.986691460042493e-06,
+                    "fruit": 3.145920345559716e-05,
+                    "mammal": 2.285715345351491e-05,
+                    "plant": 6.399521680577891e-06,
+                    "reptile": 3.4721088013611734e-05,
+                    "vegetable": 4.661104867409449e-06
+                }
+            },
+            {
+                "subject": "salmon",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.009307454340159893,
+                    "animal": 0.05496362969279289,
+                    "bird": 0.00031076426967047155,
+                    "fish": 0.9351522922515869,
+                    "flower": 6.397855486284243e-06,
+                    "fruit": 0.00013173857587389648,
+                    "mammal": 4.842695125262253e-05,
+                    "plant": 1.2733464245684445e-05,
+                    "reptile": 2.80299354926683e-05,
+                    "vegetable": 3.850754728773609e-05
+                }
+            },
+            {
+                "subject": "tuna",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.004205523990094662,
+                    "animal": 0.01264178566634655,
+                    "bird": 6.287851283559576e-05,
+                    "fish": 0.9827132225036621,
+                    "flower": 8.111884199024644e-06,
+                    "fruit": 0.00013678405957762152,
+                    "mammal": 0.00012257875641807914,
+                    "plant": 3.81562085749465e-06,
+                    "reptile": 5.6262975704157725e-05,
+                    "vegetable": 4.900385101791471e-05
+                }
+            },
+            {
+                "subject": "swordfish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.00022433476988226175,
+                    "animal": 0.003113880753517151,
+                    "bird": 0.0002505673037376255,
+                    "fish": 0.9962489008903503,
+                    "flower": 3.8642112485831603e-05,
+                    "fruit": 4.2776839109137654e-05,
+                    "mammal": 7.048189581837505e-05,
+                    "plant": 2.006798922593589e-06,
+                    "reptile": 2.6384711873106426e-06,
+                    "vegetable": 5.721682100556791e-06
+                }
+            },
+            {
+                "subject": "shark",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0006407579639926553,
+                    "animal": 0.010282384231686592,
+                    "bird": 2.4656617824803106e-05,
+                    "fish": 0.9889538288116455,
+                    "flower": 1.5882196748862043e-06,
+                    "fruit": 9.209007657773327e-06,
+                    "mammal": 6.313460471574217e-05,
+                    "plant": 1.3753498251389829e-06,
+                    "reptile": 2.2205831555766053e-05,
+                    "vegetable": 7.284725711542706e-07
+                }
+            },
+            {
+                "subject": "sparrow",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.00010048591502709314,
+                    "animal": 0.0005672191036865115,
+                    "bird": 0.9992039799690247,
+                    "fish": 8.267952944152057e-05,
+                    "flower": 1.0430676411488093e-05,
+                    "fruit": 6.060763553250581e-06,
+                    "mammal": 2.0820460122195072e-05,
+                    "plant": 2.9301902486622566e-06,
+                    "reptile": 1.349762214886141e-06,
+                    "vegetable": 4.03900230594445e-06
+                }
+            },
+            {
+                "subject": "crow",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 1.997452272917144e-05,
+                    "animal": 0.00045611191308125854,
+                    "bird": 0.9994580149650574,
+                    "fish": 4.7894460294628516e-05,
+                    "flower": 3.7982110825396376e-06,
+                    "fruit": 3.0047472137084696e-06,
+                    "mammal": 3.6336643916001776e-06,
+                    "plant": 2.4882685920601944e-06,
+                    "reptile": 1.025751203087566e-06,
+                    "vegetable": 4.077249286638107e-06
+                }
+            },
+            {
+                "subject": "robin",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 6.323336128843948e-05,
+                    "animal": 0.0004307654162403196,
+                    "bird": 0.9993971586227417,
+                    "fish": 2.9796943636029027e-05,
+                    "flower": 1.6784599210950546e-05,
+                    "fruit": 1.6780501027824357e-05,
+                    "mammal": 3.845375977107324e-05,
+                    "plant": 3.124848035440664e-06,
+                    "reptile": 8.188928859453881e-07,
+                    "vegetable": 2.993809403051273e-06
+                }
+            },
+            {
+                "subject": "blue jay",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.00011396684567444026,
+                    "animal": 0.0003296431968919933,
+                    "bird": 0.9995139837265015,
+                    "fish": 3.270540400990285e-05,
+                    "flower": 1.9667213564389385e-06,
+                    "fruit": 2.9395421279332368e-06,
+                    "mammal": 2.2590929802390747e-06,
+                    "plant": 1.5643265669496031e-06,
+                    "reptile": 3.6301111094871885e-07,
+                    "vegetable": 5.753606728831073e-07
+                }
+            },
+            {
+                "subject": "owl",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.0005407592398114502,
+                    "animal": 0.014047493226826191,
+                    "bird": 0.9852260947227478,
+                    "fish": 9.12031828192994e-05,
+                    "flower": 9.831699571805075e-06,
+                    "fruit": 6.390681392076658e-06,
+                    "mammal": 6.263516115723178e-05,
+                    "plant": 3.419537279114593e-06,
+                    "reptile": 9.676467016106471e-06,
+                    "vegetable": 2.5857946184260072e-06
+                }
+            },
+            {
+                "subject": "eagle",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 9.081631287699565e-05,
+                    "animal": 0.0022929073311388493,
+                    "bird": 0.9975154399871826,
+                    "fish": 7.481411012122408e-05,
+                    "flower": 2.726767888816539e-06,
+                    "fruit": 3.5438079066807404e-06,
+                    "mammal": 1.2444736967154313e-05,
+                    "plant": 1.632680664442887e-06,
+                    "reptile": 3.840286808554083e-06,
+                    "vegetable": 1.7715279909680248e-06
+                }
+            },
+            {
+                "subject": "hawk",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.0001222391874762252,
+                    "animal": 0.0016248709289357066,
+                    "bird": 0.9981764554977417,
+                    "fish": 4.798693043994717e-05,
+                    "flower": 3.6219516914570704e-06,
+                    "fruit": 2.11925203075225e-06,
+                    "mammal": 1.2971498108527157e-05,
+                    "plant": 2.032769543802715e-06,
+                    "reptile": 4.5989163481863216e-06,
+                    "vegetable": 3.099721880062134e-06
+                }
+            },
+            {
+                "subject": "turkey",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.0018142276676371694,
+                    "animal": 0.00904499925673008,
+                    "bird": 0.9888100028038025,
+                    "fish": 0.00011148468911414966,
+                    "flower": 4.394221832626499e-06,
+                    "fruit": 1.2727817193081137e-05,
+                    "mammal": 0.00012042878370266408,
+                    "plant": 1.1298179742880166e-05,
+                    "reptile": 9.098242117033806e-06,
+                    "vegetable": 6.128136010374874e-05
+                }
+            },
+            {
+                "subject": "duck",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.010426914319396019,
+                    "animal": 0.014331280253827572,
+                    "bird": 0.97490394115448,
+                    "fish": 5.6386852520518005e-05,
+                    "flower": 6.124118499428732e-06,
+                    "fruit": 2.658734956639819e-05,
+                    "mammal": 0.00018886590260080993,
+                    "plant": 1.1188605640199967e-05,
+                    "reptile": 2.003613735723775e-05,
+                    "vegetable": 2.8714021027553827e-05
+                }
+            },
+            {
+                "subject": "goose",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.0019320995779708028,
+                    "animal": 0.0008177779382094741,
+                    "bird": 0.9971633553504944,
+                    "fish": 3.334903158247471e-05,
+                    "flower": 3.5507830489223124e-06,
+                    "fruit": 9.77698709903052e-06,
+                    "mammal": 1.675155363045633e-05,
+                    "plant": 1.7302627384196967e-06,
+                    "reptile": 1.3662001947523095e-05,
+                    "vegetable": 7.80209302320145e-06
+                }
+            },
+            {
+                "subject": "carrot",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 1.145704686678073e-06,
+                    "animal": 4.853720383835025e-06,
+                    "bird": 2.454018215303222e-07,
+                    "fish": 1.162309445135179e-06,
+                    "flower": 5.914053872402292e-06,
+                    "fruit": 2.0275281713111326e-05,
+                    "mammal": 5.841160373165621e-07,
+                    "plant": 0.0001580288662808016,
+                    "reptile": 1.8518448996474035e-08,
+                    "vegetable": 0.9998077750205994
+                }
+            },
+            {
+                "subject": "potato",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 6.017079954290239e-07,
+                    "animal": 7.418182576657273e-06,
+                    "bird": 2.1552830276050372e-07,
+                    "fish": 1.03040349586081e-06,
+                    "flower": 2.499687070667278e-06,
+                    "fruit": 1.0781294804473873e-05,
+                    "mammal": 1.1713116236933274e-06,
+                    "plant": 0.00021245850075501949,
+                    "reptile": 5.6914888801884445e-08,
+                    "vegetable": 0.9997639060020447
+                }
+            },
+            {
+                "subject": "tomato",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 7.385834578599315e-06,
+                    "animal": 3.005166945513338e-06,
+                    "bird": 2.1023416252319294e-07,
+                    "fish": 1.5122871445782948e-05,
+                    "flower": 9.392369065608364e-06,
+                    "fruit": 0.9977157115936279,
+                    "mammal": 3.4758144806801283e-07,
+                    "plant": 2.5891449695336632e-05,
+                    "reptile": 2.796154641160342e-09,
+                    "vegetable": 0.0022228758316487074
+                }
+            },
+            {
+                "subject": "lettuce",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 7.291774818440899e-05,
+                    "animal": 2.513583922336693e-06,
+                    "bird": 4.4558714762388263e-07,
+                    "fish": 9.446476383345725e-07,
+                    "flower": 1.0222306627838407e-05,
+                    "fruit": 8.041351975407451e-06,
+                    "mammal": 5.124961148794682e-07,
+                    "plant": 0.00024212979769799858,
+                    "reptile": 7.748699459853015e-08,
+                    "vegetable": 0.9996622800827026
+                }
+            },
+            {
+                "subject": "cucumber",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 4.4564250856637955e-05,
+                    "animal": 1.3407637879936374e-06,
+                    "bird": 9.280996238203443e-08,
+                    "fish": 6.609468528040452e-07,
+                    "flower": 6.416465566871921e-06,
+                    "fruit": 0.00042835305794142187,
+                    "mammal": 7.983253453858197e-07,
+                    "plant": 0.00012128800881328061,
+                    "reptile": 3.613090981957612e-08,
+                    "vegetable": 0.9993964433670044
+                }
+            },
+            {
+                "subject": "onion",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 5.027943643653998e-06,
+                    "animal": 1.443500423192745e-06,
+                    "bird": 4.0328249184540255e-08,
+                    "fish": 1.8916122712653305e-07,
+                    "flower": 5.744282589148497e-06,
+                    "fruit": 2.8520562409539707e-06,
+                    "mammal": 3.3465225897089113e-06,
+                    "plant": 8.711239934200421e-05,
+                    "reptile": 1.9370617110325838e-07,
+                    "vegetable": 0.9998941421508789
+                }
+            },
+            {
+                "subject": "bell pepper",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 0.00016801990568637848,
+                    "animal": 2.819990413627238e-06,
+                    "bird": 5.7745137382880785e-06,
+                    "fish": 5.490356670634355e-06,
+                    "flower": 0.00016106499242596328,
+                    "fruit": 0.0412604883313179,
+                    "mammal": 6.2310796238307375e-06,
+                    "plant": 0.0001408504176652059,
+                    "reptile": 4.221208271815158e-08,
+                    "vegetable": 0.9582492709159851
+                }
+            },
+            {
+                "subject": "broccoli",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 1.7663601283857133e-06,
+                    "animal": 4.251085954365408e-07,
+                    "bird": 1.615525633269499e-07,
+                    "fish": 1.9493501213219133e-07,
+                    "flower": 8.032111509237438e-06,
+                    "fruit": 2.8734800707752584e-06,
+                    "mammal": 2.791420570247283e-07,
+                    "plant": 9.294378105551004e-05,
+                    "reptile": 1.017791628754594e-08,
+                    "vegetable": 0.999893307685852
+                }
+            },
+            {
+                "subject": "cauliflower",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 3.2211678444582503e-06,
+                    "animal": 1.0114532642546692e-06,
+                    "bird": 1.8145154001558694e-07,
+                    "fish": 2.1869040267574746e-07,
+                    "flower": 1.0555036169535015e-05,
+                    "fruit": 4.850287950830534e-06,
+                    "mammal": 1.2434635436875396e-06,
+                    "plant": 4.6710134483873844e-05,
+                    "reptile": 8.510786742021992e-09,
+                    "vegetable": 0.9999319314956665
+                }
+            },
+            {
+                "subject": "kale",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 2.418923941149842e-06,
+                    "animal": 5.786138217445114e-07,
+                    "bird": 7.59706111352898e-08,
+                    "fish": 1.5086673954556318e-07,
+                    "flower": 2.6210536816506647e-06,
+                    "fruit": 5.062940090283519e-06,
+                    "mammal": 2.330154273977314e-07,
+                    "plant": 0.0001011965359793976,
+                    "reptile": 7.155775527678543e-09,
+                    "vegetable": 0.9998877048492432
+                }
+            },
+            {
+                "subject": "apple",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 4.966716005583294e-05,
+                    "animal": 5.202431111683836e-06,
+                    "bird": 1.4032571016286965e-07,
+                    "fish": 2.061505256278906e-06,
+                    "flower": 5.5729260566295125e-06,
+                    "fruit": 0.9998370409011841,
+                    "mammal": 6.786203812225722e-07,
+                    "plant": 3.858986929117236e-06,
+                    "reptile": 2.5783646329102794e-09,
+                    "vegetable": 9.580390906194225e-05
+                }
+            },
+            {
+                "subject": "banana",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 6.048431259841891e-06,
+                    "animal": 2.418321628283593e-06,
+                    "bird": 3.4086744449268735e-07,
+                    "fish": 6.735939223290188e-06,
+                    "flower": 3.2108764571603388e-06,
+                    "fruit": 0.9999057054519653,
+                    "mammal": 7.60830914714461e-07,
+                    "plant": 2.717499000937096e-06,
+                    "reptile": 4.005746401247734e-09,
+                    "vegetable": 7.209512841654941e-05
+                }
+            },
+            {
+                "subject": "orange",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 3.5947694414062425e-05,
+                    "animal": 3.945113803638378e-06,
+                    "bird": 1.3579595758983487e-07,
+                    "fish": 4.19682874053251e-06,
+                    "flower": 1.9878420062013902e-05,
+                    "fruit": 0.9996019005775452,
+                    "mammal": 5.040122914579115e-07,
+                    "plant": 8.514804790138442e-07,
+                    "reptile": 2.2884863781769127e-08,
+                    "vegetable": 0.0003326915903016925
+                }
+            },
+            {
+                "subject": "grapefruit",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 3.354708678671159e-05,
+                    "animal": 1.9776525732595474e-06,
+                    "bird": 5.602707346952229e-07,
+                    "fish": 6.586990821233485e-06,
+                    "flower": 5.109407993586501e-06,
+                    "fruit": 0.9997466206550598,
+                    "mammal": 4.1547571072442224e-07,
+                    "plant": 4.424268240654783e-07,
+                    "reptile": 7.875739171936402e-09,
+                    "vegetable": 0.00020462938118726015
+                }
+            },
+            {
+                "subject": "grapes",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 7.198815001174808e-05,
+                    "animal": 1.0267460766044678e-06,
+                    "bird": 1.338051305310728e-07,
+                    "fish": 2.8219246814842336e-06,
+                    "flower": 2.401358642600826e-06,
+                    "fruit": 0.9999008178710938,
+                    "mammal": 1.3194749044487253e-06,
+                    "plant": 2.5982312763517257e-06,
+                    "reptile": 1.8474732854656395e-08,
+                    "vegetable": 1.69645845744526e-05
+                }
+            },
+            {
+                "subject": "peach",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 7.234649729070952e-06,
+                    "animal": 9.364476682094391e-06,
+                    "bird": 1.0481030585651752e-06,
+                    "fish": 1.4727219422638882e-05,
+                    "flower": 1.541916572023183e-05,
+                    "fruit": 0.9998582601547241,
+                    "mammal": 3.082497642026283e-06,
+                    "plant": 2.6242378226015717e-06,
+                    "reptile": 2.3845126762012114e-08,
+                    "vegetable": 8.81885425769724e-05
+                }
+            },
+            {
+                "subject": "pear",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 2.6026162231573835e-05,
+                    "animal": 2.623657792355516e-06,
+                    "bird": 6.130767928880232e-07,
+                    "fish": 8.82157837622799e-06,
+                    "flower": 4.55649133073166e-05,
+                    "fruit": 0.9974128603935242,
+                    "mammal": 3.7401673580461647e-06,
+                    "plant": 5.016346221964341e-06,
+                    "reptile": 1.1433777480363005e-08,
+                    "vegetable": 0.0024947545025497675
+                }
+            },
+            {
+                "subject": "watermelon",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 3.5175438824808225e-05,
+                    "animal": 1.1733086466847453e-06,
+                    "bird": 1.421930306833019e-07,
+                    "fish": 1.9545692339306697e-05,
+                    "flower": 3.662565404738416e-06,
+                    "fruit": 0.9978837370872498,
+                    "mammal": 4.4223143049748614e-06,
+                    "plant": 5.314343979989644e-06,
+                    "reptile": 7.287208347861451e-08,
+                    "vegetable": 0.0020468109287321568
+                }
+            },
+            {
+                "subject": "strawberry",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 2.4792470867396332e-05,
+                    "animal": 1.165226080956927e-06,
+                    "bird": 2.443098878757155e-07,
+                    "fish": 4.800192982656881e-06,
+                    "flower": 3.064733391511254e-05,
+                    "fruit": 0.9998878240585327,
+                    "mammal": 7.699618436163291e-07,
+                    "plant": 5.165911261428846e-06,
+                    "reptile": 8.57689830269237e-09,
+                    "vegetable": 4.45195400970988e-05
+                }
+            },
+            {
+                "subject": "blueberry",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 0.000135173206217587,
+                    "animal": 3.6616520446841605e-06,
+                    "bird": 9.762152330949903e-06,
+                    "fish": 2.696774208743591e-05,
+                    "flower": 0.0003929312224499881,
+                    "fruit": 0.9989296793937683,
+                    "mammal": 2.9966126930958126e-06,
+                    "plant": 2.512423634470906e-05,
+                    "reptile": 5.7544752962712664e-08,
+                    "vegetable": 0.00047370887477882206
+                }
+            }
+        ],
+        "prompt_templates_zs:1": [
+            {
+                "subject": "tiger",
+                "object": "animal",
+                "probs": {
+                    "amphibian": 0.004742439836263657,
+                    "animal": 0.9915977716445923,
+                    "bird": 8.386401168536395e-05,
+                    "fish": 1.8272141460329294e-05,
+                    "flower": 1.2243481251061894e-07,
+                    "fruit": 9.624839236721527e-08,
+                    "mammal": 0.003546615829691291,
+                    "plant": 1.2269060789549258e-06,
+                    "reptile": 8.912744306144305e-06,
+                    "vegetable": 5.52537585463142e-07
+                }
+            },
+            {
+                "subject": "eagle",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.002150110434740782,
+                    "animal": 0.17734041810035706,
+                    "bird": 0.8204894065856934,
+                    "fish": 1.359734233119525e-05,
+                    "flower": 1.6530778168544202e-07,
+                    "fruit": 1.4384120561317104e-07,
+                    "mammal": 4.954968972015195e-06,
+                    "plant": 1.991620592889376e-07,
+                    "reptile": 1.0027155212810612e-06,
+                    "vegetable": 5.414712589413284e-08
+                }
+            },
+            {
+                "subject": "salmon",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0018361462280154228,
+                    "animal": 0.008196203969419003,
+                    "bird": 7.189159077825025e-05,
+                    "fish": 0.9898897409439087,
+                    "flower": 1.2489114169511595e-06,
+                    "fruit": 2.7582184429775225e-06,
+                    "mammal": 3.86708819632986e-07,
+                    "plant": 3.9282858210754057e-07,
+                    "reptile": 1.0194096375926165e-06,
+                    "vegetable": 1.98519202854186e-07
+                }
+            },
+            {
+                "subject": "spinach",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 0.000950811430811882,
+                    "animal": 0.0004500061913859099,
+                    "bird": 7.104906671884237e-06,
+                    "fish": 9.648851118981838e-06,
+                    "flower": 0.01800796575844288,
+                    "fruit": 0.002608921844512224,
+                    "mammal": 3.1918324339130777e-07,
+                    "plant": 0.39656496047973633,
+                    "reptile": 3.6486929388956924e-07,
+                    "vegetable": 0.5813999176025391
+                }
+            },
+            {
+                "subject": "rose",
+                "object": "flower",
+                "probs": {
+                    "amphibian": 5.8461928347242065e-06,
+                    "animal": 1.4562829164788127e-05,
+                    "bird": 8.504242714479915e-07,
+                    "fish": 1.1905204928552848e-06,
+                    "flower": 0.9966039657592773,
+                    "fruit": 0.0002515474334359169,
+                    "mammal": 3.468458231736804e-08,
+                    "plant": 0.003057608613744378,
+                    "reptile": 4.1937621375609524e-08,
+                    "vegetable": 6.434791430365294e-05
+                }
+            },
+            {
+                "subject": "mango",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 0.00012874721141997725,
+                    "animal": 1.685989263933152e-05,
+                    "bird": 3.939346697734436e-07,
+                    "fish": 1.346563408333168e-06,
+                    "flower": 0.0009748615557327867,
+                    "fruit": 0.9978099465370178,
+                    "mammal": 4.001273623543966e-08,
+                    "plant": 0.0009172101272270083,
+                    "reptile": 8.893482572602807e-08,
+                    "vegetable": 0.00015059884754009545
+                }
+            },
+            {
+                "subject": "elephant",
+                "object": "animal",
+                "probs": {
+                    "amphibian": 0.006754342000931501,
+                    "animal": 0.9891457557678223,
+                    "bird": 4.7114022891037166e-05,
+                    "fish": 2.302020220668055e-06,
+                    "flower": 1.0016078277885754e-07,
+                    "fruit": 7.20660864317324e-08,
+                    "mammal": 0.004045312758535147,
+                    "plant": 1.5933223949105013e-06,
+                    "reptile": 2.4048333671089495e-06,
+                    "vegetable": 9.67387336459069e-07
+                }
+            },
+            {
+                "subject": "ostrich",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.043286845088005066,
+                    "animal": 0.3302791118621826,
+                    "bird": 0.6160923838615417,
+                    "fish": 1.221066850121133e-05,
+                    "flower": 7.950874874040892e-07,
+                    "fruit": 4.903119332766437e-08,
+                    "mammal": 0.009927710518240929,
+                    "plant": 4.175952653895365e-06,
+                    "reptile": 0.0003947838849853724,
+                    "vegetable": 1.9531275938788895e-06
+                }
+            },
+            {
+                "subject": "dolphin",
+                "object": "mammal",
+                "probs": {
+                    "amphibian": 0.04017755389213562,
+                    "animal": 0.9192073345184326,
+                    "bird": 0.0006398343830369413,
+                    "fish": 0.0036634430289268494,
+                    "flower": 1.5584270158797153e-06,
+                    "fruit": 3.238994281673513e-07,
+                    "mammal": 0.0363079197704792,
+                    "plant": 9.270856367038505e-07,
+                    "reptile": 9.603388662071666e-07,
+                    "vegetable": 1.0416223972242733e-07
+                }
+            },
+            {
+                "subject": "giraffe",
+                "object": "animal",
+                "probs": {
+                    "amphibian": 0.02308853715658188,
+                    "animal": 0.9650111198425293,
+                    "bird": 0.0004597834195010364,
+                    "fish": 6.82606741975178e-06,
+                    "flower": 2.6198327418569534e-07,
+                    "fruit": 1.3163744760902318e-08,
+                    "mammal": 0.011408396996557713,
+                    "plant": 9.911129382089712e-06,
+                    "reptile": 1.3987812963023316e-05,
+                    "vegetable": 1.2987388799956534e-06
+                }
+            },
+            {
+                "subject": "dog",
+                "object": "mammal",
+                "probs": {
+                    "amphibian": 0.001041726442053914,
+                    "animal": 0.9957886338233948,
+                    "bird": 0.00012768995657097548,
+                    "fish": 4.780987637786893e-06,
+                    "flower": 2.953817386242008e-07,
+                    "fruit": 5.547095582869588e-08,
+                    "mammal": 0.0030343171674758196,
+                    "plant": 4.3302978269821324e-07,
+                    "reptile": 1.5770116306157433e-06,
+                    "vegetable": 6.403085990314139e-07
+                }
+            },
+            {
+                "subject": "cat",
+                "object": "mammal",
+                "probs": {
+                    "amphibian": 0.003666332922875881,
+                    "animal": 0.993493378162384,
+                    "bird": 8.001281094038859e-05,
+                    "fish": 4.105919288122095e-06,
+                    "flower": 6.995145440669148e-07,
+                    "fruit": 7.293107273653732e-08,
+                    "mammal": 0.0027507368940860033,
+                    "plant": 7.718620622654271e-07,
+                    "reptile": 1.783753646122932e-06,
+                    "vegetable": 2.181252966693137e-06
+                }
+            },
+            {
+                "subject": "lion",
+                "object": "animal",
+                "probs": {
+                    "amphibian": 0.00037763602449558675,
+                    "animal": 0.9975507855415344,
+                    "bird": 0.00014614922110922635,
+                    "fish": 1.3688286344404332e-05,
+                    "flower": 1.258744646293053e-07,
+                    "fruit": 7.617101971391094e-08,
+                    "mammal": 0.0019047869136556983,
+                    "plant": 6.111440598033369e-07,
+                    "reptile": 5.998703727527754e-06,
+                    "vegetable": 8.713815446981243e-08
+                }
+            },
+            {
+                "subject": "snake",
+                "object": "reptile",
+                "probs": {
+                    "amphibian": 0.5763365030288696,
+                    "animal": 0.41567742824554443,
+                    "bird": 4.780102608492598e-05,
+                    "fish": 0.00024038719129748642,
+                    "flower": 1.2980517283267545e-07,
+                    "fruit": 3.179605556624665e-08,
+                    "mammal": 4.994561095372774e-06,
+                    "plant": 3.282979434970912e-07,
+                    "reptile": 0.0076921009458601475,
+                    "vegetable": 3.1813178225092997e-07
+                }
+            },
+            {
+                "subject": "turtle",
+                "object": "reptile",
+                "probs": {
+                    "amphibian": 0.8186501264572144,
+                    "animal": 0.17803430557250977,
+                    "bird": 8.510417501383927e-06,
+                    "fish": 9.913281974149868e-05,
+                    "flower": 5.314840123560316e-08,
+                    "fruit": 1.1712982583844678e-08,
+                    "mammal": 1.0797150935104582e-05,
+                    "plant": 1.5897231264716538e-07,
+                    "reptile": 0.003196815261617303,
+                    "vegetable": 1.0148470153126254e-07
+                }
+            },
+            {
+                "subject": "fish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.010742555372416973,
+                    "animal": 0.48952072858810425,
+                    "bird": 0.00014747197565156966,
+                    "fish": 0.4995109438896179,
+                    "flower": 2.1404142898973078e-05,
+                    "fruit": 2.2917863589100307e-06,
+                    "mammal": 7.590189397888025e-06,
+                    "plant": 9.815094017540105e-06,
+                    "reptile": 1.2060251719958615e-05,
+                    "vegetable": 2.5116554752457887e-05
+                }
+            },
+            {
+                "subject": "goldfish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0015143643831834197,
+                    "animal": 0.004605235066264868,
+                    "bird": 2.5720511985127814e-05,
+                    "fish": 0.9938470721244812,
+                    "flower": 1.8967203914144193e-06,
+                    "fruit": 4.848488970310427e-07,
+                    "mammal": 9.851430604612688e-08,
+                    "plant": 1.8001684338742052e-06,
+                    "reptile": 2.0105785552004818e-06,
+                    "vegetable": 1.3054567489234614e-06
+                }
+            },
+            {
+                "subject": "shark",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0005332946893759072,
+                    "animal": 0.09408378601074219,
+                    "bird": 1.5381774574052542e-05,
+                    "fish": 0.9053581953048706,
+                    "flower": 4.232871333442745e-07,
+                    "fruit": 3.6150740356788447e-07,
+                    "mammal": 2.645017730174004e-06,
+                    "plant": 3.757935473913676e-07,
+                    "reptile": 5.434516424429603e-06,
+                    "vegetable": 6.570292043761583e-08
+                }
+            },
+            {
+                "subject": "whale",
+                "object": "mammal",
+                "probs": {
+                    "amphibian": 0.016692277044057846,
+                    "animal": 0.9469566345214844,
+                    "bird": 0.0004427855892572552,
+                    "fish": 0.02185954339802265,
+                    "flower": 1.1865053011206328e-06,
+                    "fruit": 4.116124330266757e-07,
+                    "mammal": 0.014045479707419872,
+                    "plant": 7.521774705310236e-07,
+                    "reptile": 3.7681016351598373e-07,
+                    "vegetable": 5.19795207765128e-07
+                }
+            },
+            {
+                "subject": "crocodile",
+                "object": "reptile",
+                "probs": {
+                    "amphibian": 0.8014955520629883,
+                    "animal": 0.18816259503364563,
+                    "bird": 5.574876195169054e-05,
+                    "fish": 0.0003421336878091097,
+                    "flower": 4.1771514247557207e-08,
+                    "fruit": 9.145860069281753e-09,
+                    "mammal": 1.252035053767031e-05,
+                    "plant": 1.2561959294998815e-07,
+                    "reptile": 0.009931176900863647,
+                    "vegetable": 8.67761613676521e-08
+                }
+            },
+            {
+                "subject": "lizard",
+                "object": "reptile",
+                "probs": {
+                    "amphibian": 0.8237937092781067,
+                    "animal": 0.16947883367538452,
+                    "bird": 2.675032737897709e-05,
+                    "fish": 1.6524716556887142e-05,
+                    "flower": 4.2215468454287475e-08,
+                    "fruit": 9.926579558339199e-09,
+                    "mammal": 8.576835170970298e-06,
+                    "plant": 1.477878015521128e-07,
+                    "reptile": 0.006675350479781628,
+                    "vegetable": 8.311359067647572e-08
+                }
+            },
+            {
+                "subject": "frog",
+                "object": "amphibian",
+                "probs": {
+                    "amphibian": 0.9981622099876404,
+                    "animal": 0.0018369283061474562,
+                    "bird": 2.945851633739949e-07,
+                    "fish": 3.589451296193147e-07,
+                    "flower": 1.3368753881692896e-09,
+                    "fruit": 1.653240655485888e-09,
+                    "mammal": 1.7677511676694735e-09,
+                    "plant": 2.079299843416038e-09,
+                    "reptile": 2.689400275812659e-07,
+                    "vegetable": 3.904504497498351e-10
+                }
+            },
+            {
+                "subject": "toad",
+                "object": "amphibian",
+                "probs": {
+                    "amphibian": 0.9965609908103943,
+                    "animal": 0.003434048732742667,
+                    "bird": 8.482039675072883e-07,
+                    "fish": 3.5669447129293985e-07,
+                    "flower": 2.060814852100634e-09,
+                    "fruit": 4.0038600213065934e-10,
+                    "mammal": 1.9018978392182362e-08,
+                    "plant": 7.04409286456098e-09,
+                    "reptile": 3.786912657233188e-06,
+                    "vegetable": 1.4503074297067542e-09
+                }
+            },
+            {
+                "subject": "tree",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 0.0006105147185735404,
+                    "animal": 0.0008831781451590359,
+                    "bird": 0.000505941454321146,
+                    "fish": 1.1553303011169191e-05,
+                    "flower": 0.05848735570907593,
+                    "fruit": 0.0005529698100872338,
+                    "mammal": 1.6021881492633838e-06,
+                    "plant": 0.8415246605873108,
+                    "reptile": 1.9824659830192104e-05,
+                    "vegetable": 0.09740240126848221
+                }
+            },
+            {
+                "subject": "flower",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 0.0012989785755053163,
+                    "animal": 0.0020216526463627815,
+                    "bird": 4.060854917042889e-05,
+                    "fish": 2.69932843366405e-06,
+                    "flower": 0.459829717874527,
+                    "fruit": 2.0326933736214414e-05,
+                    "mammal": 4.05180117013515e-06,
+                    "plant": 0.5217952728271484,
+                    "reptile": 1.3833600860380102e-06,
+                    "vegetable": 0.014985362067818642
+                }
+            },
+            {
+                "subject": "grass",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 0.0008454771596007049,
+                    "animal": 0.00015601261111442,
+                    "bird": 1.5157000234466977e-05,
+                    "fish": 3.610748763094307e-06,
+                    "flower": 0.05899235978722572,
+                    "fruit": 1.8104881746694446e-05,
+                    "mammal": 9.219133403348678e-07,
+                    "plant": 0.5919324159622192,
+                    "reptile": 1.0601204394333763e-06,
+                    "vegetable": 0.34803488850593567
+                }
+            },
+            {
+                "subject": "weed",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 0.0021961068268865347,
+                    "animal": 0.02446974627673626,
+                    "bird": 0.0006891087396070361,
+                    "fish": 0.00011905862629646435,
+                    "flower": 0.030325572937726974,
+                    "fruit": 1.2888679520983715e-05,
+                    "mammal": 3.7970316952851135e-06,
+                    "plant": 0.9246458411216736,
+                    "reptile": 1.5678029967602924e-06,
+                    "vegetable": 0.01753637194633484
+                }
+            },
+            {
+                "subject": "banana",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 9.60516554187052e-05,
+                    "animal": 1.899539893202018e-05,
+                    "bird": 1.2998031024835655e-06,
+                    "fish": 5.57394457700866e-07,
+                    "flower": 0.00021941868180874735,
+                    "fruit": 0.9985983967781067,
+                    "mammal": 7.941260804500416e-08,
+                    "plant": 0.0007876352756284177,
+                    "reptile": 6.601894853019985e-08,
+                    "vegetable": 0.0002775511529762298
+                }
+            },
+            {
+                "subject": "apple",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 2.3294131096918136e-05,
+                    "animal": 8.732849892112426e-06,
+                    "bird": 3.39576899932581e-07,
+                    "fish": 3.300344246781606e-07,
+                    "flower": 0.00038378455792553723,
+                    "fruit": 0.9988977909088135,
+                    "mammal": 9.055742111740983e-08,
+                    "plant": 0.00035320298047736287,
+                    "reptile": 2.1525361049157254e-08,
+                    "vegetable": 0.0003323938581161201
+                }
+            },
+            {
+                "subject": "orange",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 2.6306188374292105e-06,
+                    "animal": 4.00806356992689e-06,
+                    "bird": 1.7212502712027344e-07,
+                    "fish": 6.233458975657413e-07,
+                    "flower": 0.00013441333430819213,
+                    "fruit": 0.9994564652442932,
+                    "mammal": 4.866356917432313e-08,
+                    "plant": 0.00023923590197227895,
+                    "reptile": 7.469041207741611e-08,
+                    "vegetable": 0.00016227450396399945
+                }
+            },
+            {
+                "subject": "pineapple",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 0.00013490109995473176,
+                    "animal": 1.274039732379606e-05,
+                    "bird": 2.2384993769719586e-07,
+                    "fish": 4.971710723111755e-07,
+                    "flower": 0.0008988447370938957,
+                    "fruit": 0.99437415599823,
+                    "mammal": 2.855122147593647e-07,
+                    "plant": 0.0037760292179882526,
+                    "reptile": 1.0751961099231266e-06,
+                    "vegetable": 0.0008012137259356678
+                }
+            },
+            {
+                "subject": "carrot",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 2.0956392745574703e-06,
+                    "animal": 8.32806690596044e-05,
+                    "bird": 8.183383215509821e-07,
+                    "fish": 1.3207053370933863e-06,
+                    "flower": 0.013228457421064377,
+                    "fruit": 0.002587052760645747,
+                    "mammal": 1.0817380058369963e-07,
+                    "plant": 0.065098837018013,
+                    "reptile": 1.2274823291136272e-07,
+                    "vegetable": 0.9189978837966919
+                }
+            },
+            {
+                "subject": "potato",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 7.136409840313718e-05,
+                    "animal": 0.0005353273008950055,
+                    "bird": 5.106136086396873e-06,
+                    "fish": 4.852277470490662e-06,
+                    "flower": 0.0044734603725373745,
+                    "fruit": 0.0032179118134081364,
+                    "mammal": 7.915627406873682e-07,
+                    "plant": 0.11082956194877625,
+                    "reptile": 5.090788022243942e-07,
+                    "vegetable": 0.8808611631393433
+                }
+            },
+            {
+                "subject": "onion",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 0.0002679913304746151,
+                    "animal": 0.0005450207972899079,
+                    "bird": 3.5462708183331415e-06,
+                    "fish": 6.371300059981877e-06,
+                    "flower": 0.11821005493402481,
+                    "fruit": 0.0386195071041584,
+                    "mammal": 6.941059496057278e-07,
+                    "plant": 0.22907249629497528,
+                    "reptile": 1.2813401326638996e-06,
+                    "vegetable": 0.613273024559021
+                }
+            },
+            {
+                "subject": "tomato",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 8.767144754529e-05,
+                    "animal": 3.892207678291015e-05,
+                    "bird": 8.581704946664104e-07,
+                    "fish": 7.237443924168474e-07,
+                    "flower": 0.0025201623793691397,
+                    "fruit": 0.9314456582069397,
+                    "mammal": 1.6690933080099057e-07,
+                    "plant": 0.009285569190979004,
+                    "reptile": 9.336687867289584e-09,
+                    "vegetable": 0.05662035569548607
+                }
+            },
+            {
+                "subject": "cucumber",
+                "object": "plant",
+                "probs": {
+                    "amphibian": 0.0010574100306257606,
+                    "animal": 6.883766764076427e-05,
+                    "bird": 1.6545184280403191e-06,
+                    "fish": 1.1269243032074883e-06,
+                    "flower": 0.007958859205245972,
+                    "fruit": 0.14481019973754883,
+                    "mammal": 5.003673209102999e-07,
+                    "plant": 0.055242061614990234,
+                    "reptile": 2.5983199520851485e-06,
+                    "vegetable": 0.7908567190170288
+                }
+            },
+            {
+                "subject": "trout",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.007877963595092297,
+                    "animal": 0.0107691315934062,
+                    "bird": 0.0001364536874461919,
+                    "fish": 0.9812076091766357,
+                    "flower": 2.0468949060159503e-06,
+                    "fruit": 1.3768228654953418e-06,
+                    "mammal": 3.4579122143441055e-07,
+                    "plant": 1.8526893654779997e-06,
+                    "reptile": 2.487574874976417e-06,
+                    "vegetable": 7.326434570131823e-07
+                }
+            },
+            {
+                "subject": "bass",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0020595488604158163,
+                    "animal": 0.01062744576483965,
+                    "bird": 0.00018768783775158226,
+                    "fish": 0.98711758852005,
+                    "flower": 1.3765823041467229e-06,
+                    "fruit": 7.518056008848362e-07,
+                    "mammal": 4.6444080226137885e-07,
+                    "plant": 2.3025818336464e-06,
+                    "reptile": 8.522844154867926e-07,
+                    "vegetable": 1.952431830432033e-06
+                }
+            },
+            {
+                "subject": "carp",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.00028966908575966954,
+                    "animal": 0.004717119503766298,
+                    "bird": 5.4894691857043654e-05,
+                    "fish": 0.9949193596839905,
+                    "flower": 5.569344466493931e-06,
+                    "fruit": 6.526414040308737e-07,
+                    "mammal": 5.291239801863412e-08,
+                    "plant": 9.560980288370047e-06,
+                    "reptile": 1.8184415750965854e-07,
+                    "vegetable": 2.879852672776906e-06
+                }
+            },
+            {
+                "subject": "catfish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.002759071532636881,
+                    "animal": 0.008779691532254219,
+                    "bird": 8.788624654698651e-06,
+                    "fish": 0.9884470105171204,
+                    "flower": 2.8308718356129248e-06,
+                    "fruit": 4.264303470336017e-07,
+                    "mammal": 1.480352551652686e-07,
+                    "plant": 8.804559001873713e-07,
+                    "reptile": 4.6080330662334745e-07,
+                    "vegetable": 7.453826924574969e-07
+                }
+            },
+            {
+                "subject": "tilapia",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.004084440413862467,
+                    "animal": 0.00777376489713788,
+                    "bird": 3.522159022395499e-05,
+                    "fish": 0.9880872964859009,
+                    "flower": 5.324809990270296e-06,
+                    "fruit": 1.049429556587711e-06,
+                    "mammal": 6.647768486800487e-07,
+                    "plant": 5.45815873920219e-06,
+                    "reptile": 1.3723110896535218e-06,
+                    "vegetable": 5.459325166157214e-06
+                }
+            },
+            {
+                "subject": "goldfish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0015143643831834197,
+                    "animal": 0.004605235066264868,
+                    "bird": 2.5720511985127814e-05,
+                    "fish": 0.9938470721244812,
+                    "flower": 1.8967203914144193e-06,
+                    "fruit": 4.848488970310427e-07,
+                    "mammal": 9.851430604612688e-08,
+                    "plant": 1.8001684338742052e-06,
+                    "reptile": 2.0105785552004818e-06,
+                    "vegetable": 1.3054567489234614e-06
+                }
+            },
+            {
+                "subject": "salmon",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0018361462280154228,
+                    "animal": 0.008196203969419003,
+                    "bird": 7.189159077825025e-05,
+                    "fish": 0.9898897409439087,
+                    "flower": 1.2489114169511595e-06,
+                    "fruit": 2.7582184429775225e-06,
+                    "mammal": 3.86708819632986e-07,
+                    "plant": 3.9282858210754057e-07,
+                    "reptile": 1.0194096375926165e-06,
+                    "vegetable": 1.98519202854186e-07
+                }
+            },
+            {
+                "subject": "tuna",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0007296880357898772,
+                    "animal": 0.015227923169732094,
+                    "bird": 4.365032509667799e-05,
+                    "fish": 0.9839925169944763,
+                    "flower": 1.3658840316566057e-06,
+                    "fruit": 2.6707234610512387e-06,
+                    "mammal": 4.6708237277925946e-07,
+                    "plant": 7.289050358849636e-07,
+                    "reptile": 4.3591373355411633e-07,
+                    "vegetable": 5.935549438618182e-07
+                }
+            },
+            {
+                "subject": "swordfish",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.00024481030413880944,
+                    "animal": 0.006835327949374914,
+                    "bird": 7.812259718775749e-05,
+                    "fish": 0.9928372502326965,
+                    "flower": 1.3895640904593165e-06,
+                    "fruit": 6.976300710448413e-07,
+                    "mammal": 1.9973344933532644e-06,
+                    "plant": 2.0171111714262224e-07,
+                    "reptile": 1.634478792311711e-07,
+                    "vegetable": 5.708263017822901e-08
+                }
+            },
+            {
+                "subject": "shark",
+                "object": "fish",
+                "probs": {
+                    "amphibian": 0.0005332946893759072,
+                    "animal": 0.09408378601074219,
+                    "bird": 1.5381774574052542e-05,
+                    "fish": 0.9053581953048706,
+                    "flower": 4.232871333442745e-07,
+                    "fruit": 3.6150740356788447e-07,
+                    "mammal": 2.645017730174004e-06,
+                    "plant": 3.757935473913676e-07,
+                    "reptile": 5.434516424429603e-06,
+                    "vegetable": 6.570292043761583e-08
+                }
+            },
+            {
+                "subject": "sparrow",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.0004171239852439612,
+                    "animal": 0.017723577097058296,
+                    "bird": 0.9818564057350159,
+                    "fish": 7.892243161222723e-07,
+                    "flower": 4.3926277726313856e-07,
+                    "fruit": 4.329955061166402e-08,
+                    "mammal": 1.220846002070175e-06,
+                    "plant": 1.7944563523997203e-07,
+                    "reptile": 2.1816205730829097e-07,
+                    "vegetable": 4.992424607053181e-08
+                }
+            },
+            {
+                "subject": "crow",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.0009741087560541928,
+                    "animal": 0.2652515172958374,
+                    "bird": 0.7337474822998047,
+                    "fish": 7.317190920730354e-06,
+                    "flower": 3.837354256575054e-07,
+                    "fruit": 6.355630688403835e-08,
+                    "mammal": 1.8338665540795773e-05,
+                    "plant": 1.705532923779174e-07,
+                    "reptile": 3.795078953316988e-07,
+                    "vegetable": 1.6839533145684982e-07
+                }
+            },
+            {
+                "subject": "robin",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.0002721427590586245,
+                    "animal": 0.027648985385894775,
+                    "bird": 0.9720759391784668,
+                    "fish": 7.861283961574372e-07,
+                    "flower": 4.783157123711135e-07,
+                    "fruit": 1.6843836192492745e-07,
+                    "mammal": 9.412817121301487e-07,
+                    "plant": 3.141613262869214e-07,
+                    "reptile": 1.0431163133262089e-07,
+                    "vegetable": 5.605765096561299e-08
+                }
+            },
+            {
+                "subject": "blue jay",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.0012636777246370912,
+                    "animal": 0.0676976814866066,
+                    "bird": 0.9310292601585388,
+                    "fish": 1.8052428458759096e-06,
+                    "flower": 5.21505910455744e-07,
+                    "fruit": 8.57979500779038e-08,
+                    "mammal": 6.229504833754618e-06,
+                    "plant": 1.1756122830774984e-07,
+                    "reptile": 5.593789751401346e-07,
+                    "vegetable": 1.2542567873197186e-08
+                }
+            },
+            {
+                "subject": "owl",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.00457948911935091,
+                    "animal": 0.1407567262649536,
+                    "bird": 0.8546161651611328,
+                    "fish": 5.348833838070277e-06,
+                    "flower": 9.310492714575958e-07,
+                    "fruit": 8.062814060849632e-08,
+                    "mammal": 3.9531274524051696e-05,
+                    "plant": 1.887735265881929e-07,
+                    "reptile": 1.5527324421782396e-06,
+                    "vegetable": 3.70700412588576e-08
+                }
+            },
+            {
+                "subject": "eagle",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.002150110434740782,
+                    "animal": 0.17734041810035706,
+                    "bird": 0.8204894065856934,
+                    "fish": 1.359734233119525e-05,
+                    "flower": 1.6530778168544202e-07,
+                    "fruit": 1.4384120561317104e-07,
+                    "mammal": 4.954968972015195e-06,
+                    "plant": 1.991620592889376e-07,
+                    "reptile": 1.0027155212810612e-06,
+                    "vegetable": 5.414712589413284e-08
+                }
+            },
+            {
+                "subject": "hawk",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.004488753620535135,
+                    "animal": 0.25037893652915955,
+                    "bird": 0.745102047920227,
+                    "fish": 1.675877683737781e-05,
+                    "flower": 3.3605294902372407e-07,
+                    "fruit": 6.97538524718766e-08,
+                    "mammal": 7.456773801095551e-06,
+                    "plant": 3.1521361165687267e-07,
+                    "reptile": 5.237257482804125e-06,
+                    "vegetable": 5.445133055559381e-08
+                }
+            },
+            {
+                "subject": "turkey",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.009942195378243923,
+                    "animal": 0.20790445804595947,
+                    "bird": 0.781838595867157,
+                    "fish": 8.84535529621644e-06,
+                    "flower": 3.598866840093251e-07,
+                    "fruit": 2.7596416884989594e-07,
+                    "mammal": 0.00027303368551656604,
+                    "plant": 1.9751716990867862e-06,
+                    "reptile": 2.6614465241436847e-05,
+                    "vegetable": 3.697941792779602e-06
+                }
+            },
+            {
+                "subject": "duck",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.05159706249833107,
+                    "animal": 0.0841621607542038,
+                    "bird": 0.864203929901123,
+                    "fish": 2.7120191589347087e-05,
+                    "flower": 6.237157776922686e-07,
+                    "fruit": 4.670417581564834e-07,
+                    "mammal": 4.667837856686674e-06,
+                    "plant": 2.386635742368526e-07,
+                    "reptile": 3.348984364492935e-06,
+                    "vegetable": 3.8790975054325827e-07
+                }
+            },
+            {
+                "subject": "goose",
+                "object": "bird",
+                "probs": {
+                    "amphibian": 0.008692560717463493,
+                    "animal": 0.040033623576164246,
+                    "bird": 0.9512529373168945,
+                    "fish": 9.834439879341517e-06,
+                    "flower": 1.96733353163836e-07,
+                    "fruit": 2.827982541475649e-07,
+                    "mammal": 2.106675992763485e-06,
+                    "plant": 5.131609555064642e-07,
+                    "reptile": 7.3675651037774514e-06,
+                    "vegetable": 4.95815470458183e-07
+                }
+            },
+            {
+                "subject": "carrot",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 2.0956392745574703e-06,
+                    "animal": 8.32806690596044e-05,
+                    "bird": 8.183383215509821e-07,
+                    "fish": 1.3207053370933863e-06,
+                    "flower": 0.013228457421064377,
+                    "fruit": 0.002587052760645747,
+                    "mammal": 1.0817380058369963e-07,
+                    "plant": 0.065098837018013,
+                    "reptile": 1.2274823291136272e-07,
+                    "vegetable": 0.9189978837966919
+                }
+            },
+            {
+                "subject": "potato",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 7.136409840313718e-05,
+                    "animal": 0.0005353273008950055,
+                    "bird": 5.106136086396873e-06,
+                    "fish": 4.852277470490662e-06,
+                    "flower": 0.0044734603725373745,
+                    "fruit": 0.0032179118134081364,
+                    "mammal": 7.915627406873682e-07,
+                    "plant": 0.11082956194877625,
+                    "reptile": 5.090788022243942e-07,
+                    "vegetable": 0.8808611631393433
+                }
+            },
+            {
+                "subject": "tomato",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 8.767144754529e-05,
+                    "animal": 3.892207678291015e-05,
+                    "bird": 8.581704946664104e-07,
+                    "fish": 7.237443924168474e-07,
+                    "flower": 0.0025201623793691397,
+                    "fruit": 0.9314456582069397,
+                    "mammal": 1.6690933080099057e-07,
+                    "plant": 0.009285569190979004,
+                    "reptile": 9.336687867289584e-09,
+                    "vegetable": 0.05662035569548607
+                }
+            },
+            {
+                "subject": "lettuce",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 0.00014613982057198882,
+                    "animal": 7.526191620854661e-05,
+                    "bird": 3.286656465206761e-06,
+                    "fish": 4.749550953420112e-06,
+                    "flower": 0.01593928597867489,
+                    "fruit": 0.0003142811474390328,
+                    "mammal": 2.1958160800750193e-07,
+                    "plant": 0.26757627725601196,
+                    "reptile": 3.6383701740305696e-07,
+                    "vegetable": 0.7159401178359985
+                }
+            },
+            {
+                "subject": "cucumber",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 0.0010574100306257606,
+                    "animal": 6.883766764076427e-05,
+                    "bird": 1.6545184280403191e-06,
+                    "fish": 1.1269243032074883e-06,
+                    "flower": 0.007958859205245972,
+                    "fruit": 0.14481019973754883,
+                    "mammal": 5.003673209102999e-07,
+                    "plant": 0.055242061614990234,
+                    "reptile": 2.5983199520851485e-06,
+                    "vegetable": 0.7908567190170288
+                }
+            },
+            {
+                "subject": "onion",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 0.0002679913304746151,
+                    "animal": 0.0005450207972899079,
+                    "bird": 3.5462708183331415e-06,
+                    "fish": 6.371300059981877e-06,
+                    "flower": 0.11821005493402481,
+                    "fruit": 0.0386195071041584,
+                    "mammal": 6.941059496057278e-07,
+                    "plant": 0.22907249629497528,
+                    "reptile": 1.2813401326638996e-06,
+                    "vegetable": 0.613273024559021
+                }
+            },
+            {
+                "subject": "bell pepper",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 0.00023624916502740234,
+                    "animal": 9.19977537705563e-05,
+                    "bird": 1.4814064343227074e-05,
+                    "fish": 1.6867727481439942e-06,
+                    "flower": 0.025925153866410255,
+                    "fruit": 0.06430260092020035,
+                    "mammal": 3.8058731206547236e-06,
+                    "plant": 0.022753536701202393,
+                    "reptile": 2.040403387582046e-06,
+                    "vegetable": 0.8866681456565857
+                }
+            },
+            {
+                "subject": "broccoli",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 0.00023324294306803495,
+                    "animal": 0.00025928180548362434,
+                    "bird": 9.393892469233833e-06,
+                    "fish": 8.133086339512374e-06,
+                    "flower": 0.1443789154291153,
+                    "fruit": 0.0009838943369686604,
+                    "mammal": 9.252941595150332e-07,
+                    "plant": 0.13004794716835022,
+                    "reptile": 7.63982768603455e-07,
+                    "vegetable": 0.7240775227546692
+                }
+            },
+            {
+                "subject": "cauliflower",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 0.0001470655552111566,
+                    "animal": 9.569519170327112e-05,
+                    "bird": 8.777427865425125e-06,
+                    "fish": 4.069351689395262e-06,
+                    "flower": 0.06750624626874924,
+                    "fruit": 0.0005993460072204471,
+                    "mammal": 3.6745582292496692e-06,
+                    "plant": 0.01984640210866928,
+                    "reptile": 5.44435295068979e-07,
+                    "vegetable": 0.9117881655693054
+                }
+            },
+            {
+                "subject": "kale",
+                "object": "vegetable",
+                "probs": {
+                    "amphibian": 5.3386727813631296e-05,
+                    "animal": 0.00026667260681279004,
+                    "bird": 4.475061814446235e-06,
+                    "fish": 3.55139991370379e-06,
+                    "flower": 0.06024715304374695,
+                    "fruit": 0.0116004953160882,
+                    "mammal": 3.213626484921406e-07,
+                    "plant": 0.30174124240875244,
+                    "reptile": 5.470526502904249e-07,
+                    "vegetable": 0.6260821223258972
+                }
+            },
+            {
+                "subject": "apple",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 2.3294131096918136e-05,
+                    "animal": 8.732849892112426e-06,
+                    "bird": 3.39576899932581e-07,
+                    "fish": 3.300344246781606e-07,
+                    "flower": 0.00038378455792553723,
+                    "fruit": 0.9988977909088135,
+                    "mammal": 9.055742111740983e-08,
+                    "plant": 0.00035320298047736287,
+                    "reptile": 2.1525361049157254e-08,
+                    "vegetable": 0.0003323938581161201
+                }
+            },
+            {
+                "subject": "banana",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 9.60516554187052e-05,
+                    "animal": 1.899539893202018e-05,
+                    "bird": 1.2998031024835655e-06,
+                    "fish": 5.57394457700866e-07,
+                    "flower": 0.00021941868180874735,
+                    "fruit": 0.9985983967781067,
+                    "mammal": 7.941260804500416e-08,
+                    "plant": 0.0007876352756284177,
+                    "reptile": 6.601894853019985e-08,
+                    "vegetable": 0.0002775511529762298
+                }
+            },
+            {
+                "subject": "orange",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 2.6306188374292105e-06,
+                    "animal": 4.00806356992689e-06,
+                    "bird": 1.7212502712027344e-07,
+                    "fish": 6.233458975657413e-07,
+                    "flower": 0.00013441333430819213,
+                    "fruit": 0.9994564652442932,
+                    "mammal": 4.866356917432313e-08,
+                    "plant": 0.00023923590197227895,
+                    "reptile": 7.469041207741611e-08,
+                    "vegetable": 0.00016227450396399945
+                }
+            },
+            {
+                "subject": "grapefruit",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 0.003799836616963148,
+                    "animal": 0.00011143731535412371,
+                    "bird": 5.3687308536609635e-05,
+                    "fish": 1.668887671257835e-05,
+                    "flower": 0.000545825285371393,
+                    "fruit": 0.9906168580055237,
+                    "mammal": 2.5991498660005163e-06,
+                    "plant": 0.0010671423515304923,
+                    "reptile": 1.4642732821812388e-05,
+                    "vegetable": 0.003771244315430522
+                }
+            },
+            {
+                "subject": "grapes",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 0.00032112858025357127,
+                    "animal": 9.137977940554265e-06,
+                    "bird": 1.1179732837263145e-06,
+                    "fish": 1.3761173249804415e-06,
+                    "flower": 0.0024868447799235582,
+                    "fruit": 0.9951079487800598,
+                    "mammal": 1.4925129221410316e-07,
+                    "plant": 0.001389745739288628,
+                    "reptile": 1.2771009494372265e-07,
+                    "vegetable": 0.000682276557199657
+                }
+            },
+            {
+                "subject": "peach",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 3.0312847229652107e-05,
+                    "animal": 3.391331119928509e-05,
+                    "bird": 1.8076260630550678e-06,
+                    "fish": 1.0194005426455988e-06,
+                    "flower": 0.0035347535740584135,
+                    "fruit": 0.9959639310836792,
+                    "mammal": 1.2316921527144586e-07,
+                    "plant": 0.0003686189593281597,
+                    "reptile": 6.606870783798513e-08,
+                    "vegetable": 6.551791011588648e-05
+                }
+            },
+            {
+                "subject": "pear",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 2.243960989289917e-05,
+                    "animal": 1.1827461094071623e-05,
+                    "bird": 6.78522837915807e-07,
+                    "fish": 5.835058232150914e-07,
+                    "flower": 0.000350099871866405,
+                    "fruit": 0.9990301132202148,
+                    "mammal": 9.148055823970935e-08,
+                    "plant": 0.00037617876660078764,
+                    "reptile": 1.684645489774539e-08,
+                    "vegetable": 0.00020794227020815015
+                }
+            },
+            {
+                "subject": "watermelon",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 0.0025493402499705553,
+                    "animal": 5.742128996644169e-05,
+                    "bird": 3.372288347236463e-06,
+                    "fish": 6.5418485064583365e-06,
+                    "flower": 0.0013821556931361556,
+                    "fruit": 0.9691845178604126,
+                    "mammal": 3.936383109248709e-06,
+                    "plant": 0.0027553795371204615,
+                    "reptile": 8.78805440152064e-06,
+                    "vegetable": 0.024048544466495514
+                }
+            },
+            {
+                "subject": "strawberry",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 0.0002598400169517845,
+                    "animal": 4.7051104047568515e-05,
+                    "bird": 1.1974734661635011e-06,
+                    "fish": 6.18743570157676e-07,
+                    "flower": 0.021374695003032684,
+                    "fruit": 0.9729256629943848,
+                    "mammal": 4.313992576499004e-07,
+                    "plant": 0.004545730073004961,
+                    "reptile": 1.951840999936394e-07,
+                    "vegetable": 0.0008445467101410031
+                }
+            },
+            {
+                "subject": "blueberry",
+                "object": "fruit",
+                "probs": {
+                    "amphibian": 4.432700734469108e-05,
+                    "animal": 1.0331092198612168e-05,
+                    "bird": 2.8385343284753617e-06,
+                    "fish": 5.34721948497463e-07,
+                    "flower": 0.003619331866502762,
+                    "fruit": 0.9939092397689819,
+                    "mammal": 1.0150758100735402e-07,
+                    "plant": 0.001886069541797042,
+                    "reptile": 4.45971295448544e-08,
+                    "vegetable": 0.0005271581467241049
+                }
+            }
+        ]
+    }
+}

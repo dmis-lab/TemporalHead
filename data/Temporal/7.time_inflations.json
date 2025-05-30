@@ -1,0 +1,336 @@
+{
+  "name": "temporal_country_inflation_rate",
+  "prompt_templates": ["In year {time}, the inflation rate of {subject} was"],
+  "prompt_templates_zs": [
+    "In {time}, what was the inflation rate of {subject}?",
+    "What was the inflation rate of {subject} in {time}?"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "country",
+    "range_name": "inflation rate",
+    "symmetric": false
+  },
+  "samples": [
+    {
+      "subject": "United States",
+      "object": "2.19",
+      "time": "1999"
+    },
+    {
+      "subject": "United States",
+      "object": "3.38",
+      "time": "2000"
+    },
+    {
+      "subject": "United States",
+      "object": "2.83",
+      "time": "2001"
+    },
+    {
+      "subject": "United States",
+      "object": "1.59",
+      "time": "2002"
+    },
+    {
+      "subject": "United States",
+      "object": "2.27",
+      "time": "2003"
+    },
+    {
+      "subject": "United States",
+      "object": "2.68",
+      "time": "2004"
+    },
+    {
+      "subject": "United States",
+      "object": "3.39",
+      "time": "2005"
+    },
+    {
+      "subject": "United States",
+      "object": "3.23",
+      "time": "2006"
+    },
+    {
+      "subject": "United States",
+      "object": "2.85",
+      "time": "2007"
+    },
+    {
+      "subject": "United States",
+      "object": "3.84",
+      "time": "2008"
+    },
+    {
+      "subject": "United States",
+      "object": "-0.36",
+      "time": "2009"
+    },
+    {
+      "subject": "Brazil",
+      "object": "8.94",
+      "time": "1999"
+    },
+    {
+      "subject": "Brazil",
+      "object": "6.00",
+      "time": "2000"
+    },
+    {
+      "subject": "Brazil",
+      "object": "7.67",
+      "time": "2001"
+    },
+    {
+      "subject": "Brazil",
+      "object": "8.44",
+      "time": "2002"
+    },
+    {
+      "subject": "Brazil",
+      "object": "14.71",
+      "time": "2003"
+    },
+    {
+      "subject": "Brazil",
+      "object": "6.60",
+      "time": "2004"
+    },
+    {
+      "subject": "Brazil",
+      "object": "6.87",
+      "time": "2005"
+    },
+    {
+      "subject": "Brazil",
+      "object": "3.14",
+      "time": "2006"
+    },
+    {
+      "subject": "Brazil",
+      "object": "4.46",
+      "time": "2007"
+    },
+    {
+      "subject": "Brazil",
+      "object": "5.90",
+      "time": "2008"
+    },
+    {
+      "subject": "Brazil",
+      "object": "4.31",
+      "time": "2009"
+    },
+    {
+      "subject": "South Korea",
+      "object": "0.81",
+      "time": "1999"
+    },
+    {
+      "subject": "South Korea",
+      "object": "2.28",
+      "time": "2000"
+    },
+    {
+      "subject": "South Korea",
+      "object": "4.08",
+      "time": "2001"
+    },
+    {
+      "subject": "South Korea",
+      "object": "2.75",
+      "time": "2002"
+    },
+    {
+      "subject": "South Korea",
+      "object": "3.57",
+      "time": "2003"
+    },
+    {
+      "subject": "South Korea",
+      "object": "3.63",
+      "time": "2004"
+    },
+    {
+      "subject": "South Korea",
+      "object": "2.77",
+      "time": "2005"
+    },
+    {
+      "subject": "South Korea",
+      "object": "2.22",
+      "time": "2006"
+    },
+    {
+      "subject": "South Korea",
+      "object": "2.53",
+      "time": "2007"
+    },
+    {
+      "subject": "South Korea",
+      "object": "4.67",
+      "time": "2008"
+    },
+    {
+      "subject": "South Korea",
+      "object": "2.76",
+      "time": "2009"
+    }
+  ],
+  "alias_time_templates": [
+    {
+      "year": "1996",
+      "template": "In the year the Summer Olympics were held in Atlanta, {} was a member of sports team"
+    },
+    {
+      "year": "1997",
+      "template": "In the year the Champions League final was held in Munich, {} was a member of sports team"
+    },
+    {
+      "year": "1998",
+      "template": "In the year the Winter Olympics were held in Nagano, {} was a member of sports team"
+    },
+    {
+      "year": "1999",
+      "template": "In the year the Champions League final was held in Barcelona, {} was a member of sports team"
+    },
+    {
+      "year": "2000",
+      "template": "In the year the Summer Olympics were held in Sydney, {} was a member of sports team"
+    },
+    {
+      "year": "2001",
+      "template": "In the year the World Series was held in Arizona, {} was a member of sports team"
+    },
+    {
+      "year": "2002",
+      "template": "In the year the Winter Olympics were held in Salt Lake City, {} was a member of sports team"
+    },
+    {
+      "year": "2003",
+      "template": "In the year the Rugby World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2004",
+      "template": "In the year the Summer Olympics were held in Athens, {} was a member of sports team"
+    },
+    {
+      "year": "2005",
+      "template": "In the year the Champions League final was held in Istanbul, {} was a member of sports team"
+    },
+    {
+      "year": "2006",
+      "template": "In the year the FIFA World Cup was held in Germany, {} was a member of sports team"
+    },
+    {
+      "year": "2007",
+      "template": "In the year the Cricket World Cup was held in the West Indies, {} was a member of sports team"
+    },
+    {
+      "year": "2008",
+      "template": "In the year the Summer Olympics were held in Beijing, {} was a member of sports team"
+    },
+    {
+      "year": "2009",
+      "template": "In the year the Champions League final was held in Rome, {} was a member of sports team"
+    },
+    {
+      "year": "2010",
+      "template": "In the year the FIFA World Cup was held in South Africa, {} was a member of sports team"
+    },
+    {
+      "year": "2011",
+      "template": "In the year the Rugby World Cup was held in New Zealand, {} was a member of sports team"
+    },
+    {
+      "year": "2012",
+      "template": "In the year the Summer Olympics were held in London, {} was a member of sports team"
+    },
+    {
+      "year": "2013",
+      "template": "In the year the Confederations Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2014",
+      "template": "In the year the FIFA World Cup was held in Brazil, {} was a member of sports team"
+    },
+    {
+      "year": "2015",
+      "template": "In the year the Cricket World Cup was held in Australia, {} was a member of sports team"
+    },
+    {
+      "year": "2016",
+      "template": "In the year the Summer Olympics were held in Rio, {} was a member of sports team"
+    },
+    {
+      "year": "2017",
+      "template": "In the year the Champions League final was held in Cardiff, {} was a member of sports team"
+    },
+    {
+      "year": "2018",
+      "template": "In the year the FIFA World Cup was held in Russia, {} was a member of sports team"
+    },
+    {
+      "year": "2019",
+      "template": "In the year the Rugby World Cup was held in Japan, {} was a member of sports team"
+    },
+    {
+      "year": "2020",
+      "template": "In the year the Summer Olympics were postponed in Tokyo, {} was a member of sports team"
+    }
+  ],
+  "all_possible_objects": [
+    {
+      "subject": "United States",
+      "objects": [
+        "2.19",
+        "3.38",
+        "2.83",
+        "1.59",
+        "2.27",
+        "2.68",
+        "3.39",
+        "3.23",
+        "2.85",
+        "3.84",
+        "-0.36"
+      ],
+      "year_range": "1999-2009"
+    },
+    {
+      "subject": "Brazil",
+      "objects": [
+        "8.94",
+        "6.00",
+        "7.67",
+        "8.44",
+        "14.71",
+        "6.60",
+        "6.87",
+        "3.14",
+        "4.46",
+        "5.90",
+        "4.31"
+      ],
+      "year_range": "1999-2009"
+    },
+    {
+      "subject": "South Korea",
+      "objects": [
+        "0.81",
+        "2.28",
+        "4.08",
+        "2.75",
+        "3.57",
+        "3.63",
+        "2.77",
+        "2.22",
+        "2.53",
+        "4.67",
+        "2.76"
+      ],
+      "year_range": "1999-2009"
+    }
+  ]
+}

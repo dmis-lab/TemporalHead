@@ -1,0 +1,2644 @@
+{
+    "name": "temporal corporate leadership",
+    "prompt_templates": [
+        "In {time}, the CEO of {subject} was, "
+    ],
+    "prompt_templates_zs": [
+        "In {time}, who was the CEO of {subject}?",
+        "Who was the CEO of {subject} in {time}?"
+    ],
+    "properties": {
+        "relation_type": "factual",
+        "domain_name": "company",
+        "range_name": "person",
+        "symmetric": false
+    },
+    "samples": [
+        {
+            "subject": "Hewlett-Packard",
+            "object": "Lewis Platt",
+            "time": "1999"
+        },
+        {
+            "subject": "Hewlett-Packard",
+            "object": "Carly Fiorina",
+            "time": "2000"
+        },
+        {
+            "subject": "Hewlett-Packard",
+            "object": "Carly Fiorina",
+            "time": "2001"
+        },
+        {
+            "subject": "Hewlett-Packard",
+            "object": "Carly Fiorina",
+            "time": "2002"
+        },
+        {
+            "subject": "Hewlett-Packard",
+            "object": "Carly Fiorina",
+            "time": "2003"
+        },
+        {
+            "subject": "Hewlett-Packard",
+            "object": "Carly Fiorina",
+            "time": "2004"
+        },
+        {
+            "subject": "Hewlett-Packard",
+            "object": "Robert Wayman",
+            "time": "2005"
+        },
+        {
+            "subject": "Hewlett-Packard",
+            "object": "Mark Hurd",
+            "time": "2006"
+        },
+        {
+            "subject": "Hewlett-Packard",
+            "object": "Mark Hurd",
+            "time": "2007"
+        },
+        {
+            "subject": "Hewlett-Packard",
+            "object": "Mark Hurd",
+            "time": "2008"
+        },
+        {
+            "subject": "Hewlett-Packard",
+            "object": "Mark Hurd",
+            "time": "2009"
+        },
+        {
+            "subject": "Chrysler",
+            "object": "Robert Eaton",
+            "time": "1999"
+        },
+        {
+            "subject": "Chrysler",
+            "object": "James Holden",
+            "time": "2000"
+        },
+        {
+            "subject": "Chrysler",
+            "object": "Dieter Zetsche",
+            "time": "2001"
+        },
+        {
+            "subject": "Chrysler",
+            "object": "Dieter Zetsche",
+            "time": "2002"
+        },
+        {
+            "subject": "Chrysler",
+            "object": "Dieter Zetsche",
+            "time": "2003"
+        },
+        {
+            "subject": "Chrysler",
+            "object": "Dieter Zetsche",
+            "time": "2004"
+        },
+        {
+            "subject": "Chrysler",
+            "object": "Dieter Zetsche",
+            "time": "2005"
+        },
+        {
+            "subject": "Chrysler",
+            "object": "Tom LaSorda",
+            "time": "2006"
+        },
+        {
+            "subject": "Chrysler",
+            "object": "Bob Nardelli",
+            "time": "2007"
+        },
+        {
+            "subject": "Chrysler",
+            "object": "Bob Nardelli",
+            "time": "2008"
+        },
+        {
+            "subject": "Chrysler",
+            "object": "Bob Nardelli",
+            "time": "2009"
+        },
+        {
+            "subject": "Boeing",
+            "object": "Philip Condit",
+            "time": "1999"
+        },
+        {
+            "subject": "Boeing",
+            "object": "Philip Condit",
+            "time": "2000"
+        },
+        {
+            "subject": "Boeing",
+            "object": "Philip Condit",
+            "time": "2001"
+        },
+        {
+            "subject": "Boeing",
+            "object": "Philip Condit",
+            "time": "2002"
+        },
+        {
+            "subject": "Boeing",
+            "object": "Harry Stonecipher",
+            "time": "2003"
+        },
+        {
+            "subject": "Boeing",
+            "object": "Harry Stonecipher",
+            "time": "2004"
+        },
+        {
+            "subject": "Boeing",
+            "object": "James McNerney",
+            "time": "2005"
+        },
+        {
+            "subject": "Boeing",
+            "object": "James McNerney",
+            "time": "2006"
+        },
+        {
+            "subject": "Boeing",
+            "object": "James McNerney",
+            "time": "2007"
+        },
+        {
+            "subject": "Boeing",
+            "object": "James McNerney",
+            "time": "2008"
+        },
+        {
+            "subject": "Boeing",
+            "object": "James McNerney",
+            "time": "2009"
+        },
+        {
+            "subject": "McDonald's",
+            "object": "Jack M. Greenberg",
+            "time": "1999"
+        },
+        {
+            "subject": "McDonald's",
+            "object": "Jack M. Greenberg",
+            "time": "2000"
+        },
+        {
+            "subject": "McDonald's",
+            "object": "Jack M. Greenberg",
+            "time": "2001"
+        },
+        {
+            "subject": "McDonald's",
+            "object": "Jack M. Greenberg",
+            "time": "2002"
+        },
+        {
+            "subject": "McDonald's",
+            "object": "James R. Cantalupo",
+            "time": "2003"
+        },
+        {
+            "subject": "McDonald's",
+            "object": "James R. Cantalupo",
+            "time": "2004"
+        },
+        {
+            "subject": "McDonald's",
+            "object": "Jim Skinner",
+            "time": "2005"
+        },
+        {
+            "subject": "McDonald's",
+            "object": "Jim Skinner",
+            "time": "2006"
+        },
+        {
+            "subject": "McDonald's",
+            "object": "Jim Skinner",
+            "time": "2007"
+        },
+        {
+            "subject": "McDonald's",
+            "object": "Jim Skinner",
+            "time": "2008"
+        },
+        {
+            "subject": "McDonald's",
+            "object": "Jim Skinner",
+            "time": "2009"
+        },
+        {
+            "subject": "Ford Motor Company",
+            "object": "Jacques Nasser",
+            "time": "1999"
+        },
+        {
+            "subject": "Ford Motor Company",
+            "object": "Jacques Nasser",
+            "time": "2000"
+        },
+        {
+            "subject": "Ford Motor Company",
+            "object": "Jacques Nasser",
+            "time": "2001"
+        },
+        {
+            "subject": "Ford Motor Company",
+            "object": "William Clay Ford Jr.",
+            "time": "2002"
+        },
+        {
+            "subject": "Ford Motor Company",
+            "object": "William Clay Ford Jr.",
+            "time": "2003"
+        },
+        {
+            "subject": "Ford Motor Company",
+            "object": "William Clay Ford Jr.",
+            "time": "2004"
+        },
+        {
+            "subject": "Ford Motor Company",
+            "object": "William Clay Ford Jr.",
+            "time": "2005"
+        },
+        {
+            "subject": "Ford Motor Company",
+            "object": "William Clay Ford Jr.",
+            "time": "2006"
+        },
+        {
+            "subject": "Ford Motor Company",
+            "object": "Alan Mulally",
+            "time": "2007"
+        },
+        {
+            "subject": "Ford Motor Company",
+            "object": "Alan Mulally",
+            "time": "2008"
+        },
+        {
+            "subject": "Ford Motor Company",
+            "object": "Alan Mulally",
+            "time": "2009"
+        }
+    ],
+    "alias_time_templates": [
+        {
+            "year": "1996",
+            "template": "In the year the Summer Olympics were held in Atlanta, {} was a member of sports team"
+        },
+        {
+            "year": "1997",
+            "template": "In the year the Champions League final was held in Munich, {} was a member of sports team"
+        },
+        {
+            "year": "1998",
+            "template": "In the year the Winter Olympics were held in Nagano, {} was a member of sports team"
+        },
+        {
+            "year": "1999",
+            "template": "In the year the Champions League final was held in Barcelona, {} was a member of sports team"
+        },
+        {
+            "year": "2000",
+            "template": "In the year the Summer Olympics were held in Sydney, {} was a member of sports team"
+        },
+        {
+            "year": "2001",
+            "template": "In the year the World Series was held in Arizona, {} was a member of sports team"
+        },
+        {
+            "year": "2002",
+            "template": "In the year the Winter Olympics were held in Salt Lake City, {} was a member of sports team"
+        },
+        {
+            "year": "2003",
+            "template": "In the year the Rugby World Cup was held in Australia, {} was a member of sports team"
+        },
+        {
+            "year": "2004",
+            "template": "In the year the Summer Olympics were held in Athens, {} was a member of sports team"
+        },
+        {
+            "year": "2005",
+            "template": "In the year the Champions League final was held in Istanbul, {} was a member of sports team"
+        },
+        {
+            "year": "2006",
+            "template": "In the year the FIFA World Cup was held in Germany, {} was a member of sports team"
+        },
+        {
+            "year": "2007",
+            "template": "In the year the Cricket World Cup was held in the West Indies, {} was a member of sports team"
+        },
+        {
+            "year": "2008",
+            "template": "In the year the Summer Olympics were held in Beijing, {} was a member of sports team"
+        },
+        {
+            "year": "2009",
+            "template": "In the year the Champions League final was held in Rome, {} was a member of sports team"
+        },
+        {
+            "year": "2010",
+            "template": "In the year the FIFA World Cup was held in South Africa, {} was a member of sports team"
+        },
+        {
+            "year": "2011",
+            "template": "In the year the Rugby World Cup was held in New Zealand, {} was a member of sports team"
+        },
+        {
+            "year": "2012",
+            "template": "In the year the Summer Olympics were held in London, {} was a member of sports team"
+        },
+        {
+            "year": "2013",
+            "template": "In the year the Confederations Cup was held in Brazil, {} was a member of sports team"
+        },
+        {
+            "year": "2014",
+            "template": "In the year the FIFA World Cup was held in Brazil, {} was a member of sports team"
+        },
+        {
+            "year": "2015",
+            "template": "In the year the Cricket World Cup was held in Australia, {} was a member of sports team"
+        },
+        {
+            "year": "2016",
+            "template": "In the year the Summer Olympics were held in Rio, {} was a member of sports team"
+        },
+        {
+            "year": "2017",
+            "template": "In the year the Champions League final was held in Cardiff, {} was a member of sports team"
+        },
+        {
+            "year": "2018",
+            "template": "In the year the FIFA World Cup was held in Russia, {} was a member of sports team"
+        },
+        {
+            "year": "2019",
+            "template": "In the year the Rugby World Cup was held in Japan, {} was a member of sports team"
+        },
+        {
+            "year": "2020",
+            "template": "In the year the Summer Olympics were postponed in Tokyo, {} was a member of sports team"
+        }
+    ],
+    "all_possible_objects": [
+        {
+            "subject": "Hewlett-Packard",
+            "objects": [
+                "Lewis Platt",
+                "Carly Fiorina",
+                "Robert Wayman",
+                "Mark Hurd",
+                "Cathie Lesjak",
+                "L\u00e9o Apotheker",
+                "Meg Whitman"
+            ],
+            "year_range": "1992-2015"
+        },
+        {
+            "subject": "Chrysler",
+            "objects": [
+                "Robert Eaton",
+                "James Holden",
+                "Dieter Zetsche",
+                "Tom LaSorda",
+                "Bob Nardelli",
+                "Sergio Marchionne"
+            ],
+            "year_range": "1998-2014"
+        },
+        {
+            "subject": "Boeing",
+            "objects": [
+                "Philip Condit",
+                "Harry Stonecipher",
+                "James McNerney",
+                "Dennis Muilenburg",
+                "Dave Calhoun"
+            ],
+            "year_range": "1996-2020"
+        },
+        {
+            "subject": "McDonald's",
+            "objects": [
+                "Jack M. Greenberg",
+                "James R. Cantalupo",
+                "Charlie Bell",
+                "Jim Skinner",
+                "Don Thompson",
+                "Steve Easterbrook",
+                "Chris Kempczinski"
+            ],
+            "year_range": "1998-2020"
+        },
+        {
+            "subject": "Ford Motor Company",
+            "objects": [
+                "Jacques Nasser",
+                "William Clay Ford Jr.",
+                "Alan Mulally",
+                "Mark Fields",
+                "Jim Hackett",
+                "Jim Farley"
+            ],
+            "year_range": "1999-2020"
+        }
+    ],
+    "predictions": {
+        "prompt_templates:0": [
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Lewis Platt",
+                "time": "1999",
+                "probs": {
+                    "Lewis Platt": 0.0036820305977016687,
+                    "Carly Fiorina": 0.8935835957527161,
+                    "Robert Wayman": 2.729515290411655e-05,
+                    "Mark Hurd": 0.07313802093267441,
+                    "Cathie Lesjak": 0.006247357465326786,
+                    "L\u00e9o Apotheker": 0.01690896786749363,
+                    "Meg Whitman": 0.006412658374756575
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2000",
+                "probs": {
+                    "Lewis Platt": 0.0003747041628230363,
+                    "Carly Fiorina": 0.9490880966186523,
+                    "Robert Wayman": 7.0328283072740305e-06,
+                    "Mark Hurd": 0.02973296120762825,
+                    "Cathie Lesjak": 0.007476744242012501,
+                    "L\u00e9o Apotheker": 0.0024789224844425917,
+                    "Meg Whitman": 0.010841520503163338
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2001",
+                "probs": {
+                    "Lewis Platt": 0.0005945300217717886,
+                    "Carly Fiorina": 0.8748437166213989,
+                    "Robert Wayman": 4.9193181439477485e-06,
+                    "Mark Hurd": 0.08357785642147064,
+                    "Cathie Lesjak": 0.013500661589205265,
+                    "L\u00e9o Apotheker": 0.006342131644487381,
+                    "Meg Whitman": 0.021136146038770676
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2002",
+                "probs": {
+                    "Lewis Platt": 0.000782138027716428,
+                    "Carly Fiorina": 0.8235079050064087,
+                    "Robert Wayman": 6.029518772265874e-06,
+                    "Mark Hurd": 0.1291685402393341,
+                    "Cathie Lesjak": 0.016228260472416878,
+                    "L\u00e9o Apotheker": 0.008460965938866138,
+                    "Meg Whitman": 0.02184617891907692
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2003",
+                "probs": {
+                    "Lewis Platt": 0.0007680379203520715,
+                    "Carly Fiorina": 0.7929151654243469,
+                    "Robert Wayman": 5.5200116548803635e-06,
+                    "Mark Hurd": 0.1633516252040863,
+                    "Cathie Lesjak": 0.014364124275743961,
+                    "L\u00e9o Apotheker": 0.008183869533240795,
+                    "Meg Whitman": 0.020411565899848938
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2004",
+                "probs": {
+                    "Lewis Platt": 0.001109872362576425,
+                    "Carly Fiorina": 0.5799680352210999,
+                    "Robert Wayman": 6.0424654293456115e-06,
+                    "Mark Hurd": 0.37314367294311523,
+                    "Cathie Lesjak": 0.013895352371037006,
+                    "L\u00e9o Apotheker": 0.010133803822100163,
+                    "Meg Whitman": 0.021743273362517357
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Robert Wayman",
+                "time": "2005",
+                "probs": {
+                    "Lewis Platt": 0.001070937025360763,
+                    "Carly Fiorina": 0.4971311092376709,
+                    "Robert Wayman": 8.070691364991944e-06,
+                    "Mark Hurd": 0.4554315507411957,
+                    "Cathie Lesjak": 0.009614555165171623,
+                    "L\u00e9o Apotheker": 0.014245426282286644,
+                    "Meg Whitman": 0.022498318925499916
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Mark Hurd",
+                "time": "2006",
+                "probs": {
+                    "Lewis Platt": 0.0007827047957107425,
+                    "Carly Fiorina": 0.22432862222194672,
+                    "Robert Wayman": 9.383763426740188e-06,
+                    "Mark Hurd": 0.7244842052459717,
+                    "Cathie Lesjak": 0.006520690396428108,
+                    "L\u00e9o Apotheker": 0.017921017482876778,
+                    "Meg Whitman": 0.02595326490700245
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Mark Hurd",
+                "time": "2007",
+                "probs": {
+                    "Lewis Platt": 0.00035063482937403023,
+                    "Carly Fiorina": 0.05002310872077942,
+                    "Robert Wayman": 4.636071025743149e-06,
+                    "Mark Hurd": 0.9165981411933899,
+                    "Cathie Lesjak": 0.0034611402079463005,
+                    "L\u00e9o Apotheker": 0.01607181504368782,
+                    "Meg Whitman": 0.01349047664552927
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Mark Hurd",
+                "time": "2008",
+                "probs": {
+                    "Lewis Platt": 0.00023638409038539976,
+                    "Carly Fiorina": 0.014963783323764801,
+                    "Robert Wayman": 2.5820745577220805e-06,
+                    "Mark Hurd": 0.9630298018455505,
+                    "Cathie Lesjak": 0.0025343012530356646,
+                    "L\u00e9o Apotheker": 0.008247440680861473,
+                    "Meg Whitman": 0.010985680855810642
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Mark Hurd",
+                "time": "2009",
+                "probs": {
+                    "Lewis Platt": 0.00020969870092812926,
+                    "Carly Fiorina": 0.003055327571928501,
+                    "Robert Wayman": 7.514746585002285e-07,
+                    "Mark Hurd": 0.9684962630271912,
+                    "Cathie Lesjak": 0.0032850734423846006,
+                    "L\u00e9o Apotheker": 0.012008189223706722,
+                    "Meg Whitman": 0.0129447802901268
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Robert Eaton",
+                "time": "1999",
+                "probs": {
+                    "Robert Eaton": 0.6974833011627197,
+                    "James Holden": 0.002872548531740904,
+                    "Dieter Zetsche": 0.0005524214939214289,
+                    "Tom LaSorda": 0.04149241000413895,
+                    "Bob Nardelli": 0.23207584023475647,
+                    "Sergio Marchionne": 0.025523461401462555
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "James Holden",
+                "time": "2000",
+                "probs": {
+                    "Robert Eaton": 0.357221782207489,
+                    "James Holden": 0.0026399509515613317,
+                    "Dieter Zetsche": 0.0037373274099081755,
+                    "Tom LaSorda": 0.28954869508743286,
+                    "Bob Nardelli": 0.27696043252944946,
+                    "Sergio Marchionne": 0.0698917880654335
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2001",
+                "probs": {
+                    "Robert Eaton": 0.11123769730329514,
+                    "James Holden": 0.00246985349804163,
+                    "Dieter Zetsche": 0.0036931498907506466,
+                    "Tom LaSorda": 0.29728350043296814,
+                    "Bob Nardelli": 0.5080087184906006,
+                    "Sergio Marchionne": 0.07730706036090851
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2002",
+                "probs": {
+                    "Robert Eaton": 0.06340441852807999,
+                    "James Holden": 0.0019221851835027337,
+                    "Dieter Zetsche": 0.005299918819218874,
+                    "Tom LaSorda": 0.33709192276000977,
+                    "Bob Nardelli": 0.48404034972190857,
+                    "Sergio Marchionne": 0.10824116319417953
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2003",
+                "probs": {
+                    "Robert Eaton": 0.007314302958548069,
+                    "James Holden": 0.001371854916214943,
+                    "Dieter Zetsche": 0.00617554085329175,
+                    "Tom LaSorda": 0.3407990038394928,
+                    "Bob Nardelli": 0.5396773815155029,
+                    "Sergio Marchionne": 0.10466194152832031
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2004",
+                "probs": {
+                    "Robert Eaton": 0.0013987174024805427,
+                    "James Holden": 0.000936307362280786,
+                    "Dieter Zetsche": 0.007198308128863573,
+                    "Tom LaSorda": 0.3758532702922821,
+                    "Bob Nardelli": 0.45024603605270386,
+                    "Sergio Marchionne": 0.16436734795570374
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2005",
+                "probs": {
+                    "Robert Eaton": 7.607768930029124e-05,
+                    "James Holden": 0.000605797627940774,
+                    "Dieter Zetsche": 0.008604641072452068,
+                    "Tom LaSorda": 0.5266100764274597,
+                    "Bob Nardelli": 0.25989654660224915,
+                    "Sergio Marchionne": 0.2042068988084793
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Tom LaSorda",
+                "time": "2006",
+                "probs": {
+                    "Robert Eaton": 1.2540542229544371e-05,
+                    "James Holden": 0.00030063820304349065,
+                    "Dieter Zetsche": 0.010850177146494389,
+                    "Tom LaSorda": 0.49162447452545166,
+                    "Bob Nardelli": 0.17417031526565552,
+                    "Sergio Marchionne": 0.3230418264865875
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Bob Nardelli",
+                "time": "2007",
+                "probs": {
+                    "Robert Eaton": 5.7132201618514955e-06,
+                    "James Holden": 0.00013865753135178238,
+                    "Dieter Zetsche": 0.007860373705625534,
+                    "Tom LaSorda": 0.26493608951568604,
+                    "Bob Nardelli": 0.26008743047714233,
+                    "Sergio Marchionne": 0.4669717252254486
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Bob Nardelli",
+                "time": "2008",
+                "probs": {
+                    "Robert Eaton": 1.2115331173845334e-06,
+                    "James Holden": 6.27701883786358e-05,
+                    "Dieter Zetsche": 0.0027372646145522594,
+                    "Tom LaSorda": 0.045019324868917465,
+                    "Bob Nardelli": 0.3966992199420929,
+                    "Sergio Marchionne": 0.5554802417755127
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Bob Nardelli",
+                "time": "2009",
+                "probs": {
+                    "Robert Eaton": 4.1079724155679287e-07,
+                    "James Holden": 3.969546014559455e-05,
+                    "Dieter Zetsche": 0.0015301642706617713,
+                    "Tom LaSorda": 0.02175002358853817,
+                    "Bob Nardelli": 0.4062945544719696,
+                    "Sergio Marchionne": 0.5703850984573364
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Philip Condit",
+                "time": "1999",
+                "probs": {
+                    "Philip Condit": 0.00010169830784434453,
+                    "Harry Stonecipher": 0.07448113709688187,
+                    "James McNerney": 0.7164560556411743,
+                    "Dennis Muilenburg": 0.20690014958381653,
+                    "Dave Calhoun": 0.0020609330385923386
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Philip Condit",
+                "time": "2000",
+                "probs": {
+                    "Philip Condit": 6.733564077876508e-05,
+                    "Harry Stonecipher": 0.025010140612721443,
+                    "James McNerney": 0.5149124264717102,
+                    "Dennis Muilenburg": 0.4585214853286743,
+                    "Dave Calhoun": 0.0014885885175317526
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Philip Condit",
+                "time": "2001",
+                "probs": {
+                    "Philip Condit": 0.00011349197302479297,
+                    "Harry Stonecipher": 0.03028343804180622,
+                    "James McNerney": 0.42100587487220764,
+                    "Dennis Muilenburg": 0.5455478429794312,
+                    "Dave Calhoun": 0.003049335675314069
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Philip Condit",
+                "time": "2002",
+                "probs": {
+                    "Philip Condit": 0.00030892874929122627,
+                    "Harry Stonecipher": 0.021132085472345352,
+                    "James McNerney": 0.4257676899433136,
+                    "Dennis Muilenburg": 0.5502722859382629,
+                    "Dave Calhoun": 0.002519087167456746
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Harry Stonecipher",
+                "time": "2003",
+                "probs": {
+                    "Philip Condit": 0.0002347443951293826,
+                    "Harry Stonecipher": 0.016901575028896332,
+                    "James McNerney": 0.4039011299610138,
+                    "Dennis Muilenburg": 0.5760664343833923,
+                    "Dave Calhoun": 0.002896121935918927
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Harry Stonecipher",
+                "time": "2004",
+                "probs": {
+                    "Philip Condit": 0.00019297302060294896,
+                    "Harry Stonecipher": 0.016284041106700897,
+                    "James McNerney": 0.28196272253990173,
+                    "Dennis Muilenburg": 0.6973534822463989,
+                    "Dave Calhoun": 0.004206808749586344
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2005",
+                "probs": {
+                    "Philip Condit": 0.00030624857754446566,
+                    "Harry Stonecipher": 0.017152288928627968,
+                    "James McNerney": 0.3201477527618408,
+                    "Dennis Muilenburg": 0.6577531099319458,
+                    "Dave Calhoun": 0.004640594590455294
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2006",
+                "probs": {
+                    "Philip Condit": 0.0004321454034652561,
+                    "Harry Stonecipher": 0.013928083702921867,
+                    "James McNerney": 0.2825307250022888,
+                    "Dennis Muilenburg": 0.6991048455238342,
+                    "Dave Calhoun": 0.004004156216979027
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2007",
+                "probs": {
+                    "Philip Condit": 0.00029653889941982925,
+                    "Harry Stonecipher": 0.011599093675613403,
+                    "James McNerney": 0.32089489698410034,
+                    "Dennis Muilenburg": 0.662980318069458,
+                    "Dave Calhoun": 0.004229180049151182
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2008",
+                "probs": {
+                    "Philip Condit": 0.00028308547916822135,
+                    "Harry Stonecipher": 0.007946482859551907,
+                    "James McNerney": 0.35349613428115845,
+                    "Dennis Muilenburg": 0.6331121921539307,
+                    "Dave Calhoun": 0.0051621440798044205
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2009",
+                "probs": {
+                    "Philip Condit": 0.00012065248301951215,
+                    "Harry Stonecipher": 0.006469312589615583,
+                    "James McNerney": 0.28137898445129395,
+                    "Dennis Muilenburg": 0.6988227367401123,
+                    "Dave Calhoun": 0.013208351098001003
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jack M. Greenberg",
+                "time": "1999",
+                "probs": {
+                    "Jack M. Greenberg": 0.003450969234108925,
+                    "James R. Cantalupo": 5.923100161453476e-07,
+                    "Charlie Bell": 0.07559411227703094,
+                    "Jim Skinner": 0.001532971509732306,
+                    "Don Thompson": 0.08618509769439697,
+                    "Steve Easterbrook": 0.7984364628791809,
+                    "Chris Kempczinski": 0.034799881279468536
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jack M. Greenberg",
+                "time": "2000",
+                "probs": {
+                    "Jack M. Greenberg": 0.007106764707714319,
+                    "James R. Cantalupo": 5.095188839732145e-07,
+                    "Charlie Bell": 0.11770659685134888,
+                    "Jim Skinner": 0.0020113568753004074,
+                    "Don Thompson": 0.10185685008764267,
+                    "Steve Easterbrook": 0.749485969543457,
+                    "Chris Kempczinski": 0.021831916645169258
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jack M. Greenberg",
+                "time": "2001",
+                "probs": {
+                    "Jack M. Greenberg": 0.003081878647208214,
+                    "James R. Cantalupo": 1.485743581497445e-07,
+                    "Charlie Bell": 0.0808684453368187,
+                    "Jim Skinner": 0.001519391080364585,
+                    "Don Thompson": 0.06575385481119156,
+                    "Steve Easterbrook": 0.8289145827293396,
+                    "Chris Kempczinski": 0.01986171305179596
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jack M. Greenberg",
+                "time": "2002",
+                "probs": {
+                    "Jack M. Greenberg": 0.002355301985517144,
+                    "James R. Cantalupo": 1.5391948693377344e-07,
+                    "Charlie Bell": 0.08151987195014954,
+                    "Jim Skinner": 0.0022277270909398794,
+                    "Don Thompson": 0.06464170664548874,
+                    "Steve Easterbrook": 0.8310080170631409,
+                    "Chris Kempczinski": 0.018247155472636223
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "James R. Cantalupo",
+                "time": "2003",
+                "probs": {
+                    "Jack M. Greenberg": 0.0014226598432287574,
+                    "James R. Cantalupo": 9.299311187760395e-08,
+                    "Charlie Bell": 0.07178738713264465,
+                    "Jim Skinner": 0.003656440880149603,
+                    "Don Thompson": 0.06689482927322388,
+                    "Steve Easterbrook": 0.8415402770042419,
+                    "Chris Kempczinski": 0.014698320999741554
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "James R. Cantalupo",
+                "time": "2004",
+                "probs": {
+                    "Jack M. Greenberg": 0.001218387857079506,
+                    "James R. Cantalupo": 1.0437116770845023e-07,
+                    "Charlie Bell": 0.10446231067180634,
+                    "Jim Skinner": 0.006805376149713993,
+                    "Don Thompson": 0.050638534128665924,
+                    "Steve Easterbrook": 0.818784236907959,
+                    "Chris Kempczinski": 0.01809116266667843
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2005",
+                "probs": {
+                    "Jack M. Greenberg": 0.0009094324195757508,
+                    "James R. Cantalupo": 9.688708502153531e-08,
+                    "Charlie Bell": 0.10852402448654175,
+                    "Jim Skinner": 0.01024017482995987,
+                    "Don Thompson": 0.0637366846203804,
+                    "Steve Easterbrook": 0.7962965369224548,
+                    "Chris Kempczinski": 0.020293131470680237
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2006",
+                "probs": {
+                    "Jack M. Greenberg": 0.0004006998788099736,
+                    "James R. Cantalupo": 5.392365665102261e-08,
+                    "Charlie Bell": 0.10288681834936142,
+                    "Jim Skinner": 0.022824423387646675,
+                    "Don Thompson": 0.05524725466966629,
+                    "Steve Easterbrook": 0.8070416450500488,
+                    "Chris Kempczinski": 0.011599110439419746
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2007",
+                "probs": {
+                    "Jack M. Greenberg": 0.00014508746971841902,
+                    "James R. Cantalupo": 3.732365527753245e-08,
+                    "Charlie Bell": 0.07725121080875397,
+                    "Jim Skinner": 0.028492512181401253,
+                    "Don Thompson": 0.03045882284641266,
+                    "Steve Easterbrook": 0.8555599451065063,
+                    "Chris Kempczinski": 0.0080923642963171
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2008",
+                "probs": {
+                    "Jack M. Greenberg": 8.681647159392014e-05,
+                    "James R. Cantalupo": 3.781817525805309e-08,
+                    "Charlie Bell": 0.10136231034994125,
+                    "Jim Skinner": 0.09099552035331726,
+                    "Don Thompson": 0.032265741378068924,
+                    "Steve Easterbrook": 0.7693964838981628,
+                    "Chris Kempczinski": 0.005893155466765165
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2009",
+                "probs": {
+                    "Jack M. Greenberg": 3.389815174159594e-05,
+                    "James R. Cantalupo": 4.590604518739383e-08,
+                    "Charlie Bell": 0.08260316401720047,
+                    "Jim Skinner": 0.1280203014612198,
+                    "Don Thompson": 0.019823547452688217,
+                    "Steve Easterbrook": 0.7630838751792908,
+                    "Chris Kempczinski": 0.006435076706111431
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Jacques Nasser",
+                "time": "1999",
+                "probs": {
+                    "Jacques Nasser": 0.021279025822877884,
+                    "William Clay Ford Jr.": 0.12580843269824982,
+                    "Alan Mulally": 0.4942808151245117,
+                    "Mark Fields": 0.029683079570531845,
+                    "Jim Hackett": 0.0008576993132010102,
+                    "Jim Farley": 0.32809093594551086
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Jacques Nasser",
+                "time": "2000",
+                "probs": {
+                    "Jacques Nasser": 0.025206992402672768,
+                    "William Clay Ford Jr.": 0.12697769701480865,
+                    "Alan Mulally": 0.6565267443656921,
+                    "Mark Fields": 0.019147377461194992,
+                    "Jim Hackett": 0.00024764062254689634,
+                    "Jim Farley": 0.17189358174800873
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Jacques Nasser",
+                "time": "2001",
+                "probs": {
+                    "Jacques Nasser": 0.009039346128702164,
+                    "William Clay Ford Jr.": 0.09268125891685486,
+                    "Alan Mulally": 0.7552289366722107,
+                    "Mark Fields": 0.007126311305910349,
+                    "Jim Hackett": 0.00013007312372792512,
+                    "Jim Farley": 0.13579408824443817
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2002",
+                "probs": {
+                    "Jacques Nasser": 0.007894117385149002,
+                    "William Clay Ford Jr.": 0.08108498901128769,
+                    "Alan Mulally": 0.7986325621604919,
+                    "Mark Fields": 0.006281386595219374,
+                    "Jim Hackett": 0.00011510994227137417,
+                    "Jim Farley": 0.10599184036254883
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2003",
+                "probs": {
+                    "Jacques Nasser": 0.004270579665899277,
+                    "William Clay Ford Jr.": 0.08393831551074982,
+                    "Alan Mulally": 0.7822750806808472,
+                    "Mark Fields": 0.0037931345868855715,
+                    "Jim Hackett": 0.00012451247312128544,
+                    "Jim Farley": 0.12559841573238373
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2004",
+                "probs": {
+                    "Jacques Nasser": 0.00369284232147038,
+                    "William Clay Ford Jr.": 0.0690201073884964,
+                    "Alan Mulally": 0.8201724290847778,
+                    "Mark Fields": 0.0035950716119259596,
+                    "Jim Hackett": 0.00010549213766353205,
+                    "Jim Farley": 0.10341402143239975
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2005",
+                "probs": {
+                    "Jacques Nasser": 0.0021851896308362484,
+                    "William Clay Ford Jr.": 0.0731615349650383,
+                    "Alan Mulally": 0.8512246608734131,
+                    "Mark Fields": 0.0019032028503715992,
+                    "Jim Hackett": 7.771849050186574e-05,
+                    "Jim Farley": 0.07144767791032791
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2006",
+                "probs": {
+                    "Jacques Nasser": 0.00027932212105952203,
+                    "William Clay Ford Jr.": 0.010773398913443089,
+                    "Alan Mulally": 0.9737792611122131,
+                    "Mark Fields": 0.0007682497962377965,
+                    "Jim Hackett": 1.3773899809166323e-05,
+                    "Jim Farley": 0.014385966584086418
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Alan Mulally",
+                "time": "2007",
+                "probs": {
+                    "Jacques Nasser": 3.241519152652472e-05,
+                    "William Clay Ford Jr.": 0.0025095315650105476,
+                    "Alan Mulally": 0.9929906129837036,
+                    "Mark Fields": 0.0013196886284276843,
+                    "Jim Hackett": 2.07741004487616e-06,
+                    "Jim Farley": 0.0031457010190933943
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Alan Mulally",
+                "time": "2008",
+                "probs": {
+                    "Jacques Nasser": 1.213074483530363e-05,
+                    "William Clay Ford Jr.": 0.000990136293694377,
+                    "Alan Mulally": 0.9956488013267517,
+                    "Mark Fields": 0.001735928119160235,
+                    "Jim Hackett": 1.2100281310267746e-06,
+                    "Jim Farley": 0.001611865358427167
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Alan Mulally",
+                "time": "2009",
+                "probs": {
+                    "Jacques Nasser": 4.709297172666993e-06,
+                    "William Clay Ford Jr.": 0.00042741504148580134,
+                    "Alan Mulally": 0.9962725639343262,
+                    "Mark Fields": 0.001448222785256803,
+                    "Jim Hackett": 1.3068765838397667e-06,
+                    "Jim Farley": 0.0018457029946148396
+                }
+            }
+        ],
+        "prompt_templates_zs:0": [
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Lewis Platt",
+                "time": "1999",
+                "probs": {
+                    "Lewis Platt": 0.0026366375386714935,
+                    "Carly Fiorina": 0.9790255427360535,
+                    "Robert Wayman": 1.0701437531679403e-05,
+                    "Mark Hurd": 0.009625308215618134,
+                    "Cathie Lesjak": 3.2916111649683444e-06,
+                    "L\u00e9o Apotheker": 0.006079875398427248,
+                    "Meg Whitman": 0.002618675120174885
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2000",
+                "probs": {
+                    "Lewis Platt": 0.0004806581709999591,
+                    "Carly Fiorina": 0.9788604378700256,
+                    "Robert Wayman": 1.6951709767454304e-05,
+                    "Mark Hurd": 0.01598682813346386,
+                    "Cathie Lesjak": 4.31085618401994e-06,
+                    "L\u00e9o Apotheker": 0.002718256786465645,
+                    "Meg Whitman": 0.0019325687317177653
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2001",
+                "probs": {
+                    "Lewis Platt": 0.0001834551221691072,
+                    "Carly Fiorina": 0.9679529070854187,
+                    "Robert Wayman": 1.602572956471704e-05,
+                    "Mark Hurd": 0.027112729847431183,
+                    "Cathie Lesjak": 1.3914474038756453e-05,
+                    "L\u00e9o Apotheker": 0.0020653745159506798,
+                    "Meg Whitman": 0.0026555974036455154
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2002",
+                "probs": {
+                    "Lewis Platt": 0.00010914717859122902,
+                    "Carly Fiorina": 0.9764520525932312,
+                    "Robert Wayman": 2.2532731236424297e-05,
+                    "Mark Hurd": 0.020821044221520424,
+                    "Cathie Lesjak": 6.7213068177807145e-06,
+                    "L\u00e9o Apotheker": 0.001184524386189878,
+                    "Meg Whitman": 0.0014039771631360054
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2003",
+                "probs": {
+                    "Lewis Platt": 5.3017676691524684e-05,
+                    "Carly Fiorina": 0.9259305000305176,
+                    "Robert Wayman": 4.813412670046091e-05,
+                    "Mark Hurd": 0.0704735592007637,
+                    "Cathie Lesjak": 6.962900442886166e-06,
+                    "L\u00e9o Apotheker": 0.001375421299599111,
+                    "Meg Whitman": 0.002112426096573472
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2004",
+                "probs": {
+                    "Lewis Platt": 1.829151005949825e-05,
+                    "Carly Fiorina": 0.7625142335891724,
+                    "Robert Wayman": 9.785927250050008e-05,
+                    "Mark Hurd": 0.23342114686965942,
+                    "Cathie Lesjak": 5.9177600633120164e-06,
+                    "L\u00e9o Apotheker": 0.0008877046639099717,
+                    "Meg Whitman": 0.003054829081520438
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Robert Wayman",
+                "time": "2005",
+                "probs": {
+                    "Lewis Platt": 9.880502148007508e-06,
+                    "Carly Fiorina": 0.3056305944919586,
+                    "Robert Wayman": 0.0003880942240357399,
+                    "Mark Hurd": 0.6867552399635315,
+                    "Cathie Lesjak": 1.1109964361821767e-05,
+                    "L\u00e9o Apotheker": 0.0013818888692185283,
+                    "Meg Whitman": 0.005823209416121244
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Mark Hurd",
+                "time": "2006",
+                "probs": {
+                    "Lewis Platt": 3.3628557503107004e-06,
+                    "Carly Fiorina": 0.06334731727838516,
+                    "Robert Wayman": 0.0005032982444390655,
+                    "Mark Hurd": 0.931962251663208,
+                    "Cathie Lesjak": 3.6582632674253546e-06,
+                    "L\u00e9o Apotheker": 0.0008857722277753055,
+                    "Meg Whitman": 0.003294359426945448
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Mark Hurd",
+                "time": "2007",
+                "probs": {
+                    "Lewis Platt": 5.426267648545036e-07,
+                    "Carly Fiorina": 0.002914689015597105,
+                    "Robert Wayman": 0.00011927633022423834,
+                    "Mark Hurd": 0.9957723021507263,
+                    "Cathie Lesjak": 9.435021866011084e-07,
+                    "L\u00e9o Apotheker": 0.00026495338534004986,
+                    "Meg Whitman": 0.0009273217292502522
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Mark Hurd",
+                "time": "2008",
+                "probs": {
+                    "Lewis Platt": 9.109364214054949e-07,
+                    "Carly Fiorina": 0.0011649694060906768,
+                    "Robert Wayman": 4.2443072743481025e-05,
+                    "Mark Hurd": 0.9977801442146301,
+                    "Cathie Lesjak": 6.315266318779322e-07,
+                    "L\u00e9o Apotheker": 0.0003950867976527661,
+                    "Meg Whitman": 0.0006157438619993627
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Mark Hurd",
+                "time": "2009",
+                "probs": {
+                    "Lewis Platt": 3.416189656491042e-06,
+                    "Carly Fiorina": 0.00015055417316034436,
+                    "Robert Wayman": 7.302822268684395e-06,
+                    "Mark Hurd": 0.9968519806861877,
+                    "Cathie Lesjak": 1.059514147527807e-06,
+                    "L\u00e9o Apotheker": 0.0026063004042953253,
+                    "Meg Whitman": 0.0003794067306444049
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Robert Eaton",
+                "time": "1999",
+                "probs": {
+                    "Robert Eaton": 0.09455899894237518,
+                    "James Holden": 0.0002752387954387814,
+                    "Dieter Zetsche": 0.0014353643637150526,
+                    "Tom LaSorda": 0.40076562762260437,
+                    "Bob Nardelli": 0.01083383709192276,
+                    "Sergio Marchionne": 0.49213093519210815
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "James Holden",
+                "time": "2000",
+                "probs": {
+                    "Robert Eaton": 0.03634573891758919,
+                    "James Holden": 0.0010328128701075912,
+                    "Dieter Zetsche": 0.0030864221043884754,
+                    "Tom LaSorda": 0.4468950629234314,
+                    "Bob Nardelli": 0.01575567200779915,
+                    "Sergio Marchionne": 0.496884286403656
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2001",
+                "probs": {
+                    "Robert Eaton": 0.006642477121204138,
+                    "James Holden": 0.00042443201527930796,
+                    "Dieter Zetsche": 0.0020583714358508587,
+                    "Tom LaSorda": 0.6251329183578491,
+                    "Bob Nardelli": 0.04915733262896538,
+                    "Sergio Marchionne": 0.3165844678878784
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2002",
+                "probs": {
+                    "Robert Eaton": 0.002374980365857482,
+                    "James Holden": 0.0005382667295634747,
+                    "Dieter Zetsche": 0.001235625590197742,
+                    "Tom LaSorda": 0.7283329367637634,
+                    "Bob Nardelli": 0.03614555671811104,
+                    "Sergio Marchionne": 0.2313726842403412
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2003",
+                "probs": {
+                    "Robert Eaton": 0.00019299477571621537,
+                    "James Holden": 0.00029336276929825544,
+                    "Dieter Zetsche": 0.0010697250254452229,
+                    "Tom LaSorda": 0.7421576380729675,
+                    "Bob Nardelli": 0.08851645141839981,
+                    "Sergio Marchionne": 0.16776978969573975
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2004",
+                "probs": {
+                    "Robert Eaton": 1.0430371730763e-05,
+                    "James Holden": 0.0004713372909463942,
+                    "Dieter Zetsche": 0.0009725078707560897,
+                    "Tom LaSorda": 0.7979315519332886,
+                    "Bob Nardelli": 0.07697112113237381,
+                    "Sergio Marchionne": 0.12364305555820465
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2005",
+                "probs": {
+                    "Robert Eaton": 6.584707534784684e-07,
+                    "James Holden": 0.00016293718363158405,
+                    "Dieter Zetsche": 0.0009818576509132981,
+                    "Tom LaSorda": 0.8680789470672607,
+                    "Bob Nardelli": 0.056661542505025864,
+                    "Sergio Marchionne": 0.07411400973796844
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Tom LaSorda",
+                "time": "2006",
+                "probs": {
+                    "Robert Eaton": 4.565800963973743e-07,
+                    "James Holden": 0.00014130676572676748,
+                    "Dieter Zetsche": 0.0009269072907045484,
+                    "Tom LaSorda": 0.7594035863876343,
+                    "Bob Nardelli": 0.1011899933218956,
+                    "Sergio Marchionne": 0.13833776116371155
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Bob Nardelli",
+                "time": "2007",
+                "probs": {
+                    "Robert Eaton": 1.175565898847708e-06,
+                    "James Holden": 0.00011975189408985898,
+                    "Dieter Zetsche": 0.00024029413179960102,
+                    "Tom LaSorda": 0.41924217343330383,
+                    "Bob Nardelli": 0.36972030997276306,
+                    "Sergio Marchionne": 0.21067635715007782
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Bob Nardelli",
+                "time": "2008",
+                "probs": {
+                    "Robert Eaton": 2.907562191012403e-07,
+                    "James Holden": 6.121549813542515e-05,
+                    "Dieter Zetsche": 1.981380773941055e-05,
+                    "Tom LaSorda": 0.009205191396176815,
+                    "Bob Nardelli": 0.47323253750801086,
+                    "Sergio Marchionne": 0.5174810290336609
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Bob Nardelli",
+                "time": "2009",
+                "probs": {
+                    "Robert Eaton": 7.685778236066199e-09,
+                    "James Holden": 9.8418695415603e-06,
+                    "Dieter Zetsche": 9.599256145520485e-07,
+                    "Tom LaSorda": 0.00014656689018011093,
+                    "Bob Nardelli": 0.09103510528802872,
+                    "Sergio Marchionne": 0.9088074564933777
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Philip Condit",
+                "time": "1999",
+                "probs": {
+                    "Philip Condit": 0.0014650610974058509,
+                    "Harry Stonecipher": 0.7134186029434204,
+                    "James McNerney": 0.2270120531320572,
+                    "Dennis Muilenburg": 0.053937364369630814,
+                    "Dave Calhoun": 0.004166889004409313
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Philip Condit",
+                "time": "2000",
+                "probs": {
+                    "Philip Condit": 0.0018843108555302024,
+                    "Harry Stonecipher": 0.5069956183433533,
+                    "James McNerney": 0.37332209944725037,
+                    "Dennis Muilenburg": 0.10915804654359818,
+                    "Dave Calhoun": 0.008639886043965816
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Philip Condit",
+                "time": "2001",
+                "probs": {
+                    "Philip Condit": 0.003446654649451375,
+                    "Harry Stonecipher": 0.4546787142753601,
+                    "James McNerney": 0.47767123579978943,
+                    "Dennis Muilenburg": 0.05806669965386391,
+                    "Dave Calhoun": 0.006136737298220396
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Philip Condit",
+                "time": "2002",
+                "probs": {
+                    "Philip Condit": 0.00519578019157052,
+                    "Harry Stonecipher": 0.5594501495361328,
+                    "James McNerney": 0.40070050954818726,
+                    "Dennis Muilenburg": 0.030374208465218544,
+                    "Dave Calhoun": 0.004279413726180792
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Harry Stonecipher",
+                "time": "2003",
+                "probs": {
+                    "Philip Condit": 0.008393480442464352,
+                    "Harry Stonecipher": 0.3459033668041229,
+                    "James McNerney": 0.6178638935089111,
+                    "Dennis Muilenburg": 0.024542905390262604,
+                    "Dave Calhoun": 0.0032963771373033524
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Harry Stonecipher",
+                "time": "2004",
+                "probs": {
+                    "Philip Condit": 0.007345673628151417,
+                    "Harry Stonecipher": 0.27929386496543884,
+                    "James McNerney": 0.6905105113983154,
+                    "Dennis Muilenburg": 0.020542437210679054,
+                    "Dave Calhoun": 0.002307506976649165
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2005",
+                "probs": {
+                    "Philip Condit": 0.008365034125745296,
+                    "Harry Stonecipher": 0.10321684181690216,
+                    "James McNerney": 0.8717201948165894,
+                    "Dennis Muilenburg": 0.014853696338832378,
+                    "Dave Calhoun": 0.0018441552529111505
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2006",
+                "probs": {
+                    "Philip Condit": 0.004241123795509338,
+                    "Harry Stonecipher": 0.028801187872886658,
+                    "James McNerney": 0.9484527111053467,
+                    "Dennis Muilenburg": 0.01694943942129612,
+                    "Dave Calhoun": 0.001555563067086041
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2007",
+                "probs": {
+                    "Philip Condit": 0.001115643186494708,
+                    "Harry Stonecipher": 0.010145002976059914,
+                    "James McNerney": 0.9746766090393066,
+                    "Dennis Muilenburg": 0.01155911572277546,
+                    "Dave Calhoun": 0.00250361324287951
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2008",
+                "probs": {
+                    "Philip Condit": 0.0003340925613883883,
+                    "Harry Stonecipher": 0.0031872421968728304,
+                    "James McNerney": 0.9908834099769592,
+                    "Dennis Muilenburg": 0.003935478627681732,
+                    "Dave Calhoun": 0.0016598391812294722
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2009",
+                "probs": {
+                    "Philip Condit": 5.170688837097259e-06,
+                    "Harry Stonecipher": 0.00031885626958683133,
+                    "James McNerney": 0.9967814683914185,
+                    "Dennis Muilenburg": 0.0021580751053988934,
+                    "Dave Calhoun": 0.000736458518076688
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jack M. Greenberg",
+                "time": "1999",
+                "probs": {
+                    "Jack M. Greenberg": 0.7088919878005981,
+                    "James R. Cantalupo": 3.109509270871058e-05,
+                    "Charlie Bell": 0.07917222380638123,
+                    "Jim Skinner": 0.10374647378921509,
+                    "Don Thompson": 0.09885067492723465,
+                    "Steve Easterbrook": 0.009080218151211739,
+                    "Chris Kempczinski": 0.0002273812424391508
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jack M. Greenberg",
+                "time": "2000",
+                "probs": {
+                    "Jack M. Greenberg": 0.5673491358757019,
+                    "James R. Cantalupo": 2.6177211111644283e-05,
+                    "Charlie Bell": 0.15308722853660583,
+                    "Jim Skinner": 0.18102051317691803,
+                    "Don Thompson": 0.08485297113656998,
+                    "Steve Easterbrook": 0.013296637684106827,
+                    "Chris Kempczinski": 0.00036725762765854597
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jack M. Greenberg",
+                "time": "2001",
+                "probs": {
+                    "Jack M. Greenberg": 0.42556121945381165,
+                    "James R. Cantalupo": 2.5626701244618744e-05,
+                    "Charlie Bell": 0.14471480250358582,
+                    "Jim Skinner": 0.33890408277511597,
+                    "Don Thompson": 0.07700653374195099,
+                    "Steve Easterbrook": 0.013395009562373161,
+                    "Chris Kempczinski": 0.00039270782144740224
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jack M. Greenberg",
+                "time": "2002",
+                "probs": {
+                    "Jack M. Greenberg": 0.2312168926000595,
+                    "James R. Cantalupo": 1.699506537988782e-05,
+                    "Charlie Bell": 0.1261139065027237,
+                    "Jim Skinner": 0.5877005457878113,
+                    "Don Thompson": 0.04876240715384483,
+                    "Steve Easterbrook": 0.006048446521162987,
+                    "Chris Kempczinski": 0.0001408505777362734
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "James R. Cantalupo",
+                "time": "2003",
+                "probs": {
+                    "Jack M. Greenberg": 0.03895721212029457,
+                    "James R. Cantalupo": 8.076363883446902e-06,
+                    "Charlie Bell": 0.12217867374420166,
+                    "Jim Skinner": 0.8200158476829529,
+                    "Don Thompson": 0.01638064533472061,
+                    "Steve Easterbrook": 0.002370827365666628,
+                    "Chris Kempczinski": 8.867820724844933e-05
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "James R. Cantalupo",
+                "time": "2004",
+                "probs": {
+                    "Jack M. Greenberg": 0.003512007649987936,
+                    "James R. Cantalupo": 1.5819390455362736e-06,
+                    "Charlie Bell": 0.0876593068242073,
+                    "Jim Skinner": 0.905479371547699,
+                    "Don Thompson": 0.0028141082730144262,
+                    "Steve Easterbrook": 0.0005163255264051259,
+                    "Chris Kempczinski": 1.7345008018310182e-05
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2005",
+                "probs": {
+                    "Jack M. Greenberg": 0.001065592747181654,
+                    "James R. Cantalupo": 5.198886015023163e-07,
+                    "Charlie Bell": 0.042444318532943726,
+                    "Jim Skinner": 0.9548028111457825,
+                    "Don Thompson": 0.0012245449470356107,
+                    "Steve Easterbrook": 0.0004505261604208499,
+                    "Chris Kempczinski": 1.16976116260048e-05
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2006",
+                "probs": {
+                    "Jack M. Greenberg": 9.40367899602279e-05,
+                    "James R. Cantalupo": 1.722060432030048e-07,
+                    "Charlie Bell": 0.02544260583817959,
+                    "Jim Skinner": 0.9737055897712708,
+                    "Don Thompson": 0.0005663361516781151,
+                    "Steve Easterbrook": 0.00018767196161206812,
+                    "Chris Kempczinski": 3.630435230661533e-06
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2007",
+                "probs": {
+                    "Jack M. Greenberg": 1.2251409316377249e-05,
+                    "James R. Cantalupo": 4.1421106544703434e-08,
+                    "Charlie Bell": 0.01898646168410778,
+                    "Jim Skinner": 0.980305016040802,
+                    "Don Thompson": 0.00045171327656134963,
+                    "Steve Easterbrook": 0.0002408861619187519,
+                    "Chris Kempczinski": 3.567758085409878e-06
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2008",
+                "probs": {
+                    "Jack M. Greenberg": 4.0693412302061915e-06,
+                    "James R. Cantalupo": 2.6655822438215182e-08,
+                    "Charlie Bell": 0.024646475911140442,
+                    "Jim Skinner": 0.974694550037384,
+                    "Don Thompson": 0.000463300064438954,
+                    "Steve Easterbrook": 0.00018798299424815923,
+                    "Chris Kempczinski": 3.635453367678565e-06
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2009",
+                "probs": {
+                    "Jack M. Greenberg": 5.641416009893874e-07,
+                    "James R. Cantalupo": 7.360737441786114e-08,
+                    "Charlie Bell": 0.012619223445653915,
+                    "Jim Skinner": 0.986565887928009,
+                    "Don Thompson": 0.0007299125427380204,
+                    "Steve Easterbrook": 8.045958384172991e-05,
+                    "Chris Kempczinski": 3.880704753100872e-06
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Jacques Nasser",
+                "time": "1999",
+                "probs": {
+                    "Jacques Nasser": 0.9736844301223755,
+                    "William Clay Ford Jr.": 0.010626235045492649,
+                    "Alan Mulally": 0.009097149595618248,
+                    "Mark Fields": 6.826607568655163e-05,
+                    "Jim Hackett": 1.9367366803635377e-06,
+                    "Jim Farley": 0.006521907169371843
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Jacques Nasser",
+                "time": "2000",
+                "probs": {
+                    "Jacques Nasser": 0.8867872953414917,
+                    "William Clay Ford Jr.": 0.07489317655563354,
+                    "Alan Mulally": 0.025456249713897705,
+                    "Mark Fields": 0.00022133122547529638,
+                    "Jim Hackett": 5.848895398230525e-06,
+                    "Jim Farley": 0.012636031024158001
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Jacques Nasser",
+                "time": "2001",
+                "probs": {
+                    "Jacques Nasser": 0.5637329816818237,
+                    "William Clay Ford Jr.": 0.3947579264640808,
+                    "Alan Mulally": 0.02643139660358429,
+                    "Mark Fields": 0.00035899077192880213,
+                    "Jim Hackett": 3.454880243225489e-06,
+                    "Jim Farley": 0.014715329743921757
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2002",
+                "probs": {
+                    "Jacques Nasser": 0.46777108311653137,
+                    "William Clay Ford Jr.": 0.46574127674102783,
+                    "Alan Mulally": 0.048838481307029724,
+                    "Mark Fields": 0.00029652530793100595,
+                    "Jim Hackett": 4.736829396279063e-06,
+                    "Jim Farley": 0.01734786108136177
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2003",
+                "probs": {
+                    "Jacques Nasser": 0.283365935087204,
+                    "William Clay Ford Jr.": 0.6240870952606201,
+                    "Alan Mulally": 0.07352782040834427,
+                    "Mark Fields": 0.0002660662867128849,
+                    "Jim Hackett": 3.373180561538902e-06,
+                    "Jim Farley": 0.01874970830976963
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2004",
+                "probs": {
+                    "Jacques Nasser": 0.054129622876644135,
+                    "William Clay Ford Jr.": 0.8183028101921082,
+                    "Alan Mulally": 0.11398206651210785,
+                    "Mark Fields": 0.00023278174921870232,
+                    "Jim Hackett": 2.852816578524653e-06,
+                    "Jim Farley": 0.013349912129342556
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2005",
+                "probs": {
+                    "Jacques Nasser": 0.015452741645276546,
+                    "William Clay Ford Jr.": 0.5185551047325134,
+                    "Alan Mulally": 0.4551719129085541,
+                    "Mark Fields": 0.00018372558406554163,
+                    "Jim Hackett": 2.4402322651440045e-06,
+                    "Jim Farley": 0.010634125210344791
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2006",
+                "probs": {
+                    "Jacques Nasser": 0.002707863226532936,
+                    "William Clay Ford Jr.": 0.16241487860679626,
+                    "Alan Mulally": 0.8305191397666931,
+                    "Mark Fields": 9.986513032345101e-05,
+                    "Jim Hackett": 9.681688197815674e-07,
+                    "Jim Farley": 0.0042573376558721066
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Alan Mulally",
+                "time": "2007",
+                "probs": {
+                    "Jacques Nasser": 0.00017690502863842994,
+                    "William Clay Ford Jr.": 0.010187450796365738,
+                    "Alan Mulally": 0.988646388053894,
+                    "Mark Fields": 7.236940291477367e-05,
+                    "Jim Hackett": 9.594801753110005e-08,
+                    "Jim Farley": 0.0009167743846774101
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Alan Mulally",
+                "time": "2008",
+                "probs": {
+                    "Jacques Nasser": 6.37018310953863e-05,
+                    "William Clay Ford Jr.": 0.0017919071251526475,
+                    "Alan Mulally": 0.9975497126579285,
+                    "Mark Fields": 6.867659976705909e-05,
+                    "Jim Hackett": 2.606337723420893e-08,
+                    "Jim Farley": 0.0005259978934191167
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Alan Mulally",
+                "time": "2009",
+                "probs": {
+                    "Jacques Nasser": 1.5458441339433193e-05,
+                    "William Clay Ford Jr.": 0.0002085556770907715,
+                    "Alan Mulally": 0.9990763664245605,
+                    "Mark Fields": 5.347414844436571e-05,
+                    "Jim Hackett": 6.659624851579338e-09,
+                    "Jim Farley": 0.0006460534641519189
+                }
+            }
+        ],
+        "prompt_templates_zs:1": [
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Lewis Platt",
+                "time": "1999",
+                "probs": {
+                    "Lewis Platt": 0.0026305157225579023,
+                    "Carly Fiorina": 0.9806351661682129,
+                    "Robert Wayman": 2.3566358322568703e-06,
+                    "Mark Hurd": 0.01257862988859415,
+                    "Cathie Lesjak": 5.559941655519651e-06,
+                    "L\u00e9o Apotheker": 0.0033345818519592285,
+                    "Meg Whitman": 0.0008131692884489894
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2000",
+                "probs": {
+                    "Lewis Platt": 0.0003812849463429302,
+                    "Carly Fiorina": 0.9452075362205505,
+                    "Robert Wayman": 5.455693553813035e-06,
+                    "Mark Hurd": 0.04753107577562332,
+                    "Cathie Lesjak": 8.317670108226594e-06,
+                    "L\u00e9o Apotheker": 0.004046623129397631,
+                    "Meg Whitman": 0.0028197872452437878
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2001",
+                "probs": {
+                    "Lewis Platt": 0.00024370936444029212,
+                    "Carly Fiorina": 0.9094690680503845,
+                    "Robert Wayman": 6.627380116697168e-06,
+                    "Mark Hurd": 0.0826442763209343,
+                    "Cathie Lesjak": 1.585174868523609e-05,
+                    "L\u00e9o Apotheker": 0.004108468070626259,
+                    "Meg Whitman": 0.0035120146349072456
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2002",
+                "probs": {
+                    "Lewis Platt": 0.0001365197531413287,
+                    "Carly Fiorina": 0.8944326043128967,
+                    "Robert Wayman": 7.551911039627157e-06,
+                    "Mark Hurd": 0.10110260546207428,
+                    "Cathie Lesjak": 1.0340051630919334e-05,
+                    "L\u00e9o Apotheker": 0.002661928767338395,
+                    "Meg Whitman": 0.0016485219821333885
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2003",
+                "probs": {
+                    "Lewis Platt": 0.00012080565647920594,
+                    "Carly Fiorina": 0.7452294826507568,
+                    "Robert Wayman": 1.6220550605794415e-05,
+                    "Mark Hurd": 0.24798814952373505,
+                    "Cathie Lesjak": 9.463096830586437e-06,
+                    "L\u00e9o Apotheker": 0.0036456414964050055,
+                    "Meg Whitman": 0.0029902325477451086
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Carly Fiorina",
+                "time": "2004",
+                "probs": {
+                    "Lewis Platt": 4.438565520104021e-05,
+                    "Carly Fiorina": 0.4560362994670868,
+                    "Robert Wayman": 3.117302912869491e-05,
+                    "Mark Hurd": 0.5391901135444641,
+                    "Cathie Lesjak": 6.683054380118847e-06,
+                    "L\u00e9o Apotheker": 0.0020637959241867065,
+                    "Meg Whitman": 0.0026275792624801397
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Robert Wayman",
+                "time": "2005",
+                "probs": {
+                    "Lewis Platt": 2.11103142646607e-05,
+                    "Carly Fiorina": 0.22166375815868378,
+                    "Robert Wayman": 5.384541873354465e-05,
+                    "Mark Hurd": 0.7701960802078247,
+                    "Cathie Lesjak": 7.45157694836962e-06,
+                    "L\u00e9o Apotheker": 0.0027930187061429024,
+                    "Meg Whitman": 0.005264752544462681
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Mark Hurd",
+                "time": "2006",
+                "probs": {
+                    "Lewis Platt": 1.1711268598446622e-05,
+                    "Carly Fiorina": 0.07097949087619781,
+                    "Robert Wayman": 9.695182961877435e-05,
+                    "Mark Hurd": 0.9220364093780518,
+                    "Cathie Lesjak": 3.587466153476271e-06,
+                    "L\u00e9o Apotheker": 0.0020011893939226866,
+                    "Meg Whitman": 0.004870699718594551
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Mark Hurd",
+                "time": "2007",
+                "probs": {
+                    "Lewis Platt": 4.337269729148829e-06,
+                    "Carly Fiorina": 0.011315330862998962,
+                    "Robert Wayman": 4.422800338943489e-05,
+                    "Mark Hurd": 0.9835365414619446,
+                    "Cathie Lesjak": 1.4636170817539096e-06,
+                    "L\u00e9o Apotheker": 0.0015708394348621368,
+                    "Meg Whitman": 0.003527324181050062
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Mark Hurd",
+                "time": "2008",
+                "probs": {
+                    "Lewis Platt": 3.174817493345472e-06,
+                    "Carly Fiorina": 0.0047611212357878685,
+                    "Robert Wayman": 5.657287692883983e-05,
+                    "Mark Hurd": 0.9907530546188354,
+                    "Cathie Lesjak": 1.110222456190968e-06,
+                    "L\u00e9o Apotheker": 0.0012977310689166188,
+                    "Meg Whitman": 0.003127187490463257
+                }
+            },
+            {
+                "subject": "Hewlett-Packard",
+                "object": "Mark Hurd",
+                "time": "2009",
+                "probs": {
+                    "Lewis Platt": 1.2242927368788514e-05,
+                    "Carly Fiorina": 0.0010221792617812753,
+                    "Robert Wayman": 1.699554741207976e-05,
+                    "Mark Hurd": 0.9882440567016602,
+                    "Cathie Lesjak": 2.643197603902081e-06,
+                    "L\u00e9o Apotheker": 0.007382930722087622,
+                    "Meg Whitman": 0.0033189239911735058
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Robert Eaton",
+                "time": "1999",
+                "probs": {
+                    "Robert Eaton": 0.03166550397872925,
+                    "James Holden": 0.0005846208659932017,
+                    "Dieter Zetsche": 0.02236803062260151,
+                    "Tom LaSorda": 0.33269721269607544,
+                    "Bob Nardelli": 0.013154703192412853,
+                    "Sergio Marchionne": 0.5995299220085144
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "James Holden",
+                "time": "2000",
+                "probs": {
+                    "Robert Eaton": 0.007607143837958574,
+                    "James Holden": 0.0005954194930382073,
+                    "Dieter Zetsche": 0.012449775822460651,
+                    "Tom LaSorda": 0.3286380469799042,
+                    "Bob Nardelli": 0.032162927091121674,
+                    "Sergio Marchionne": 0.618546724319458
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2001",
+                "probs": {
+                    "Robert Eaton": 0.0007452246500179172,
+                    "James Holden": 0.00023783942742738873,
+                    "Dieter Zetsche": 0.007145983632653952,
+                    "Tom LaSorda": 0.4328083395957947,
+                    "Bob Nardelli": 0.11863959580659866,
+                    "Sergio Marchionne": 0.44042307138442993
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2002",
+                "probs": {
+                    "Robert Eaton": 0.00019075644377153367,
+                    "James Holden": 0.00030306089320220053,
+                    "Dieter Zetsche": 0.006574342027306557,
+                    "Tom LaSorda": 0.591938853263855,
+                    "Bob Nardelli": 0.10518565028905869,
+                    "Sergio Marchionne": 0.2958073019981384
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2003",
+                "probs": {
+                    "Robert Eaton": 6.269454752327874e-05,
+                    "James Holden": 0.00011860358063131571,
+                    "Dieter Zetsche": 0.0042676120065152645,
+                    "Tom LaSorda": 0.6027907729148865,
+                    "Bob Nardelli": 0.12257841974496841,
+                    "Sergio Marchionne": 0.2701818645000458
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2004",
+                "probs": {
+                    "Robert Eaton": 6.072259566280991e-06,
+                    "James Holden": 0.00010184616257902235,
+                    "Dieter Zetsche": 0.005824805237352848,
+                    "Tom LaSorda": 0.6448706984519958,
+                    "Bob Nardelli": 0.13108542561531067,
+                    "Sergio Marchionne": 0.2181110829114914
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Dieter Zetsche",
+                "time": "2005",
+                "probs": {
+                    "Robert Eaton": 1.2041796253470238e-06,
+                    "James Holden": 6.31231814622879e-05,
+                    "Dieter Zetsche": 0.0032862788066267967,
+                    "Tom LaSorda": 0.6758619546890259,
+                    "Bob Nardelli": 0.09412555396556854,
+                    "Sergio Marchionne": 0.22666192054748535
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Tom LaSorda",
+                "time": "2006",
+                "probs": {
+                    "Robert Eaton": 6.393107696567313e-07,
+                    "James Holden": 5.805961336591281e-05,
+                    "Dieter Zetsche": 0.0024262957740575075,
+                    "Tom LaSorda": 0.5892816185951233,
+                    "Bob Nardelli": 0.13138020038604736,
+                    "Sergio Marchionne": 0.27685317397117615
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Bob Nardelli",
+                "time": "2007",
+                "probs": {
+                    "Robert Eaton": 7.436277655870072e-07,
+                    "James Holden": 5.176453123567626e-05,
+                    "Dieter Zetsche": 0.0007806404028087854,
+                    "Tom LaSorda": 0.29086554050445557,
+                    "Bob Nardelli": 0.31910252571105957,
+                    "Sergio Marchionne": 0.38919883966445923
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Bob Nardelli",
+                "time": "2008",
+                "probs": {
+                    "Robert Eaton": 1.7906386062804813e-07,
+                    "James Holden": 2.885968569898978e-05,
+                    "Dieter Zetsche": 8.522551797796041e-05,
+                    "Tom LaSorda": 0.011681444942951202,
+                    "Bob Nardelli": 0.2285817265510559,
+                    "Sergio Marchionne": 0.7596224546432495
+                }
+            },
+            {
+                "subject": "Chrysler",
+                "object": "Bob Nardelli",
+                "time": "2009",
+                "probs": {
+                    "Robert Eaton": 2.6623021565086447e-09,
+                    "James Holden": 5.563664672081359e-06,
+                    "Dieter Zetsche": 4.316686954553006e-06,
+                    "Tom LaSorda": 0.00023326098744291812,
+                    "Bob Nardelli": 0.018330268561840057,
+                    "Sergio Marchionne": 0.9814265370368958
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Philip Condit",
+                "time": "1999",
+                "probs": {
+                    "Philip Condit": 0.0014703827910125256,
+                    "Harry Stonecipher": 0.338405042886734,
+                    "James McNerney": 0.24606087803840637,
+                    "Dennis Muilenburg": 0.34929636120796204,
+                    "Dave Calhoun": 0.06476731598377228
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Philip Condit",
+                "time": "2000",
+                "probs": {
+                    "Philip Condit": 0.0007608153973706067,
+                    "Harry Stonecipher": 0.15092934668064117,
+                    "James McNerney": 0.14454837143421173,
+                    "Dennis Muilenburg": 0.5825843811035156,
+                    "Dave Calhoun": 0.12117709964513779
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Philip Condit",
+                "time": "2001",
+                "probs": {
+                    "Philip Condit": 0.004900883883237839,
+                    "Harry Stonecipher": 0.14622585475444794,
+                    "James McNerney": 0.39900219440460205,
+                    "Dennis Muilenburg": 0.3591562807559967,
+                    "Dave Calhoun": 0.09071475267410278
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Philip Condit",
+                "time": "2002",
+                "probs": {
+                    "Philip Condit": 0.0068961880169808865,
+                    "Harry Stonecipher": 0.1719941645860672,
+                    "James McNerney": 0.5358115434646606,
+                    "Dennis Muilenburg": 0.21892571449279785,
+                    "Dave Calhoun": 0.06637240946292877
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Harry Stonecipher",
+                "time": "2003",
+                "probs": {
+                    "Philip Condit": 0.005606897175312042,
+                    "Harry Stonecipher": 0.14379847049713135,
+                    "James McNerney": 0.5940124988555908,
+                    "Dennis Muilenburg": 0.19408155977725983,
+                    "Dave Calhoun": 0.06250059604644775
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "Harry Stonecipher",
+                "time": "2004",
+                "probs": {
+                    "Philip Condit": 0.006159008946269751,
+                    "Harry Stonecipher": 0.09720101952552795,
+                    "James McNerney": 0.6965088844299316,
+                    "Dennis Muilenburg": 0.13929778337478638,
+                    "Dave Calhoun": 0.060833342373371124
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2005",
+                "probs": {
+                    "Philip Condit": 0.009485799819231033,
+                    "Harry Stonecipher": 0.06370192766189575,
+                    "James McNerney": 0.7799302339553833,
+                    "Dennis Muilenburg": 0.108070008456707,
+                    "Dave Calhoun": 0.038812074810266495
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2006",
+                "probs": {
+                    "Philip Condit": 0.003969390876591206,
+                    "Harry Stonecipher": 0.026996202766895294,
+                    "James McNerney": 0.8519859910011292,
+                    "Dennis Muilenburg": 0.08666610717773438,
+                    "Dave Calhoun": 0.03038230538368225
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2007",
+                "probs": {
+                    "Philip Condit": 0.001756435027346015,
+                    "Harry Stonecipher": 0.01298354659229517,
+                    "James McNerney": 0.8384926915168762,
+                    "Dennis Muilenburg": 0.11220864951610565,
+                    "Dave Calhoun": 0.03455859795212746
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2008",
+                "probs": {
+                    "Philip Condit": 0.0005247861263342202,
+                    "Harry Stonecipher": 0.003961643204092979,
+                    "James McNerney": 0.8954519033432007,
+                    "Dennis Muilenburg": 0.06747809797525406,
+                    "Dave Calhoun": 0.03258350491523743
+                }
+            },
+            {
+                "subject": "Boeing",
+                "object": "James McNerney",
+                "time": "2009",
+                "probs": {
+                    "Philip Condit": 1.5877078112680465e-05,
+                    "Harry Stonecipher": 0.0003876005648635328,
+                    "James McNerney": 0.9207181930541992,
+                    "Dennis Muilenburg": 0.045351456850767136,
+                    "Dave Calhoun": 0.03352692350745201
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jack M. Greenberg",
+                "time": "1999",
+                "probs": {
+                    "Jack M. Greenberg": 0.1267678141593933,
+                    "James R. Cantalupo": 2.010374009842053e-05,
+                    "Charlie Bell": 0.11015459150075912,
+                    "Jim Skinner": 0.1913112998008728,
+                    "Don Thompson": 0.5260797739028931,
+                    "Steve Easterbrook": 0.044341083616018295,
+                    "Chris Kempczinski": 0.0013253249926492572
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jack M. Greenberg",
+                "time": "2000",
+                "probs": {
+                    "Jack M. Greenberg": 0.14288973808288574,
+                    "James R. Cantalupo": 8.865034942573402e-06,
+                    "Charlie Bell": 0.15608827769756317,
+                    "Jim Skinner": 0.3240327537059784,
+                    "Don Thompson": 0.30221614241600037,
+                    "Steve Easterbrook": 0.0722474455833435,
+                    "Chris Kempczinski": 0.0025167411658912897
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jack M. Greenberg",
+                "time": "2001",
+                "probs": {
+                    "Jack M. Greenberg": 0.09343425184488297,
+                    "James R. Cantalupo": 3.938959252991481e-06,
+                    "Charlie Bell": 0.1489979773759842,
+                    "Jim Skinner": 0.5308617353439331,
+                    "Don Thompson": 0.185391366481781,
+                    "Steve Easterbrook": 0.03957100212574005,
+                    "Chris Kempczinski": 0.0017397695919498801
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jack M. Greenberg",
+                "time": "2002",
+                "probs": {
+                    "Jack M. Greenberg": 0.03310598060488701,
+                    "James R. Cantalupo": 3.7198701647866983e-06,
+                    "Charlie Bell": 0.11891398578882217,
+                    "Jim Skinner": 0.730863630771637,
+                    "Don Thompson": 0.08804097771644592,
+                    "Steve Easterbrook": 0.028094109147787094,
+                    "Chris Kempczinski": 0.0009776290971785784
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "James R. Cantalupo",
+                "time": "2003",
+                "probs": {
+                    "Jack M. Greenberg": 0.01246469933539629,
+                    "James R. Cantalupo": 2.4257997210952453e-06,
+                    "Charlie Bell": 0.1414933055639267,
+                    "Jim Skinner": 0.7715873122215271,
+                    "Don Thompson": 0.05920680984854698,
+                    "Steve Easterbrook": 0.014406008645892143,
+                    "Chris Kempczinski": 0.0008394008036702871
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "James R. Cantalupo",
+                "time": "2004",
+                "probs": {
+                    "Jack M. Greenberg": 0.0023632608354091644,
+                    "James R. Cantalupo": 6.018784688421874e-07,
+                    "Charlie Bell": 0.053954437375068665,
+                    "Jim Skinner": 0.9252452850341797,
+                    "Don Thompson": 0.013857492245733738,
+                    "Steve Easterbrook": 0.004347166512161493,
+                    "Chris Kempczinski": 0.00023181602591648698
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2005",
+                "probs": {
+                    "Jack M. Greenberg": 0.00034385710023343563,
+                    "James R. Cantalupo": 1.6794004409348418e-07,
+                    "Charlie Bell": 0.021774522960186005,
+                    "Jim Skinner": 0.9714951515197754,
+                    "Don Thompson": 0.0047418782487511635,
+                    "Steve Easterbrook": 0.001555471564643085,
+                    "Chris Kempczinski": 8.893591439118609e-05
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2006",
+                "probs": {
+                    "Jack M. Greenberg": 7.868326792959124e-05,
+                    "James R. Cantalupo": 6.883080772013273e-08,
+                    "Charlie Bell": 0.016308560967445374,
+                    "Jim Skinner": 0.9800233840942383,
+                    "Don Thompson": 0.002587999450042844,
+                    "Steve Easterbrook": 0.0009621633216738701,
+                    "Chris Kempczinski": 3.9245758671313524e-05
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2007",
+                "probs": {
+                    "Jack M. Greenberg": 1.2476497431634925e-05,
+                    "James R. Cantalupo": 2.8639565385901733e-08,
+                    "Charlie Bell": 0.00827663391828537,
+                    "Jim Skinner": 0.9897609353065491,
+                    "Don Thompson": 0.0014137845719233155,
+                    "Steve Easterbrook": 0.0005012547480873764,
+                    "Chris Kempczinski": 3.477722202660516e-05
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2008",
+                "probs": {
+                    "Jack M. Greenberg": 2.9329983135539806e-06,
+                    "James R. Cantalupo": 1.7513313466110958e-08,
+                    "Charlie Bell": 0.005926025565713644,
+                    "Jim Skinner": 0.9922949075698853,
+                    "Don Thompson": 0.0011547703761607409,
+                    "Steve Easterbrook": 0.0005897540249861777,
+                    "Chris Kempczinski": 3.1605919502908364e-05
+                }
+            },
+            {
+                "subject": "McDonald's",
+                "object": "Jim Skinner",
+                "time": "2009",
+                "probs": {
+                    "Jack M. Greenberg": 5.201220574235776e-07,
+                    "James R. Cantalupo": 2.7057055262957874e-08,
+                    "Charlie Bell": 0.004013928584754467,
+                    "Jim Skinner": 0.9939356446266174,
+                    "Don Thompson": 0.001733972690999508,
+                    "Steve Easterbrook": 0.000292481214273721,
+                    "Chris Kempczinski": 2.3385704480460845e-05
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Jacques Nasser",
+                "time": "1999",
+                "probs": {
+                    "Jacques Nasser": 0.8355785608291626,
+                    "William Clay Ford Jr.": 0.063535675406456,
+                    "Alan Mulally": 0.08320316672325134,
+                    "Mark Fields": 0.0007525780820287764,
+                    "Jim Hackett": 8.129669367917813e-06,
+                    "Jim Farley": 0.016921814531087875
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Jacques Nasser",
+                "time": "2000",
+                "probs": {
+                    "Jacques Nasser": 0.45314663648605347,
+                    "William Clay Ford Jr.": 0.23742900788784027,
+                    "Alan Mulally": 0.2586841583251953,
+                    "Mark Fields": 0.005548294633626938,
+                    "Jim Hackett": 2.3458724172087386e-05,
+                    "Jim Farley": 0.04516846314072609
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Jacques Nasser",
+                "time": "2001",
+                "probs": {
+                    "Jacques Nasser": 0.1974347084760666,
+                    "William Clay Ford Jr.": 0.4871889352798462,
+                    "Alan Mulally": 0.265924870967865,
+                    "Mark Fields": 0.0030024657025933266,
+                    "Jim Hackett": 1.3372942703426816e-05,
+                    "Jim Farley": 0.046435583382844925
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2002",
+                "probs": {
+                    "Jacques Nasser": 0.11070974916219711,
+                    "William Clay Ford Jr.": 0.47489258646965027,
+                    "Alan Mulally": 0.35403206944465637,
+                    "Mark Fields": 0.0022337529808282852,
+                    "Jim Hackett": 1.4007172467245255e-05,
+                    "Jim Farley": 0.058117806911468506
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2003",
+                "probs": {
+                    "Jacques Nasser": 0.07070396095514297,
+                    "William Clay Ford Jr.": 0.4957503080368042,
+                    "Alan Mulally": 0.37757304310798645,
+                    "Mark Fields": 0.0017165495082736015,
+                    "Jim Hackett": 1.1558434380276594e-05,
+                    "Jim Farley": 0.05424453690648079
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2004",
+                "probs": {
+                    "Jacques Nasser": 0.024595480412244797,
+                    "William Clay Ford Jr.": 0.510644793510437,
+                    "Alan Mulally": 0.40236616134643555,
+                    "Mark Fields": 0.0018697618506848812,
+                    "Jim Hackett": 1.427449933544267e-05,
+                    "Jim Farley": 0.06050952151417732
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2005",
+                "probs": {
+                    "Jacques Nasser": 0.006462584715336561,
+                    "William Clay Ford Jr.": 0.40791094303131104,
+                    "Alan Mulally": 0.5520455837249756,
+                    "Mark Fields": 0.0009622646030038595,
+                    "Jim Hackett": 5.056594545749249e-06,
+                    "Jim Farley": 0.03261353820562363
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "William Clay Ford Jr.",
+                "time": "2006",
+                "probs": {
+                    "Jacques Nasser": 0.0018860306590795517,
+                    "William Clay Ford Jr.": 0.13887540996074677,
+                    "Alan Mulally": 0.8388944268226624,
+                    "Mark Fields": 0.0008522956050001085,
+                    "Jim Hackett": 4.050510142405983e-06,
+                    "Jim Farley": 0.019487755373120308
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Alan Mulally",
+                "time": "2007",
+                "probs": {
+                    "Jacques Nasser": 0.0002919989638030529,
+                    "William Clay Ford Jr.": 0.020956795662641525,
+                    "Alan Mulally": 0.970316469669342,
+                    "Mark Fields": 0.0006822306895628572,
+                    "Jim Hackett": 7.390827931885724e-07,
+                    "Jim Farley": 0.007751803379505873
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Alan Mulally",
+                "time": "2008",
+                "probs": {
+                    "Jacques Nasser": 0.0002116290561389178,
+                    "William Clay Ford Jr.": 0.010301011614501476,
+                    "Alan Mulally": 0.9814991354942322,
+                    "Mark Fields": 0.0013306766049936414,
+                    "Jim Hackett": 4.18024313830756e-07,
+                    "Jim Farley": 0.006657229270786047
+                }
+            },
+            {
+                "subject": "Ford Motor Company",
+                "object": "Alan Mulally",
+                "time": "2009",
+                "probs": {
+                    "Jacques Nasser": 2.8031172405462712e-05,
+                    "William Clay Ford Jr.": 0.0024221441708505154,
+                    "Alan Mulally": 0.9896017909049988,
+                    "Mark Fields": 0.0009612595895305276,
+                    "Jim Hackett": 1.9802433826043853e-07,
+                    "Jim Farley": 0.006986603606492281
+                }
+            }
+        ]
+    }
+}

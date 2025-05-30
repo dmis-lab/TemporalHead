@@ -1,0 +1,4168 @@
+{
+    "name": "temporal sports membership",
+    "prompt_templates": [
+        "In {time}, {subject} was a member of sports team"
+    ],
+    "prompt_templates_zs": [
+        "In {time}, which sports team was {subject} a member of?",
+        "Which team was {subject} playing for in {time}?"
+    ],
+    "samples": [
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Paris Saint-Germain",
+            "time": "1996"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Arsenal",
+            "time": "1997"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Arsenal",
+            "time": "1998"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Arsenal",
+            "time": "1999"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Real Madrid",
+            "time": "2000"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Paris Saint-Germain",
+            "time": "2001"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Liverpool",
+            "time": "2002"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Manchester City",
+            "time": "2003"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Manchester City",
+            "time": "2004"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Fenerbah\u00e7e",
+            "time": "2005"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Fenerbah\u00e7e",
+            "time": "2006"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Bolton Wanderers",
+            "time": "2007"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Chelsea",
+            "time": "2008"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Chelsea",
+            "time": "2009"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Chelsea",
+            "time": "2010"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Chelsea",
+            "time": "2011"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Shanghai Shenhua",
+            "time": "2012"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Juventus",
+            "time": "2013"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "West Bromwich Albion",
+            "time": "2014"
+        },
+        {
+            "subject": "Nicolas Anelka",
+            "object": "Mumbai City FC",
+            "time": "2015"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "Malm\u00f6 FF",
+            "time": "1999"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "Malm\u00f6 FF",
+            "time": "2000"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "AFC Ajax",
+            "time": "2001"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "AFC Ajax",
+            "time": "2002"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "AFC Ajax",
+            "time": "2003"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "Juventus",
+            "time": "2004"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "Juventus",
+            "time": "2005"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "Juventus",
+            "time": "2006"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "Inter Milan",
+            "time": "2007"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "Inter Milan",
+            "time": "2008"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "FC Barcelona",
+            "time": "2009"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "FC Barcelona",
+            "time": "2010"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "AC Milan",
+            "time": "2011"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "AC Milan",
+            "time": "2012"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "Paris Saint-Germain",
+            "time": "2013"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "Paris Saint-Germain",
+            "time": "2014"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "Paris Saint-Germain",
+            "time": "2015"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "Paris Saint-Germain",
+            "time": "2016"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "Manchester United",
+            "time": "2017"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "Manchester United",
+            "time": "2018"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "LA Galaxy",
+            "time": "2019"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "object": "AC Milan",
+            "time": "2020"
+        },
+        {
+            "subject": "Lu\u00eds Figo",
+            "object": "Barcelona",
+            "time": "1999"
+        },
+        {
+            "subject": "Lu\u00eds Figo",
+            "object": "Real Madrid",
+            "time": "2000"
+        },
+        {
+            "subject": "Lu\u00eds Figo",
+            "object": "Real Madrid",
+            "time": "2001"
+        },
+        {
+            "subject": "Lu\u00eds Figo",
+            "object": "Real Madrid",
+            "time": "2002"
+        },
+        {
+            "subject": "Lu\u00eds Figo",
+            "object": "Real Madrid",
+            "time": "2003"
+        },
+        {
+            "subject": "Lu\u00eds Figo",
+            "object": "Real Madrid",
+            "time": "2004"
+        },
+        {
+            "subject": "Lu\u00eds Figo",
+            "object": "Inter Milan",
+            "time": "2005"
+        },
+        {
+            "subject": "Lu\u00eds Figo",
+            "object": "Inter Milan",
+            "time": "2006"
+        },
+        {
+            "subject": "Lu\u00eds Figo",
+            "object": "Inter Milan",
+            "time": "2007"
+        },
+        {
+            "subject": "Lu\u00eds Figo",
+            "object": "Inter Milan",
+            "time": "2008"
+        },
+        {
+            "subject": "Lu\u00eds Figo",
+            "object": "Inter Milan",
+            "time": "2009"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "Manchester United",
+            "time": "1999"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "Manchester United",
+            "time": "2000"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "Manchester United",
+            "time": "2001"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "Manchester United",
+            "time": "2002"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "Real Madrid",
+            "time": "2003"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "Real Madrid",
+            "time": "2004"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "Real Madrid",
+            "time": "2005"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "Real Madrid",
+            "time": "2006"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "LA Galaxy",
+            "time": "2007"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "LA Galaxy",
+            "time": "2008"
+        },
+        {
+            "subject": "David Beckham",
+            "object": "LA Galaxy",
+            "time": "2009"
+        },
+        {
+            "subject": "Ashley Cole",
+            "object": "Arsenal",
+            "time": "1999"
+        },
+        {
+            "subject": "Ashley Cole",
+            "object": "Arsenal",
+            "time": "2000"
+        },
+        {
+            "subject": "Ashley Cole",
+            "object": "Arsenal",
+            "time": "2001"
+        },
+        {
+            "subject": "Ashley Cole",
+            "object": "Arsenal",
+            "time": "2002"
+        },
+        {
+            "subject": "Ashley Cole",
+            "object": "Arsenal",
+            "time": "2003"
+        },
+        {
+            "subject": "Ashley Cole",
+            "object": "Arsenal",
+            "time": "2004"
+        },
+        {
+            "subject": "Ashley Cole",
+            "object": "Arsenal",
+            "time": "2005"
+        },
+        {
+            "subject": "Ashley Cole",
+            "object": "Chelsea",
+            "time": "2006"
+        },
+        {
+            "subject": "Ashley Cole",
+            "object": "Chelsea",
+            "time": "2007"
+        },
+        {
+            "subject": "Ashley Cole",
+            "object": "Chelsea",
+            "time": "2008"
+        },
+        {
+            "subject": "Ashley Cole",
+            "object": "Chelsea",
+            "time": "2009"
+        },
+        {
+            "subject": "Lionel Messi",
+            "object": "Newell's Old Boys",
+            "time": "1999"
+        },
+        {
+            "subject": "Lionel Messi",
+            "object": "FC Barcelona",
+            "time": "2000"
+        },
+        {
+            "subject": "Lionel Messi",
+            "object": "FC Barcelona",
+            "time": "2001"
+        },
+        {
+            "subject": "Lionel Messi",
+            "object": "FC Barcelona",
+            "time": "2002"
+        },
+        {
+            "subject": "Lionel Messi",
+            "object": "FC Barcelona",
+            "time": "2003"
+        },
+        {
+            "subject": "Lionel Messi",
+            "object": "FC Barcelona",
+            "time": "2004"
+        }
+    ],
+    "alias_time_templates": [
+        {
+            "year": "1996",
+            "template": "In the year the Summer Olympics were held in Atlanta, {} was a member of sports team"
+        },
+        {
+            "year": "1997",
+            "template": "In the year the Champions League final was held in Munich, {} was a member of sports team"
+        },
+        {
+            "year": "1998",
+            "template": "In the year the Winter Olympics were held in Nagano, {} was a member of sports team"
+        },
+        {
+            "year": "1999",
+            "template": "In the year the Champions League final was held in Barcelona, {} was a member of sports team"
+        },
+        {
+            "year": "2000",
+            "template": "In the year the Summer Olympics were held in Sydney, {} was a member of sports team"
+        },
+        {
+            "year": "2001",
+            "template": "In the year the World Series was held in Arizona, {} was a member of sports team"
+        },
+        {
+            "year": "2002",
+            "template": "In the year the Winter Olympics were held in Salt Lake City, {} was a member of sports team"
+        },
+        {
+            "year": "2003",
+            "template": "In the year the Rugby World Cup was held in Australia, {} was a member of sports team"
+        },
+        {
+            "year": "2004",
+            "template": "In the year the Summer Olympics were held in Athens, {} was a member of sports team"
+        },
+        {
+            "year": "2005",
+            "template": "In the year the Champions League final was held in Istanbul, {} was a member of sports team"
+        },
+        {
+            "year": "2006",
+            "template": "In the year the FIFA World Cup was held in Germany, {} was a member of sports team"
+        },
+        {
+            "year": "2007",
+            "template": "In the year the Cricket World Cup was held in the West Indies, {} was a member of sports team"
+        },
+        {
+            "year": "2008",
+            "template": "In the year the Summer Olympics were held in Beijing, {} was a member of sports team"
+        },
+        {
+            "year": "2009",
+            "template": "In the year the Champions League final was held in Rome, {} was a member of sports team"
+        },
+        {
+            "year": "2010",
+            "template": "In the year the FIFA World Cup was held in South Africa, {} was a member of sports team"
+        },
+        {
+            "year": "2011",
+            "template": "In the year the Rugby World Cup was held in New Zealand, {} was a member of sports team"
+        },
+        {
+            "year": "2012",
+            "template": "In the year the Summer Olympics were held in London, {} was a member of sports team"
+        },
+        {
+            "year": "2013",
+            "template": "In the year the Confederations Cup was held in Brazil, {} was a member of sports team"
+        },
+        {
+            "year": "2014",
+            "template": "In the year the FIFA World Cup was held in Brazil, {} was a member of sports team"
+        },
+        {
+            "year": "2015",
+            "template": "In the year the Cricket World Cup was held in Australia, {} was a member of sports team"
+        },
+        {
+            "year": "2016",
+            "template": "In the year the Summer Olympics were held in Rio, {} was a member of sports team"
+        },
+        {
+            "year": "2017",
+            "template": "In the year the Champions League final was held in Cardiff, {} was a member of sports team"
+        },
+        {
+            "year": "2018",
+            "template": "In the year the FIFA World Cup was held in Russia, {} was a member of sports team"
+        },
+        {
+            "year": "2019",
+            "template": "In the year the Rugby World Cup was held in Japan, {} was a member of sports team"
+        },
+        {
+            "year": "2020",
+            "template": "In the year the Summer Olympics were postponed in Tokyo, {} was a member of sports team"
+        }
+    ],
+    "all_possible_objects": [
+        {
+            "subject": "Nicolas Anelka",
+            "objects": [
+                "Paris Saint-Germain",
+                "Arsenal",
+                "Real Madrid",
+                "Liverpool",
+                "Manchester City",
+                "Fenerbah\u00e7e",
+                "Bolton Wanderers",
+                "Chelsea",
+                "Shanghai Shenhua",
+                "Juventus",
+                "West Bromwich Albion",
+                "Mumbai City FC"
+            ],
+            "year_range": "1996-2015"
+        },
+        {
+            "subject": "Zlatan Ibrahimovi\u0107",
+            "objects": [
+                "Malm\u00f6 FF",
+                "AFC Ajax",
+                "Juventus",
+                "Inter Milan",
+                "FC Barcelona",
+                "AC Milan",
+                "Paris Saint-Germain",
+                "Manchester United",
+                "LA Galaxy"
+            ],
+            "year_range": "1999-2020"
+        },
+        {
+            "subject": "Lu\u00eds Figo",
+            "objects": [
+                "Sporting CP",
+                "Barcelona",
+                "Real Madrid",
+                "Inter Milan"
+            ],
+            "year_range": "1990-2009"
+        },
+        {
+            "subject": "David Beckham",
+            "objects": [
+                "Manchester United",
+                "Real Madrid",
+                "LA Galaxy",
+                "AC Milan",
+                "Paris Saint-Germain"
+            ],
+            "year_range": "1992-2013"
+        },
+        {
+            "subject": "Ashley Cole",
+            "objects": [
+                "Arsenal",
+                "Crystal Palace",
+                "Chelsea",
+                "AS Roma",
+                "LA Galaxy",
+                "Derby County"
+            ],
+            "year_range": "1999-2019"
+        },
+        {
+            "subject": "Lionel Messi",
+            "objects": [
+                "Newell's Old Boys",
+                "FC Barcelona",
+                "Paris Saint-Germain"
+            ],
+            "year_range": "1994-2020"
+        }
+    ],
+    "predictions": {
+        "prompt_templates:0": [
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Paris Saint-Germain",
+                "time": "1996",
+                "probs": {
+                    "Paris Saint-Germain": 0.8455159664154053,
+                    "Arsenal": 0.01270343828946352,
+                    "Real Madrid": 0.03405989706516266,
+                    "Liverpool": 0.002443592995405197,
+                    "Manchester City": 0.004945863038301468,
+                    "Fenerbah\u00e7e": 0.011443986557424068,
+                    "Bolton Wanderers": 0.0005951640196144581,
+                    "Chelsea": 0.05123715475201607,
+                    "Shanghai Shenhua": 0.0009151648846454918,
+                    "Juventus": 0.025718586519360542,
+                    "West Bromwich Albion": 0.010420265607535839,
+                    "Mumbai City FC": 9.867759445114643e-07
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Arsenal",
+                "time": "1997",
+                "probs": {
+                    "Paris Saint-Germain": 0.8521854877471924,
+                    "Arsenal": 0.007406054995954037,
+                    "Real Madrid": 0.0341755636036396,
+                    "Liverpool": 0.002840600209310651,
+                    "Manchester City": 0.0041410187259316444,
+                    "Fenerbah\u00e7e": 0.019516078755259514,
+                    "Bolton Wanderers": 0.0007438073516823351,
+                    "Chelsea": 0.044669341295957565,
+                    "Shanghai Shenhua": 0.0009287957800552249,
+                    "Juventus": 0.022641291841864586,
+                    "West Bromwich Albion": 0.010750864632427692,
+                    "Mumbai City FC": 1.0739285016825306e-06
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Arsenal",
+                "time": "1998",
+                "probs": {
+                    "Paris Saint-Germain": 0.9125416874885559,
+                    "Arsenal": 0.006379608064889908,
+                    "Real Madrid": 0.0202266126871109,
+                    "Liverpool": 0.002191944746300578,
+                    "Manchester City": 0.0020111962221562862,
+                    "Fenerbah\u00e7e": 0.011277061887085438,
+                    "Bolton Wanderers": 0.0005067961756139994,
+                    "Chelsea": 0.022850526496767998,
+                    "Shanghai Shenhua": 0.0007347671780735254,
+                    "Juventus": 0.012356077320873737,
+                    "West Bromwich Albion": 0.00892279576510191,
+                    "Mumbai City FC": 9.878949640551582e-07
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Arsenal",
+                "time": "1999",
+                "probs": {
+                    "Paris Saint-Germain": 0.8942541480064392,
+                    "Arsenal": 0.0056364573538303375,
+                    "Real Madrid": 0.03346416726708412,
+                    "Liverpool": 0.001504944870248437,
+                    "Manchester City": 0.0038652264047414064,
+                    "Fenerbah\u00e7e": 0.01354542188346386,
+                    "Bolton Wanderers": 0.0005590394139289856,
+                    "Chelsea": 0.02826017513871193,
+                    "Shanghai Shenhua": 0.0007386403158307076,
+                    "Juventus": 0.0113931680098176,
+                    "West Bromwich Albion": 0.006777656264603138,
+                    "Mumbai City FC": 9.433725836061058e-07
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Real Madrid",
+                "time": "2000",
+                "probs": {
+                    "Paris Saint-Germain": 0.884303867816925,
+                    "Arsenal": 0.008701813407242298,
+                    "Real Madrid": 0.03351997211575508,
+                    "Liverpool": 0.0018283113604411483,
+                    "Manchester City": 0.003492644289508462,
+                    "Fenerbah\u00e7e": 0.016006551682949066,
+                    "Bolton Wanderers": 0.0004997772630304098,
+                    "Chelsea": 0.03300381824374199,
+                    "Shanghai Shenhua": 0.0008875163621269166,
+                    "Juventus": 0.009198592975735664,
+                    "West Bromwich Albion": 0.00855475664138794,
+                    "Mumbai City FC": 2.3126624455471756e-06
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Paris Saint-Germain",
+                "time": "2001",
+                "probs": {
+                    "Paris Saint-Germain": 0.922554075717926,
+                    "Arsenal": 0.0039349766448140144,
+                    "Real Madrid": 0.031234346330165863,
+                    "Liverpool": 0.0016164457192644477,
+                    "Manchester City": 0.0038672378286719322,
+                    "Fenerbah\u00e7e": 0.010200325399637222,
+                    "Bolton Wanderers": 0.00040166432154364884,
+                    "Chelsea": 0.01662999764084816,
+                    "Shanghai Shenhua": 0.0008689587702974677,
+                    "Juventus": 0.0030973530374467373,
+                    "West Bromwich Albion": 0.005593731999397278,
+                    "Mumbai City FC": 9.072616080629814e-07
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Liverpool",
+                "time": "2002",
+                "probs": {
+                    "Paris Saint-Germain": 0.9317867755889893,
+                    "Arsenal": 0.005022179801017046,
+                    "Real Madrid": 0.015253294259309769,
+                    "Liverpool": 0.0016360830049961805,
+                    "Manchester City": 0.002135776448994875,
+                    "Fenerbah\u00e7e": 0.014263155870139599,
+                    "Bolton Wanderers": 0.00034530978882685304,
+                    "Chelsea": 0.017568090930581093,
+                    "Shanghai Shenhua": 0.0008143314043991268,
+                    "Juventus": 0.004157533869147301,
+                    "West Bromwich Albion": 0.007016203831881285,
+                    "Mumbai City FC": 1.1780065278799157e-06
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Manchester City",
+                "time": "2003",
+                "probs": {
+                    "Paris Saint-Germain": 0.8927240371704102,
+                    "Arsenal": 0.009666492231190205,
+                    "Real Madrid": 0.0208519846200943,
+                    "Liverpool": 0.001198671176098287,
+                    "Manchester City": 0.003467901609838009,
+                    "Fenerbah\u00e7e": 0.02262529358267784,
+                    "Bolton Wanderers": 0.0005285092047415674,
+                    "Chelsea": 0.03549966216087341,
+                    "Shanghai Shenhua": 0.0010221810080111027,
+                    "Juventus": 0.007158689200878143,
+                    "West Bromwich Albion": 0.005252134520560503,
+                    "Mumbai City FC": 4.444941168912919e-06
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Manchester City",
+                "time": "2004",
+                "probs": {
+                    "Paris Saint-Germain": 0.8817175626754761,
+                    "Arsenal": 0.007538155652582645,
+                    "Real Madrid": 0.02734852023422718,
+                    "Liverpool": 0.0018550015520304441,
+                    "Manchester City": 0.00465446338057518,
+                    "Fenerbah\u00e7e": 0.025252658873796463,
+                    "Bolton Wanderers": 0.0005854392657056451,
+                    "Chelsea": 0.035980094224214554,
+                    "Shanghai Shenhua": 0.0009943132754415274,
+                    "Juventus": 0.007377592846751213,
+                    "West Bromwich Albion": 0.0066900113597512245,
+                    "Mumbai City FC": 6.247315013752086e-06
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Fenerbah\u00e7e",
+                "time": "2005",
+                "probs": {
+                    "Paris Saint-Germain": 0.9300522208213806,
+                    "Arsenal": 0.0036112400703132153,
+                    "Real Madrid": 0.016104456037282944,
+                    "Liverpool": 0.0007909515406936407,
+                    "Manchester City": 0.002341405488550663,
+                    "Fenerbah\u00e7e": 0.019132686778903008,
+                    "Bolton Wanderers": 0.0003608030383475125,
+                    "Chelsea": 0.015521098859608173,
+                    "Shanghai Shenhua": 0.0008540521375834942,
+                    "Juventus": 0.00418761046603322,
+                    "West Bromwich Albion": 0.007040133699774742,
+                    "Mumbai City FC": 3.4097226944140857e-06
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Fenerbah\u00e7e",
+                "time": "2006",
+                "probs": {
+                    "Paris Saint-Germain": 0.9125787019729614,
+                    "Arsenal": 0.0038974059280008078,
+                    "Real Madrid": 0.02047063037753105,
+                    "Liverpool": 0.0010708457557484508,
+                    "Manchester City": 0.0026099751703441143,
+                    "Fenerbah\u00e7e": 0.024899443611502647,
+                    "Bolton Wanderers": 0.0005004003178328276,
+                    "Chelsea": 0.024673933163285255,
+                    "Shanghai Shenhua": 0.0011103390716016293,
+                    "Juventus": 0.003051346866413951,
+                    "West Bromwich Albion": 0.005129692610353231,
+                    "Mumbai City FC": 7.426357569784159e-06
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Bolton Wanderers",
+                "time": "2007",
+                "probs": {
+                    "Paris Saint-Germain": 0.9189220666885376,
+                    "Arsenal": 0.005162079352885485,
+                    "Real Madrid": 0.015897352248430252,
+                    "Liverpool": 0.0012755760690197349,
+                    "Manchester City": 0.002813831204548478,
+                    "Fenerbah\u00e7e": 0.014273742213845253,
+                    "Bolton Wanderers": 0.00033539312426000834,
+                    "Chelsea": 0.02977105975151062,
+                    "Shanghai Shenhua": 0.001591584994457662,
+                    "Juventus": 0.004731427878141403,
+                    "West Bromwich Albion": 0.005220338702201843,
+                    "Mumbai City FC": 5.535707714443561e-06
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Chelsea",
+                "time": "2008",
+                "probs": {
+                    "Paris Saint-Germain": 0.9250066876411438,
+                    "Arsenal": 0.0032935072667896748,
+                    "Real Madrid": 0.021302571520209312,
+                    "Liverpool": 0.0014203886967152357,
+                    "Manchester City": 0.002805653726682067,
+                    "Fenerbah\u00e7e": 0.022165201604366302,
+                    "Bolton Wanderers": 0.0005971326027065516,
+                    "Chelsea": 0.014725606888532639,
+                    "Shanghai Shenhua": 0.0015956279821693897,
+                    "Juventus": 0.0028355224058032036,
+                    "West Bromwich Albion": 0.004233175422996283,
+                    "Mumbai City FC": 1.894282286230009e-05
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Chelsea",
+                "time": "2009",
+                "probs": {
+                    "Paris Saint-Germain": 0.9019516706466675,
+                    "Arsenal": 0.004848058335483074,
+                    "Real Madrid": 0.016872398555278778,
+                    "Liverpool": 0.0008293638820759952,
+                    "Manchester City": 0.00296798232011497,
+                    "Fenerbah\u00e7e": 0.02859458699822426,
+                    "Bolton Wanderers": 0.0005744725931435823,
+                    "Chelsea": 0.03247244283556938,
+                    "Shanghai Shenhua": 0.0024575325660407543,
+                    "Juventus": 0.005242041312158108,
+                    "West Bromwich Albion": 0.0031712218187749386,
+                    "Mumbai City FC": 1.823065395001322e-05
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Chelsea",
+                "time": "2010",
+                "probs": {
+                    "Paris Saint-Germain": 0.9379162788391113,
+                    "Arsenal": 0.0025383278261870146,
+                    "Real Madrid": 0.0157842505723238,
+                    "Liverpool": 0.0010606178548187017,
+                    "Manchester City": 0.0024803413543850183,
+                    "Fenerbah\u00e7e": 0.015429788269102573,
+                    "Bolton Wanderers": 0.00033925383468158543,
+                    "Chelsea": 0.015638133510947227,
+                    "Shanghai Shenhua": 0.001464863307774067,
+                    "Juventus": 0.0031993845477700233,
+                    "West Bromwich Albion": 0.004133651498705149,
+                    "Mumbai City FC": 1.497621906310087e-05
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Chelsea",
+                "time": "2011",
+                "probs": {
+                    "Paris Saint-Germain": 0.9171209335327148,
+                    "Arsenal": 0.0025534334126859903,
+                    "Real Madrid": 0.014717331156134605,
+                    "Liverpool": 0.0007837898447178304,
+                    "Manchester City": 0.003955257125198841,
+                    "Fenerbah\u00e7e": 0.025350233539938927,
+                    "Bolton Wanderers": 0.0005782347288914025,
+                    "Chelsea": 0.02710961364209652,
+                    "Shanghai Shenhua": 0.0021643193904310465,
+                    "Juventus": 0.0031040909234434366,
+                    "West Bromwich Albion": 0.00251645571552217,
+                    "Mumbai City FC": 4.634083597920835e-05
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Shanghai Shenhua",
+                "time": "2012",
+                "probs": {
+                    "Paris Saint-Germain": 0.9406722187995911,
+                    "Arsenal": 0.0015345904976129532,
+                    "Real Madrid": 0.013023906387388706,
+                    "Liverpool": 0.0005691088736057281,
+                    "Manchester City": 0.0031779417768120766,
+                    "Fenerbah\u00e7e": 0.0175241120159626,
+                    "Bolton Wanderers": 0.00035675245453603566,
+                    "Chelsea": 0.016352223232388496,
+                    "Shanghai Shenhua": 0.0018382974667474627,
+                    "Juventus": 0.0015786236617714167,
+                    "West Bromwich Albion": 0.003319799667224288,
+                    "Mumbai City FC": 5.2439532737480476e-05
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Juventus",
+                "time": "2013",
+                "probs": {
+                    "Paris Saint-Germain": 0.8946313261985779,
+                    "Arsenal": 0.0031859262380748987,
+                    "Real Madrid": 0.0319339893758297,
+                    "Liverpool": 0.0016027791425585747,
+                    "Manchester City": 0.00530289625748992,
+                    "Fenerbah\u00e7e": 0.02336973324418068,
+                    "Bolton Wanderers": 0.0006228417623788118,
+                    "Chelsea": 0.030265536159276962,
+                    "Shanghai Shenhua": 0.00242528785020113,
+                    "Juventus": 0.003361519193276763,
+                    "West Bromwich Albion": 0.0031493017449975014,
+                    "Mumbai City FC": 0.0001489077549194917
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "West Bromwich Albion",
+                "time": "2014",
+                "probs": {
+                    "Paris Saint-Germain": 0.9295557737350464,
+                    "Arsenal": 0.0019507138058543205,
+                    "Real Madrid": 0.018369920551776886,
+                    "Liverpool": 0.0007160332170315087,
+                    "Manchester City": 0.0027166272047907114,
+                    "Fenerbah\u00e7e": 0.017781797796487808,
+                    "Bolton Wanderers": 0.0005826507695019245,
+                    "Chelsea": 0.018476111814379692,
+                    "Shanghai Shenhua": 0.002555113285779953,
+                    "Juventus": 0.002282094908878207,
+                    "West Bromwich Albion": 0.004851324949413538,
+                    "Mumbai City FC": 0.00016181233513634652
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Mumbai City FC",
+                "time": "2015",
+                "probs": {
+                    "Paris Saint-Germain": 0.9227705597877502,
+                    "Arsenal": 0.002816188847646117,
+                    "Real Madrid": 0.018199069425463676,
+                    "Liverpool": 0.0010534455068409443,
+                    "Manchester City": 0.003316889749839902,
+                    "Fenerbah\u00e7e": 0.015858499333262444,
+                    "Bolton Wanderers": 0.0007534323958680034,
+                    "Chelsea": 0.02733233943581581,
+                    "Shanghai Shenhua": 0.0018978174775838852,
+                    "Juventus": 0.0034060035832226276,
+                    "West Bromwich Albion": 0.002425087383016944,
+                    "Mumbai City FC": 0.00017066321743186563
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Malm\u00f6 FF",
+                "time": "1999",
+                "probs": {
+                    "Malm\u00f6 FF": 0.07560180872678757,
+                    "AFC Ajax": 0.044659849256277084,
+                    "Juventus": 0.035106509923934937,
+                    "Inter Milan": 0.010753748007118702,
+                    "FC Barcelona": 0.054841890931129456,
+                    "AC Milan": 0.008143034763634205,
+                    "Paris Saint-Germain": 0.7643905282020569,
+                    "Manchester United": 0.005598819814622402,
+                    "LA Galaxy": 0.0009038786520250142
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Malm\u00f6 FF",
+                "time": "2000",
+                "probs": {
+                    "Malm\u00f6 FF": 0.04335260018706322,
+                    "AFC Ajax": 0.021012065932154655,
+                    "Juventus": 0.01624913327395916,
+                    "Inter Milan": 0.00800643302500248,
+                    "FC Barcelona": 0.03431239724159241,
+                    "AC Milan": 0.006908510811626911,
+                    "Paris Saint-Germain": 0.86514812707901,
+                    "Manchester United": 0.004464725498110056,
+                    "LA Galaxy": 0.0005460098036564887
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AFC Ajax",
+                "time": "2001",
+                "probs": {
+                    "Malm\u00f6 FF": 0.017341705039143562,
+                    "AFC Ajax": 0.02578294277191162,
+                    "Juventus": 0.01229054480791092,
+                    "Inter Milan": 0.003120924811810255,
+                    "FC Barcelona": 0.011308076791465282,
+                    "AC Milan": 0.0026885690167546272,
+                    "Paris Saint-Germain": 0.9254812002182007,
+                    "Manchester United": 0.0015761329559609294,
+                    "LA Galaxy": 0.0004098231438547373
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AFC Ajax",
+                "time": "2002",
+                "probs": {
+                    "Malm\u00f6 FF": 0.02726498246192932,
+                    "AFC Ajax": 0.014470495283603668,
+                    "Juventus": 0.007766000926494598,
+                    "Inter Milan": 0.006974236108362675,
+                    "FC Barcelona": 0.016988860443234444,
+                    "AC Milan": 0.004575560800731182,
+                    "Paris Saint-Germain": 0.9189597964286804,
+                    "Manchester United": 0.0026415938045829535,
+                    "LA Galaxy": 0.00035851143184117973
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AFC Ajax",
+                "time": "2003",
+                "probs": {
+                    "Malm\u00f6 FF": 0.01854432001709938,
+                    "AFC Ajax": 0.02103271149098873,
+                    "Juventus": 0.013269266113638878,
+                    "Inter Milan": 0.009004811756312847,
+                    "FC Barcelona": 0.0397166945040226,
+                    "AC Milan": 0.010465106926858425,
+                    "Paris Saint-Germain": 0.8817758560180664,
+                    "Manchester United": 0.005634464789181948,
+                    "LA Galaxy": 0.0005567289190366864
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Juventus",
+                "time": "2004",
+                "probs": {
+                    "Malm\u00f6 FF": 0.008523913100361824,
+                    "AFC Ajax": 0.019944284111261368,
+                    "Juventus": 0.011950325220823288,
+                    "Inter Milan": 0.002188019687309861,
+                    "FC Barcelona": 0.008578714914619923,
+                    "AC Milan": 0.0024081352166831493,
+                    "Paris Saint-Germain": 0.9439297318458557,
+                    "Manchester United": 0.0016627428121864796,
+                    "LA Galaxy": 0.00081424176460132
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Juventus",
+                "time": "2005",
+                "probs": {
+                    "Malm\u00f6 FF": 0.019666675478219986,
+                    "AFC Ajax": 0.029666442424058914,
+                    "Juventus": 0.015401083044707775,
+                    "Inter Milan": 0.00831187516450882,
+                    "FC Barcelona": 0.04731415584683418,
+                    "AC Milan": 0.012537720613181591,
+                    "Paris Saint-Germain": 0.8612908720970154,
+                    "Manchester United": 0.005061524920165539,
+                    "LA Galaxy": 0.0007495898753404617
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Juventus",
+                "time": "2006",
+                "probs": {
+                    "Malm\u00f6 FF": 0.004070641007274389,
+                    "AFC Ajax": 0.014051568694412708,
+                    "Juventus": 0.007044069468975067,
+                    "Inter Milan": 0.0029588600154966116,
+                    "FC Barcelona": 0.012358956038951874,
+                    "AC Milan": 0.0027992131654173136,
+                    "Paris Saint-Germain": 0.9538218975067139,
+                    "Manchester United": 0.002238309243693948,
+                    "LA Galaxy": 0.000656468968372792
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Inter Milan",
+                "time": "2007",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0034855627454817295,
+                    "AFC Ajax": 0.014008906669914722,
+                    "Juventus": 0.004417372867465019,
+                    "Inter Milan": 0.0010023096110671759,
+                    "FC Barcelona": 0.00646569998934865,
+                    "AC Milan": 0.0011978608090430498,
+                    "Paris Saint-Germain": 0.9679479598999023,
+                    "Manchester United": 0.0010352235985919833,
+                    "LA Galaxy": 0.00043900724267587066
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Inter Milan",
+                "time": "2008",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0026173144578933716,
+                    "AFC Ajax": 0.011453196406364441,
+                    "Juventus": 0.004864150658249855,
+                    "Inter Milan": 0.004717897158116102,
+                    "FC Barcelona": 0.03006484918296337,
+                    "AC Milan": 0.0035563954152166843,
+                    "Paris Saint-Germain": 0.9389041066169739,
+                    "Manchester United": 0.0031484970822930336,
+                    "LA Galaxy": 0.0006735398201271892
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "FC Barcelona",
+                "time": "2009",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0026887445710599422,
+                    "AFC Ajax": 0.008363828994333744,
+                    "Juventus": 0.00322188762947917,
+                    "Inter Milan": 0.0036890676710754633,
+                    "FC Barcelona": 0.01893032342195511,
+                    "AC Milan": 0.0031213073525577784,
+                    "Paris Saint-Germain": 0.956682562828064,
+                    "Manchester United": 0.0028128398116678,
+                    "LA Galaxy": 0.0004893841105513275
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "FC Barcelona",
+                "time": "2010",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0029502930119633675,
+                    "AFC Ajax": 0.007334988564252853,
+                    "Juventus": 0.0033577927388250828,
+                    "Inter Milan": 0.0026427903212606907,
+                    "FC Barcelona": 0.021723922342061996,
+                    "AC Milan": 0.005128681659698486,
+                    "Paris Saint-Germain": 0.9533413648605347,
+                    "Manchester United": 0.0029286742210388184,
+                    "LA Galaxy": 0.0005914794746786356
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AC Milan",
+                "time": "2011",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0022833221592009068,
+                    "AFC Ajax": 0.011470939964056015,
+                    "Juventus": 0.005108171608299017,
+                    "Inter Milan": 0.0024781066458672285,
+                    "FC Barcelona": 0.018039504066109657,
+                    "AC Milan": 0.0033241664059460163,
+                    "Paris Saint-Germain": 0.954056441783905,
+                    "Manchester United": 0.002162523567676544,
+                    "LA Galaxy": 0.0010768875945359468
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AC Milan",
+                "time": "2012",
+                "probs": {
+                    "Malm\u00f6 FF": 0.002142444485798478,
+                    "AFC Ajax": 0.010342263616621494,
+                    "Juventus": 0.004318803083151579,
+                    "Inter Milan": 0.0015997336013242602,
+                    "FC Barcelona": 0.018045879900455475,
+                    "AC Milan": 0.0022484424989670515,
+                    "Paris Saint-Germain": 0.9588127732276917,
+                    "Manchester United": 0.0016242997953668237,
+                    "LA Galaxy": 0.0008653914555907249
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Paris Saint-Germain",
+                "time": "2013",
+                "probs": {
+                    "Malm\u00f6 FF": 0.002052388619631529,
+                    "AFC Ajax": 0.0044196974486112595,
+                    "Juventus": 0.0022868290543556213,
+                    "Inter Milan": 0.0019176834030076861,
+                    "FC Barcelona": 0.015422847121953964,
+                    "AC Milan": 0.0026543273124843836,
+                    "Paris Saint-Germain": 0.9682984948158264,
+                    "Manchester United": 0.002362609375268221,
+                    "LA Galaxy": 0.0005852174945175648
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Paris Saint-Germain",
+                "time": "2014",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0015167759265750647,
+                    "AFC Ajax": 0.006392494309693575,
+                    "Juventus": 0.003090937389060855,
+                    "Inter Milan": 0.001215133466757834,
+                    "FC Barcelona": 0.019893666729331017,
+                    "AC Milan": 0.0025819542352110147,
+                    "Paris Saint-Germain": 0.9618930816650391,
+                    "Manchester United": 0.0024741534143686295,
+                    "LA Galaxy": 0.0009417301625944674
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Paris Saint-Germain",
+                "time": "2015",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0014569072518497705,
+                    "AFC Ajax": 0.0047321803867816925,
+                    "Juventus": 0.0023572645150125027,
+                    "Inter Milan": 0.0006295406492426991,
+                    "FC Barcelona": 0.011345848441123962,
+                    "AC Milan": 0.0011563574662432075,
+                    "Paris Saint-Germain": 0.9768624305725098,
+                    "Manchester United": 0.0006959719466976821,
+                    "LA Galaxy": 0.0007634314242750406
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Paris Saint-Germain",
+                "time": "2016",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0007345767226070166,
+                    "AFC Ajax": 0.007189168594777584,
+                    "Juventus": 0.002794816857203841,
+                    "Inter Milan": 0.001219373196363449,
+                    "FC Barcelona": 0.022863347083330154,
+                    "AC Milan": 0.002308920258656144,
+                    "Paris Saint-Germain": 0.959317147731781,
+                    "Manchester United": 0.0024217963218688965,
+                    "LA Galaxy": 0.0011508913012221456
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Manchester United",
+                "time": "2017",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0009197163162752986,
+                    "AFC Ajax": 0.0041384887881577015,
+                    "Juventus": 0.0023147875908762217,
+                    "Inter Milan": 0.0008004484116099775,
+                    "FC Barcelona": 0.010584664531052113,
+                    "AC Milan": 0.001526273787021637,
+                    "Paris Saint-Germain": 0.9774186015129089,
+                    "Manchester United": 0.0013597815996035933,
+                    "LA Galaxy": 0.0009373803623020649
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Manchester United",
+                "time": "2018",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0005537760443985462,
+                    "AFC Ajax": 0.0027754101902246475,
+                    "Juventus": 0.001949113211594522,
+                    "Inter Milan": 0.001254329807125032,
+                    "FC Barcelona": 0.012985584326088428,
+                    "AC Milan": 0.0016017318703234196,
+                    "Paris Saint-Germain": 0.9765579104423523,
+                    "Manchester United": 0.0014709087554365396,
+                    "LA Galaxy": 0.0008512121858075261
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "LA Galaxy",
+                "time": "2019",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0006339557585306466,
+                    "AFC Ajax": 0.0027593725826591253,
+                    "Juventus": 0.002027451526373625,
+                    "Inter Milan": 0.0016440738691017032,
+                    "FC Barcelona": 0.013351505622267723,
+                    "AC Milan": 0.0013229264877736568,
+                    "Paris Saint-Germain": 0.9761214256286621,
+                    "Manchester United": 0.0014774533919990063,
+                    "LA Galaxy": 0.0006617670296691358
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AC Milan",
+                "time": "2020",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0006861364818178117,
+                    "AFC Ajax": 0.0018787942826747894,
+                    "Juventus": 0.002087201690301299,
+                    "Inter Milan": 0.0013463757932186127,
+                    "FC Barcelona": 0.009290781803429127,
+                    "AC Milan": 0.001534410286694765,
+                    "Paris Saint-Germain": 0.9810972213745117,
+                    "Manchester United": 0.0011946808081120253,
+                    "LA Galaxy": 0.00088447832968086
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Barcelona",
+                "time": "1999",
+                "probs": {
+                    "Sporting CP": 0.6443356275558472,
+                    "Barcelona": 0.02764567919075489,
+                    "Real Madrid": 0.3264212906360626,
+                    "Inter Milan": 0.0015973920235410333
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2000",
+                "probs": {
+                    "Sporting CP": 0.7968521118164062,
+                    "Barcelona": 0.052461545914411545,
+                    "Real Madrid": 0.14973893761634827,
+                    "Inter Milan": 0.0009474433027207851
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2001",
+                "probs": {
+                    "Sporting CP": 0.5309948921203613,
+                    "Barcelona": 0.0752817913889885,
+                    "Real Madrid": 0.3913578689098358,
+                    "Inter Milan": 0.0023654683027416468
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2002",
+                "probs": {
+                    "Sporting CP": 0.4866791367530823,
+                    "Barcelona": 0.04636576771736145,
+                    "Real Madrid": 0.46378350257873535,
+                    "Inter Milan": 0.0031715568620711565
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2003",
+                "probs": {
+                    "Sporting CP": 0.6114177107810974,
+                    "Barcelona": 0.029409518465399742,
+                    "Real Madrid": 0.35693076252937317,
+                    "Inter Milan": 0.0022420561872422695
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2004",
+                "probs": {
+                    "Sporting CP": 0.7391157150268555,
+                    "Barcelona": 0.038670167326927185,
+                    "Real Madrid": 0.22039493918418884,
+                    "Inter Milan": 0.0018192008137702942
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2005",
+                "probs": {
+                    "Sporting CP": 0.5242463946342468,
+                    "Barcelona": 0.07025794684886932,
+                    "Real Madrid": 0.4028055965900421,
+                    "Inter Milan": 0.0026901070959866047
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2006",
+                "probs": {
+                    "Sporting CP": 0.6157809495925903,
+                    "Barcelona": 0.0461135059595108,
+                    "Real Madrid": 0.3341130018234253,
+                    "Inter Milan": 0.0039925407618284225
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2007",
+                "probs": {
+                    "Sporting CP": 0.5864996910095215,
+                    "Barcelona": 0.055410780012607574,
+                    "Real Madrid": 0.35464340448379517,
+                    "Inter Milan": 0.003446180373430252
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2008",
+                "probs": {
+                    "Sporting CP": 0.6242935657501221,
+                    "Barcelona": 0.05551668256521225,
+                    "Real Madrid": 0.3165769875049591,
+                    "Inter Milan": 0.0036127993371337652
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2009",
+                "probs": {
+                    "Sporting CP": 0.6939733624458313,
+                    "Barcelona": 0.029037119820713997,
+                    "Real Madrid": 0.27360713481903076,
+                    "Inter Milan": 0.0033823589328676462
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Manchester United",
+                "time": "1999",
+                "probs": {
+                    "Manchester United": 0.808971107006073,
+                    "Real Madrid": 0.1174851804971695,
+                    "LA Galaxy": 0.006049484480172396,
+                    "AC Milan": 0.0037853389512747526,
+                    "Paris Saint-Germain": 0.06370889395475388
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Manchester United",
+                "time": "2000",
+                "probs": {
+                    "Manchester United": 0.8211509585380554,
+                    "Real Madrid": 0.0930112823843956,
+                    "LA Galaxy": 0.0061887032352387905,
+                    "AC Milan": 0.003180061699822545,
+                    "Paris Saint-Germain": 0.07646901905536652
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Manchester United",
+                "time": "2001",
+                "probs": {
+                    "Manchester United": 0.6557852625846863,
+                    "Real Madrid": 0.13245956599712372,
+                    "LA Galaxy": 0.02136058919131756,
+                    "AC Milan": 0.005648905877023935,
+                    "Paris Saint-Germain": 0.1847456693649292
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Manchester United",
+                "time": "2002",
+                "probs": {
+                    "Manchester United": 0.7043541073799133,
+                    "Real Madrid": 0.1552688479423523,
+                    "LA Galaxy": 0.029566960409283638,
+                    "AC Milan": 0.007042029406875372,
+                    "Paris Saint-Germain": 0.10376805812120438
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Real Madrid",
+                "time": "2003",
+                "probs": {
+                    "Manchester United": 0.5877782702445984,
+                    "Real Madrid": 0.21693380177021027,
+                    "LA Galaxy": 0.02841257117688656,
+                    "AC Milan": 0.006249513477087021,
+                    "Paris Saint-Germain": 0.1606259047985077
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Real Madrid",
+                "time": "2004",
+                "probs": {
+                    "Manchester United": 0.6621906161308289,
+                    "Real Madrid": 0.16066911816596985,
+                    "LA Galaxy": 0.026639213785529137,
+                    "AC Milan": 0.007831578142940998,
+                    "Paris Saint-Germain": 0.14266948401927948
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Real Madrid",
+                "time": "2005",
+                "probs": {
+                    "Manchester United": 0.5923587083816528,
+                    "Real Madrid": 0.22651703655719757,
+                    "LA Galaxy": 0.014570403844118118,
+                    "AC Milan": 0.006303743459284306,
+                    "Paris Saint-Germain": 0.16025006771087646
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Real Madrid",
+                "time": "2006",
+                "probs": {
+                    "Manchester United": 0.4566578269004822,
+                    "Real Madrid": 0.19473792612552643,
+                    "LA Galaxy": 0.04618449509143829,
+                    "AC Milan": 0.008913605473935604,
+                    "Paris Saint-Germain": 0.2935061752796173
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "LA Galaxy",
+                "time": "2007",
+                "probs": {
+                    "Manchester United": 0.48806843161582947,
+                    "Real Madrid": 0.30207791924476624,
+                    "LA Galaxy": 0.05637616664171219,
+                    "AC Milan": 0.009625712409615517,
+                    "Paris Saint-Germain": 0.14385178685188293
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "LA Galaxy",
+                "time": "2008",
+                "probs": {
+                    "Manchester United": 0.4051976799964905,
+                    "Real Madrid": 0.23378869891166687,
+                    "LA Galaxy": 0.10236877202987671,
+                    "AC Milan": 0.008786910213530064,
+                    "Paris Saint-Germain": 0.24985796213150024
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "LA Galaxy",
+                "time": "2009",
+                "probs": {
+                    "Manchester United": 0.3593074083328247,
+                    "Real Madrid": 0.3336947560310364,
+                    "LA Galaxy": 0.06604311615228653,
+                    "AC Milan": 0.007621197961270809,
+                    "Paris Saint-Germain": 0.23333357274532318
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "1999",
+                "probs": {
+                    "Arsenal": 0.36345288157463074,
+                    "Crystal Palace": 0.029860103502869606,
+                    "Chelsea": 0.5930628776550293,
+                    "AS Roma": 8.878016524249688e-05,
+                    "LA Galaxy": 0.013027110137045383,
+                    "Derby County": 0.0005082974676042795
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2000",
+                "probs": {
+                    "Arsenal": 0.4181916117668152,
+                    "Crystal Palace": 0.03431377187371254,
+                    "Chelsea": 0.5349323749542236,
+                    "AS Roma": 7.6556701969821e-05,
+                    "LA Galaxy": 0.01210787519812584,
+                    "Derby County": 0.0003778891114052385
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2001",
+                "probs": {
+                    "Arsenal": 0.3614776134490967,
+                    "Crystal Palace": 0.029672682285308838,
+                    "Chelsea": 0.59466552734375,
+                    "AS Roma": 8.108215115498751e-05,
+                    "LA Galaxy": 0.013655547052621841,
+                    "Derby County": 0.00044754959526471794
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2002",
+                "probs": {
+                    "Arsenal": 0.3614993393421173,
+                    "Crystal Palace": 0.02968657948076725,
+                    "Chelsea": 0.5945810079574585,
+                    "AS Roma": 0.00016374094411730766,
+                    "LA Galaxy": 0.013559295795857906,
+                    "Derby County": 0.0005100595881231129
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2003",
+                "probs": {
+                    "Arsenal": 0.3107847273349762,
+                    "Crystal Palace": 0.01987053081393242,
+                    "Chelsea": 0.6571361422538757,
+                    "AS Roma": 0.00010174563794862479,
+                    "LA Galaxy": 0.011808433569967747,
+                    "Derby County": 0.00029844080563634634
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2004",
+                "probs": {
+                    "Arsenal": 0.3079374432563782,
+                    "Crystal Palace": 0.025267982855439186,
+                    "Chelsea": 0.6512572765350342,
+                    "AS Roma": 0.00012040414731018245,
+                    "LA Galaxy": 0.015053074806928635,
+                    "Derby County": 0.0003638016351033002
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2005",
+                "probs": {
+                    "Arsenal": 0.30949604511260986,
+                    "Crystal Palace": 0.01976889744400978,
+                    "Chelsea": 0.6551206111907959,
+                    "AS Roma": 8.69953801156953e-05,
+                    "LA Galaxy": 0.015245134010910988,
+                    "Derby County": 0.00028228521114215255
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Chelsea",
+                "time": "2006",
+                "probs": {
+                    "Arsenal": 0.2595929503440857,
+                    "Crystal Palace": 0.021309418603777885,
+                    "Chelsea": 0.7056897878646851,
+                    "AS Roma": 0.00018233081209473312,
+                    "LA Galaxy": 0.012791693210601807,
+                    "Derby County": 0.00043388738413341343
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Chelsea",
+                "time": "2007",
+                "probs": {
+                    "Arsenal": 0.30938422679901123,
+                    "Crystal Palace": 0.01977110467851162,
+                    "Chelsea": 0.6551138162612915,
+                    "AS Roma": 0.00014244056364987046,
+                    "LA Galaxy": 0.01525818184018135,
+                    "Derby County": 0.0003302468394394964
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Chelsea",
+                "time": "2008",
+                "probs": {
+                    "Arsenal": 0.2574293911457062,
+                    "Crystal Palace": 0.021118681877851486,
+                    "Chelsea": 0.7000593543052673,
+                    "AS Roma": 0.00014585394819732755,
+                    "LA Galaxy": 0.02098865434527397,
+                    "Derby County": 0.00025804349570535123
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Chelsea",
+                "time": "2009",
+                "probs": {
+                    "Arsenal": 0.25971388816833496,
+                    "Crystal Palace": 0.016585545614361763,
+                    "Chelsea": 0.7062718868255615,
+                    "AS Roma": 0.00042261448106728494,
+                    "LA Galaxy": 0.01648770645260811,
+                    "Derby County": 0.000518383109010756
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "Newell's Old Boys",
+                "time": "1999",
+                "probs": {
+                    "Newell's Old Boys": 0.6592451333999634,
+                    "FC Barcelona": 0.27033597230911255,
+                    "Paris Saint-Germain": 0.07041893154382706
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2000",
+                "probs": {
+                    "Newell's Old Boys": 0.5681696534156799,
+                    "FC Barcelona": 0.3040299713611603,
+                    "Paris Saint-Germain": 0.1278003305196762
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2001",
+                "probs": {
+                    "Newell's Old Boys": 0.38301801681518555,
+                    "FC Barcelona": 0.50550377368927,
+                    "Paris Saint-Germain": 0.11147820204496384
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2002",
+                "probs": {
+                    "Newell's Old Boys": 0.417792946100235,
+                    "FC Barcelona": 0.46222713589668274,
+                    "Paris Saint-Germain": 0.11997992545366287
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2003",
+                "probs": {
+                    "Newell's Old Boys": 0.404759019613266,
+                    "FC Barcelona": 0.4444831609725952,
+                    "Paris Saint-Germain": 0.1507577747106552
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2004",
+                "probs": {
+                    "Newell's Old Boys": 0.39921119809150696,
+                    "FC Barcelona": 0.45404252409935,
+                    "Paris Saint-Germain": 0.14674623310565948
+                }
+            }
+        ],
+        "prompt_templates_zs:0": [
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Paris Saint-Germain",
+                "time": "1996",
+                "probs": {
+                    "Paris Saint-Germain": 0.9986962676048279,
+                    "Arsenal": 8.038214582484215e-05,
+                    "Real Madrid": 9.930034866556525e-05,
+                    "Liverpool": 9.394286280439701e-06,
+                    "Manchester City": 7.768552677589469e-06,
+                    "Fenerbah\u00e7e": 1.3268441989566782e-06,
+                    "Bolton Wanderers": 6.220576324267313e-06,
+                    "Chelsea": 2.9893040846218355e-05,
+                    "Shanghai Shenhua": 0.0006475591799244285,
+                    "Juventus": 2.4616187147330493e-05,
+                    "West Bromwich Albion": 0.0003973942657466978,
+                    "Mumbai City FC": 2.519104924658677e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Arsenal",
+                "time": "1997",
+                "probs": {
+                    "Paris Saint-Germain": 0.9981182813644409,
+                    "Arsenal": 0.00024314125766977668,
+                    "Real Madrid": 8.375216566491872e-05,
+                    "Liverpool": 1.370223890262423e-05,
+                    "Manchester City": 8.464469829050358e-06,
+                    "Fenerbah\u00e7e": 2.5596698378649307e-06,
+                    "Bolton Wanderers": 6.061156909709098e-06,
+                    "Chelsea": 3.0330014851642773e-05,
+                    "Shanghai Shenhua": 0.0008689836249686778,
+                    "Juventus": 1.8355147403781302e-05,
+                    "West Bromwich Albion": 0.0006064909393899143,
+                    "Mumbai City FC": 5.066346009385825e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Arsenal",
+                "time": "1998",
+                "probs": {
+                    "Paris Saint-Germain": 0.9981391429901123,
+                    "Arsenal": 0.0003625496756285429,
+                    "Real Madrid": 0.0002548171323724091,
+                    "Liverpool": 1.1294459909549914e-05,
+                    "Manchester City": 9.628948646422941e-06,
+                    "Fenerbah\u00e7e": 8.334587278113759e-07,
+                    "Bolton Wanderers": 3.6983822155889357e-06,
+                    "Chelsea": 5.147307820152491e-05,
+                    "Shanghai Shenhua": 0.0007606738363392651,
+                    "Juventus": 3.233512688893825e-05,
+                    "West Bromwich Albion": 0.0003735705395229161,
+                    "Mumbai City FC": 2.6674911168811377e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Arsenal",
+                "time": "1999",
+                "probs": {
+                    "Paris Saint-Germain": 0.9982255101203918,
+                    "Arsenal": 0.00030883337603881955,
+                    "Real Madrid": 0.0002587121562100947,
+                    "Liverpool": 1.4440362065215595e-05,
+                    "Manchester City": 1.7123906218330376e-05,
+                    "Fenerbah\u00e7e": 1.8333945490667247e-06,
+                    "Bolton Wanderers": 4.97669179821969e-06,
+                    "Chelsea": 5.8169021940557286e-05,
+                    "Shanghai Shenhua": 0.0006419474957510829,
+                    "Juventus": 2.6632738808984868e-05,
+                    "West Bromwich Albion": 0.0004417560703586787,
+                    "Mumbai City FC": 3.6505745093506903e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Real Madrid",
+                "time": "2000",
+                "probs": {
+                    "Paris Saint-Germain": 0.9967526197433472,
+                    "Arsenal": 0.0010427507804706693,
+                    "Real Madrid": 0.00011654973786789924,
+                    "Liverpool": 1.9832801626762375e-05,
+                    "Manchester City": 5.534478259505704e-05,
+                    "Fenerbah\u00e7e": 9.415532531420467e-07,
+                    "Bolton Wanderers": 7.439754881488625e-06,
+                    "Chelsea": 0.00013445223157759756,
+                    "Shanghai Shenhua": 0.001326918718405068,
+                    "Juventus": 5.417667853180319e-05,
+                    "West Bromwich Albion": 0.0004890594282187521,
+                    "Mumbai City FC": 2.4649443375324154e-08
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Paris Saint-Germain",
+                "time": "2001",
+                "probs": {
+                    "Paris Saint-Germain": 0.9969269633293152,
+                    "Arsenal": 0.0005167031777091324,
+                    "Real Madrid": 0.00025365472538396716,
+                    "Liverpool": 1.4620770343753975e-05,
+                    "Manchester City": 5.185807458474301e-05,
+                    "Fenerbah\u00e7e": 7.394222620860091e-07,
+                    "Bolton Wanderers": 5.608069386653369e-06,
+                    "Chelsea": 7.871778507251292e-05,
+                    "Shanghai Shenhua": 0.0016110189026221633,
+                    "Juventus": 2.4295010007335804e-05,
+                    "West Bromwich Albion": 0.0005158641142770648,
+                    "Mumbai City FC": 4.5910675261495726e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Liverpool",
+                "time": "2002",
+                "probs": {
+                    "Paris Saint-Germain": 0.9954140186309814,
+                    "Arsenal": 0.00031320255948230624,
+                    "Real Madrid": 0.00010684021253837273,
+                    "Liverpool": 6.124393166828668e-06,
+                    "Manchester City": 2.5325711249024607e-05,
+                    "Fenerbah\u00e7e": 5.204388457968889e-07,
+                    "Bolton Wanderers": 3.2809789445309434e-06,
+                    "Chelsea": 4.829867975786328e-05,
+                    "Shanghai Shenhua": 0.0023071663454174995,
+                    "Juventus": 1.194113337987801e-05,
+                    "West Bromwich Albion": 0.0017633603420108557,
+                    "Mumbai City FC": 2.774231511182279e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Manchester City",
+                "time": "2003",
+                "probs": {
+                    "Paris Saint-Germain": 0.9964074492454529,
+                    "Arsenal": 0.0004288742784410715,
+                    "Real Madrid": 0.000297444494208321,
+                    "Liverpool": 1.8425038433633745e-05,
+                    "Manchester City": 9.309653250966221e-05,
+                    "Fenerbah\u00e7e": 1.2126236015319591e-06,
+                    "Bolton Wanderers": 6.035598744347226e-06,
+                    "Chelsea": 5.344412420527078e-05,
+                    "Shanghai Shenhua": 0.002117736265063286,
+                    "Juventus": 2.115424649673514e-05,
+                    "West Bromwich Albion": 0.0005550130736082792,
+                    "Mumbai City FC": 1.766685286952452e-08
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Manchester City",
+                "time": "2004",
+                "probs": {
+                    "Paris Saint-Germain": 0.996698796749115,
+                    "Arsenal": 0.0002136736729880795,
+                    "Real Madrid": 0.0002299671177752316,
+                    "Liverpool": 6.384369953593705e-06,
+                    "Manchester City": 0.00010391639079898596,
+                    "Fenerbah\u00e7e": 1.570992253618897e-06,
+                    "Bolton Wanderers": 7.663567885174416e-06,
+                    "Chelsea": 3.2389871194027364e-05,
+                    "Shanghai Shenhua": 0.001668727258220315,
+                    "Juventus": 8.720143341633957e-06,
+                    "West Bromwich Albion": 0.001028041704557836,
+                    "Mumbai City FC": 4.872221381901909e-08
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Fenerbah\u00e7e",
+                "time": "2005",
+                "probs": {
+                    "Paris Saint-Germain": 0.9945900440216064,
+                    "Arsenal": 0.0005270123947411776,
+                    "Real Madrid": 0.00015469254867639393,
+                    "Liverpool": 1.8768914742395282e-05,
+                    "Manchester City": 0.00011544378503458574,
+                    "Fenerbah\u00e7e": 9.527487350169395e-07,
+                    "Bolton Wanderers": 5.7128518164972775e-06,
+                    "Chelsea": 5.3520714573096484e-05,
+                    "Shanghai Shenhua": 0.0027277194894850254,
+                    "Juventus": 1.708642412268091e-05,
+                    "West Bromwich Albion": 0.0017890457529574633,
+                    "Mumbai City FC": 3.401083503717928e-08
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Fenerbah\u00e7e",
+                "time": "2006",
+                "probs": {
+                    "Paris Saint-Germain": 0.9922409057617188,
+                    "Arsenal": 0.0004039265913888812,
+                    "Real Madrid": 0.00018311433086637408,
+                    "Liverpool": 1.2630599485419225e-05,
+                    "Manchester City": 0.00016686621529515833,
+                    "Fenerbah\u00e7e": 1.169463075711974e-06,
+                    "Bolton Wanderers": 5.770721600129036e-06,
+                    "Chelsea": 8.521131530869752e-05,
+                    "Shanghai Shenhua": 0.003223396372050047,
+                    "Juventus": 1.2199016055092216e-05,
+                    "West Bromwich Albion": 0.0036646451335400343,
+                    "Mumbai City FC": 5.0795623707244886e-08
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Bolton Wanderers",
+                "time": "2007",
+                "probs": {
+                    "Paris Saint-Germain": 0.991204559803009,
+                    "Arsenal": 0.0008596721454523504,
+                    "Real Madrid": 0.0007596368086524308,
+                    "Liverpool": 2.2166892449604347e-05,
+                    "Manchester City": 0.0006880047149024904,
+                    "Fenerbah\u00e7e": 6.125726940808818e-06,
+                    "Bolton Wanderers": 1.685030474618543e-05,
+                    "Chelsea": 0.00022009755775798112,
+                    "Shanghai Shenhua": 0.004061626736074686,
+                    "Juventus": 2.465679972374346e-05,
+                    "West Bromwich Albion": 0.002136313822120428,
+                    "Mumbai City FC": 2.064965940462571e-07
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Chelsea",
+                "time": "2008",
+                "probs": {
+                    "Paris Saint-Germain": 0.9928889274597168,
+                    "Arsenal": 0.00014904201088938862,
+                    "Real Madrid": 0.00023504557611886412,
+                    "Liverpool": 1.8142478438676335e-05,
+                    "Manchester City": 0.0004679149715229869,
+                    "Fenerbah\u00e7e": 1.2488878837757511e-06,
+                    "Bolton Wanderers": 6.903466783114709e-06,
+                    "Chelsea": 3.8935148040764034e-05,
+                    "Shanghai Shenhua": 0.004087164532393217,
+                    "Juventus": 6.655989182036137e-06,
+                    "West Bromwich Albion": 0.00209997920319438,
+                    "Mumbai City FC": 1.2356987610928627e-07
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Chelsea",
+                "time": "2009",
+                "probs": {
+                    "Paris Saint-Germain": 0.9909343123435974,
+                    "Arsenal": 0.00016993976896628737,
+                    "Real Madrid": 0.00024161237524822354,
+                    "Liverpool": 1.342555242445087e-05,
+                    "Manchester City": 0.0005181350861676037,
+                    "Fenerbah\u00e7e": 1.1838288855869905e-06,
+                    "Bolton Wanderers": 6.31301054454525e-06,
+                    "Chelsea": 6.0296442825347185e-05,
+                    "Shanghai Shenhua": 0.004410444293171167,
+                    "Juventus": 7.12634118826827e-06,
+                    "West Bromwich Albion": 0.0036369948647916317,
+                    "Mumbai City FC": 2.4092082639981527e-07
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Chelsea",
+                "time": "2010",
+                "probs": {
+                    "Paris Saint-Germain": 0.9940005540847778,
+                    "Arsenal": 8.963736763689667e-05,
+                    "Real Madrid": 0.00016245849838014692,
+                    "Liverpool": 1.0248821126879193e-05,
+                    "Manchester City": 0.00038956309435889125,
+                    "Fenerbah\u00e7e": 6.811289381403185e-07,
+                    "Bolton Wanderers": 5.664083801093511e-06,
+                    "Chelsea": 3.444089452386834e-05,
+                    "Shanghai Shenhua": 0.0029382791835814714,
+                    "Juventus": 3.961415131925605e-06,
+                    "West Bromwich Albion": 0.0023640741128474474,
+                    "Mumbai City FC": 4.2406634293001844e-07
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Chelsea",
+                "time": "2011",
+                "probs": {
+                    "Paris Saint-Germain": 0.9904659986495972,
+                    "Arsenal": 7.49766404624097e-05,
+                    "Real Madrid": 0.00026024668477475643,
+                    "Liverpool": 3.178248516633175e-05,
+                    "Manchester City": 0.00038971201865933836,
+                    "Fenerbah\u00e7e": 2.143588744729641e-06,
+                    "Bolton Wanderers": 1.2489671462390106e-05,
+                    "Chelsea": 4.7917641495587304e-05,
+                    "Shanghai Shenhua": 0.004660420585423708,
+                    "Juventus": 4.895841811958235e-06,
+                    "West Bromwich Albion": 0.004047931171953678,
+                    "Mumbai City FC": 1.4939337233954575e-06
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Shanghai Shenhua",
+                "time": "2012",
+                "probs": {
+                    "Paris Saint-Germain": 0.9921771883964539,
+                    "Arsenal": 2.821282578224782e-05,
+                    "Real Madrid": 6.779481191188097e-05,
+                    "Liverpool": 8.909042662708089e-06,
+                    "Manchester City": 0.0001587088918313384,
+                    "Fenerbah\u00e7e": 1.1161358770550578e-06,
+                    "Bolton Wanderers": 6.300705990724964e-06,
+                    "Chelsea": 2.5536630346323363e-05,
+                    "Shanghai Shenhua": 0.0055180382914841175,
+                    "Juventus": 3.934137112082681e-06,
+                    "West Bromwich Albion": 0.002002958208322525,
+                    "Mumbai City FC": 1.2607782764462172e-06
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Juventus",
+                "time": "2013",
+                "probs": {
+                    "Paris Saint-Germain": 0.9918393492698669,
+                    "Arsenal": 1.848384999902919e-05,
+                    "Real Madrid": 6.912317621754482e-05,
+                    "Liverpool": 1.2178551514807623e-05,
+                    "Manchester City": 9.010822395794094e-05,
+                    "Fenerbah\u00e7e": 5.041936788074963e-07,
+                    "Bolton Wanderers": 2.519329427741468e-06,
+                    "Chelsea": 1.7633510651648976e-05,
+                    "Shanghai Shenhua": 0.005063032731413841,
+                    "Juventus": 3.3774524581531296e-06,
+                    "West Bromwich Albion": 0.0028822990134358406,
+                    "Mumbai City FC": 1.5208976265057572e-06
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "West Bromwich Albion",
+                "time": "2014",
+                "probs": {
+                    "Paris Saint-Germain": 0.9905948638916016,
+                    "Arsenal": 1.6034005966503173e-05,
+                    "Real Madrid": 0.00017284799832850695,
+                    "Liverpool": 1.0563844625721686e-05,
+                    "Manchester City": 0.0002449179592076689,
+                    "Fenerbah\u00e7e": 1.0044043392554158e-06,
+                    "Bolton Wanderers": 5.1490351324900985e-06,
+                    "Chelsea": 1.779154445102904e-05,
+                    "Shanghai Shenhua": 0.0047166538424789906,
+                    "Juventus": 2.582133902251371e-06,
+                    "West Bromwich Albion": 0.00421214010566473,
+                    "Mumbai City FC": 5.342112217476824e-06
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Mumbai City FC",
+                "time": "2015",
+                "probs": {
+                    "Paris Saint-Germain": 0.9951565265655518,
+                    "Arsenal": 3.1498904718318954e-05,
+                    "Real Madrid": 0.0001113067046389915,
+                    "Liverpool": 6.393485818989575e-06,
+                    "Manchester City": 0.00017024768749251962,
+                    "Fenerbah\u00e7e": 7.460067763531697e-07,
+                    "Bolton Wanderers": 3.650187409220962e-06,
+                    "Chelsea": 1.948662247741595e-05,
+                    "Shanghai Shenhua": 0.002258386928588152,
+                    "Juventus": 4.741928023577202e-06,
+                    "West Bromwich Albion": 0.002233149018138647,
+                    "Mumbai City FC": 3.901258878613589e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Malm\u00f6 FF",
+                "time": "1999",
+                "probs": {
+                    "Malm\u00f6 FF": 0.008988723158836365,
+                    "AFC Ajax": 0.001801111502572894,
+                    "Juventus": 0.0004456244350876659,
+                    "Inter Milan": 0.002043201355263591,
+                    "FC Barcelona": 0.0025500906631350517,
+                    "AC Milan": 0.0033531307708472013,
+                    "Paris Saint-Germain": 0.9805833101272583,
+                    "Manchester United": 0.0001837103918660432,
+                    "LA Galaxy": 5.103905641590245e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Malm\u00f6 FF",
+                "time": "2000",
+                "probs": {
+                    "Malm\u00f6 FF": 0.000707969767972827,
+                    "AFC Ajax": 0.000427692080847919,
+                    "Juventus": 0.00017163122538477182,
+                    "Inter Milan": 0.00048273816355504096,
+                    "FC Barcelona": 0.0011764983646571636,
+                    "AC Milan": 0.0011894224444404244,
+                    "Paris Saint-Germain": 0.9955654740333557,
+                    "Manchester United": 0.00022980727953836322,
+                    "LA Galaxy": 4.8748825065558776e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AFC Ajax",
+                "time": "2001",
+                "probs": {
+                    "Malm\u00f6 FF": 0.00028364703757688403,
+                    "AFC Ajax": 0.00018794610514305532,
+                    "Juventus": 0.00011516999802552164,
+                    "Inter Milan": 0.0004409800167195499,
+                    "FC Barcelona": 0.0006766237202100456,
+                    "AC Milan": 0.00078501709504053,
+                    "Paris Saint-Germain": 0.997323751449585,
+                    "Manchester United": 0.00015454718959517777,
+                    "LA Galaxy": 3.21805382554885e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AFC Ajax",
+                "time": "2002",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0008819025824777782,
+                    "AFC Ajax": 0.00025080254999920726,
+                    "Juventus": 0.0001554478658363223,
+                    "Inter Milan": 0.0007153862970881164,
+                    "FC Barcelona": 0.001656559994444251,
+                    "AC Milan": 0.0015008995542302728,
+                    "Paris Saint-Germain": 0.9945021867752075,
+                    "Manchester United": 0.0003015301190316677,
+                    "LA Galaxy": 3.537110023899004e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AFC Ajax",
+                "time": "2003",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0012624332448467612,
+                    "AFC Ajax": 0.00013680961274076253,
+                    "Juventus": 0.0001661672577029094,
+                    "Inter Milan": 0.00042785328696481884,
+                    "FC Barcelona": 0.001511361449956894,
+                    "AC Milan": 0.001467826426960528,
+                    "Paris Saint-Germain": 0.9947561025619507,
+                    "Manchester United": 0.00021807638404425234,
+                    "LA Galaxy": 5.337835318641737e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Juventus",
+                "time": "2004",
+                "probs": {
+                    "Malm\u00f6 FF": 0.00022623052063863724,
+                    "AFC Ajax": 0.000205457879928872,
+                    "Juventus": 0.00012847321340814233,
+                    "Inter Milan": 0.0007853923598304391,
+                    "FC Barcelona": 0.0017305983928963542,
+                    "AC Milan": 0.0018186396919190884,
+                    "Paris Saint-Germain": 0.994691789150238,
+                    "Manchester United": 0.00035941426176577806,
+                    "LA Galaxy": 5.394312393036671e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Juventus",
+                "time": "2005",
+                "probs": {
+                    "Malm\u00f6 FF": 0.00019617215730249882,
+                    "AFC Ajax": 4.815665306523442e-05,
+                    "Juventus": 4.8410831368528306e-05,
+                    "Inter Milan": 0.000580010237172246,
+                    "FC Barcelona": 0.0019460184266790748,
+                    "AC Milan": 0.0009928224608302116,
+                    "Paris Saint-Germain": 0.9959002137184143,
+                    "Manchester United": 0.000270104588707909,
+                    "LA Galaxy": 1.8069669749820605e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Juventus",
+                "time": "2006",
+                "probs": {
+                    "Malm\u00f6 FF": 0.00029328075470402837,
+                    "AFC Ajax": 8.151571091730148e-05,
+                    "Juventus": 8.946195885073394e-05,
+                    "Inter Milan": 0.0003434480750001967,
+                    "FC Barcelona": 0.0010274372762069106,
+                    "AC Milan": 0.0012545855715870857,
+                    "Paris Saint-Germain": 0.9964929223060608,
+                    "Manchester United": 0.00038175215013325214,
+                    "LA Galaxy": 3.5679026041179895e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Inter Milan",
+                "time": "2007",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0004188234161119908,
+                    "AFC Ajax": 0.000141865064506419,
+                    "Juventus": 0.00018945086048915982,
+                    "Inter Milan": 0.0004474230809137225,
+                    "FC Barcelona": 0.002530283760279417,
+                    "AC Milan": 0.0024024699814617634,
+                    "Paris Saint-Germain": 0.9929143190383911,
+                    "Manchester United": 0.0008827814599499106,
+                    "LA Galaxy": 7.2556606028229e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Inter Milan",
+                "time": "2008",
+                "probs": {
+                    "Malm\u00f6 FF": 0.00012134126154705882,
+                    "AFC Ajax": 3.69232329830993e-05,
+                    "Juventus": 4.574777267407626e-05,
+                    "Inter Milan": 0.00046983876382000744,
+                    "FC Barcelona": 0.000954801682382822,
+                    "AC Milan": 0.0008299195324070752,
+                    "Paris Saint-Germain": 0.9966289401054382,
+                    "Manchester United": 0.000865511829033494,
+                    "LA Galaxy": 4.690201240009628e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "FC Barcelona",
+                "time": "2009",
+                "probs": {
+                    "Malm\u00f6 FF": 0.00021081710292492062,
+                    "AFC Ajax": 6.156320159789175e-05,
+                    "Juventus": 0.00013123429380357265,
+                    "Inter Milan": 0.00036780585651285946,
+                    "FC Barcelona": 0.001113843871280551,
+                    "AC Milan": 0.0012961887987330556,
+                    "Paris Saint-Germain": 0.9958694577217102,
+                    "Manchester United": 0.0008754942682571709,
+                    "LA Galaxy": 7.35528883524239e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "FC Barcelona",
+                "time": "2010",
+                "probs": {
+                    "Malm\u00f6 FF": 6.195591413415968e-05,
+                    "AFC Ajax": 1.850698572525289e-05,
+                    "Juventus": 2.9723596526309848e-05,
+                    "Inter Milan": 5.7883353292709216e-05,
+                    "FC Barcelona": 0.0003589635598473251,
+                    "AC Milan": 0.00024617408053018153,
+                    "Paris Saint-Germain": 0.9989013671875,
+                    "Manchester United": 0.00030444160802289844,
+                    "LA Galaxy": 2.0958364984835498e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AC Milan",
+                "time": "2011",
+                "probs": {
+                    "Malm\u00f6 FF": 0.0001039817143464461,
+                    "AFC Ajax": 3.1065577786648646e-05,
+                    "Juventus": 7.170254684751853e-05,
+                    "Inter Milan": 0.00024384315474890172,
+                    "FC Barcelona": 0.0007282200967893004,
+                    "AC Milan": 0.0011868794681504369,
+                    "Paris Saint-Germain": 0.9966939687728882,
+                    "Manchester United": 0.0008959720144048333,
+                    "LA Galaxy": 4.444170917849988e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AC Milan",
+                "time": "2012",
+                "probs": {
+                    "Malm\u00f6 FF": 4.0587423427496105e-05,
+                    "AFC Ajax": 2.9288050427567214e-05,
+                    "Juventus": 3.963148992625065e-05,
+                    "Inter Milan": 0.0001235144300153479,
+                    "FC Barcelona": 0.0010084613459184766,
+                    "AC Milan": 0.0009164088405668736,
+                    "Paris Saint-Germain": 0.9966568946838379,
+                    "Manchester United": 0.0011358435731381178,
+                    "LA Galaxy": 4.9385445890948176e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Paris Saint-Germain",
+                "time": "2013",
+                "probs": {
+                    "Malm\u00f6 FF": 3.1004183256300166e-05,
+                    "AFC Ajax": 1.5000423445599154e-05,
+                    "Juventus": 2.271934317832347e-05,
+                    "Inter Milan": 3.551286135916598e-05,
+                    "FC Barcelona": 0.00025954534066841006,
+                    "AC Milan": 0.00027721995138563216,
+                    "Paris Saint-Germain": 0.9990060925483704,
+                    "Manchester United": 0.0003350550541654229,
+                    "LA Galaxy": 1.7952610505744815e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Paris Saint-Germain",
+                "time": "2014",
+                "probs": {
+                    "Malm\u00f6 FF": 3.811045826296322e-05,
+                    "AFC Ajax": 1.5398720279335976e-05,
+                    "Juventus": 2.9547150916187093e-05,
+                    "Inter Milan": 3.394298255443573e-05,
+                    "FC Barcelona": 0.0003000937285833061,
+                    "AC Milan": 0.00031443318584933877,
+                    "Paris Saint-Germain": 0.9987155199050903,
+                    "Manchester United": 0.0005205727065913379,
+                    "LA Galaxy": 3.247547283535823e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Paris Saint-Germain",
+                "time": "2015",
+                "probs": {
+                    "Malm\u00f6 FF": 3.166958413203247e-05,
+                    "AFC Ajax": 1.8774919226416387e-05,
+                    "Juventus": 3.112345075351186e-05,
+                    "Inter Milan": 5.997371772537008e-05,
+                    "FC Barcelona": 0.0004728107887785882,
+                    "AC Milan": 0.00046308955643326044,
+                    "Paris Saint-Germain": 0.9983755350112915,
+                    "Manchester United": 0.0005158418207429349,
+                    "LA Galaxy": 3.103619019384496e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Paris Saint-Germain",
+                "time": "2016",
+                "probs": {
+                    "Malm\u00f6 FF": 1.6486214008182287e-05,
+                    "AFC Ajax": 1.2409273040248081e-05,
+                    "Juventus": 3.911774911102839e-05,
+                    "Inter Milan": 2.6648122002370656e-05,
+                    "FC Barcelona": 0.0002995090326294303,
+                    "AC Milan": 0.00016908305406104773,
+                    "Paris Saint-Germain": 0.9988096952438354,
+                    "Manchester United": 0.0005995887331664562,
+                    "LA Galaxy": 2.739937190199271e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Manchester United",
+                "time": "2017",
+                "probs": {
+                    "Malm\u00f6 FF": 2.08217570616398e-05,
+                    "AFC Ajax": 2.1099205696373247e-05,
+                    "Juventus": 3.6514338717097417e-05,
+                    "Inter Milan": 1.8248698324896395e-05,
+                    "FC Barcelona": 0.00019006154616363347,
+                    "AC Milan": 0.00013123059761710465,
+                    "Paris Saint-Germain": 0.9992433786392212,
+                    "Manchester United": 0.0003006374463438988,
+                    "LA Galaxy": 3.790898699662648e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Manchester United",
+                "time": "2018",
+                "probs": {
+                    "Malm\u00f6 FF": 2.2523168809129857e-05,
+                    "AFC Ajax": 2.0436980776139535e-05,
+                    "Juventus": 4.695951065514237e-05,
+                    "Inter Milan": 5.8739322412293404e-05,
+                    "FC Barcelona": 0.00037412994424812496,
+                    "AC Milan": 0.00020852878515142947,
+                    "Paris Saint-Germain": 0.9986351132392883,
+                    "Manchester United": 0.0006036835256963968,
+                    "LA Galaxy": 2.987684820254799e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "LA Galaxy",
+                "time": "2019",
+                "probs": {
+                    "Malm\u00f6 FF": 2.4909404601203278e-05,
+                    "AFC Ajax": 2.345455504837446e-05,
+                    "Juventus": 4.34122521255631e-05,
+                    "Inter Milan": 0.00016796468116808683,
+                    "FC Barcelona": 0.00043586338870227337,
+                    "AC Milan": 0.0003947473596781492,
+                    "Paris Saint-Germain": 0.9978283047676086,
+                    "Manchester United": 0.0010459888726472855,
+                    "LA Galaxy": 3.542717968230136e-05
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AC Milan",
+                "time": "2020",
+                "probs": {
+                    "Malm\u00f6 FF": 1.770381277310662e-05,
+                    "AFC Ajax": 1.629595681151841e-05,
+                    "Juventus": 2.3439071810571477e-05,
+                    "Inter Milan": 0.00012809355393983424,
+                    "FC Barcelona": 0.00024032573855947703,
+                    "AC Milan": 0.00018094984989147633,
+                    "Paris Saint-Germain": 0.9986009001731873,
+                    "Manchester United": 0.0007682595169171691,
+                    "LA Galaxy": 2.3939142920426093e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Barcelona",
+                "time": "1999",
+                "probs": {
+                    "Sporting CP": 0.9822707772254944,
+                    "Barcelona": 0.0012422115541994572,
+                    "Real Madrid": 0.016443148255348206,
+                    "Inter Milan": 4.3836702388944104e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2000",
+                "probs": {
+                    "Sporting CP": 0.9674290418624878,
+                    "Barcelona": 0.003085440257564187,
+                    "Real Madrid": 0.02936398796737194,
+                    "Inter Milan": 0.0001215964657603763
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2001",
+                "probs": {
+                    "Sporting CP": 0.975342869758606,
+                    "Barcelona": 0.0010898956097662449,
+                    "Real Madrid": 0.023509427905082703,
+                    "Inter Milan": 5.7809964346233755e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2002",
+                "probs": {
+                    "Sporting CP": 0.9807848930358887,
+                    "Barcelona": 0.002804381540045142,
+                    "Real Madrid": 0.016346778720617294,
+                    "Inter Milan": 6.400654092431068e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2003",
+                "probs": {
+                    "Sporting CP": 0.9761141538619995,
+                    "Barcelona": 0.001276266179047525,
+                    "Real Madrid": 0.022536054253578186,
+                    "Inter Milan": 7.350899250013754e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2004",
+                "probs": {
+                    "Sporting CP": 0.9846907258033752,
+                    "Barcelona": 0.0010620702523738146,
+                    "Real Madrid": 0.014177531003952026,
+                    "Inter Milan": 6.966100045247003e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2005",
+                "probs": {
+                    "Sporting CP": 0.9700765609741211,
+                    "Barcelona": 0.00245170621201396,
+                    "Real Madrid": 0.027389926835894585,
+                    "Inter Milan": 8.178887219401076e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2006",
+                "probs": {
+                    "Sporting CP": 0.9741649031639099,
+                    "Barcelona": 0.0009410380152985454,
+                    "Real Madrid": 0.024810565635561943,
+                    "Inter Milan": 8.3432714745868e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2007",
+                "probs": {
+                    "Sporting CP": 0.975396990776062,
+                    "Barcelona": 0.0009814081713557243,
+                    "Real Madrid": 0.023527776822447777,
+                    "Inter Milan": 9.375130321132019e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2008",
+                "probs": {
+                    "Sporting CP": 0.9247040152549744,
+                    "Barcelona": 0.004422343801707029,
+                    "Real Madrid": 0.07053879648447037,
+                    "Inter Milan": 0.00033476584940217435
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2009",
+                "probs": {
+                    "Sporting CP": 0.97406005859375,
+                    "Barcelona": 0.0008925822912715375,
+                    "Real Madrid": 0.02490765042603016,
+                    "Inter Milan": 0.00013966902042739093
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Manchester United",
+                "time": "1999",
+                "probs": {
+                    "Manchester United": 0.5698719024658203,
+                    "Real Madrid": 0.031308092176914215,
+                    "LA Galaxy": 0.003619201248511672,
+                    "AC Milan": 0.0004440039920154959,
+                    "Paris Saint-Germain": 0.39475682377815247
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Manchester United",
+                "time": "2000",
+                "probs": {
+                    "Manchester United": 0.600369930267334,
+                    "Real Madrid": 0.04002544283866882,
+                    "LA Galaxy": 0.0029515710193663836,
+                    "AC Milan": 0.00033994525438174605,
+                    "Paris Saint-Germain": 0.3563131093978882
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Manchester United",
+                "time": "2001",
+                "probs": {
+                    "Manchester United": 0.19559840857982635,
+                    "Real Madrid": 0.03847390413284302,
+                    "LA Galaxy": 0.004467664752155542,
+                    "AC Milan": 0.00041626833262853324,
+                    "Paris Saint-Germain": 0.7610437870025635
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Manchester United",
+                "time": "2002",
+                "probs": {
+                    "Manchester United": 0.2017260044813156,
+                    "Real Madrid": 0.06476341933012009,
+                    "LA Galaxy": 0.009850217960774899,
+                    "AC Milan": 0.0003031301312148571,
+                    "Paris Saint-Germain": 0.7233572006225586
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Real Madrid",
+                "time": "2003",
+                "probs": {
+                    "Manchester United": 0.17445021867752075,
+                    "Real Madrid": 0.043011609464883804,
+                    "LA Galaxy": 0.003862525802105665,
+                    "AC Milan": 0.00024261682119686157,
+                    "Paris Saint-Germain": 0.778433084487915
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Real Madrid",
+                "time": "2004",
+                "probs": {
+                    "Manchester United": 0.3158892095088959,
+                    "Real Madrid": 0.08179828524589539,
+                    "LA Galaxy": 0.020709160715341568,
+                    "AC Milan": 0.0007138650398701429,
+                    "Paris Saint-Germain": 0.5808895230293274
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Real Madrid",
+                "time": "2005",
+                "probs": {
+                    "Manchester United": 0.13718102872371674,
+                    "Real Madrid": 0.05945268273353577,
+                    "LA Galaxy": 0.010669856332242489,
+                    "AC Milan": 0.00031137032783590257,
+                    "Paris Saint-Germain": 0.7923850417137146
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Real Madrid",
+                "time": "2006",
+                "probs": {
+                    "Manchester United": 0.17918406426906586,
+                    "Real Madrid": 0.06662699580192566,
+                    "LA Galaxy": 0.011052560992538929,
+                    "AC Milan": 0.0003314973146189004,
+                    "Paris Saint-Germain": 0.7428048849105835
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "LA Galaxy",
+                "time": "2007",
+                "probs": {
+                    "Manchester United": 0.3028923571109772,
+                    "Real Madrid": 0.09180223941802979,
+                    "LA Galaxy": 0.012851071543991566,
+                    "AC Milan": 0.0007260208367370069,
+                    "Paris Saint-Germain": 0.5917283296585083
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "LA Galaxy",
+                "time": "2008",
+                "probs": {
+                    "Manchester United": 0.2320839762687683,
+                    "Real Madrid": 0.10551419854164124,
+                    "LA Galaxy": 0.025091281160712242,
+                    "AC Milan": 0.0006482111639343202,
+                    "Paris Saint-Germain": 0.6366622447967529
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "LA Galaxy",
+                "time": "2009",
+                "probs": {
+                    "Manchester United": 0.11880937963724136,
+                    "Real Madrid": 0.06607190519571304,
+                    "LA Galaxy": 0.014621211215853691,
+                    "AC Milan": 0.0005481268162839115,
+                    "Paris Saint-Germain": 0.7999494075775146
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "1999",
+                "probs": {
+                    "Arsenal": 0.7212955355644226,
+                    "Crystal Palace": 0.004160480573773384,
+                    "Chelsea": 0.2744463384151459,
+                    "AS Roma": 7.780056876072194e-06,
+                    "LA Galaxy": 8.950594201451167e-05,
+                    "Derby County": 3.5371209605727927e-07
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2000",
+                "probs": {
+                    "Arsenal": 0.8591378927230835,
+                    "Crystal Palace": 0.0021688935812562704,
+                    "Chelsea": 0.1385350376367569,
+                    "AS Roma": 1.2482957572501618e-05,
+                    "LA Galaxy": 0.00014554311928804964,
+                    "Derby County": 9.070638640196194e-08
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2001",
+                "probs": {
+                    "Arsenal": 0.7212309241294861,
+                    "Crystal Palace": 0.001989731565117836,
+                    "Chelsea": 0.27669432759284973,
+                    "AS Roma": 3.266210342189879e-06,
+                    "LA Galaxy": 8.167240594048053e-05,
+                    "Derby County": 3.3807033616994886e-08
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2002",
+                "probs": {
+                    "Arsenal": 0.8092681169509888,
+                    "Crystal Palace": 0.0013620721874758601,
+                    "Chelsea": 0.18927696347236633,
+                    "AS Roma": 6.670644779660506e-06,
+                    "LA Galaxy": 8.601593435741961e-05,
+                    "Derby County": 1.0844295417200556e-07
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2003",
+                "probs": {
+                    "Arsenal": 0.7898557782173157,
+                    "Crystal Palace": 0.0009346859296783805,
+                    "Chelsea": 0.20909784734249115,
+                    "AS Roma": 1.1515959158714395e-05,
+                    "LA Galaxy": 0.00010010244295699522,
+                    "Derby County": 6.252995632394232e-08
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2004",
+                "probs": {
+                    "Arsenal": 0.8086446523666382,
+                    "Crystal Palace": 0.0011097078677266836,
+                    "Chelsea": 0.19008009135723114,
+                    "AS Roma": 1.4286471014202107e-05,
+                    "LA Galaxy": 0.00015116548456717283,
+                    "Derby County": 5.6555109040345997e-08
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2005",
+                "probs": {
+                    "Arsenal": 0.7915211915969849,
+                    "Crystal Palace": 0.0012635191669687629,
+                    "Chelsea": 0.20702959597110748,
+                    "AS Roma": 2.5519088012515567e-05,
+                    "LA Galaxy": 0.00016010619583539665,
+                    "Derby County": 7.546125857516017e-08
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Chelsea",
+                "time": "2006",
+                "probs": {
+                    "Arsenal": 0.8032515645027161,
+                    "Crystal Palace": 0.0009001572616398335,
+                    "Chelsea": 0.19565941393375397,
+                    "AS Roma": 5.9328333009034395e-05,
+                    "LA Galaxy": 0.0001293933455599472,
+                    "Derby County": 1.4498698419629363e-07
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Chelsea",
+                "time": "2007",
+                "probs": {
+                    "Arsenal": 0.7909789085388184,
+                    "Crystal Palace": 0.001004810561425984,
+                    "Chelsea": 0.207835391163826,
+                    "AS Roma": 2.779474016278982e-05,
+                    "LA Galaxy": 0.00015301488747354597,
+                    "Derby County": 8.652875749248778e-08
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Chelsea",
+                "time": "2008",
+                "probs": {
+                    "Arsenal": 0.7892830967903137,
+                    "Crystal Palace": 0.001225989661179483,
+                    "Chelsea": 0.20921580493450165,
+                    "AS Roma": 3.514299532980658e-05,
+                    "LA Galaxy": 0.0002398877841187641,
+                    "Derby County": 9.13289355253255e-08
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Chelsea",
+                "time": "2009",
+                "probs": {
+                    "Arsenal": 0.7909636497497559,
+                    "Crystal Palace": 0.0007523357053287327,
+                    "Chelsea": 0.20809000730514526,
+                    "AS Roma": 4.6854012907715514e-05,
+                    "LA Galaxy": 0.00014697288861498237,
+                    "Derby County": 8.833067965952068e-08
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "Newell's Old Boys",
+                "time": "1999",
+                "probs": {
+                    "Newell's Old Boys": 0.9915058016777039,
+                    "FC Barcelona": 0.0005509528564289212,
+                    "Paris Saint-Germain": 0.007943233475089073
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2000",
+                "probs": {
+                    "Newell's Old Boys": 0.9704114198684692,
+                    "FC Barcelona": 0.004547077231109142,
+                    "Paris Saint-Germain": 0.025041433051228523
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2001",
+                "probs": {
+                    "Newell's Old Boys": 0.9684735536575317,
+                    "FC Barcelona": 0.005823036655783653,
+                    "Paris Saint-Germain": 0.025703424587845802
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2002",
+                "probs": {
+                    "Newell's Old Boys": 0.9675300121307373,
+                    "FC Barcelona": 0.003177017904818058,
+                    "Paris Saint-Germain": 0.029292985796928406
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2003",
+                "probs": {
+                    "Newell's Old Boys": 0.9639113545417786,
+                    "FC Barcelona": 0.0059807188808918,
+                    "Paris Saint-Germain": 0.030107969418168068
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2004",
+                "probs": {
+                    "Newell's Old Boys": 0.9522480368614197,
+                    "FC Barcelona": 0.0055376519449055195,
+                    "Paris Saint-Germain": 0.042214322835206985
+                }
+            }
+        ],
+        "prompt_templates_zs:1": [
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Paris Saint-Germain",
+                "time": "1996",
+                "probs": {
+                    "Paris Saint-Germain": 0.9995012283325195,
+                    "Arsenal": 5.9983191022183746e-05,
+                    "Real Madrid": 5.63178036827594e-06,
+                    "Liverpool": 4.601979526341893e-07,
+                    "Manchester City": 9.209144309352268e-07,
+                    "Fenerbah\u00e7e": 8.31909687804e-08,
+                    "Bolton Wanderers": 3.7163192700973013e-07,
+                    "Chelsea": 2.960742131108418e-05,
+                    "Shanghai Shenhua": 0.00022289690969046205,
+                    "Juventus": 2.331983978365315e-06,
+                    "West Bromwich Albion": 0.00017642418970353901,
+                    "Mumbai City FC": 2.5301449824155497e-08
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Arsenal",
+                "time": "1997",
+                "probs": {
+                    "Paris Saint-Germain": 0.9995156526565552,
+                    "Arsenal": 7.967419514898211e-05,
+                    "Real Madrid": 5.686175882146927e-06,
+                    "Liverpool": 2.935589691333007e-07,
+                    "Manchester City": 9.326367376161215e-07,
+                    "Fenerbah\u00e7e": 5.9266817231673485e-08,
+                    "Bolton Wanderers": 1.8377600952135253e-07,
+                    "Chelsea": 3.0686918762512505e-05,
+                    "Shanghai Shenhua": 0.00020274549024179578,
+                    "Juventus": 1.6754912621763651e-06,
+                    "West Bromwich Albion": 0.0001623819553060457,
+                    "Mumbai City FC": 1.4013236793175565e-08
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Arsenal",
+                "time": "1998",
+                "probs": {
+                    "Paris Saint-Germain": 0.9993876218795776,
+                    "Arsenal": 0.00010999240475939587,
+                    "Real Madrid": 8.108626389002893e-06,
+                    "Liverpool": 4.5668318193747837e-07,
+                    "Manchester City": 7.849108669688576e-07,
+                    "Fenerbah\u00e7e": 4.9526537537758486e-08,
+                    "Bolton Wanderers": 1.8094506515353714e-07,
+                    "Chelsea": 4.963688115822151e-05,
+                    "Shanghai Shenhua": 0.00023803967633284628,
+                    "Juventus": 3.4073652841470903e-06,
+                    "West Bromwich Albion": 0.0002016674552578479,
+                    "Mumbai City FC": 9.889091323600496e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Arsenal",
+                "time": "1999",
+                "probs": {
+                    "Paris Saint-Germain": 0.9993245601654053,
+                    "Arsenal": 0.0001530811277916655,
+                    "Real Madrid": 1.3514973034034483e-05,
+                    "Liverpool": 7.483772037630843e-07,
+                    "Manchester City": 1.5608950434398139e-06,
+                    "Fenerbah\u00e7e": 8.995557720936631e-08,
+                    "Bolton Wanderers": 2.299129988614368e-07,
+                    "Chelsea": 6.943420885363594e-05,
+                    "Shanghai Shenhua": 0.00025019102031365037,
+                    "Juventus": 2.558016603870783e-06,
+                    "West Bromwich Albion": 0.00018403226567897946,
+                    "Mumbai City FC": 1.6964293081400683e-08
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Real Madrid",
+                "time": "2000",
+                "probs": {
+                    "Paris Saint-Germain": 0.9995480179786682,
+                    "Arsenal": 0.00013565785775426775,
+                    "Real Madrid": 1.2090672498743515e-05,
+                    "Liverpool": 7.717817993579956e-07,
+                    "Manchester City": 1.0897493893935462e-06,
+                    "Fenerbah\u00e7e": 9.134938494526068e-08,
+                    "Bolton Wanderers": 3.2260152238450246e-07,
+                    "Chelsea": 5.0817878218367696e-05,
+                    "Shanghai Shenhua": 0.00016200484242290258,
+                    "Juventus": 1.589100293131196e-06,
+                    "West Bromwich Albion": 8.741640340304002e-05,
+                    "Mumbai City FC": 7.343401886572565e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Paris Saint-Germain",
+                "time": "2001",
+                "probs": {
+                    "Paris Saint-Germain": 0.9995483756065369,
+                    "Arsenal": 9.982127812691033e-05,
+                    "Real Madrid": 7.947611265990417e-06,
+                    "Liverpool": 4.7578959083693917e-07,
+                    "Manchester City": 1.2099575315005495e-06,
+                    "Fenerbah\u00e7e": 1.0510082404380228e-07,
+                    "Bolton Wanderers": 2.2972776037022413e-07,
+                    "Chelsea": 4.492917287279852e-05,
+                    "Shanghai Shenhua": 0.0002032198099186644,
+                    "Juventus": 8.139338092405524e-07,
+                    "West Bromwich Albion": 9.272476745536551e-05,
+                    "Mumbai City FC": 6.477319125508529e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Liverpool",
+                "time": "2002",
+                "probs": {
+                    "Paris Saint-Germain": 0.9992839694023132,
+                    "Arsenal": 8.69271534611471e-05,
+                    "Real Madrid": 1.5029916539788246e-05,
+                    "Liverpool": 4.775035336024303e-07,
+                    "Manchester City": 2.8141225811850745e-06,
+                    "Fenerbah\u00e7e": 8.212428070919486e-08,
+                    "Bolton Wanderers": 3.648682138646109e-07,
+                    "Chelsea": 3.632769949035719e-05,
+                    "Shanghai Shenhua": 0.00037994951708242297,
+                    "Juventus": 8.08298295851273e-07,
+                    "West Bromwich Albion": 0.00019320976571179926,
+                    "Mumbai City FC": 6.441605915341597e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Manchester City",
+                "time": "2003",
+                "probs": {
+                    "Paris Saint-Germain": 0.9992427825927734,
+                    "Arsenal": 0.00011057632946176454,
+                    "Real Madrid": 1.1175899999216199e-05,
+                    "Liverpool": 6.36581660273805e-07,
+                    "Manchester City": 1.7806852383728256e-06,
+                    "Fenerbah\u00e7e": 8.164610676431039e-08,
+                    "Bolton Wanderers": 2.0155717095349246e-07,
+                    "Chelsea": 7.62889685574919e-05,
+                    "Shanghai Shenhua": 0.00033906157477758825,
+                    "Juventus": 1.2756506748701213e-06,
+                    "West Bromwich Albion": 0.00021608706447295845,
+                    "Mumbai City FC": 9.810337431304106e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Manchester City",
+                "time": "2004",
+                "probs": {
+                    "Paris Saint-Germain": 0.9993346333503723,
+                    "Arsenal": 6.93010151735507e-05,
+                    "Real Madrid": 1.0785712220240384e-05,
+                    "Liverpool": 5.183673579267634e-07,
+                    "Manchester City": 1.8249592130814563e-06,
+                    "Fenerbah\u00e7e": 8.538184204098798e-08,
+                    "Bolton Wanderers": 2.3327241649440111e-07,
+                    "Chelsea": 4.708104461315088e-05,
+                    "Shanghai Shenhua": 0.00028726880555041134,
+                    "Juventus": 4.571609792947129e-07,
+                    "West Bromwich Albion": 0.0002478869282640517,
+                    "Mumbai City FC": 7.965109460883468e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Fenerbah\u00e7e",
+                "time": "2005",
+                "probs": {
+                    "Paris Saint-Germain": 0.9992903470993042,
+                    "Arsenal": 8.447334403172135e-05,
+                    "Real Madrid": 1.4098508472670801e-05,
+                    "Liverpool": 7.326800641749287e-07,
+                    "Manchester City": 2.8430583824956557e-06,
+                    "Fenerbah\u00e7e": 8.937104922779326e-08,
+                    "Bolton Wanderers": 3.373085064595216e-07,
+                    "Chelsea": 6.853084050817415e-05,
+                    "Shanghai Shenhua": 0.0003107140364591032,
+                    "Juventus": 5.804383818031056e-07,
+                    "West Bromwich Albion": 0.00022727988834958524,
+                    "Mumbai City FC": 9.616570650905487e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Fenerbah\u00e7e",
+                "time": "2006",
+                "probs": {
+                    "Paris Saint-Germain": 0.9991410970687866,
+                    "Arsenal": 6.172070425236598e-05,
+                    "Real Madrid": 1.1131876817671582e-05,
+                    "Liverpool": 6.650820978393313e-07,
+                    "Manchester City": 2.339303819098859e-06,
+                    "Fenerbah\u00e7e": 8.971770171228854e-08,
+                    "Bolton Wanderers": 2.804193002248212e-07,
+                    "Chelsea": 5.350944775273092e-05,
+                    "Shanghai Shenhua": 0.0005007247673347592,
+                    "Juventus": 5.54468840618938e-07,
+                    "West Bromwich Albion": 0.00022774927492719144,
+                    "Mumbai City FC": 9.739465234304134e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Bolton Wanderers",
+                "time": "2007",
+                "probs": {
+                    "Paris Saint-Germain": 0.9989732503890991,
+                    "Arsenal": 9.862337174126878e-05,
+                    "Real Madrid": 1.68809656315716e-05,
+                    "Liverpool": 6.420330009859754e-07,
+                    "Manchester City": 7.976803317433223e-06,
+                    "Fenerbah\u00e7e": 1.1265402122262458e-07,
+                    "Bolton Wanderers": 3.749748316295154e-07,
+                    "Chelsea": 6.849498458905146e-05,
+                    "Shanghai Shenhua": 0.0004161776741966605,
+                    "Juventus": 5.869820824955241e-07,
+                    "West Bromwich Albion": 0.0004168068408034742,
+                    "Mumbai City FC": 9.761110142392226e-09
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Chelsea",
+                "time": "2008",
+                "probs": {
+                    "Paris Saint-Germain": 0.9990092515945435,
+                    "Arsenal": 5.131435682415031e-05,
+                    "Real Madrid": 1.3234941434348002e-05,
+                    "Liverpool": 5.739481139244162e-07,
+                    "Manchester City": 5.198322469368577e-06,
+                    "Fenerbah\u00e7e": 7.119527367649425e-08,
+                    "Bolton Wanderers": 1.8898948894729983e-07,
+                    "Chelsea": 5.5201999202836305e-05,
+                    "Shanghai Shenhua": 0.00045320557546801865,
+                    "Juventus": 4.1963073726947187e-07,
+                    "West Bromwich Albion": 0.00041121841059066355,
+                    "Mumbai City FC": 1.0086242063778172e-08
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Chelsea",
+                "time": "2009",
+                "probs": {
+                    "Paris Saint-Germain": 0.9986627101898193,
+                    "Arsenal": 6.29909845883958e-05,
+                    "Real Madrid": 1.444844929210376e-05,
+                    "Liverpool": 5.146703188074753e-07,
+                    "Manchester City": 1.1711608749465086e-05,
+                    "Fenerbah\u00e7e": 1.163172029805537e-07,
+                    "Bolton Wanderers": 5.125504003444803e-07,
+                    "Chelsea": 0.00012605966185219586,
+                    "Shanghai Shenhua": 0.0005397925851866603,
+                    "Juventus": 7.17925956905674e-07,
+                    "West Bromwich Albion": 0.0005804621032439172,
+                    "Mumbai City FC": 3.58335334738058e-08
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Chelsea",
+                "time": "2010",
+                "probs": {
+                    "Paris Saint-Germain": 0.9976024031639099,
+                    "Arsenal": 8.075732330325991e-05,
+                    "Real Madrid": 2.8229782401467673e-05,
+                    "Liverpool": 5.539740186577546e-07,
+                    "Manchester City": 1.4320681657409295e-05,
+                    "Fenerbah\u00e7e": 5.220346110945684e-08,
+                    "Bolton Wanderers": 2.0207244233461097e-07,
+                    "Chelsea": 0.00015578856982756406,
+                    "Shanghai Shenhua": 0.0006496442365460098,
+                    "Juventus": 5.742252255913627e-07,
+                    "West Bromwich Albion": 0.00146740663331002,
+                    "Mumbai City FC": 1.0206447598193336e-07
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Chelsea",
+                "time": "2011",
+                "probs": {
+                    "Paris Saint-Germain": 0.9981725215911865,
+                    "Arsenal": 2.6418636480229907e-05,
+                    "Real Madrid": 1.728035022097174e-05,
+                    "Liverpool": 4.979558525519678e-07,
+                    "Manchester City": 1.1029573215637356e-05,
+                    "Fenerbah\u00e7e": 6.050068179774826e-08,
+                    "Bolton Wanderers": 1.9873614576226828e-07,
+                    "Chelsea": 9.868425695458427e-05,
+                    "Shanghai Shenhua": 0.0005630567902699113,
+                    "Juventus": 2.614730192362913e-07,
+                    "West Bromwich Albion": 0.0011098888935521245,
+                    "Mumbai City FC": 1.4005682658080332e-07
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Shanghai Shenhua",
+                "time": "2012",
+                "probs": {
+                    "Paris Saint-Germain": 0.997806966304779,
+                    "Arsenal": 1.5762530892970972e-05,
+                    "Real Madrid": 1.0864044270419981e-05,
+                    "Liverpool": 8.321648579112662e-07,
+                    "Manchester City": 6.178303465276258e-06,
+                    "Fenerbah\u00e7e": 4.83757638392035e-08,
+                    "Bolton Wanderers": 1.4898736822033243e-07,
+                    "Chelsea": 5.855062045156956e-05,
+                    "Shanghai Shenhua": 0.0007452919380739331,
+                    "Juventus": 2.3836648210817657e-07,
+                    "West Bromwich Albion": 0.001354965497739613,
+                    "Mumbai City FC": 8.430440345819079e-08
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Juventus",
+                "time": "2013",
+                "probs": {
+                    "Paris Saint-Germain": 0.9973804354667664,
+                    "Arsenal": 2.8257114536245354e-05,
+                    "Real Madrid": 1.571317989146337e-05,
+                    "Liverpool": 4.6708703393960604e-07,
+                    "Manchester City": 1.3171893442631699e-05,
+                    "Fenerbah\u00e7e": 6.41495816466886e-08,
+                    "Bolton Wanderers": 1.811653618233322e-07,
+                    "Chelsea": 0.00012456404510885477,
+                    "Shanghai Shenhua": 0.0008858529035933316,
+                    "Juventus": 6.47734566427971e-07,
+                    "West Bromwich Albion": 0.001550278626382351,
+                    "Mumbai City FC": 2.2988803038970218e-07
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "West Bromwich Albion",
+                "time": "2014",
+                "probs": {
+                    "Paris Saint-Germain": 0.9976835250854492,
+                    "Arsenal": 3.3560714655322954e-05,
+                    "Real Madrid": 3.5470988223096356e-05,
+                    "Liverpool": 6.001811243550037e-07,
+                    "Manchester City": 1.339697337243706e-05,
+                    "Fenerbah\u00e7e": 6.72547599833706e-08,
+                    "Bolton Wanderers": 3.2164868457584816e-07,
+                    "Chelsea": 0.00020411676086951047,
+                    "Shanghai Shenhua": 0.0007048522238619626,
+                    "Juventus": 6.582251899089897e-07,
+                    "West Bromwich Albion": 0.0013230204349383712,
+                    "Mumbai City FC": 4.1759932400964317e-07
+                }
+            },
+            {
+                "subject": "Nicolas Anelka",
+                "object": "Mumbai City FC",
+                "time": "2015",
+                "probs": {
+                    "Paris Saint-Germain": 0.9985552430152893,
+                    "Arsenal": 1.3698200746148359e-05,
+                    "Real Madrid": 1.9246946976636536e-05,
+                    "Liverpool": 3.782912187944021e-07,
+                    "Manchester City": 9.548523848934565e-06,
+                    "Fenerbah\u00e7e": 3.0937346906512175e-08,
+                    "Bolton Wanderers": 1.024812519290208e-07,
+                    "Chelsea": 8.327644172823057e-05,
+                    "Shanghai Shenhua": 0.000504802621435374,
+                    "Juventus": 3.959440277867543e-07,
+                    "West Bromwich Albion": 0.0008129992056638002,
+                    "Mumbai City FC": 2.507343879187829e-07
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Malm\u00f6 FF",
+                "time": "1999",
+                "probs": {
+                    "Malm\u00f6 FF": 1.8815630028257146e-05,
+                    "AFC Ajax": 1.1512825039972086e-05,
+                    "Juventus": 5.9184130805078894e-05,
+                    "Inter Milan": 0.0014842785894870758,
+                    "FC Barcelona": 0.00028839329024776816,
+                    "AC Milan": 0.0012176597956568003,
+                    "Paris Saint-Germain": 0.9968373775482178,
+                    "Manchester United": 7.457128958776593e-05,
+                    "LA Galaxy": 8.195267582777888e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Malm\u00f6 FF",
+                "time": "2000",
+                "probs": {
+                    "Malm\u00f6 FF": 1.6953433714661514e-06,
+                    "AFC Ajax": 1.0662255363058648e-06,
+                    "Juventus": 7.383250249404227e-06,
+                    "Inter Milan": 0.0005466673173941672,
+                    "FC Barcelona": 9.010094072436914e-05,
+                    "AC Milan": 0.0004098881036043167,
+                    "Paris Saint-Germain": 0.9989124536514282,
+                    "Manchester United": 2.9237660783110186e-05,
+                    "LA Galaxy": 1.5145797078730538e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AFC Ajax",
+                "time": "2001",
+                "probs": {
+                    "Malm\u00f6 FF": 6.665958380835946e-07,
+                    "AFC Ajax": 5.667694153999037e-07,
+                    "Juventus": 8.39726908452576e-06,
+                    "Inter Milan": 0.0003153024008497596,
+                    "FC Barcelona": 0.00010305954492650926,
+                    "AC Milan": 0.0003882666933350265,
+                    "Paris Saint-Germain": 0.9991486072540283,
+                    "Manchester United": 3.3328858989989385e-05,
+                    "LA Galaxy": 1.6276611631838023e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AFC Ajax",
+                "time": "2002",
+                "probs": {
+                    "Malm\u00f6 FF": 1.3176755828681053e-06,
+                    "AFC Ajax": 6.616899099753937e-07,
+                    "Juventus": 5.6509134083171375e-06,
+                    "Inter Milan": 0.0005697629530914128,
+                    "FC Barcelona": 0.000195303960936144,
+                    "AC Milan": 0.0007270442438311875,
+                    "Paris Saint-Germain": 0.9984459280967712,
+                    "Manchester United": 5.284118014969863e-05,
+                    "LA Galaxy": 1.6084259186754934e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AFC Ajax",
+                "time": "2003",
+                "probs": {
+                    "Malm\u00f6 FF": 1.105309593185666e-06,
+                    "AFC Ajax": 5.91016089401819e-07,
+                    "Juventus": 6.911236141604604e-06,
+                    "Inter Milan": 0.0003151308628730476,
+                    "FC Barcelona": 0.00010603182454360649,
+                    "AC Milan": 0.00032546179136261344,
+                    "Paris Saint-Germain": 0.999214768409729,
+                    "Manchester United": 2.800340371322818e-05,
+                    "LA Galaxy": 1.9223168692406034e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Juventus",
+                "time": "2004",
+                "probs": {
+                    "Malm\u00f6 FF": 1.3546513173423591e-06,
+                    "AFC Ajax": 7.690355801059923e-07,
+                    "Juventus": 1.2902778507850599e-05,
+                    "Inter Milan": 0.0006811806233599782,
+                    "FC Barcelona": 0.00022464667563326657,
+                    "AC Milan": 0.0006754054338671267,
+                    "Paris Saint-Germain": 0.9983421564102173,
+                    "Manchester United": 5.6845095969038084e-05,
+                    "LA Galaxy": 4.7942721721483395e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Juventus",
+                "time": "2005",
+                "probs": {
+                    "Malm\u00f6 FF": 3.465971758487285e-07,
+                    "AFC Ajax": 2.554087927819637e-07,
+                    "Juventus": 4.560892193694599e-06,
+                    "Inter Milan": 0.0001942642848007381,
+                    "FC Barcelona": 0.00010326118353987113,
+                    "AC Milan": 0.00032024853862822056,
+                    "Paris Saint-Germain": 0.9993482232093811,
+                    "Manchester United": 2.751451393123716e-05,
+                    "LA Galaxy": 1.3525860822483082e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Juventus",
+                "time": "2006",
+                "probs": {
+                    "Malm\u00f6 FF": 7.654801947865053e-07,
+                    "AFC Ajax": 4.878474442193692e-07,
+                    "Juventus": 4.2581200432323385e-06,
+                    "Inter Milan": 0.00024036181275732815,
+                    "FC Barcelona": 7.78491230448708e-05,
+                    "AC Milan": 0.0003056756977457553,
+                    "Paris Saint-Germain": 0.999326229095459,
+                    "Manchester United": 4.2987776396330446e-05,
+                    "LA Galaxy": 1.2930474895256339e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Inter Milan",
+                "time": "2007",
+                "probs": {
+                    "Malm\u00f6 FF": 4.300299849546718e-07,
+                    "AFC Ajax": 2.864420594050898e-07,
+                    "Juventus": 2.6968252768710954e-06,
+                    "Inter Milan": 8.314134174725041e-05,
+                    "FC Barcelona": 3.539007229846902e-05,
+                    "AC Milan": 0.0001303205790463835,
+                    "Paris Saint-Germain": 0.9997230172157288,
+                    "Manchester United": 2.370979382249061e-05,
+                    "LA Galaxy": 1.0157112910746946e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Inter Milan",
+                "time": "2008",
+                "probs": {
+                    "Malm\u00f6 FF": 7.330098696911591e-07,
+                    "AFC Ajax": 5.042666657573136e-07,
+                    "Juventus": 3.3171079394378467e-06,
+                    "Inter Milan": 0.00022671007900498807,
+                    "FC Barcelona": 0.00010234384535579011,
+                    "AC Milan": 0.00036317278863862157,
+                    "Paris Saint-Germain": 0.9992445707321167,
+                    "Manchester United": 5.6690660130698234e-05,
+                    "LA Galaxy": 1.9421279375819722e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "FC Barcelona",
+                "time": "2009",
+                "probs": {
+                    "Malm\u00f6 FF": 4.6128891995067534e-07,
+                    "AFC Ajax": 2.7691470450008637e-07,
+                    "Juventus": 2.4181983917515026e-06,
+                    "Inter Milan": 0.0005185093614272773,
+                    "FC Barcelona": 0.00014152562653180212,
+                    "AC Milan": 0.0005162672023288906,
+                    "Paris Saint-Germain": 0.9986502528190613,
+                    "Manchester United": 0.00016859752940945327,
+                    "LA Galaxy": 1.703987322798639e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "FC Barcelona",
+                "time": "2010",
+                "probs": {
+                    "Malm\u00f6 FF": 3.4571183959997143e-07,
+                    "AFC Ajax": 3.1633911135031667e-07,
+                    "Juventus": 3.0854364467813866e-06,
+                    "Inter Milan": 7.314652611967176e-05,
+                    "FC Barcelona": 5.438858352135867e-05,
+                    "AC Milan": 0.00019613595213741064,
+                    "Paris Saint-Germain": 0.9996210336685181,
+                    "Manchester United": 4.974022522219457e-05,
+                    "LA Galaxy": 1.7305090977970394e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AC Milan",
+                "time": "2011",
+                "probs": {
+                    "Malm\u00f6 FF": 1.5713240486547875e-07,
+                    "AFC Ajax": 1.480577651591375e-07,
+                    "Juventus": 1.2980658539163414e-06,
+                    "Inter Milan": 5.769462222815491e-05,
+                    "FC Barcelona": 4.3317890231264755e-05,
+                    "AC Milan": 0.00015408461331389844,
+                    "Paris Saint-Germain": 0.9996861219406128,
+                    "Manchester United": 5.649976810673252e-05,
+                    "LA Galaxy": 7.200061986623041e-07
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AC Milan",
+                "time": "2012",
+                "probs": {
+                    "Malm\u00f6 FF": 9.584511673210727e-08,
+                    "AFC Ajax": 2.5288457550232124e-07,
+                    "Juventus": 1.073705789167434e-06,
+                    "Inter Milan": 3.806662425631657e-05,
+                    "FC Barcelona": 3.646392724476755e-05,
+                    "AC Milan": 0.00013058431795798242,
+                    "Paris Saint-Germain": 0.9997307658195496,
+                    "Manchester United": 6.143381324363872e-05,
+                    "LA Galaxy": 1.1917526308025117e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Paris Saint-Germain",
+                "time": "2013",
+                "probs": {
+                    "Malm\u00f6 FF": 2.997805097493256e-07,
+                    "AFC Ajax": 2.3282007077796152e-07,
+                    "Juventus": 1.5439098888236913e-06,
+                    "Inter Milan": 5.0102062232326716e-05,
+                    "FC Barcelona": 3.667027340270579e-05,
+                    "AC Milan": 0.00010906871466431767,
+                    "Paris Saint-Germain": 0.9997318387031555,
+                    "Manchester United": 6.921518797753379e-05,
+                    "LA Galaxy": 1.1008097544618067e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Paris Saint-Germain",
+                "time": "2014",
+                "probs": {
+                    "Malm\u00f6 FF": 2.8692255682472023e-07,
+                    "AFC Ajax": 2.546418613746937e-07,
+                    "Juventus": 1.937945853569545e-06,
+                    "Inter Milan": 5.389827856561169e-05,
+                    "FC Barcelona": 5.56728700757958e-05,
+                    "AC Milan": 0.00012193983275210485,
+                    "Paris Saint-Germain": 0.9996901750564575,
+                    "Manchester United": 7.388185622403398e-05,
+                    "LA Galaxy": 1.9341644019732485e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Paris Saint-Germain",
+                "time": "2015",
+                "probs": {
+                    "Malm\u00f6 FF": 1.8586621308713802e-07,
+                    "AFC Ajax": 2.807114185543469e-07,
+                    "Juventus": 1.1438622777859564e-06,
+                    "Inter Milan": 3.362320421729237e-05,
+                    "FC Barcelona": 2.7497160772327334e-05,
+                    "AC Milan": 7.168442971305922e-05,
+                    "Paris Saint-Germain": 0.9998157620429993,
+                    "Manchester United": 4.888155308435671e-05,
+                    "LA Galaxy": 8.761734875406546e-07
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Paris Saint-Germain",
+                "time": "2016",
+                "probs": {
+                    "Malm\u00f6 FF": 1.3359885997488163e-07,
+                    "AFC Ajax": 4.4174558411214093e-07,
+                    "Juventus": 1.0519995612412458e-06,
+                    "Inter Milan": 1.5805469956831075e-05,
+                    "FC Barcelona": 1.520368368801428e-05,
+                    "AC Milan": 4.11853106925264e-05,
+                    "Paris Saint-Germain": 0.9998916387557983,
+                    "Manchester United": 3.362601273693144e-05,
+                    "LA Galaxy": 9.168285828309308e-07
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Manchester United",
+                "time": "2017",
+                "probs": {
+                    "Malm\u00f6 FF": 2.5958709670703684e-07,
+                    "AFC Ajax": 2.5687029392429395e-07,
+                    "Juventus": 1.1720392194547458e-06,
+                    "Inter Milan": 4.2024108552141115e-05,
+                    "FC Barcelona": 3.166874375892803e-05,
+                    "AC Milan": 5.4999942221911624e-05,
+                    "Paris Saint-Germain": 0.9998316764831543,
+                    "Manchester United": 3.699401713674888e-05,
+                    "LA Galaxy": 8.600242153988802e-07
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "Manchester United",
+                "time": "2018",
+                "probs": {
+                    "Malm\u00f6 FF": 1.1836853985869311e-07,
+                    "AFC Ajax": 4.039798398025596e-07,
+                    "Juventus": 1.8939580286314595e-06,
+                    "Inter Milan": 2.839386615960393e-05,
+                    "FC Barcelona": 1.0552533240115736e-05,
+                    "AC Milan": 4.8980167775880545e-05,
+                    "Paris Saint-Germain": 0.9998588562011719,
+                    "Manchester United": 4.998585791327059e-05,
+                    "LA Galaxy": 8.260213917310466e-07
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "LA Galaxy",
+                "time": "2019",
+                "probs": {
+                    "Malm\u00f6 FF": 3.378460178282694e-07,
+                    "AFC Ajax": 1.3890750096834381e-06,
+                    "Juventus": 3.694935003295541e-06,
+                    "Inter Milan": 7.411064143525437e-05,
+                    "FC Barcelona": 2.7592946935328655e-05,
+                    "AC Milan": 9.424020390724763e-05,
+                    "Paris Saint-Germain": 0.9996960163116455,
+                    "Manchester United": 0.00010064322123071179,
+                    "LA Galaxy": 1.9734302441065665e-06
+                }
+            },
+            {
+                "subject": "Zlatan Ibrahimovi\u0107",
+                "object": "AC Milan",
+                "time": "2020",
+                "probs": {
+                    "Malm\u00f6 FF": 1.9952820196067478e-07,
+                    "AFC Ajax": 8.211491149268113e-07,
+                    "Juventus": 3.65105074706662e-06,
+                    "Inter Milan": 8.283420174848288e-05,
+                    "FC Barcelona": 1.5637286196579225e-05,
+                    "AC Milan": 5.360024806577712e-05,
+                    "Paris Saint-Germain": 0.9998062252998352,
+                    "Manchester United": 3.6030553019372746e-05,
+                    "LA Galaxy": 9.849336493061855e-07
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Barcelona",
+                "time": "1999",
+                "probs": {
+                    "Sporting CP": 0.9956592321395874,
+                    "Barcelona": 0.00024275884788949043,
+                    "Real Madrid": 0.004043963737785816,
+                    "Inter Milan": 5.4040923714637756e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2000",
+                "probs": {
+                    "Sporting CP": 0.9962425231933594,
+                    "Barcelona": 0.0002580662549007684,
+                    "Real Madrid": 0.003474478144198656,
+                    "Inter Milan": 2.494944419595413e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2001",
+                "probs": {
+                    "Sporting CP": 0.9938562512397766,
+                    "Barcelona": 0.0002642418839968741,
+                    "Real Madrid": 0.005827171262353659,
+                    "Inter Milan": 5.236604920355603e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2002",
+                "probs": {
+                    "Sporting CP": 0.9899364709854126,
+                    "Barcelona": 0.0006325790891423821,
+                    "Real Madrid": 0.00936458632349968,
+                    "Inter Milan": 6.635769386775792e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2003",
+                "probs": {
+                    "Sporting CP": 0.9929006099700928,
+                    "Barcelona": 0.0003044769982807338,
+                    "Real Madrid": 0.006745052523910999,
+                    "Inter Milan": 4.988647924619727e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Real Madrid",
+                "time": "2004",
+                "probs": {
+                    "Sporting CP": 0.992004930973053,
+                    "Barcelona": 0.0003308641607873142,
+                    "Real Madrid": 0.007609498221427202,
+                    "Inter Milan": 5.4683801863575354e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2005",
+                "probs": {
+                    "Sporting CP": 0.9858469367027283,
+                    "Barcelona": 0.00039555414696224034,
+                    "Real Madrid": 0.013700594194233418,
+                    "Inter Milan": 5.689722820534371e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2006",
+                "probs": {
+                    "Sporting CP": 0.9969902038574219,
+                    "Barcelona": 0.00023151683853939176,
+                    "Real Madrid": 0.0027536458801478148,
+                    "Inter Milan": 2.4601900804555044e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2007",
+                "probs": {
+                    "Sporting CP": 0.9926807284355164,
+                    "Barcelona": 0.00033527874620631337,
+                    "Real Madrid": 0.006921038962900639,
+                    "Inter Milan": 6.29532805760391e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2008",
+                "probs": {
+                    "Sporting CP": 0.9959971904754639,
+                    "Barcelona": 0.00019259190594311804,
+                    "Real Madrid": 0.0037774918600916862,
+                    "Inter Milan": 3.280786768300459e-05
+                }
+            },
+            {
+                "subject": "Lu\u00eds Figo",
+                "object": "Inter Milan",
+                "time": "2009",
+                "probs": {
+                    "Sporting CP": 0.9958574175834656,
+                    "Barcelona": 0.0002525623422116041,
+                    "Real Madrid": 0.0038464635144919157,
+                    "Inter Milan": 4.356914359959774e-05
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Manchester United",
+                "time": "1999",
+                "probs": {
+                    "Manchester United": 0.09246307611465454,
+                    "Real Madrid": 0.00758068822324276,
+                    "LA Galaxy": 0.000830960285384208,
+                    "AC Milan": 2.104613304254599e-05,
+                    "Paris Saint-Germain": 0.8991041779518127
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Manchester United",
+                "time": "2000",
+                "probs": {
+                    "Manchester United": 0.03490857407450676,
+                    "Real Madrid": 0.010146349668502808,
+                    "LA Galaxy": 0.0005419543012976646,
+                    "AC Milan": 1.1084594007115811e-05,
+                    "Paris Saint-Germain": 0.9543920755386353
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Manchester United",
+                "time": "2001",
+                "probs": {
+                    "Manchester United": 0.07350272685289383,
+                    "Real Madrid": 0.026205802336335182,
+                    "LA Galaxy": 0.0015017121331766248,
+                    "AC Milan": 3.746806760318577e-05,
+                    "Paris Saint-Germain": 0.8987523317337036
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Manchester United",
+                "time": "2002",
+                "probs": {
+                    "Manchester United": 0.09937416017055511,
+                    "Real Madrid": 0.022193342447280884,
+                    "LA Galaxy": 0.0027736930642277002,
+                    "AC Milan": 3.836547693936154e-05,
+                    "Paris Saint-Germain": 0.8756204843521118
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Real Madrid",
+                "time": "2003",
+                "probs": {
+                    "Manchester United": 0.059402961283922195,
+                    "Real Madrid": 0.03762424364686012,
+                    "LA Galaxy": 0.0014017213834449649,
+                    "AC Milan": 4.079504287801683e-05,
+                    "Paris Saint-Germain": 0.9015302062034607
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Real Madrid",
+                "time": "2004",
+                "probs": {
+                    "Manchester United": 0.05643092095851898,
+                    "Real Madrid": 0.03197088465094566,
+                    "LA Galaxy": 0.0020678751170635223,
+                    "AC Milan": 4.521131268120371e-05,
+                    "Paris Saint-Germain": 0.9094851613044739
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Real Madrid",
+                "time": "2005",
+                "probs": {
+                    "Manchester United": 0.08052320033311844,
+                    "Real Madrid": 0.03804546222090721,
+                    "LA Galaxy": 0.0018832781352102757,
+                    "AC Milan": 4.145336424699053e-05,
+                    "Paris Saint-Germain": 0.8795065879821777
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "Real Madrid",
+                "time": "2006",
+                "probs": {
+                    "Manchester United": 0.06503661721944809,
+                    "Real Madrid": 0.024299440905451775,
+                    "LA Galaxy": 0.0010437070159241557,
+                    "AC Milan": 2.085610140056815e-05,
+                    "Paris Saint-Germain": 0.9095994234085083
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "LA Galaxy",
+                "time": "2007",
+                "probs": {
+                    "Manchester United": 0.059260811656713486,
+                    "Real Madrid": 0.04640020802617073,
+                    "LA Galaxy": 0.0016867396188899875,
+                    "AC Milan": 4.009428812423721e-05,
+                    "Paris Saint-Germain": 0.892612099647522
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "LA Galaxy",
+                "time": "2008",
+                "probs": {
+                    "Manchester United": 0.08344371616840363,
+                    "Real Madrid": 0.0626683458685875,
+                    "LA Galaxy": 0.0030432427302002907,
+                    "AC Milan": 5.6280776334460825e-05,
+                    "Paris Saint-Germain": 0.8507883548736572
+                }
+            },
+            {
+                "subject": "David Beckham",
+                "object": "LA Galaxy",
+                "time": "2009",
+                "probs": {
+                    "Manchester United": 0.13624192774295807,
+                    "Real Madrid": 0.04543730616569519,
+                    "LA Galaxy": 0.0033698820043355227,
+                    "AC Milan": 7.409622776322067e-05,
+                    "Paris Saint-Germain": 0.8148767948150635
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "1999",
+                "probs": {
+                    "Arsenal": 0.35886335372924805,
+                    "Crystal Palace": 0.0011074899230152369,
+                    "Chelsea": 0.6398847103118896,
+                    "AS Roma": 3.026491697255551e-07,
+                    "LA Galaxy": 0.00014414933684747666,
+                    "Derby County": 6.562570042945026e-09
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2000",
+                "probs": {
+                    "Arsenal": 0.40622350573539734,
+                    "Crystal Palace": 0.0008958325488492846,
+                    "Chelsea": 0.5926772952079773,
+                    "AS Roma": 5.178802098271262e-07,
+                    "LA Galaxy": 0.0002028213784797117,
+                    "Derby County": 5.4915179070746944e-09
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2001",
+                "probs": {
+                    "Arsenal": 0.3791487216949463,
+                    "Crystal Palace": 0.0005143796443007886,
+                    "Chelsea": 0.6201512813568115,
+                    "AS Roma": 6.46518401481444e-07,
+                    "LA Galaxy": 0.00018500421720091254,
+                    "Derby County": 2.152779954300854e-09
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2002",
+                "probs": {
+                    "Arsenal": 0.3820628523826599,
+                    "Crystal Palace": 0.00028354034293442965,
+                    "Chelsea": 0.617439329624176,
+                    "AS Roma": 5.160339355825272e-07,
+                    "LA Galaxy": 0.00021376798395067453,
+                    "Derby County": 1.3318210978496836e-09
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2003",
+                "probs": {
+                    "Arsenal": 0.30582067370414734,
+                    "Crystal Palace": 0.0002085886662825942,
+                    "Chelsea": 0.6938095688819885,
+                    "AS Roma": 8.852631481204298e-07,
+                    "LA Galaxy": 0.00016021380724851042,
+                    "Derby County": 1.5927799079662464e-09
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2004",
+                "probs": {
+                    "Arsenal": 0.3767324686050415,
+                    "Crystal Palace": 0.0004591457836795598,
+                    "Chelsea": 0.6224170923233032,
+                    "AS Roma": 1.7705275467960746e-06,
+                    "LA Galaxy": 0.0003895560512319207,
+                    "Derby County": 3.166733986148529e-09
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Arsenal",
+                "time": "2005",
+                "probs": {
+                    "Arsenal": 0.3301111161708832,
+                    "Crystal Palace": 0.00024643822689540684,
+                    "Chelsea": 0.669447660446167,
+                    "AS Roma": 3.1306358323490713e-06,
+                    "LA Galaxy": 0.00019170675659552217,
+                    "Derby County": 2.738669513391301e-09
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Chelsea",
+                "time": "2006",
+                "probs": {
+                    "Arsenal": 0.3295731842517853,
+                    "Crystal Palace": 0.0003941114409826696,
+                    "Chelsea": 0.669724702835083,
+                    "AS Roma": 2.0035299712617416e-06,
+                    "LA Galaxy": 0.00030593134579248726,
+                    "Derby County": 1.883023070803347e-09
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Chelsea",
+                "time": "2007",
+                "probs": {
+                    "Arsenal": 0.21226409077644348,
+                    "Crystal Palace": 0.0003149946278426796,
+                    "Chelsea": 0.7871720194816589,
+                    "AS Roma": 2.3422501271852525e-06,
+                    "LA Galaxy": 0.0002465658471919596,
+                    "Derby County": 2.0441677239801948e-09
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Chelsea",
+                "time": "2008",
+                "probs": {
+                    "Arsenal": 0.28766709566116333,
+                    "Crystal Palace": 0.000372585142031312,
+                    "Chelsea": 0.7117004990577698,
+                    "AS Roma": 3.1638955988455564e-06,
+                    "LA Galaxy": 0.0002566761977504939,
+                    "Derby County": 2.7403239677425972e-09
+                }
+            },
+            {
+                "subject": "Ashley Cole",
+                "object": "Chelsea",
+                "time": "2009",
+                "probs": {
+                    "Arsenal": 0.2391604334115982,
+                    "Crystal Palace": 0.000257763487752527,
+                    "Chelsea": 0.7603635191917419,
+                    "AS Roma": 2.9896036721765995e-06,
+                    "LA Galaxy": 0.00021530863887164742,
+                    "Derby County": 1.9682477869764625e-09
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "Newell's Old Boys",
+                "time": "1999",
+                "probs": {
+                    "Newell's Old Boys": 0.42531102895736694,
+                    "FC Barcelona": 0.0017893739277496934,
+                    "Paris Saint-Germain": 0.572899580001831
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2000",
+                "probs": {
+                    "Newell's Old Boys": 0.3183966875076294,
+                    "FC Barcelona": 0.0009479302098043263,
+                    "Paris Saint-Germain": 0.6806553602218628
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2001",
+                "probs": {
+                    "Newell's Old Boys": 0.2993081510066986,
+                    "FC Barcelona": 0.0017999201081693172,
+                    "Paris Saint-Germain": 0.6988918781280518
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2002",
+                "probs": {
+                    "Newell's Old Boys": 0.2817775011062622,
+                    "FC Barcelona": 0.0023798728361725807,
+                    "Paris Saint-Germain": 0.715842604637146
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2003",
+                "probs": {
+                    "Newell's Old Boys": 0.23359307646751404,
+                    "FC Barcelona": 0.0029001757502555847,
+                    "Paris Saint-Germain": 0.7635068297386169
+                }
+            },
+            {
+                "subject": "Lionel Messi",
+                "object": "FC Barcelona",
+                "time": "2004",
+                "probs": {
+                    "Newell's Old Boys": 0.320939302444458,
+                    "FC Barcelona": 0.004461647477000952,
+                    "Paris Saint-Germain": 0.6745991110801697
+                }
+            }
+        ]
+    }
+}
