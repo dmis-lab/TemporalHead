@@ -8,12 +8,6 @@
   "prompt_templates_general": [
     "The CEO of {subject} was"
   ],
-  "properties": {
-    "relation_type": "factual",
-    "domain_name": "company",
-    "range_name": "person",
-    "symmetric": false
-  },
   "samples": [
     {
       "subject": "Hewlett-Packard",

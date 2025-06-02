@@ -5,12 +5,9 @@
     "In {time}, what was the most popular movie in {subject}?",
     "What was the highest-grossing movie in {subject} in {time}?"
   ],
-  "properties": {
-    "relation_type": "factual",
-    "domain_name": "country",
-    "range_name": "movie",
-    "symmetric": false
-  },
+  "prompt_templates_general": [
+    "{subject} was the most popular movie"
+  ],
   "samples": [
     {
       "subject": "USA",

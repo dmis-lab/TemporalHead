@@ -8,12 +8,6 @@
   "prompt_templates_general": [
     "The president of {subject} was"
   ],
-  "properties": {
-    "relation_type": "factual",
-    "domain_name": "country",
-    "range_name": "person",
-    "symmetric": false
-  },
   "samples": [
     {
       "subject": "Argentina",

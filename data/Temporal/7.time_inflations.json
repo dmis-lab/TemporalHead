@@ -5,12 +5,9 @@
     "In {time}, what was the inflation rate of {subject}?",
     "What was the inflation rate of {subject} in {time}?"
   ],
-  "properties": {
-    "relation_type": "factual",
-    "domain_name": "country",
-    "range_name": "inflation rate",
-    "symmetric": false
-  },
+  "prompt_templates_general": [
+    "The inflation rate of {subject} was"
+  ],
   "samples": [
     {
       "subject": "United States",

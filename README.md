@@ -8,7 +8,7 @@ We introduce the concept of **Temporal Heads**—dedicated attention heads withi
 (3) Possibility: Even more exciting is the potential to directly edit a model’s temporal knowledge by manipulating the values of these specific attention heads and applying them to cases where temporal knowledge is incorrect.
 
 <p align="center">
-  📃 <a href="https://arxiv.org/abs/2502.14258" target="_blank">Paper</a>
+  📃 <a href="https://arxiv.org/abs/2502.14258" target="_blank">Paper</a> | 🤗 <a href="https://huggingface.co/datasets/dmis-lab/TemporalHead" target="_blank">Datasets</a> 
 </p>
 
 ![](assets/overview.png)
@@ -36,26 +36,36 @@ Then, follow the order of installation.
    ```bash
    pip install -r requirements.txt
    ```
+3. If you want to download dataset through Huggignface:
+   ```python
+   from datasets import load_dataset
+
+   # 1. Load the "Temporal" config
+   Temporal = load_dataset("dmis-lab/TemporalHead", "Temporal")["default"]
+
+   # 2. Load the "Invariant" config
+   Invariant = load_dataset("dmis-lab/TemporalHead", "Invariant")["default"]
+   ```
 
 ## Implementation
 Follow the order of each notebook file
    ```
-   For circuit construction to find out Temporal Head
+   # For circuit construction to find out Temporal Head
    1.circuit_construction.ipynb
    2.circuit_analysis.ipynb
    ```
    ```
-   Check the attention values of each head
+   # Check the attention values of each head
    3.logit_lens.ipynb
    ```
    ```
-   Follow the ablation test examples
+   # Follow the ablation test examples
    4.ablation_example.ipynb
    5.compute-logprobs.ipynb
    6.visualize-logprobs.ipynb
    ```
    ```
-   Try to add activation values for knowledge editing
+   # Try to add activation values for knowledge editing
    7.temporal_knowledge_edit.ipynb
    ```
 
@@ -75,6 +85,7 @@ We also gratefully acknowledge the following open-source repositories and kindly
 
     [1] https://github.com/zjunlp/KnowledgeCircuits
     [2] https://github.com/hannamw/eap-ig
+    [3] https://github.com/evandez/relations
 
 ### Contact
 For any questions or issues, feel free to reach out to [522yein (at) korea.ac.kr].

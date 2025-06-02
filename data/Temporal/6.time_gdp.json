@@ -5,12 +5,9 @@
     "In {time}, what was the GDP of {subject}?",
     "What was the GDP of {subject} in {time}?"
   ],
-  "properties": {
-    "relation_type": "factual",
-    "domain_name": "country",
-    "range_name": "GDP",
-    "symmetric": false
-  },
+  "prompt_templates_general": [
+    "The GDP of {subject} in USD was"
+  ],
   "samples": [
     {
       "subject": "United States",

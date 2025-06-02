@@ -10,12 +10,6 @@
   "prompt_templates_general": [
     "The defense expediture of {subject} in billion USD was"
   ],
-  "properties": {
-    "relation_type": "factual",
-    "domain_name": "country",
-    "range_name": "defense expenditure",
-    "symmetric": false
-  },
   "samples": [
     { "subject": "United States", "object": "281.0", "time": "1999" },
     { "subject": "United States", "object": "295.0", "time": "2000" },
